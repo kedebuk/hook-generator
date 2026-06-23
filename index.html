@@ -263,6 +263,55 @@ const TEMPEL=[
  {s:'soft',t:"Bisnis {BISNIS} aesthetic yang lagi naik daun, cocok dari rumah"},
  {s:'soft',t:"Gak nyangka, dari rumah aja bisnis {BISNIS} bisa {JT} juta/bulan"}
 ];
+/* TEMPEL khusus PELUANG KARIR (kerja ke LN — {BISNIS}=negara/tujuan, framing GAJI bukan bisnis) */
+const TEMPEL_KARIR=[
+ {t:"Kerja di {BISNIS}, gaji sampai {JT_HI} juta/bulan — walau mulai dari nol"},
+ {t:"Gaji {JT} juta/bulan kerja di {BISNIS}. Ini jalur resminya"},
+ {t:"Mau kerja di {BISNIS}? Gaji {JT} juta/bulan nungguin, asal tau caranya"},
+ {t:"Dari nol sampai berangkat kerja ke {BISNIS}, gaji {JT} juta/bulan"},
+ {t:"Banyak yang gagal berangkat ke {BISNIS} — bukan nasib, tapi caranya kurang tepat"},
+ {t:"Rahasia lolos kerja ke {BISNIS} & gaji {JT} juta/bulan"},
+ {t:"Kerja di {BISNIS} itu bukan mimpi — gaji {JT} juta/bulan buat yang serius"}
+];
+/* TEMPEL khusus HOBI CUAN ({BISNIS}=hobi, framing ubah hobi jadi cuan) */
+const TEMPEL_HOBI=[
+ {t:"Hobi {BISNIS} bisa cuan sampai {JT_HI} juta/bulan. Serius."},
+ {t:"Ubah hobi {BISNIS} jadi cuan {JT} juta/bulan dari rumah"},
+ {t:"Dari hobi {BISNIS} doang, bisa {JT} juta/bulan"},
+ {t:"Ternyata hobi {BISNIS} bisa dijadiin {JT} juta/bulan"},
+ {t:"Jangan cuma buat senang — hobi {BISNIS} bisa hasilin {JT} juta/bulan"},
+ {t:"Hobi {BISNIS} kamu nganggur? Padahal itu bisa {JT} juta/bulan"}
+];
+/* ANGLE (hook+script) khusus KARIR & HOBI — biar gak ke-framing "usaha/omset" yg ngaco */
+const HOOKS_KARIR=[
+ {a:'Gaji',t:"Kerja di {BISNIS} gaji {JT} juta/bulan. Modal utamanya bukan duit."},
+ {a:'Pain Point',t:"Capek lamaran kerja mentok mulu? Jalur resmi ke {BISNIS} ini jawabannya."},
+ {a:'Anti-Calo',t:"Berangkat ke {BISNIS} tanpa calo, tanpa utang puluhan juta. Bisa."},
+ {a:'Peluang',t:"{BISNIS} lagi butuh banyak pekerja asing. Gaji {JT} juta/bulan."},
+ {a:'FOMO',t:"Orang lain udah gajian {JT} juta dari {BISNIS}. Kamu kapan berangkat?"},
+ {a:'Jalur',t:"Ternyata urus sendiri jalur resmi ke {BISNIS} nggak seribet itu."},
+ {a:'Curiosity',t:"Rahasia lolos kerja ke {BISNIS} ada di persiapan, bukan keberuntungan."},
+ {a:'Mimpi',t:"Dari kampung sampai gajian {JT} juta/bulan di {BISNIS}. Ini caranya."}
+];
+const SCRIPTS_KARIR=[
+ {t:"Panduan ini ngebongkar jalur RESMI kerja ke {BISNIS}: dari dokumen, cara cari job offer asli, sampai hindari calo. Gaji {JT} juta/bulan itu nyata buat yang tau urutannya. Lengkap step-by-step dari nol."},
+ {t:"Banyak yang gagal berangkat ke {BISNIS} bukan karena kurang pintar, tapi salah langkah di awal. Di sini dibahas riset negara & sektor, dokumen, interview, sampai estimasi gaji bersih {JT} juta/bulan plus potongannya."},
+ {t:"Mau kerja ke {BISNIS} tapi takut kena calo & rugi puluhan juta? Panduan ini kasih jalur resmi, ciri sponsor abal-abal, timeline & biaya jujur, biar kamu berangkat aman dan gaji {JT} juta/bulan."}
+];
+const HOOKS_HOBI=[
+ {a:'Peluang',t:"Hobi {BISNIS} kamu bisa hasilin {JT} juta/bulan. Beneran."},
+ {a:'Pain Point',t:"Jago {BISNIS} tapi dompet tetap tipis? Masalahnya di cara jualnya."},
+ {a:'Sayang',t:"Hobi {BISNIS} cuma buat senang-senang? Sayang, itu bisa cuan."},
+ {a:'Social Proof',t:"Banyak yang dari hobi {BISNIS} sekarang panen {JT} juta/bulan."},
+ {a:'Modal Kecil',t:"Modal kecil, hobi {BISNIS} bisa jadi penghasilan tetap dari rumah."},
+ {a:'Pasar',t:"Karya {BISNIS}-mu cuma numpuk? Ada yang rela bayar mahal buat itu."},
+ {a:'Mulai',t:"Gak perlu jadi pro. Hobi {BISNIS} aja udah bisa {JT} juta/bulan."}
+];
+const SCRIPTS_HOBI=[
+ {t:"Panduan ini ngajarin cara ubah hobi {BISNIS} jadi penghasilan: produk/jasa yang laku, cara patok harga, bikin portofolio, sampai dapet pembeli pertama. Dari senang-senang jadi cuan {JT} juta/bulan, dikerjain dari rumah."},
+ {t:"Jago {BISNIS} tapi belum menghasilkan? Masalahnya bukan skill, tapi cara jualnya. Di sini dibahas yang paling laku, patok tarif, jalur jualan online & komunitas, biar hobimu hasilin {JT} juta/bulan."},
+ {t:"Hobi {BISNIS} kamu bisa jadi mesin cuan. Panduan ini kasih langkah realistis: pilih yang laku, harga yang pas, foto & promosi, sampai pelanggan balik lagi. Pelan-pelan tembus {JT} juta/bulan tanpa modal gede."}
+];
 
 const DEF={judul:"", jenis:"cuci helm", harga:40000, modal:5000, unit:10, aksi:"cuci", satuan:"helm",
   segmen:"driver ojol & komunitas motor", grup:"pangkalan ojol", anggotaGrup:50, komunitas:"komunitas motor",
@@ -292,6 +341,7 @@ function getVals(){
     SEGMEN:g('segmen',DEF.segmen),GRUP:g('grup',DEF.grup),ANGGOTA_GRUP:anggotaGrup,KOMUNITAS:g('komunitas',DEF.komunitas),
     HARGA:money(harga),HARGA_RANGE:rbRange(harga),MODAL:money(modal),MARGIN:marginPct,UNIT:unit,UNIT_LOW:Math.max(1,Math.round(unit/2)),
     OMSET:money(omset),OMSET_NUM:omset,OMSET_RANGE:jtRange(omset),CUAN_BERSIH:"Rp"+Math.max(1,cuanBersih)+"jt",
+    JT:Math.max(1,Math.round(omset/1e6)),JT_HI:Math.max(2,Math.round(omset*1.25/1e6)),
     LANGGANAN:money(langganan),LANGGANAN_RANGE:rbRange(langganan),JML_LANGGANAN:jmlLangganan,OMSET_LANGGANAN:money(langganan*jmlLangganan),
     PER_GRUP_HARI:money(anggotaGrup*harga),KOMUNITAS_BULAN:money(anggotaKom*langganan),MODAL_USAHA:money(modalUsaha)};
 }
@@ -320,14 +370,22 @@ function omsetInfo(){const V=getVals();$('omsetInfo').innerHTML=`≈ omset <b>${
 let styleMode='mix',current=[];
 function generate(){
   const V=getVals(),n=parseInt($('count').value,10),uH=new Set(),uS=new Set(),uC=new Set();
+  const cat=pickedTitle?nicheCat(pickedTitle.niche):'usaha';
+  V.BISNIS=(pickedTitle?topikOf(pickedTitle):tempelBisnisDefault)||'bisnis ini';
+  const HB=cat==='karir'?HOOKS_KARIR:cat==='hobi'?HOOKS_HOBI:null;
+  const SB=cat==='karir'?SCRIPTS_KARIR:cat==='hobi'?SCRIPTS_HOBI:null;
   current=[];
   for(let i=0;i<n;i++){
     const st=styleMode==='mix'?(Math.random()<0.5?'hard':'soft'):styleMode;
-    const hook=pickUnused(HOOKS.filter(h=>h.s===st),uH);
-    const altH=pick(HOOKS.filter(h=>h.s===st&&h.t!==hook.t));
-    const scr=pickUnused(SCRIPTS.filter(x=>x.s===st),uS);
-    const cta=pickUnused(CTAS.filter(x=>x.s===st),uC);
-    current.push({angle:hook.a,style:st,hook:fill(hook.t,V),alt:altH?fill(altH.t,V):"",script:fill(scr.t,V),cta:fill(cta.t,V)});
+    let hook,altH,scr,cta;
+    if(HB){ // KARIR/HOBI: bank sendiri (gak pakai filter style)
+      hook=pickUnused(HB,uH); altH=pick(HB.filter(h=>h.t!==hook.t));
+      scr=pickUnused(SB,uS); cta=pickUnused(CTAS.filter(x=>x.s===st),uC);
+    } else {
+      hook=pickUnused(HOOKS.filter(h=>h.s===st),uH); altH=pick(HOOKS.filter(h=>h.s===st&&h.t!==hook.t));
+      scr=pickUnused(SCRIPTS.filter(x=>x.s===st),uS); cta=pickUnused(CTAS.filter(x=>x.s===st),uC);
+    }
+    current.push({angle:hook.a||'Angle',style:st,hook:fill(hook.t,V),alt:altH?fill(altH.t,V):"",script:fill(scr.t,V),cta:fill(cta.t,V)});
   }
   render(); omsetInfo(); saveInputs();
 }
@@ -357,18 +415,19 @@ const NICHE_JENIS={"digital":"usaha digital","produksi":"usaha produksi","jasa":
 const FOOTAGE_MOD=["satisfying","asmr","aesthetic","proses / behind the scenes","before after","timelapse","viral fyp","tutorial"];
 const GENERIC_FOOTAGE=["proses kerja usaha kecil","UMKM Indonesia","small business owner","entrepreneur working","produk handmade","jasa profesional bekerja"];
 const NICHE_FOOTAGE={
- "digital":["work from home laptop","digital marketing","content creator setup","laptop typing closeup","online business owner","social media phone","freelancer working cafe","editing laptop"],
- "produksi":["proses produksi rumahan","small factory production","manufacturing process","mesin produksi kecil","packaging produk","UMKM produksi","handmade production line","produksi makanan"],
- "jasa":["jasa profesional bekerja","service worker proses","teknisi bekerja","cleaning service proses","layanan pelanggan","jasa rumahan","orang bekerja telaten","service satisfying"],
- "jasa b2b":["business meeting","gudang supplier","B2B logistics warehouse","pengiriman barang truk","corporate handshake","office business proses","stok gudang","distribusi barang"],
- "budidaya":["budidaya ikan kolam","ternak modern","panen sayur","peternakan ayam","hidroponik","farming satisfying","petani sukses","agriculture b-roll"],
- "rental":["rental mobil showroom","sewa alat","car rental fleet","equipment rental","penyewaan barang","mobil berjejer","rental kamera","booking kendaraan"],
- "kerajinan":["kerajinan tangan proses","handmade craft","pengrajin bekerja","DIY craft satisfying","handicraft closeup","craft aesthetic","UMKM kerajinan","artisan making"],
- "3d print":["3d printing timelapse","3d printer proses","resin 3d print","miniature painting","print farm","3d printed product","filament printer closeup","prototype 3d"],
- "bangun rumah":["konstruksi rumah","tukang bangunan kerja","proses bangun rumah","renovasi rumah","building site","construction timelapse","arsitektur rumah minimalis","pekerja proyek"],
- "kerja luar negeri":["kerja di jepang","working in japan street","tokyo city life","pekerja pabrik jepang","kerja di jerman","ausbildung jerman","germany city street","TKI luar negeri","bandara keberangkatan","airport departure","working abroad vlog","kota eropa malam"],
- "peluang karir":["kerja di jepang","working abroad vlog","kerja di jerman","ausbildung jerman","interview kerja","kantor profesional","gaji besar","bandara keberangkatan","airport departure","karir sukses","TKI luar negeri","kota eropa malam"],
- "hobi cuan":["hobi menghasilkan uang","jualan hasil hobi","handmade craft business","gaming setup aesthetic","fotografi hobi","melukis dijual","koleksi mainan dijual","content creator hobi","side hustle indonesia","baking di rumah","tanaman hias jualan","kerajinan hobi"]
+ "digital":["work from home laptop","digital marketing closeup","content creator setup","laptop typing closeup","online business owner","social media phone scroll","freelancer working cafe","video editing screen","instagram reels filming","ads dashboard layar","ngonten pakai hp","desain di laptop"],
+ "produksi":["proses produksi rumahan","small batch production","manufacturing process closeup","mesin produksi kecil","packaging produk UMKM","UMKM produksi makanan","handmade production line","mixing bahan closeup","food production satisfying","label & kemasan produk","dapur produksi rumahan","stok produk jadi"],
+ "jasa":["jasa profesional bekerja","service worker proses","teknisi bekerja closeup","cleaning service proses","layanan pelanggan ramah","jasa panggilan rumahan","orang bekerja telaten","service satisfying closeup","before after jasa","alat kerja jasa","kurir datang ke rumah","tukang servis rumahan"],
+ "jasa b2b":["business meeting","gudang supplier","B2B logistics warehouse","pengiriman barang truk","corporate handshake","office business proses","stok gudang rapi","distribusi barang","forklift gudang","invoice & kontrak bisnis","tim kerja kantor","supplier loading barang"],
+ "budidaya":["budidaya ikan kolam","ternak modern","panen sayur segar","peternakan ayam","hidroponik closeup","farming satisfying","petani sukses","agriculture b-roll","kolam terpal lele","bibit tanaman","panen melimpah","kasih pakan ternak"],
+ "rental":["rental mobil showroom","sewa alat","car rental fleet","equipment rental","penyewaan barang","mobil berjejer rapi","rental kamera & gear","booking kendaraan","serah terima sewa","gudang alat sewa","event setup rental","barang siap sewa"],
+ "kerajinan":["kerajinan tangan proses","handmade craft satisfying","pengrajin bekerja","DIY craft closeup","handicraft aesthetic","craft flatlay aesthetic","UMKM kerajinan","artisan making","tangan bikin kerajinan","produk handmade jadi","packaging kado handmade","craft tools closeup"],
+ "3d print":["3d printing timelapse","3d printer proses","resin 3d print","miniature painting","print farm rumahan","3d printed product","filament printer closeup","prototype 3d","figurin custom","cetak figurin 3d","model 3d di layar","hasil cetak 3d"],
+ "bangun rumah":["konstruksi rumah","tukang bangunan kerja","proses bangun rumah","renovasi rumah","building site","construction timelapse","arsitektur rumah minimalis","pekerja proyek","aduk semen","pasang bata","mandor cek proyek","desain rumah 3d"],
+ "kerja luar negeri":["kerja di jepang","working in japan street","tokyo city life","pekerja pabrik jepang","kerja di jerman","ausbildung jerman","germany city street","TKI luar negeri","bandara keberangkatan","airport departure","working abroad vlog","kota luar negeri malam"],
+ "peluang karir":["kerja di jepang","working abroad vlog","kerja di jerman","ausbildung jerman","interview kerja","kantor profesional","gaji besar amplop","bandara keberangkatan","airport departure","karir sukses","TKI luar negeri","kota luar negeri malam"],
+ "hobi cuan":["hobi menghasilkan uang","jualan hasil hobi","handmade craft business","gaming setup aesthetic","fotografi hobi","melukis dijual","koleksi mainan dijual","content creator hobi","side hustle indonesia","baking di rumah","tanaman hias jualan","kerajinan hobi"],
+ "diy cuan":["DIY craft satisfying","handmade kado estetik","bikin kerajinan rumahan","craft flatlay aesthetic","cetak & cat mainan","lilin aroma handmade","resin art closeup","slime satisfying","buket clay handmade","packaging kado lucu","craft tutorial closeup","produk DIY dijual"]
 };
 function nicheToJenis(n){n=(n||'').toLowerCase().trim(); return NICHE_JENIS[n]||(n?("usaha "+n):"usaha ini");}
 const NICHE_BISNIS={"digital":"jualan produk digital","produksi":"produksi rumahan","jasa":"jasa rumahan","jasa b2b":"jadi supplier B2B","budidaya":"budidaya","rental":"rental / persewaan","kerajinan":"kerajinan tangan","3d print":"cetak 3D / figurin","bangun rumah":"jasa bangun & renov rumah","kerja luar negeri":"kerja ke luar negeri","peluang karir":"peluang karir","hobi cuan":"hobi yang dijualin"};
@@ -377,21 +436,57 @@ function nicheToBisnis(n){n=(n||'').toLowerCase().trim();return NICHE_BISNIS[n]|
 function bisnisPhrase(t){
   const nama=((t&&t.nama)||'').trim(), judul=((t&&t.judul)||''), niche=((t&&t.niche)||'').toLowerCase().trim();
   const cl=s=>(s||'').replace(/[“”"‘’()]/g,'').replace(/\s+/g,' ').trim().toLowerCase().split(' ').slice(0,6).join(' ').replace(/\b(3d|ac|ai|umkm|b2b|pc|tv|cctv|hpp|sop|qc|usb|led|apar)\b/gi,m=>m.toUpperCase());
+  const JUNK=/\b(stop|gagal|capek|kabur|dikadalin|nyesel|takut|bingung|rugi|boncos|jangan|kenapa|mentok|tumbal|numpuk|tipis|markup|biar|sengaja)\b/i; // hook pain, bukan nama bisnis
+  const ok=c=>c&&c.split(' ').length>=2&&!JUNK.test(c);
   const m=nama.match(/^(bisnis|jasa|usaha|produksi)\s+(.+)/i); if(m) return cl(m[2]);
   if(/[—–]/.test(judul)){ // gaya "Brand — hook ... jadi X : ..." → ambil bagian bisnis
     let seg=(judul.split(/[—–]/)[1]||'').split(':')[0];
     if(/\bjadi\b/i.test(seg)) seg=seg.split(/\bjadi\b/i).pop();
     seg=seg.replace(/^\s*(rahasia|cara|stop|sulap|bikin|dari|tukang|jadi|si)\s+/i,'').split(/\s+dengan\s+|\s+untuk\s+|,|\(/i)[0];
-    const c=cl(seg); if(c.split(' ').length>=2) return c;
+    const c=cl(seg); if(ok(c)) return c;
   }
-  if(judul.indexOf(':')>=0){ // gaya "Brand: Jasa/Produksi X Dengan Teknik…" → ambil X
+  else if(judul.indexOf(':')>=0){ // gaya "Brand: Jasa/Produksi X Dengan Teknik…" → ambil X (cuma kalau BUKAN gaya "—")
     let after=judul.split(':').slice(1).join(':').split(/\s+dengan\s+|\s+untuk\s+|\s+pakai\s+|,|\(/i)[0];
     after=after.replace(/^\s*(jasa|bisnis|usaha|produksi|produk)\s+/i,'');
-    const c=cl(after); if(c.split(' ').length>=2) return c;
+    const c=cl(after); if(ok(c)) return c;
   }
   if(niche) return nicheToBisnis(niche);
   return cl(shortName(judul))||"bisnis ini";
 }
+/* ===== NICHE-AWARE: framing beda buat KARIR (kerja LN) & HOBI ===== */
+function nicheCat(n){n=(n||'').toLowerCase().trim(); if(n==='peluang karir'||n==='kerja luar negeri')return 'karir'; if(n==='hobi cuan')return 'hobi'; return 'usaha';}
+function ttx(t){return (((t&&t.judul)||'')+' '+((t&&t.tagline)||'')).toLowerCase();}
+function destOf(t){var s=ttx(t);
+  if(/jepang|nihon|ssw|tokutei/.test(s))return 'Jepang';
+  if(/jerman|german|ausbildung/.test(s))return 'Jerman';
+  if(/korea|eps-topik|hanguk/.test(s))return 'Korea';
+  if(/pesiar|cruise|pelaut|seaman/.test(s))return 'kapal pesiar';
+  if(/taiwan/.test(s))return 'Taiwan';
+  if(/timur tengah|arab|dubai|qatar/.test(s))return 'Timur Tengah';
+  return 'luar negeri';}
+function hobbyOf(t){var s=ttx(t); // urutan: spesifik dulu, 'foto' terakhir (sering muncul "foto karya/produk")
+  if(/lukis|kanvas|gambar/.test(s))return 'lukis';
+  if(/game|gamer|joki|boosting|top-up/.test(s))return 'main game';
+  if(/tanaman|tanam|indukan|bibit|stek|hidroponik/.test(s))return 'tanaman hias';
+  if(/kue|baking|oven|resep|masak/.test(s))return 'bikin kue';
+  if(/musik|gitar|lagu|beat/.test(s))return 'musik';
+  if(/jahit|rajut|crochet/.test(s))return 'jahit & rajut';
+  if(/foto|kamera|fotografi/.test(s))return 'foto';
+  return 'hobi kamu';}
+function diyProduct(t){var s=ttx(t);
+  if(/gips|gypsum|patung lukis/.test(s))return 'mainan patung lukis gips';
+  if(/lilin|soy wax/.test(s))return 'lilin aroma';
+  if(/slime/.test(s))return 'slime';
+  if(/resin|epoxy/.test(s))return 'gantungan resin';
+  if(/\bclay\b|buket/.test(s))return 'buket clay';
+  if(/sabun/.test(s))return 'sabun handmade';
+  return null;}
+/* topik utama per judul — dipakai SEMUA section (tempel/angle/footage) */
+function topikOf(t){var cat=nicheCat(t&&t.niche), niche=((t&&t.niche)||'').toLowerCase().trim();
+  if(cat==='karir')return destOf(t);
+  if(cat==='hobi')return hobbyOf(t);
+  if(niche==='diy cuan'){var p=diyProduct(t); if(p)return p;}
+  return bisnisPhrase(t);}
 function shortName(s){const x=(s||'').split(/[—–:]/)[0].trim(); return x.length>=3?x:(s||'').slice(0,40);}
 const FILLER=new Set("untuk dengan dan yang di ke dari biar dll dst atau juga agar pun ada ini itu sampai tanpa lebih banyak sering cuma malah padahal ternyata bukan tapi kenapa gimana bisa jadi cara jasa bisnis rental sistem teknik formula pola indikator strategi panduan paket buka usaha modal omzet omset juta jutaan bulan harian potensi untung dijamin pakai pake mau gak nggak kamu kita per sekali produksi khusus rahasia bongkar stop capek nol biar pemula".split(/\s+/));
 function cleanPhrase(p){
@@ -402,13 +497,16 @@ function cleanPhrase(p){
 function footageKw(t){
   // footage = istilah VISUAL konkret (bisa di-search) dari bisnis spesifik + b-roll per-niche.
   // BUKAN konsep abstrak tagline ("titik rawan", "komplain") yg gak ada videonya.
-  var niche=((t&&t.niche)||'').toLowerCase().trim();
-  var biz=bisnisPhrase(t).toLowerCase(), out=[], seen={};
-  var DROP={jasa:1,bisnis:1,usaha:1,produksi:1,produk:1,setup:1,pasang:1,kuras:1,bikin:1,sewa:1};
+  var niche=((t&&t.niche)||'').toLowerCase().trim(), cat=nicheCat(niche), CAP=12;
+  var out=[], seen={};
+  var DROP={jasa:1,bisnis:1,usaha:1,produksi:1,produk:1,setup:1,pasang:1,kuras:1,bikin:1,sewa:1,hobi:1,kerja:1};
   function add(s){ s=(s||'').replace(/^[\s\-]+|[\s\-]+$/g,''); if(!s||s.length<4||seen[s])return; if(s.indexOf(' ')<0&&DROP[s])return; seen[s]=1; out.push(s); }
-  biz.split(/\s*&\s*|\s*\/\s*|,/).forEach(function(p){ if(out.length>=3)return; p=p.split(/\b(?:biar|yang|buat|tanpa|pakai|mirip|supaya|ala)\b/)[0].trim(); add(p); });
-  (NICHE_FOOTAGE[niche]||GENERIC_FOOTAGE).forEach(function(g){ if(out.length<8)add(g); });
-  return out.slice(0,8);
+  if(cat==='karir'){ var ds=destOf(t).toLowerCase();
+    ['kerja di '+ds, ds+' street life', 'pekerja '+ds, 'kota '+ds].forEach(add);
+  } else if(cat==='hobi'){ add(hobbyOf(t));
+  } else { topikOf(t).toLowerCase().split(/\s*&\s*|\s*\/\s*|,/).forEach(function(p){ if(out.length>=3)return; p=p.split(/\b(?:biar|yang|buat|tanpa|pakai|mirip|supaya|ala)\b/)[0].trim(); add(p); }); }
+  (NICHE_FOOTAGE[niche]||GENERIC_FOOTAGE).forEach(function(g){ if(out.length<CAP)add(g); });
+  return out.slice(0,CAP);
 }
 /* ===== NASKAH VIDEO (storyboard scene-by-scene) ===== */
 function splitSentences(s){return (s||'').split(/(?<=[.!?:—–])\s+/).map(function(x){return x.trim();}).filter(function(x){return x.length>3;});}
@@ -447,21 +545,25 @@ function renderFootage(t){
   $('copyKws').onclick=e=>copyText(kws.join('\n'),e.target);
 }
 /* ===== HOOK TEMPEL (teks nempel di atas video) ===== */
-let tempelList=[], currentTempel="", tempelBisnisDefault="bisnis ini";
+let tempelList=[], currentTempel="", tempelBisnisDefault="bisnis ini", tempelBadgePrefix="BISNIS", tempelBank=TEMPEL;
 function pick4(arr){const u=new Set(),r=[];let g=0;while(r.length<4&&u.size<arr.length&&g++<99){const x=pick(arr);if(!u.has(x.t)){u.add(x.t);r.push(x);}}return r;}
 function tempelVars(){const V=getVals(),omset=V.OMSET_NUM||0;const b=($('bisnisInp')?$('bisnisInp').value.trim():'')||tempelBisnisDefault||"bisnis ini";
   return Object.assign({},V,{BISNIS:b,JT:Math.max(1,Math.round(omset/1e6)),JT_HI:Math.max(2,Math.round(omset*1.25/1e6))});}
 function fillTempel(){const TV=tempelVars(),list=$('tempelList');if(!list)return;
   list.innerHTML=tempelList.map((tp,i)=>'<div class="tmp-item"><div class="tmp-prev">'+esc(fill(tp.t,TV))+'</div><button class="tmp-copy" data-i="'+i+'">📋 Salin teks ini</button></div>').join('');
   currentTempel=tempelList.length?fill(tempelList[0].t,TV):"";
-  const badge=$('tempelBadge');if(badge)badge.textContent='BISNIS '+(TV.BISNIS||'').toUpperCase();}
+  const badge=$('tempelBadge');if(badge)badge.textContent=tempelBadgePrefix+' '+(TV.BISNIS||'').toUpperCase();}
 function renderTempel(t){
-  tempelBisnisDefault=(t&&(t.judul||t.niche))?bisnisPhrase(t):"bisnis ini";
-  tempelList=pick4(TEMPEL);
+  const cat=nicheCat(t&&t.niche);
+  tempelBisnisDefault=(t&&(t.judul||t.niche))?(topikOf(t)||"bisnis ini"):"bisnis ini";
+  tempelBank=cat==='karir'?TEMPEL_KARIR:cat==='hobi'?TEMPEL_HOBI:TEMPEL;
+  tempelList=pick4(tempelBank);
+  tempelBadgePrefix=cat==='karir'?'KERJA DI':cat==='hobi'?'HOBI':'BISNIS';
+  const lab=cat==='karir'?'Negara/tujuan kerja':cat==='hobi'?'Hobi':'Bisnis';
   const box=$('tempel');box.style.display='block';
   box.innerHTML='<h2 style="margin-bottom:4px">📌 Hook Tempel</h2>'
    +'<div class="combo" style="margin-bottom:10px">Teks gede yg <b>NEMPEL di atas video</b> sepanjang durasi. Pilih 1 → Salin → tempel di editor. Angka = estimasi.</div>'
-   +'<label style="margin:0 0 4px">Bisnis (buat ngisi hook — edit kalau kurang pas)</label>'
+   +'<label style="margin:0 0 4px">'+lab+' (buat ngisi hook — edit kalau kurang pas)</label>'
    +'<input id="bisnisInp" value="'+esc(tempelBisnisDefault)+'">'
    +'<div id="tempelList" style="margin-top:11px"></div>'
    +'<div style="margin-top:4px;display:flex;gap:9px;align-items:center;flex-wrap:wrap"><button class="btn sec" id="tempelRoll">🎲 Variasi lain</button><span class="combo">+ sticker bawah: <span class="tmp-badge" id="tempelBadge"></span></span></div>';
@@ -485,7 +587,7 @@ function moveHi(d){const items=[...$('results').querySelectorAll('.ritem[data-id
 function selectTitle(t){
   pickedTitle=t;
   $('judul').value=t.nama||shortName(t.judul);
-  $('jenis').value=nicheToJenis(t.niche);
+  $('jenis').value=topikOf(t); // pakai bisnis SPESIFIK (bukan "usaha <niche>" generik) biar angle nyambung
   // default generic (biar gak ada kata niche lain nyangkut) — editor bisa sesuaikan di Detail usaha
   $('aksi').value="kerjain"; $('satuan').value="order";
   rollNumbers(t.code||t.judul); // angka unik per judul (seeded) -> omset beda tiap produk, stabil
@@ -510,7 +612,7 @@ $('gen').addEventListener('click',generate);
 $('diceNum').addEventListener('click',()=>{rollNumbers(Math.random());if(current.length)generate();else omsetInfo();if($('tempelList'))fillTempel();});
 $('reload').addEventListener('click',loadTitles);
 $('tempel').addEventListener('click',function(e){var t=e.target;
-  if(t.id==='tempelRoll'){tempelList=pick4(TEMPEL);fillTempel();return;}
+  if(t.id==='tempelRoll'){tempelList=pick4(tempelBank);fillTempel();return;}
   if(t.classList.contains('tmp-copy')){copyText(fill(tempelList[+t.dataset.i].t,tempelVars()),t);return;}});
 $('tempel').addEventListener('input',function(e){if(e.target.id==='bisnisInp')fillTempel();});
 $('copyAll').addEventListener('click',e=>{if(current.length){var pin=currentTempel?'📌 TEKS TEMPEL (nempel di atas video): '+currentTempel+'\n\n═══\n\n':'';copyText(pin+current.map(cardText).join('\n\n———\n\n'),e.target);}});
