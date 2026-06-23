@@ -15,4 +15,4 @@ for r in csv.reader(f,delimiter='\t'):
     rows.append({"code":code,"niche":niche,"nama":nama,"judul":judul,"tagline":tagline,"status":status})
 out={"updated":datetime.datetime.now().strftime('%Y-%m-%d %H:%M'),"count":len(rows),"items":rows}
 json.dump(out,open('/Users/kantor/hook-generator/titles.json','w',encoding='utf-8'),ensure_ascii=False,indent=0)
-print("wrote",len(rows),"titles (with nama)")
+print("wrote",len(rows),"titles (nama OK)")

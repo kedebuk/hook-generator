@@ -287,7 +287,7 @@ function updateCombo(){const f=st=>HOOKS.filter(x=>x.s===st).length*SCRIPTS.filt
   $('combo').innerHTML=`Bank: <b>${HOOKS.length}</b> hook · <b>${SCRIPTS.length}</b> script · <b>${CTAS.length}</b> CTA → <b>${(f('hard')+f('soft')).toLocaleString('id')}</b> kombinasi`;}
 
 /* ===== SHEET SEARCH (titles.json) ===== */
-let TITLES=[];
+let TITLES=[], hiIdx=-1;
 const NICHE_JENIS={"digital":"usaha digital","produksi":"usaha produksi","jasa":"usaha jasa","jasa b2b":"usaha jasa B2B","budidaya":"budidaya","rental":"usaha rental","kerajinan":"usaha kerajinan","trading":"trading","3d print":"usaha 3D print","bangun rumah":"jasa bangun rumah"};
 function nicheToJenis(n){n=(n||'').toLowerCase().trim(); return NICHE_JENIS[n]||(n?("usaha "+n):"usaha ini");}
 function shortName(s){const x=(s||'').split(/[—–:]/)[0].trim(); return x.length>=3?x:(s||'').slice(0,40);}
@@ -299,13 +299,14 @@ function loadTitles(){
   }).catch(e=>{ $('syncInfo').innerHTML=`⚠️ titles.json belum ada — ketik judul manual lalu Enter`; });
 }
 function renderResults(q){
-  const box=$('results'); q=q.toLowerCase().trim();
+  const box=$('results'); q=q.toLowerCase().trim(); hiIdx=-1;
   if(!q){box.classList.remove('show');box.innerHTML="";return;}
-  const m=TITLES.filter(t=>(t.judul||'').toLowerCase().includes(q)||(t.niche||'').toLowerCase().includes(q)).slice(0,15);
-  if(!m.length){box.classList.remove('show');box.innerHTML="";return;}
-  box.innerHTML=m.map((t,i)=>`<div class="ritem" data-idx="${TITLES.indexOf(t)}"><span class="nq">${esc(t.niche||'')}</span> &nbsp;<span class="jq">${esc((t.judul||'').slice(0,90))}${(t.judul||'').length>90?'…':''}</span></div>`).join('');
+  const m=TITLES.filter(t=>(t.judul||'').toLowerCase().includes(q)||(t.niche||'').toLowerCase().includes(q)||(t.code||'').toLowerCase().includes(q)).slice(0,20);
+  if(!m.length){box.innerHTML='<div class="ritem" style="color:var(--muted)">— gak ada yang cocok —</div>';box.classList.add('show');return;}
+  box.innerHTML=m.map(t=>`<div class="ritem" data-idx="${TITLES.indexOf(t)}"><span class="nq">${esc(t.code||'')} · ${esc(t.niche||'')}</span><br><span class="jq">${esc((t.judul||'').slice(0,95))}${(t.judul||'').length>95?'…':''}</span></div>`).join('');
   box.classList.add('show');
 }
+function moveHi(d){const items=[...$('results').querySelectorAll('.ritem[data-idx]')]; if(!items.length)return; hiIdx=(hiIdx+d+items.length)%items.length; items.forEach((it,i)=>it.classList.toggle('hi',i===hiIdx)); items[hiIdx].scrollIntoView({block:'nearest'});}
 function selectTitle(t){
   $('judul').value=t.nama||shortName(t.judul);
   $('jenis').value=nicheToJenis(t.niche);
@@ -315,7 +316,7 @@ function selectTitle(t){
   $('search').value=(t.judul||'').slice(0,70);
   $('results').classList.remove('show');
   const p=$('picked'); p.classList.add('show');
-  p.innerHTML=`<span class="nq">${esc(t.niche||'')}</span><br><b>${esc(t.judul||'')}</b>${t.tagline?'<br><span style="color:var(--muted)">'+esc(t.tagline.slice(0,140))+'</span>':''}`;
+  p.innerHTML=`<span class="nq">${esc(t.code||'')} · ${esc(t.niche||'')}</span><br><b>${esc(t.judul||'')}</b>${t.tagline?'<br><span style="color:var(--muted)">'+esc(t.tagline.slice(0,140))+'</span>':''}`;
   generate();
 }
 
@@ -333,7 +334,17 @@ $('copyAll').addEventListener('click',e=>{if(current.length)copyText(current.map
 $('out').addEventListener('click',e=>{if(e.target.classList.contains('copy'))copyText(cardText(current[+e.target.dataset.i]),e.target);});
 $('results').addEventListener('click',e=>{const it=e.target.closest('.ritem');if(it)selectTitle(TITLES[+it.dataset.idx]);});
 $('search').addEventListener('input',e=>renderResults(e.target.value));
-$('search').addEventListener('keydown',e=>{if(e.key==='Enter'){const v=e.target.value.trim();if(v&&!$('results').classList.contains('show')){$('judul').value=shortName(v);$('picked').classList.remove('show');generate();}}});
+$('search').addEventListener('keydown',e=>{
+  const box=$('results'), items=[...box.querySelectorAll('.ritem[data-idx]')];
+  if(e.key==='ArrowDown'){e.preventDefault();moveHi(1);}
+  else if(e.key==='ArrowUp'){e.preventDefault();moveHi(-1);}
+  else if(e.key==='Escape'){box.classList.remove('show');}
+  else if(e.key==='Enter'){
+    if(hiIdx>=0&&items[hiIdx]){e.preventDefault();selectTitle(TITLES[+items[hiIdx].dataset.idx]);}
+    else if(items.length===1){e.preventDefault();selectTitle(TITLES[+items[0].dataset.idx]);}
+    else{const v=e.target.value.trim();if(v){$('judul').value=shortName(v);box.classList.remove('show');$('picked').classList.remove('show');generate();}}
+  }
+});
 document.addEventListener('click',e=>{if(!e.target.closest('.searchbox'))$('results').classList.remove('show');});
 document.querySelectorAll('.seg button').forEach(b=>b.addEventListener('click',()=>{styleMode=b.dataset.style;document.querySelectorAll('.seg button').forEach(x=>x.classList.remove('on'));b.classList.add('on');saveInputs();if(current.length)generate();}));
 
