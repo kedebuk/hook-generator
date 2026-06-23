@@ -1,31 +1,7 @@
 {
-"updated": "2026-06-23 14:45",
-"count": 149,
+"updated": "2026-06-23 14:56",
+"count": 146,
 "items": [
-{
-"code": "LKDA",
-"niche": "Trading",
-"nama": "Pola Likuida",
-"judul": "Pola Likuida — Stop Jadi \"Tumbal\" Stop-Loss: Bongkar Trik Bandar yang Sengaja Nyamber SL-mu Dulu, Baru Harga Jalan ke Arah Tebakanmu",
-"tagline": "Konsep liquidity & order block, struktur market (BOS/CHoCH), entry searah \"uang besar\" & target R:R minimal 1:2. (edukasi & risiko)",
-"status": ""
-},
-{
-"code": "PRSA",
-"niche": "Trading",
-"nama": "Indikator Presisa",
-"judul": "Indikator Presisa — Capek Winrate Mentok di Bawah 50%? Ternyata Bukan Indikatormu yang Salah, Tapi Cara Kamu \"Milih\" Entry",
-"tagline": "Filter setup high-probability (confluence), kriteria entry 'A+', target R:R minimal 1:2 & jurnal evaluasi biar makin presisi. (edukasi & risiko)",
-"status": ""
-},
-{
-"code": "AREL",
-"niche": "Trading",
-"nama": "Strategi Aurelia",
-"judul": "Strategi Aurelia — Khusus Emas (XAUUSD): Kenapa Akun Sering MC Padahal Arah Bener — Rahasianya di \"Ukuran Lot\", Bukan Analisa",
-"tagline": "Karakter & sesi emas, rumus sizing lot anti-MC di volatilitas tinggi, area kunci harian & manajemen risiko. (edukasi & risiko)",
-"status": ""
-},
 {
 "code": "RSNA",
 "niche": "3D Print",
