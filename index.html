@@ -400,16 +400,14 @@ function cleanPhrase(p){
   return w.slice(0,4).join(' ').trim();
 }
 function footageKw(t){
+  // footage = istilah VISUAL konkret (bisa di-search) dari bisnis spesifik + b-roll per-niche.
+  // BUKAN konsep abstrak tagline ("titik rawan", "komplain") yg gak ada videonya.
   var niche=((t&&t.niche)||'').toLowerCase().trim();
-  var judul=(t&&t.judul)||'', tag=(t&&t.tagline)||'';
-  var desc='';
-  if(judul.indexOf('—')>=0) desc=''; // judul gaya insider = hook, pakai tagline aja
-  else if(judul.indexOf(':')>=0) desc=judul.split(':').slice(1).join(' ');
-  else desc=judul;
-  var parts=((desc?desc+' , ':'')+tag).split(/[,&+/|]| dan | dengan | untuk | atau /i);
-  var out=[],seen={};
-  parts.forEach(function(p){var c=cleanPhrase(p); if(c && c.length>=4 && !seen[c]){seen[c]=1; out.push(c);}});
-  if(out.length<4){(NICHE_FOOTAGE[niche]||GENERIC_FOOTAGE).forEach(function(x){if(out.indexOf(x)<0)out.push(x);});}
+  var biz=bisnisPhrase(t).toLowerCase(), out=[], seen={};
+  var DROP={jasa:1,bisnis:1,usaha:1,produksi:1,produk:1,setup:1,pasang:1,kuras:1,bikin:1,sewa:1};
+  function add(s){ s=(s||'').replace(/^[\s\-]+|[\s\-]+$/g,''); if(!s||s.length<4||seen[s])return; if(s.indexOf(' ')<0&&DROP[s])return; seen[s]=1; out.push(s); }
+  biz.split(/\s*&\s*|\s*\/\s*|,/).forEach(function(p){ if(out.length>=3)return; p=p.split(/\b(?:biar|yang|buat|tanpa|pakai|mirip|supaya|ala)\b/)[0].trim(); add(p); });
+  (NICHE_FOOTAGE[niche]||GENERIC_FOOTAGE).forEach(function(g){ if(out.length<8)add(g); });
   return out.slice(0,8);
 }
 /* ===== NASKAH VIDEO (storyboard scene-by-scene) ===== */
