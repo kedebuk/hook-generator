@@ -73,6 +73,12 @@
   .flinks{display:flex;gap:6px;flex-shrink:0}
   .flinks a{font-size:11px;font-weight:700;color:var(--blue);background:#0c0f1c;border:1px solid var(--line);border-radius:6px;padding:3px 7px;text-decoration:none}
   .flinks a:hover{border-color:var(--accent);color:var(--accent)}
+  .tmp-item{margin-bottom:11px}
+  .tmp-prev{background:#fff;color:#141414;font-weight:800;font-size:16px;line-height:1.32;border-radius:9px;padding:11px 13px;box-shadow:0 2px 0 #0004}
+  .tmp-copy{margin-top:5px;background:#222740;border:1px solid var(--line);color:var(--muted);border-radius:7px;padding:4px 10px;font-size:11px;font-weight:700;cursor:pointer}
+  .tmp-copy:hover{color:var(--accent);border-color:var(--accent)}
+  .tmp-copy.ok{background:var(--soft);color:#04261d;border-color:var(--soft)}
+  .tmp-badge{display:inline-block;background:#ffe600;color:#141414;font-weight:800;padding:2px 8px;border-radius:4px;font-size:12px}
   .naskah{margin-top:12px;background:#222740;color:var(--accent);border:1px solid var(--line);border-radius:8px;padding:8px 13px;font-size:12px;font-weight:800;cursor:pointer}
   .naskah:hover{border-color:var(--accent)}
   .sb{margin-top:8px}
@@ -163,6 +169,7 @@
         <div class="t" id="status">Pilih judul dulu, lalu klik “Acak Angle”.</div>
         <button class="btn sec" id="copyAll">📋 Salin Semua</button>
       </div>
+      <div class="panel" id="tempel" style="display:none;margin-bottom:14px"></div>
       <div class="panel" id="footage" style="display:none;margin-bottom:14px"></div>
       <div class="out" id="out">
         <div class="empty">Belum ada hasil.<br>Cari &amp; pilih judul di kiri → klik <b>🎲 Acak Angle</b>.</div>
@@ -242,6 +249,20 @@ const CTAS=[
  {s:'soft',t:"Cari tahu caranya sekarang."},{s:'soft',t:"Ambil panduannya & mulai pelan-pelan."},
  {s:'soft',t:"Klik, baca, langsung bisa praktek."},{s:'soft',t:"Pelajari step-by-step-nya sekarang."}
 ];
+/* hook TEMPEL = teks gede yg NEMPEL di atas video sepanjang durasi (gaya "bisnis X dari rumah, omzet Y juta") */
+const TEMPEL=[
+ {s:'hard',t:"Lo bisa dapet omzet sampai {JT_HI} juta tiap bulan. Sejak lo mulai bisnis {BISNIS} dari rumah"},
+ {s:'hard',t:"Bisnis {BISNIS} dari rumah, untung {JT} juta perbulan"},
+ {s:'hard',t:"Modal {MODAL_USAHA} doang, bisnis {BISNIS} bisa tembus {JT} juta/bulan"},
+ {s:'hard',t:"Cuma dari rumah, bisnis {BISNIS} ini cuan {JT} juta tiap bulan"},
+ {s:'hard',t:"Bisnis {BISNIS} lagi rame — yang udah jalan panen sampai {JT_HI} juta/bulan"},
+ {s:'hard',t:"Dari nol sampai {JT} juta/bulan lewat bisnis {BISNIS} di rumah"},
+ {s:'soft',t:"Ternyata bisnis {BISNIS} dari rumah bisa sampai {JT} juta perbulan"},
+ {s:'soft',t:"Bisnis {BISNIS} buat pemula, modal kecil, dikerjain dari rumah"},
+ {s:'soft',t:"Cara orang biasa cuan {JT} juta/bulan dari bisnis {BISNIS}"},
+ {s:'soft',t:"Bisnis {BISNIS} aesthetic yang lagi naik daun, cocok dari rumah"},
+ {s:'soft',t:"Gak nyangka, dari rumah aja bisnis {BISNIS} bisa {JT} juta/bulan"}
+];
 
 const DEF={judul:"", jenis:"cuci helm", harga:40000, modal:5000, unit:10, aksi:"cuci", satuan:"helm",
   segmen:"driver ojol & komunitas motor", grup:"pangkalan ojol", anggotaGrup:50, komunitas:"komunitas motor",
@@ -270,7 +291,7 @@ function getVals(){
   return {JUDUL:g('judul','panduan ini'),JENIS:jenis,JENIS_CAP:cap(jenis),AKSI:g('aksi',DEF.aksi),SATUAN:g('satuan',DEF.satuan),
     SEGMEN:g('segmen',DEF.segmen),GRUP:g('grup',DEF.grup),ANGGOTA_GRUP:anggotaGrup,KOMUNITAS:g('komunitas',DEF.komunitas),
     HARGA:money(harga),HARGA_RANGE:rbRange(harga),MODAL:money(modal),MARGIN:marginPct,UNIT:unit,UNIT_LOW:Math.max(1,Math.round(unit/2)),
-    OMSET:money(omset),OMSET_RANGE:jtRange(omset),CUAN_BERSIH:"Rp"+Math.max(1,cuanBersih)+"jt",
+    OMSET:money(omset),OMSET_NUM:omset,OMSET_RANGE:jtRange(omset),CUAN_BERSIH:"Rp"+Math.max(1,cuanBersih)+"jt",
     LANGGANAN:money(langganan),LANGGANAN_RANGE:rbRange(langganan),JML_LANGGANAN:jmlLangganan,OMSET_LANGGANAN:money(langganan*jmlLangganan),
     PER_GRUP_HARI:money(anggotaGrup*harga),KOMUNITAS_BULAN:money(anggotaKom*langganan),MODAL_USAHA:money(modalUsaha)};
 }
@@ -350,6 +371,8 @@ const NICHE_FOOTAGE={
  "hobi cuan":["hobi menghasilkan uang","jualan hasil hobi","handmade craft business","gaming setup aesthetic","fotografi hobi","melukis dijual","koleksi mainan dijual","content creator hobi","side hustle indonesia","baking di rumah","tanaman hias jualan","kerajinan hobi"]
 };
 function nicheToJenis(n){n=(n||'').toLowerCase().trim(); return NICHE_JENIS[n]||(n?("usaha "+n):"usaha ini");}
+const NICHE_BISNIS={"digital":"jualan produk digital","produksi":"produksi rumahan","jasa":"jasa rumahan","jasa b2b":"jadi supplier B2B","budidaya":"budidaya","rental":"rental / persewaan","kerajinan":"kerajinan tangan","3d print":"cetak 3D / figurin","bangun rumah":"jasa bangun & renov rumah","kerja luar negeri":"kerja ke luar negeri","peluang karir":"peluang karir","hobi cuan":"hobi yang dijualin"};
+function nicheToBisnis(n){n=(n||'').toLowerCase().trim();return NICHE_BISNIS[n]||(n?n:"bisnis ini");}
 function shortName(s){const x=(s||'').split(/[—–:]/)[0].trim(); return x.length>=3?x:(s||'').slice(0,40);}
 const FILLER=new Set("untuk dengan dan yang di ke dari biar dll dst atau juga agar pun ada ini itu sampai tanpa lebih banyak sering cuma malah padahal ternyata bukan tapi kenapa gimana bisa jadi cara jasa bisnis rental sistem teknik formula pola indikator strategi panduan paket buka usaha modal omzet omset juta jutaan bulan harian potensi untung dijamin pakai pake mau gak nggak kamu kita per sekali produksi khusus rahasia bongkar stop capek nol biar pemula".split(/\s+/));
 function cleanPhrase(p){
@@ -390,11 +413,14 @@ function storyboardHTML(card,idx){
      +'<div class="scn-row"><span class="scn-k">📝 teks:</span> '+esc(x.teks)+'</div>'
      +'<div class="scn-row"><span class="scn-k">🎙️ VO:</span> '+esc(x.vo)+'</div></div>';
   }).join('');
-  return '<div class="sb-head">🎬 Naskah Video · '+sc.length+' scene · ~'+sc.tot+' detik <button class="naskah-copy" data-i="'+idx+'">📋 Salin naskah</button></div>'+rows;
+  var head='<div class="sb-head">🎬 Naskah Video · '+sc.length+' scene · ~'+sc.tot+' detik <button class="naskah-copy" data-i="'+idx+'">📋 Salin naskah</button></div>';
+  var pin=currentTempel?'<div class="scene" style="border-left-color:var(--soft)"><div class="scn-h"><span class="scn-lbl" style="background:rgba(57,196,163,.16);color:var(--soft)">TEMPEL</span> nempel di ATAS sepanjang video</div><div class="scn-row"><span class="scn-k">📌</span> <b>'+esc(currentTempel)+'</b></div></div>':'';
+  return head+pin+rows;
 }
 function storyboardText(card){
   var sc=buildScenes(card);
-  return '🎬 NASKAH VIDEO ('+sc.length+' scene, ~'+sc.tot+' dtk)\n\n'+sc.map(function(x,i){return 'SCENE '+(i+1)+' ('+x.range+') ['+x.lbl+']\n🎬 Footage: '+x.kw+'\n📝 Teks layar: '+x.teks+'\n🎙️ VO: '+x.vo;}).join('\n\n');
+  var pin=currentTempel?'📌 TEKS TEMPEL (nempel di ATAS sepanjang video):\n'+currentTempel+'\n\n':'';
+  return '🎬 NASKAH VIDEO ('+sc.length+' scene, ~'+sc.tot+' dtk)\n\n'+pin+sc.map(function(x,i){return 'SCENE '+(i+1)+' ('+x.range+') ['+x.lbl+']\n🎬 Footage: '+x.kw+'\n📝 Teks layar: '+x.teks+'\n🎙️ VO: '+x.vo;}).join('\n\n');
 }
 function renderFootage(t){
   const kws=footageKw(t), box=$('footage'); box.style.display='block';
@@ -403,6 +429,26 @@ function renderFootage(t){
    +`</div><div style="margin-top:10px;display:flex;gap:8px;align-items:center;flex-wrap:wrap"><button class="btn sec" id="copyKws">📋 Salin kata kunci</button><span class="combo">+ tempel modifier biar b-roll bagus: <b>${FOOTAGE_MOD.join(' · ')}</b></span></div>`;
   $('copyKws').onclick=e=>copyText(kws.join('\n'),e.target);
 }
+/* ===== HOOK TEMPEL (teks nempel di atas video) ===== */
+let tempelList=[], currentTempel="", tempelBisnisDefault="bisnis ini";
+function pick4(arr){const u=new Set(),r=[];let g=0;while(r.length<4&&u.size<arr.length&&g++<99){const x=pick(arr);if(!u.has(x.t)){u.add(x.t);r.push(x);}}return r;}
+function tempelVars(){const V=getVals(),omset=V.OMSET_NUM||0;const b=($('bisnisInp')?$('bisnisInp').value.trim():'')||tempelBisnisDefault||"bisnis ini";
+  return Object.assign({},V,{BISNIS:b,JT:Math.max(1,Math.round(omset/1e6)),JT_HI:Math.max(2,Math.round(omset*1.25/1e6))});}
+function fillTempel(){const TV=tempelVars(),list=$('tempelList');if(!list)return;
+  list.innerHTML=tempelList.map((tp,i)=>'<div class="tmp-item"><div class="tmp-prev">'+esc(fill(tp.t,TV))+'</div><button class="tmp-copy" data-i="'+i+'">📋 Salin teks ini</button></div>').join('');
+  currentTempel=tempelList.length?fill(tempelList[0].t,TV):"";
+  const badge=$('tempelBadge');if(badge)badge.textContent='BISNIS '+(TV.BISNIS||'').toUpperCase();}
+function renderTempel(t){
+  tempelBisnisDefault=(t&&t.niche)?nicheToBisnis(t.niche):((t&&t.judul)?shortName(t.judul):"bisnis ini");
+  tempelList=pick4(TEMPEL);
+  const box=$('tempel');box.style.display='block';
+  box.innerHTML='<h2 style="margin-bottom:4px">📌 Hook Tempel</h2>'
+   +'<div class="combo" style="margin-bottom:10px">Teks gede yg <b>NEMPEL di atas video</b> sepanjang durasi. Pilih 1 → Salin → tempel di editor. Angka = estimasi.</div>'
+   +'<label style="margin:0 0 4px">Bisnis (buat ngisi hook — edit kalau kurang pas)</label>'
+   +'<input id="bisnisInp" value="'+esc(tempelBisnisDefault)+'">'
+   +'<div id="tempelList" style="margin-top:11px"></div>'
+   +'<div style="margin-top:4px;display:flex;gap:9px;align-items:center;flex-wrap:wrap"><button class="btn sec" id="tempelRoll">🎲 Variasi lain</button><span class="combo">+ sticker bawah: <span class="tmp-badge" id="tempelBadge"></span></span></div>';
+  fillTempel();}
 function loadTitles(){
   $('syncInfo').textContent="memuat judul…";
   fetch('titles.json?t='+Date.now()).then(r=>r.json()).then(d=>{
@@ -427,6 +473,7 @@ function selectTitle(t){
   $('aksi').value="kerjain"; $('satuan').value="order";
   rollNumbers(t.code||t.judul); // angka unik per judul (seeded) -> omset beda tiap produk, stabil
   renderFootage(t);
+  renderTempel(t);
   $('search').value=(t.judul||'').slice(0,70);
   $('results').classList.remove('show');
   const p=$('picked'); p.classList.add('show');
@@ -443,9 +490,13 @@ function loadInputs(){let o={};try{o=JSON.parse(localStorage.getItem('hookgen')|
 
 /* ===== EVENTS ===== */
 $('gen').addEventListener('click',generate);
-$('diceNum').addEventListener('click',()=>{rollNumbers(Math.random());if(current.length)generate();else omsetInfo();});
+$('diceNum').addEventListener('click',()=>{rollNumbers(Math.random());if(current.length)generate();else omsetInfo();if($('tempelList'))fillTempel();});
 $('reload').addEventListener('click',loadTitles);
-$('copyAll').addEventListener('click',e=>{if(current.length)copyText(current.map(cardText).join('\n\n———\n\n'),e.target);});
+$('tempel').addEventListener('click',function(e){var t=e.target;
+  if(t.id==='tempelRoll'){tempelList=pick4(TEMPEL);fillTempel();return;}
+  if(t.classList.contains('tmp-copy')){copyText(fill(tempelList[+t.dataset.i].t,tempelVars()),t);return;}});
+$('tempel').addEventListener('input',function(e){if(e.target.id==='bisnisInp')fillTempel();});
+$('copyAll').addEventListener('click',e=>{if(current.length){var pin=currentTempel?'📌 TEKS TEMPEL (nempel di atas video): '+currentTempel+'\n\n═══\n\n':'';copyText(pin+current.map(cardText).join('\n\n———\n\n'),e.target);}});
 $('out').addEventListener('click',function(e){var t=e.target;
   if(t.classList.contains('naskah-copy')){copyText(storyboardText(current[+t.dataset.i]),t);return;}
   if(t.classList.contains('naskah')){var i=+t.dataset.i,box=document.getElementById('sb'+i);box.innerHTML=box.innerHTML?'':storyboardHTML(current[i],i);return;}
@@ -461,7 +512,7 @@ $('search').addEventListener('keydown',e=>{
   else if(e.key==='Enter'){
     if(hiIdx>=0&&items[hiIdx]){e.preventDefault();selectTitle(TITLES[+items[hiIdx].dataset.idx]);}
     else if(items.length===1){e.preventDefault();selectTitle(TITLES[+items[0].dataset.idx]);}
-    else{const v=e.target.value.trim();if(v){pickedTitle={judul:v,tagline:''};$('judul').value=shortName(v);rollNumbers(v);renderFootage({niche:''});box.classList.remove('show');$('picked').classList.remove('show');generate();}}
+    else{const v=e.target.value.trim();if(v){pickedTitle={judul:v,tagline:''};$('judul').value=shortName(v);rollNumbers(v);renderFootage({niche:''});renderTempel({judul:v,niche:''});box.classList.remove('show');$('picked').classList.remove('show');generate();}}
   }
 });
 document.addEventListener('click',e=>{if(!e.target.closest('.searchbox'))$('results').classList.remove('show');});
