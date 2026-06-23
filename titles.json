@@ -1,6 +1,6 @@
 {
-"updated": "2026-06-23 18:42",
-"count": 156,
+"updated": "2026-06-23 18:48",
+"count": 161,
 "items": [
 {
 "code": "RSNA",
@@ -531,43 +531,43 @@
 "status": "ide"
 },
 {
-"code": "KSTM",
-"niche": "Rental",
-"nama": "Bisnis Rental Kostum, Toga & Baju Adat",
-"judul": "Bisnis Rental Kostum, Toga & Baju Adat: Disewa Tiap Musim Wisuda & Event, Margin Tebal, Potensi Untung Rp13 Juta/Bulan!",
-"tagline": "Daftar item laris, SOP cuci & rotasi, sistem deposit, kalkulator sewa, jadwal booking, skrip gaet kampus & fotografer.",
+"code": "GIPS",
+"niche": "DIY Cuan",
+"nama": "Studio Gipsa",
+"judul": "Studio Gipsa — Modal Gips & Cat Receh, \"Mainan Patung Lukis\" Diborong Emak buat Kado Anak: Cuan dari Hampers, Ultah & Reseller Sekolah",
+"tagline": "Resep adonan gips anti-retak, cetakan paling laku (donat/hewan/karakter), kemas jadi kit cat+kuas, hitung HPP & harga jual, jualan ke ortu/sekolah/marketplace + sistem reseller.",
 "status": "ide"
 },
 {
-"code": "TOYL",
-"niche": "Rental",
-"nama": "Bisnis Rental Mainan Anak (Toy Library)",
-"judul": "Bisnis Rental Mainan Anak (Toy Library): Orangtua Hemat Rela Langganan, Aset Disewa Berulang, Potensi Untung Rp11 Juta/Bulan!",
-"tagline": "Daftar mainan edukatif laris, SOP sanitasi, sistem langganan, kalkulator BEP, jadwal tukar, skrip gaet komunitas ibu & daycare.",
+"code": "LILN",
+"niche": "DIY Cuan",
+"nama": "Lilin Aurora",
+"judul": "Lilin Aurora — Bukan Sekadar Wangi: Lilin Aroma Buatan Rumah Disulap Jadi Kado & Dekor Estetik, Margin Tembus 4x Lipat",
+"tagline": "Pilih soy wax & sumbu anti-tunnel, takaran fragrance aman, teknik tuang bebas retak/lubang, branding + packaging estetik, jualan hampers/wedding/corporate.",
 "status": "ide"
 },
 {
-"code": "CMPG",
-"niche": "Rental",
-"nama": "Bisnis Rental Alat Camping & Outdoor",
-"judul": "Bisnis Rental Alat Camping & Outdoor: Tren Healing Naik, Aset Disewa Tiap Akhir Pekan, Potensi Untung Rp14 Juta/Bulan!",
-"tagline": "Daftar gear paling dicari, SOP cek & bersih, sistem deposit, kalkulator sewa & BEP, jadwal booking, skrip gaet komunitas pendaki.",
-"status": "ide"
-},
-{
-"code": "SABN",
-"niche": "Kerajinan",
-"nama": "Bisnis Sabun Artisan Cold Process",
-"judul": "Bisnis Sabun Artisan Cold Process: Produk Natural Premium Bernilai Jual Tinggi, Pasar Gift & Spa, Potensi Untung Rp12 Juta/Bulan!",
-"tagline": "Formula cold process aman, SOP curing, varian & branding, kalkulator HPP per batang, QC, skrip jual gift shop & online.",
+"code": "SLIM",
+"niche": "DIY Cuan",
+"nama": "Slime Galaxy",
+"judul": "Slime Galaxy — Mainan \"Receh\" yang Bikin Anak Nagih: Bikin Slime Aman Anti-Lengket & Jual per Toples ke Sekolah",
+"tagline": "Formula slime aman tanpa borak, tekstur cloud/butter/crunchy, pewarna & charm lucu, kemas toples + label, jualan ke anak sekolah/online + paket ulang tahun.",
 "status": "ide"
 },
 {
 "code": "RESN",
-"niche": "Kerajinan",
-"nama": "Bisnis Aksesoris Resin Epoxy",
-"judul": "Bisnis Aksesoris Resin Epoxy: Sulap Bunga & Foto Jadi Perhiasan Estetik, Modal Receh Margin Tebal, Potensi Untung Rp10 Juta/Bulan!",
-"tagline": "SOP cetak resin anti-gelembung, daftar bahan, varian produk, kalkulator HPP, QC bening, skrip jual online & gift.",
+"niche": "DIY Cuan",
+"nama": "Resin Kilau",
+"judul": "Resin Kilau — Bunga Kering & Foto Disulap Jadi Gantungan Resin yang Dijual Mahal: Kado Personalisasi Anti-Pasaran",
+"tagline": "Pilih resin epoxy bening anti-kuning, teknik cetak anti-gelembung, isian (bunga/foto/nama/inisial), finishing kinclong, jualan kado custom/wisuda/souvenir.",
+"status": "ide"
+},
+{
+"code": "CLAY",
+"niche": "DIY Cuan",
+"nama": "Studio Clayra",
+"judul": "Studio Clayra — Tepung & Lem Jadi Buket Clay Awet Selamanya: Buket Wisuda & Kado yang Dijual Ratusan Ribu",
+"tagline": "Resep clay autodry anti-retak, bentuk bunga populer (tulip/mawar/matahari/lily), rangkai buket & box, packaging cantik, jualan wisuda/anniversary + pre-order.",
 "status": "ide"
 },
 {
@@ -1248,6 +1248,46 @@
 "nama": "Bisnis Rental PS & Console Game",
 "judul": "Bisnis Rental PS & Console Game: Modal Unit, Disewa Harian Tanpa Henti, Balik Modal Cepat, Potensi Untung Rp10 Juta/Bulan!",
 "tagline": "Daftar paket sewa, SOP cek unit, sistem deposit, kalkulator BEP, jadwal antar-jemput, skrip gaet komunitas gamer & kafe.",
+"status": "ide"
+},
+{
+"code": "KSTM",
+"niche": "Rental",
+"nama": "Bisnis Rental Kostum, Toga & Baju Adat",
+"judul": "Bisnis Rental Kostum, Toga & Baju Adat: Disewa Tiap Musim Wisuda & Event, Margin Tebal, Potensi Untung Rp13 Juta/Bulan!",
+"tagline": "Daftar item laris, SOP cuci & rotasi, sistem deposit, kalkulator sewa, jadwal booking, skrip gaet kampus & fotografer.",
+"status": "ide"
+},
+{
+"code": "TOYL",
+"niche": "Rental",
+"nama": "Bisnis Rental Mainan Anak (Toy Library)",
+"judul": "Bisnis Rental Mainan Anak (Toy Library): Orangtua Hemat Rela Langganan, Aset Disewa Berulang, Potensi Untung Rp11 Juta/Bulan!",
+"tagline": "Daftar mainan edukatif laris, SOP sanitasi, sistem langganan, kalkulator BEP, jadwal tukar, skrip gaet komunitas ibu & daycare.",
+"status": "ide"
+},
+{
+"code": "CMPG",
+"niche": "Rental",
+"nama": "Bisnis Rental Alat Camping & Outdoor",
+"judul": "Bisnis Rental Alat Camping & Outdoor: Tren Healing Naik, Aset Disewa Tiap Akhir Pekan, Potensi Untung Rp14 Juta/Bulan!",
+"tagline": "Daftar gear paling dicari, SOP cek & bersih, sistem deposit, kalkulator sewa & BEP, jadwal booking, skrip gaet komunitas pendaki.",
+"status": "ide"
+},
+{
+"code": "SABN",
+"niche": "Kerajinan",
+"nama": "Bisnis Sabun Artisan Cold Process",
+"judul": "Bisnis Sabun Artisan Cold Process: Produk Natural Premium Bernilai Jual Tinggi, Pasar Gift & Spa, Potensi Untung Rp12 Juta/Bulan!",
+"tagline": "Formula cold process aman, SOP curing, varian & branding, kalkulator HPP per batang, QC, skrip jual gift shop & online.",
+"status": "ide"
+},
+{
+"code": "RESN",
+"niche": "Kerajinan",
+"nama": "Bisnis Aksesoris Resin Epoxy",
+"judul": "Bisnis Aksesoris Resin Epoxy: Sulap Bunga & Foto Jadi Perhiasan Estetik, Modal Receh Margin Tebal, Potensi Untung Rp10 Juta/Bulan!",
+"tagline": "SOP cetak resin anti-gelembung, daftar bahan, varian produk, kalkulator HPP, QC bening, skrip jual online & gift.",
 "status": "ide"
 }
 ]
