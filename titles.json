@@ -1,0 +1,1049 @@
+{
+"updated": "2026-06-23 10:09",
+"count": 149,
+"items": [
+{
+"code": "LKDA",
+"niche": "Trading",
+"judul": "Pola Likuida — Stop Jadi \"Tumbal\" Stop-Loss: Bongkar Trik Bandar yang Sengaja Nyamber SL-mu Dulu, Baru Harga Jalan ke Arah Tebakanmu",
+"tagline": "Konsep liquidity & order block, struktur market (BOS/CHoCH), entry searah \"uang besar\" & target R:R minimal 1:2. (edukasi & risiko)",
+"status": ""
+},
+{
+"code": "PRSA",
+"niche": "Trading",
+"judul": "Indikator Presisa — Capek Winrate Mentok di Bawah 50%? Ternyata Bukan Indikatormu yang Salah, Tapi Cara Kamu \"Milih\" Entry",
+"tagline": "Filter setup high-probability (confluence), kriteria entry 'A+', target R:R minimal 1:2 & jurnal evaluasi biar makin presisi. (edukasi & risiko)",
+"status": ""
+},
+{
+"code": "AREL",
+"niche": "Trading",
+"judul": "Strategi Aurelia — Khusus Emas (XAUUSD): Kenapa Akun Sering MC Padahal Arah Bener — Rahasianya di \"Ukuran Lot\", Bukan Analisa",
+"tagline": "Karakter & sesi emas, rumus sizing lot anti-MC di volatilitas tinggi, area kunci harian & manajemen risiko. (edukasi & risiko)",
+"status": ""
+},
+{
+"code": "RSNA",
+"niche": "3D Print",
+"judul": "Sistem Resina — Dari 1 Printer di Pojok Kamar Jadi Tukang \"Cetak Apa Aja\": Terima Order Custom yang Orang Rela Bayar Mahal",
+"tagline": "Setting printer anti-gagal, HPP per gram filament + harga jual, jenis order paling dicari & skrip nawarin online.",
+"status": ""
+},
+{
+"code": "FGRA",
+"niche": "3D Print",
+"judul": "Teknik Figura — Sulap Foto Jadi Figurin Mini 3D \"Mirip Orangnya\": Kado yang Dijual Ratusan Ribu & Bikin Pembeli Tertarik",
+"tagline": "Alur foto-ke-model 3D (tool AI), finishing & cat detail, paket harga couple/wisuda/family & cara dapet order viral.",
+"status": ""
+},
+{
+"code": "FBRA",
+"niche": "3D Print",
+"judul": "Sistem Faberia — Rahasia \"Print Farm\" Rumahan: Beberapa Printer Nyala 24 Jam Cetak Produk Sepele yang Diborong Reseller",
+"tagline": "Pilih produk fast-selling margin tinggi, atur antrian multi-printer, hitung listrik+filament & jalur jual marketplace.",
+"status": ""
+},
+{
+"code": "MNDR",
+"niche": "Bangun Rumah",
+"judul": "Sistem Mandira — Cara Pilih Tukang biar Ga Kabur Tengah Jalan & Hasilnya Ga Bikin Nyesel (Sebelum Kasih DP Sepeser pun)",
+"tagline": "Checklist seleksi & interview tukang, cek portofolio asli, contoh surat perjanjian kerja & sistem termin pembayaran aman.",
+"status": ""
+},
+{
+"code": "RBNA",
+"niche": "Bangun Rumah",
+"judul": "Formula Rabona — Susun RAB Bangun Rumah Sendiri biar Ga Di-Markup Gila2an: Tau Harga Asli Material & Upah Sebelum Ketemu Tukang",
+"tagline": "Template RAB per item (pondasi-atap), harga material & upah borongan vs harian, trik nego & cara cegah dana jebol tengah jalan.",
+"status": ""
+},
+{
+"code": "VGLA",
+"niche": "Bangun Rumah",
+"judul": "Teknik Vigila — Ngawasi Tukang biar Ga Dikadalin: Tanda Semen Dikurangi, Besi Diakalin, Material di kurangin & Proyek Sengaja Diulur",
+"tagline": "Checklist pengawasan harian, takaran campuran semen yang benar, titik rawan kecurangan & cara komplain tanpa ribut.",
+"status": ""
+},
+{
+"code": "CRIS",
+"niche": "Produksi",
+"judul": "Crystal Clear Ice Lab: Produksi Es Batu Kristal Bening Untuk Cafe & Bar Dengan Teknik Directional Freezing, Cetak Cube & Sphere Tahan Lama Untuk Signature Drink.",
+"tagline": "SOP directional freezing, daftar cetakan & alat, panduan ukuran cube/sphere, kalkulator HPP per balok, QC bening tanpa retak, dan skrip penawaran ke cafe/bar.",
+"status": "siap"
+},
+{
+"code": "BMDS",
+"niche": "Jasa B2B",
+"judul": "Barista Machine Descale Service: Jasa Descale & Backflush Mesin Kopi Cafe Dengan Teknik Group-Head Backflush, Boiler Descale Dan Jadwal Maintenance Bulanan.",
+"tagline": "SOP backflush group-head, daftar chemical food-safe, checklist boiler descale, form inspeksi mesin, paket maintenance bulanan, dan skrip closing ke cafe.",
+"status": "siap"
+},
+{
+"code": "KASR",
+"niche": "Jasa B2B",
+"judul": "Hotel Mattress Sanitizing Co: Jasa Sanitasi Kasur Hotel, Kos & Homestay Dengan Teknik Dry-Vacuum Tungau + UV-C Pass Dan SOP Rotasi Kamar.",
+"tagline": "SOP dry-vacuum + UV-C, peta rotasi kamar, checklist tungau & noda, kalkulator paket per kamar, QC kering higienis, dan skrip penawaran hotel/kos.",
+"status": "siap"
+},
+{
+"code": "HOOD",
+"niche": "Jasa B2B",
+"judul": "Kitchen Hood Degrease Method: Jasa Bersih Cerobong & Hood Dapur Resto Dengan Teknik Hot-Foam Degrease, Filter Soak Dan Logbook Anti-Kebakaran.",
+"tagline": "SOP hot-foam degrease, teknik filter soak, logbook jadwal, daftar chemical aman, paket kontrak bulanan, dan skrip penawaran ke resto/cafe.",
+"status": "siap"
+},
+{
+"code": "CIFS",
+"niche": "Jasa",
+"judul": "Car Interior Fresh Studio: Jasa Deep Clean & Anti-Bau Interior Mobil Dengan Teknik Ozone Deodorize + Hot-Water Extraction Untuk Mobil Keluarga & Rental.",
+"tagline": "SOP extraction jok-karpet, teknik ozone deodorize, checklist jamur-noda, form intake mobil, paket harga per kelas mobil, dan skrip gaet rental/taxi online.",
+"status": "siap"
+},
+{
+"code": "WFRV",
+"niche": "Jasa",
+"judul": "Wood Furniture Revive Studio: Jasa Restorasi & Poles Furniture Kayu Kusam Dengan Teknik Sand-Seal-Buff Dan Color Match Untuk Rumah, Cafe & Hotel.",
+"tagline": "SOP sand-seal-buff, panduan color match, daftar bahan finishing, form intake barang, paket harga per item, dan skrip before-after untuk IG.",
+"status": "siap"
+},
+{
+"code": "HELM",
+"niche": "Jasa",
+"judul": "Helmet Care Express: Jasa Deep Clean & Anti-Bau Helm Dengan Teknik Foam-Soak Busa + UV Deodorize Untuk Driver Ojol Dan Komunitas Motor.",
+"tagline": "SOP foam-soak + keringkan, teknik UV deodorize, checklist busa-visor, paket langganan driver, kalkulator harga, dan skrip gaet komunitas ojol/motor.",
+"status": "live"
+},
+{
+"code": "BWAX",
+"niche": "Produksi",
+"judul": "Beeswax Food Wrap Studio: Produksi Pembungkus Makanan Beeswax Reusable Dengan Teknik Resin-Jojoba Coating Untuk Pasar Zero-Waste & Cafe Sehat.",
+"tagline": "Formula coating beeswax-resin-jojoba, SOP press kain, panduan ukuran wrap, kalkulator HPP per lembar, QC daya rekat, dan katalog B2B cafe/eco-store.",
+"status": "live"
+},
+{
+"code": "ABMX",
+"niche": "Produksi",
+"judul": "Hydro Nutrient Mix Lab: Produksi Larutan Nutrisi AB-Mix Hidroponik Dengan Teknik Takaran EC-Calibrated Untuk Pekebun Sayur Dan Toko Tani.",
+"tagline": "Formula AB-mix per komoditas, SOP pencampuran, panduan EC/PPM, checklist keamanan, kalkulator HPP per liter, dan template label + katalog toko tani.",
+"status": "live"
+},
+{
+"code": "KRPT",
+"niche": "Jasa B2B",
+"judul": "Office Carpet Encap Service: Jasa Cuci Karpet & Sofa Kantor Dengan Teknik Low-Moisture Encapsulation Yang Cepat Kering Tanpa Ganggu Jam Kerja.",
+"tagline": "SOP encapsulation low-moisture, daftar chemical & pad, checklist QC kering 1 jam, jadwal di luar jam sibuk, kalkulator harga per m2, dan skrip penawaran gedung/kantor.",
+"status": "live"
+},
+{
+"code": "TORN",
+"niche": "Jasa B2B",
+"judul": "Tankguard Toren Service: Jasa Kuras & Sanitasi Tandon/Toren Air Dengan Teknik Vacuum-Drain + UV Sanitize Untuk Kos, Gedung & Rumah Tingkat.",
+"tagline": "SOP vacuum-drain, checklist sanitasi UV, jadwal kuras berkala, kalkulator harga per kapasitas, form inspeksi, dan skrip langganan ke pengelola kos/gedung.",
+"status": "live"
+},
+{
+"code": "APAR",
+"niche": "Jasa B2B",
+"judul": "Safefill APAR Service: Jasa Isi Ulang & Inspeksi APAR Dengan Teknik Pressure-Test + Refill Dry-Powder Untuk Ruko, Kantor & Pabrik Kecil.",
+"tagline": "SOP pressure-test, panduan jenis media, logbook inspeksi tahunan, daftar alat, kalkulator paket, dan skrip penawaran ke ruko/kantor.",
+"status": "live"
+},
+{
+"code": "RYAP",
+"niche": "Jasa",
+"judul": "Termiguard Soil Barrier: Jasa Anti-Rayap Bangunan Dengan Teknik Drill-Inject Soil-Barrier + Spot Treatment Untuk Rumah, Gudang & Furniture.",
+"tagline": "Peta titik injeksi, SOP drill-inject, daftar termitisida aman, garansi & logbook, kalkulator per m2, dan skrip penawaran ke perumahan.",
+"status": "live"
+},
+{
+"code": "KLAM",
+"niche": "Jasa B2B",
+"judul": "Poolcare Service Method: Jasa Maintenance Kolam Renang Dengan Teknik Chlorine-Balance + Vacuum Dasar Untuk Villa, Hotel & Perumahan.",
+"tagline": "SOP test & balance kimia, jadwal vacuum, checklist filter, daftar chemical, paket bulanan, dan skrip closing ke villa/hotel.",
+"status": "live"
+},
+{
+"code": "ATAP",
+"niche": "Jasa",
+"judul": "Roofresh Bio-Coat: Jasa Cuci & Anti-Jamur Atap/Dinding Dengan Teknik Bio-Wash + Water-Repellent Coating Untuk Rumah & Ruko.",
+"tagline": "SOP bio-wash, panduan coating anti-air, checklist safety ketinggian, kalkulator per m2, form before-after, dan skrip penawaran perumahan.",
+"status": "live"
+},
+{
+"code": "SJDH",
+"niche": "Jasa B2B",
+"judul": "Sajadah Carpet Wash: Jasa Cuci Karpet Masjid & Permadani Dengan Teknik Roll-Wash + Anti-Bau Ozone Untuk Masjid, Musholla & Kantor.",
+"tagline": "SOP roll-wash, teknik anti-bau ozone, jadwal jemput-antar, kalkulator per m2, QC kering wangi, dan skrip penawaran ke DKM/kantor.",
+"status": "live"
+},
+{
+"code": "GOWS",
+"niche": "Jasa",
+"judul": "Pitstop Bike Mobile: Jasa Tune-Up & Servis Sepeda Panggilan Dengan Teknik Drivetrain Degrease + Brake-Bleed Untuk Komunitas Gowes.",
+"tagline": "SOP tune-up, checklist drivetrain & rem, daftar tools, paket servis berkala, form intake, dan skrip gaet komunitas gowes/roadbike.",
+"status": "live"
+},
+{
+"code": "STRL",
+"niche": "Jasa",
+"judul": "Strollerfresh Steam Clean: Jasa Cuci Stroller & Carseat Bayi Dengan Teknik Steam-Sanitasi Food-Safe Untuk Orangtua & Daycare.",
+"tagline": "SOP steam-sanitasi, checklist sela & busa, daftar cairan food-safe, paket harga, form intake, dan skrip gaet komunitas ibu/daycare.",
+"status": "live"
+},
+{
+"code": "FOGG",
+"niche": "Jasa B2B",
+"judul": "Sterilo Fogging Service: Jasa Fogging & Disinfeksi Ruangan Dengan Teknik ULV Cold-Fog Untuk Sekolah, Kantor & Klinik.",
+"tagline": "SOP ULV cold-fog, daftar disinfektan aman, jadwal berkala, checklist area, kalkulator per m2, dan skrip penawaran ke sekolah/klinik.",
+"status": "live"
+},
+{
+"code": "KEJU",
+"niche": "Produksi",
+"judul": "Mozzafresco Curd Lab: Produksi Keju Mozzarella & Ricotta Segar Dengan Teknik Stretch-Curd 80C Untuk Pizzeria & Cafe.",
+"tagline": "SOP stretch-curd, rasio susu-rennet-asam, standar tekstur leleh, kalkulator HPP per kg, QC kesegaran, dan template katalog B2B pizzeria.",
+"status": "live"
+},
+{
+"code": "BRIO",
+"niche": "Produksi",
+"judul": "Brioche Bun Supply: Produksi Burger Bun Brioche Beku Dengan Teknik Tangzhong Soft-Crumb Untuk Kedai Burger & Cafe.",
+"tagline": "Formula tangzhong, SOP proofing & par-bake, panduan reheat stabil, kalkulator HPP per pcs, QC kelembutan, dan katalog supply kedai burger.",
+"status": "live"
+},
+{
+"code": "TRTL",
+"niche": "Produksi",
+"judul": "Tortilla Press Kitchen: Produksi Tortilla & Kulit Kebab Segar Dengan Teknik Press-Griddle Elastis Untuk Resto Kebab & Mexican.",
+"tagline": "Formula adonan elastis, SOP press-griddle, panduan simpan tetap lentur, kalkulator HPP per lembar, QC anti-sobek, dan katalog B2B resto.",
+"status": "live"
+},
+{
+"code": "MDTM",
+"niche": "Produksi",
+"judul": "Greenmix Media Tanam: Produksi Media Tanam Siap Pakai Dengan Teknik Cocopeat-Compost Ratio Untuk Nursery & Pekebun Hidroponik.",
+"tagline": "Formula rasio cocopeat-kompos-sekam, SOP sterilisasi, panduan per komoditas, kalkulator HPP per karung, QC pH, dan template label + katalog.",
+"status": "live"
+},
+{
+"code": "CBRW",
+"niche": "Produksi",
+"judul": "Slowdrip Coldbrew Co: Produksi Konsentrat Cold Brew Kopi Dengan Teknik Slow-Drip 12 Jam Untuk Cafe, Kantor & Reseller.",
+"tagline": "SOP slow-drip 12 jam, rasio kopi-air, panduan simpan & dilusi, kalkulator HPP per botol, QC rasa konsisten, dan katalog B2B cafe.",
+"status": "live"
+},
+{
+"code": "TFLN",
+"niche": "Jasa",
+"judul": "Recoatpro Teflon Studio: Jasa Recoat Panci & Wajan Teflon Mengelupas Dengan Teknik Sandblast + Re-Coating Food-Grade Untuk Rumah Tangga & Warung.",
+"tagline": "SOP sandblast & recoat, daftar coating food-grade, checklist keamanan, form intake, kalkulator per item, dan skrip before-after.",
+"status": "live"
+},
+{
+"code": "RELS",
+"niche": "Digital",
+"judul": "Reelsboost Editor: Jasa Edit Reels & Video Pendek UMKM Dengan Teknik Hook-3-Detik + Template Retensi Untuk UMKM Kuliner & Fashion.",
+"tagline": "Bank hook 3 detik, template editing, SOP revisi, paket langganan konten, kalkulator per video, dan skrip prospek UMKM.",
+"status": "live"
+},
+{
+"code": "PKGN",
+"niche": "Digital",
+"judul": "Packlabel Design Studio: Jasa Desain Kemasan & Label Produk UMKM Dengan Teknik Mockup Print-Ready Untuk UMKM Makanan & Skincare.",
+"tagline": "Template kemasan print-ready, SOP file siap cetak, daftar percetakan partner, paket revisi, kalkulator per desain, dan skrip penawaran UMKM.",
+"status": "live"
+},
+{
+"code": "MRKT",
+"niche": "Digital",
+"judul": "Lapaknaik Marketplace Setup: Jasa Setup & Optimasi Toko Shopee/Tokopedia Dengan Teknik Listing-SEO + Foto Grid Untuk Seller Pemula.",
+"tagline": "SOP listing-SEO, template foto grid, checklist optimasi toko, paket kelola bulanan, kalkulator jasa, dan skrip gaet seller pemula.",
+"status": "live"
+},
+{
+"code": "SOUN",
+"niche": "Rental",
+"judul": "Eventsound Rental: Bisnis Rental Sound System & Proyektor Event Dengan Teknik Quick-Setup Plug-and-Play Untuk EO, Sekolah & Hajatan.",
+"tagline": "Daftar paket sound/proyektor, SOP quick-setup, checklist kabel & cadangan, kalkulator sewa & BEP, form booking + deposit, dan skrip gaet EO/sekolah.",
+"status": "live"
+},
+{
+"code": "HJTN",
+"niche": "Rental",
+"judul": "Hajatan Gear Rental: Bisnis Rental Kursi, Tenda & Alat Hajatan Dengan Teknik Inventory-Rotation Untuk Hajatan & Event Kampung.",
+"tagline": "Daftar item paling laku, SOP inventory-rotation, jadwal antar-bongkar, kalkulator sewa & BEP, sistem deposit, dan skrip gaet panitia hajatan/RT.",
+"status": "live"
+},
+{
+"code": "GRDN",
+"niche": "Jasa",
+"judul": "Bisnis Jasa Cuci Gorden & Vitrase Panggilan: Modal Mesin Kecil, Hotel & Rumah Tangga Butuh Rutin, Jarang Pesaing, Potensi Untung Rp14 Juta/Bulan!",
+"tagline": "SOP cuci & steam gorden, daftar deterjen aman warna, checklist QC tanpa lepas-pasang, kalkulator harga per meter, jemput-antar, skrip gaet hotel & perumahan.",
+"status": "live"
+},
+{
+"code": "NANO",
+"niche": "Jasa",
+"judul": "Bisnis Coating Nano Ceramic Motor & Mobil: Modal Kecil, Pemilik Kendaraan Rela Bayar Mahal Demi Kilap Tahan 2 Tahun, Potensi Rp20 Juta/Bulan!",
+"tagline": "SOP aplikasi coating, daftar bahan & alat, checklist QC kilap, kalkulator paket harga, form intake, skrip penawaran komunitas otomotif.",
+"status": "live"
+},
+{
+"code": "ACSV",
+"niche": "Jasa",
+"judul": "Bisnis Jasa Cuci & Service AC Rumahan: Permintaan Membludak Tiap Kemarau, Modal Alat Terjangkau, Potensi Untung Rp18 Juta/Bulan!",
+"tagline": "SOP cuci & isi freon, daftar tools, checklist tekanan & kebocoran, kalkulator harga, paket langganan, skrip gaet perumahan & kantor.",
+"status": "live"
+},
+{
+"code": "LWNG",
+"niche": "Jasa",
+"judul": "Bisnis Jasa Potong Rumput & Rawat Taman Panggilan: Modal Mesin Kecil, Komplek & Kantor Butuh Rutin, Potensi Untung Rp14 Juta/Bulan!",
+"tagline": "SOP rawat taman, daftar alat, jadwal langganan, kalkulator harga per m2, form survei, skrip gaet komplek & perkantoran.",
+"status": "live"
+},
+{
+"code": "SHOE",
+"niche": "Jasa",
+"judul": "Bisnis Laundry Sepatu & Tas Branded: Modal Rp1 Juta, Anak Muda Rela Bayar Premium, Order Tiap Hari, Potensi Untung Rp12 Juta/Bulan!",
+"tagline": "SOP deep clean & whitening, daftar cairan aman, checklist QC, kalkulator paket, jemput-antar, skrip gaet komunitas sneakers.",
+"status": "live"
+},
+{
+"code": "WCMP",
+"niche": "Jasa",
+"judul": "Bisnis Jasa Sedot WC & Atasi Saluran Mampet: Permintaan Tak Pernah Sepi, Tarif Premium Per Panggilan, Potensi Untung Rp25 Juta/Bulan!",
+"tagline": "SOP penyedotan & high-pressure, daftar alat, checklist keamanan, kalkulator tarif, jadwal darurat, skrip gaet perumahan & resto.",
+"status": "live"
+},
+{
+"code": "MOVE",
+"niche": "Jasa",
+"judul": "Bisnis Jasa Pindahan & Packing Rumah: Modal Sistem & Tenaga, Order Premium Tiap Akhir Pekan, Potensi Untung Rp22 Juta/Bulan!",
+"tagline": "SOP packing aman, daftar material, checklist inventaris, kalkulator harga per volume, form survei, skrip gaet apartemen & kos.",
+"status": "live"
+},
+{
+"code": "KCGD",
+"niche": "Jasa",
+"judul": "Bisnis Jasa Cuci Kaca Gedung & Ruko: Modal Alat Ketinggian, Kontrak Bulanan Gedung, Potensi Untung Rp28 Juta/Bulan!",
+"tagline": "SOP cuci kaca aman, checklist safety ketinggian, daftar alat, kalkulator harga per m2, jadwal kontrak, skrip penawaran gedung.",
+"status": "live"
+},
+{
+"code": "KMBC",
+"niche": "Produksi",
+"judul": "Bisnis Kombucha Artisan: Olah Teh Jadi Minuman Probiotik Premium Tahan Lama, Pasar Healthy Lifestyle Naik, Potensi Untung Rp16 Juta/Bulan!",
+"tagline": "SOP fermentasi SCOBY, rasio teh-gula, panduan flavor & karbonasi, kalkulator HPP per botol, QC keamanan, katalog B2B cafe.",
+"status": "live"
+},
+{
+"code": "GRNL",
+"niche": "Produksi",
+"judul": "Bisnis Granola & Sereal Sehat Homemade: Camilan Diet Premium Tahan 3 Bulan, Pasar Wellness Borong, Potensi Untung Rp14 Juta/Bulan!",
+"tagline": "Formula granola renyah, SOP panggang, varian topping, kalkulator HPP per pouch, QC kerenyahan, katalog reseller & cafe.",
+"status": "live"
+},
+{
+"code": "VFRY",
+"niche": "Produksi",
+"judul": "Bisnis Keripik Sayur & Buah Vacuum Fry: Camilan Sehat Renyah Tahan Lama, Modal Vacuum Fryer, Potensi Untung Rp18 Juta/Bulan!",
+"tagline": "SOP vacuum frying, daftar bahan, panduan kerenyahan, kalkulator HPP per pack, QC kadar minyak, katalog oleh-oleh & reseller.",
+"status": "live"
+},
+{
+"code": "GLTO",
+"niche": "Produksi",
+"judul": "Bisnis Gelato & Es Krim Homemade Premium: Modal Rumahan, Cafe & Event Borong, Margin Tebal, Potensi Untung Rp20 Juta/Bulan!",
+"tagline": "Formula base gelato, SOP churning, varian rasa, kalkulator HPP per scoop, QC tekstur, katalog supply cafe & event.",
+"status": "live"
+},
+{
+"code": "SDGH",
+"niche": "Produksi",
+"judul": "Bisnis Roti Sourdough Artisan: Tren Roti Sehat Naik, Pelanggan Loyal Pre-Order, Margin Tinggi, Potensi Untung Rp15 Juta/Bulan!",
+"tagline": "SOP starter & fermentasi, formula adonan, panduan baking, kalkulator HPP per loaf, QC remah, katalog pre-order & cafe.",
+"status": "live"
+},
+{
+"code": "PSTA",
+"niche": "Produksi",
+"judul": "Bisnis Pasta & Mie Segar Premium: Suplai Resto Italia & Cafe Tiap Hari, Modal Mesin Pasta, Potensi Untung Rp17 Juta/Bulan!",
+"tagline": "Formula adonan elastis, SOP cetak & simpan, varian pasta, kalkulator HPP per porsi, QC tekstur, katalog B2B resto.",
+"status": "live"
+},
+{
+"code": "KLDU",
+"niche": "Produksi",
+"judul": "Bisnis Kaldu Jamur & Bumbu Bubuk Alami Tanpa MSG: Pasar Masakan Sehat Borong, Tahan 1 Tahun, Potensi Untung Rp13 Juta/Bulan!",
+"tagline": "Formula kaldu alami, SOP pengeringan & giling, varian rasa, kalkulator HPP per pack, QC kelarutan, katalog reseller sehat.",
+"status": "live"
+},
+{
+"code": "LELE",
+"niche": "Budidaya",
+"judul": "Bisnis Lele Bioflok Pekarangan: Panen Padat Tanpa Kolam Tanah, Permintaan Pasar Stabil, Potensi Untung Rp12 Juta/Bulan!",
+"tagline": "SOP bioflok, takaran pakan & probiotik, manajemen air, kalkulator modal-panen, QC kesehatan ikan, skrip jual ke pasar & resto.",
+"status": "live"
+},
+{
+"code": "JMTI",
+"niche": "Budidaya",
+"judul": "Bisnis Jamur Tiram & Kuping Rumahan: Panen Tiap Hari Dari Kumbung Kecil, Pasar Sayur Borong, Potensi Untung Rp10 Juta/Bulan!",
+"tagline": "SOP baglog & inkubasi, kontrol suhu-lembap, jadwal panen, kalkulator modal-hasil, QC steril, skrip jual pasar & reseller.",
+"status": "live"
+},
+{
+"code": "KLLT",
+"niche": "Budidaya",
+"judul": "Bisnis Madu Kelulut (Trigona): Lebah Tanpa Sengat, Madu Bernilai Tinggi, Pasar Herbal Premium, Potensi Untung Rp15 Juta/Bulan!",
+"tagline": "SOP koloni & panen, panduan pakan & lokasi, teknik panen higienis, kalkulator hasil, QC kadar air, skrip jual herbal & online.",
+"status": "live"
+},
+{
+"code": "MCGR",
+"niche": "Budidaya",
+"judul": "Bisnis Microgreen Premium: Panen Kilat 10 Hari Tanpa Lahan, Restoran & Hotel Rela Bayar Mahal, Potensi Untung Rp14 Juta/Bulan!",
+"tagline": "SOP semai-panen, daftar varian laris, kontrol cahaya-air, kalkulator HPP per tray, QC kesegaran, skrip gaet resto & hotel.",
+"status": "live"
+},
+{
+"code": "CCST",
+"niche": "Budidaya",
+"judul": "Bisnis Cacing Sutra & Lumbricus: Pakan Bernilai Tinggi Diburu Peternak Ikan & Pasar Herbal, Panen Cepat, Potensi Untung Rp11 Juta/Bulan!",
+"tagline": "SOP budidaya media, manajemen pakan, teknik panen, kalkulator modal-hasil, QC kepadatan, skrip jual peternak & online.",
+"status": "live"
+},
+{
+"code": "ULHK",
+"niche": "Budidaya",
+"judul": "Bisnis Ulat Hongkong & Jangkrik: Pakan Burung & Reptil Diborong Tiap Minggu, Modal Receh, Potensi Untung Rp10 Juta/Bulan!",
+"tagline": "SOP kandang & pakan, siklus panen, manajemen suhu, kalkulator modal-hasil, QC, skrip jual ke kios pakan & komunitas.",
+"status": "ide"
+},
+{
+"code": "VOIC",
+"niche": "Digital",
+"judul": "Bisnis Jasa Voice Over Profesional: Modal Mic & Suara, Order Iklan & Konten Tiap Hari Dari Rumah, Potensi Untung Rp16 Juta/Bulan!",
+"tagline": "SOP rekam & edit audio, panduan setup home studio, paket harga per durasi, form brief, portofolio, skrip prospek brand & agensi.",
+"status": "ide"
+},
+{
+"code": "SUBT",
+"niche": "Digital",
+"judul": "Bisnis Jasa Subtitle & Transkripsi: Modal Laptop, Order YouTuber & Perusahaan Tiap Hari, Potensi Untung Rp12 Juta/Bulan!",
+"tagline": "SOP transkrip & timing, tools subtitle, paket harga per menit, QC akurasi, form order, skrip gaet kreator & korporat.",
+"status": "ide"
+},
+{
+"code": "UNDG",
+"niche": "Digital",
+"judul": "Bisnis Jasa Undangan Digital Website: Tren Nikah & Event Naik, Sekali Bikin Jual Berkali, Potensi Untung Rp13 Juta/Bulan!",
+"tagline": "Template undangan web, SOP custom cepat, fitur RSVP & maps, paket harga, form data, skrip gaet calon pengantin & EO.",
+"status": "ide"
+},
+{
+"code": "METB",
+"niche": "Digital",
+"judul": "Bisnis Jasa Pasang & Optimasi Iklan Meta UMKM: Skill Mahal Dibutuhkan Ribuan UMKM, Fee Bulanan, Potensi Untung Rp25 Juta/Bulan!",
+"tagline": "SOP setup campaign, struktur audience & budget, template iklan, kalkulator fee & ROAS, laporan klien, skrip closing UMKM.",
+"status": "ide"
+},
+{
+"code": "LOGO",
+"niche": "Digital",
+"judul": "Bisnis Jasa Desain Logo & Branding UMKM: Modal Laptop, UMKM Baru Lahir Tiap Hari Butuh Brand, Potensi Untung Rp14 Juta/Bulan!",
+"tagline": "Template brand kit, SOP riset & revisi, panduan file siap pakai, paket harga, form brief, skrip penawaran UMKM.",
+"status": "ide"
+},
+{
+"code": "FOTO",
+"niche": "Digital",
+"judul": "Bisnis Jasa Foto Produk Home Studio: Modal Lampu & Backdrop, UMKM Butuh Foto Jualan Tiap Hari, Potensi Untung Rp15 Juta/Bulan!",
+"tagline": "SOP lighting & angle, setup studio mini, editing cepat, paket harga per foto, form order, skrip gaet seller online.",
+"status": "ide"
+},
+{
+"code": "CADM",
+"niche": "Digital",
+"judul": "Bisnis Jasa Admin & CS Olshop Outsource: Kelola Chat & Order Seller Sibuk Dari Rumah, Fee Bulanan, Potensi Untung Rp12 Juta/Bulan!",
+"tagline": "SOP fast response & follow-up, template balasan, manajemen order, paket kelola bulanan, KPI, skrip gaet seller marketplace.",
+"status": "ide"
+},
+{
+"code": "KMRA",
+"niche": "Rental",
+"judul": "Bisnis Rental Kamera & Gear Content Creator: Aset Disewa Berulang, Kreator Butuh Tiap Pekan, Potensi Untung Rp20 Juta/Bulan!",
+"tagline": "Daftar gear paling laku, SOP cek & deposit, kalkulator sewa & BEP, jadwal booking, form sewa, skrip gaet kreator & EO.",
+"status": "ide"
+},
+{
+"code": "PSRN",
+"niche": "Rental",
+"judul": "Bisnis Rental PS & Console Game: Modal Unit, Disewa Harian Tanpa Henti, Balik Modal Cepat, Potensi Untung Rp10 Juta/Bulan!",
+"tagline": "Daftar paket sewa, SOP cek unit, sistem deposit, kalkulator BEP, jadwal antar-jemput, skrip gaet komunitas gamer & kafe.",
+"status": "ide"
+},
+{
+"code": "KSTM",
+"niche": "Rental",
+"judul": "Bisnis Rental Kostum, Toga & Baju Adat: Disewa Tiap Musim Wisuda & Event, Margin Tebal, Potensi Untung Rp13 Juta/Bulan!",
+"tagline": "Daftar item laris, SOP cuci & rotasi, sistem deposit, kalkulator sewa, jadwal booking, skrip gaet kampus & fotografer.",
+"status": "ide"
+},
+{
+"code": "TOYL",
+"niche": "Rental",
+"judul": "Bisnis Rental Mainan Anak (Toy Library): Orangtua Hemat Rela Langganan, Aset Disewa Berulang, Potensi Untung Rp11 Juta/Bulan!",
+"tagline": "Daftar mainan edukatif laris, SOP sanitasi, sistem langganan, kalkulator BEP, jadwal tukar, skrip gaet komunitas ibu & daycare.",
+"status": "ide"
+},
+{
+"code": "CMPG",
+"niche": "Rental",
+"judul": "Bisnis Rental Alat Camping & Outdoor: Tren Healing Naik, Aset Disewa Tiap Akhir Pekan, Potensi Untung Rp14 Juta/Bulan!",
+"tagline": "Daftar gear paling dicari, SOP cek & bersih, sistem deposit, kalkulator sewa & BEP, jadwal booking, skrip gaet komunitas pendaki.",
+"status": "ide"
+},
+{
+"code": "SABN",
+"niche": "Kerajinan",
+"judul": "Bisnis Sabun Artisan Cold Process: Produk Natural Premium Bernilai Jual Tinggi, Pasar Gift & Spa, Potensi Untung Rp12 Juta/Bulan!",
+"tagline": "Formula cold process aman, SOP curing, varian & branding, kalkulator HPP per batang, QC, skrip jual gift shop & online.",
+"status": "ide"
+},
+{
+"code": "RESN",
+"niche": "Kerajinan",
+"judul": "Bisnis Aksesoris Resin Epoxy: Sulap Bunga & Foto Jadi Perhiasan Estetik, Modal Receh Margin Tebal, Potensi Untung Rp10 Juta/Bulan!",
+"tagline": "SOP cetak resin anti-gelembung, daftar bahan, varian produk, kalkulator HPP, QC bening, skrip jual online & gift.",
+"status": "ide"
+},
+{
+"code": "SNDL",
+"niche": "Kerajinan",
+"judul": "Bisnis Sandal & Sepatu Custom Handmade: Pasar Anti-Mainstream Rela Bayar Mahal, Modal Kecil, Potensi Untung Rp13 Juta/Bulan!",
+"tagline": "SOP pola & jahit, daftar bahan, varian desain custom, kalkulator HPP per pasang, QC, skrip jual komunitas & online.",
+"status": "ide"
+},
+{
+"code": "TRRM",
+"niche": "Kerajinan",
+"judul": "Bisnis Terrarium & Kokedama Estetik: Tanaman Hias Mini Bernilai Jual Tinggi, Pasar Dekorasi & Gift, Potensi Untung Rp11 Juta/Bulan!",
+"tagline": "SOP rakit terrarium, daftar tanaman & media, varian desain, kalkulator HPP, QC, skrip jual gift shop & interior.",
+"status": "ide"
+},
+{
+"code": "KRJL",
+"niche": "Produksi",
+"judul": "Bisnis Kerupuk Ikan & Udang Premium Mentah: Suplai Oleh-oleh & Reseller Tiap Minggu, Tahan Lama, Potensi Untung Rp15 Juta/Bulan!",
+"tagline": "Formula adonan, SOP cetak & jemur, panduan goreng mengembang, kalkulator HPP per pack, QC, katalog oleh-oleh & reseller.",
+"status": "ide"
+},
+{
+"code": "PCKL",
+"niche": "Produksi",
+"judul": "Bisnis Pickle & Acar Fermentasi Premium: Pendamping Sehat Pasar Kuliner Naik, Tahan Lama, Potensi Untung Rp10 Juta/Bulan!",
+"tagline": "SOP fermentasi & sterilisasi, rasio brine, varian sayur, kalkulator HPP per jar, QC keasaman, katalog cafe & reseller.",
+"status": "ide"
+},
+{
+"code": "LMPU",
+"niche": "Jasa",
+"judul": "Bisnis Jasa Poles & Restorasi Lampu Mobil Buram: Lampu Kusam Jadi Bening Seperti Baru Dalam 30 Menit, Pemilik Mobil Rela Bayar, Potensi Untung Rp10 Juta/Bulan!",
+"tagline": "SOP poles & coating lampu, daftar bahan & alat, checklist QC bening, kalkulator harga per titik, jemput-antar, skrip gaet bengkel & komunitas mobil.",
+"status": "ide"
+},
+{
+"code": "FYTB",
+"niche": "Digital",
+"judul": "Bisnis Faceless YouTube Tanpa Muka: Upload Video AI Tinggal Ikuti Template, Cuan Adsense Pasif Tanpa Ngomong, Potensi Rp15 Juta/Bulan!",
+"tagline": "Niche faceless paling cuan, SOP riset+script AI, tools voice & visual, template upload, monetisasi Adsense, skrip scale channel.",
+"status": "ide"
+},
+{
+"code": "TKAF",
+"niche": "Digital",
+"judul": "Bisnis TikTok Affiliate Tanpa Modal Produk: Tinggal Review & Posting, Komisi Ngalir Otomatis, Cocok Pemula Malas Ribet, Potensi Rp10 Juta/Bulan!",
+"tagline": "Cara daftar & pilih produk komisi tinggi, formula video viral, jadwal posting, tools editing, sistem komisi, skrip scale.",
+"status": "ide"
+},
+{
+"code": "SPAF",
+"niche": "Digital",
+"judul": "Bisnis Shopee Affiliate Pemula: Sebar Link Tinggal Ikuti Step, Komisi Tiap Klik & Beli, Tanpa Stok & Modal, Potensi Rp8 Juta/Bulan!",
+"tagline": "Setup akun affiliate, pilih produk laris, konten penghasil klik, jadwal sebar, tracking komisi, skrip naik level.",
+"status": "ide"
+},
+{
+"code": "CNVA",
+"niche": "Digital",
+"judul": "Bisnis Jualan Template Canva Auto-Cuan: Bikin Sekali Jual Berkali Tanpa Modal, Passive Income Pemula, Potensi Rp12 Juta/Bulan!",
+"tagline": "Niche template paling dicari, SOP desain cepat, sistem jual digital, harga & bundling, platform jualan, skrip promosi.",
+"status": "ide"
+},
+{
+"code": "LRPS",
+"niche": "Digital",
+"judul": "Bisnis Jualan Preset Lightroom: Edit Sekali Jual Selamanya, Pasar Fotografi & IG Borong, Modal HP, Potensi Rp7 Juta/Bulan!",
+"tagline": "Cara bikin preset laris, paket bundling, sistem file digital, harga jual, platform & marketplace, skrip jualan.",
+"status": "ide"
+},
+{
+"code": "NOTM",
+"niche": "Digital",
+"judul": "Bisnis Jualan Template Notion & Excel: Produk Digital Passive Tinggal Upload, Pasar Produktivitas Naik, Potensi Rp9 Juta/Bulan!",
+"tagline": "Template paling laku, SOP bikin rapi, sistem lisensi, harga & bundle, platform jual, skrip promosi.",
+"status": "ide"
+},
+{
+"code": "AIMG",
+"niche": "Digital",
+"judul": "Bisnis Jasa Gambar AI: Order Desain & Ilustrasi Tinggal Prompt, Tanpa Skill Gambar, UMKM Borong, Potensi Rp10 Juta/Bulan!",
+"tagline": "Tools AI image, formula prompt menjual, paket harga, alur revisi, niche klien, skrip prospek UMKM.",
+"status": "ide"
+},
+{
+"code": "AICW",
+"niche": "Digital",
+"judul": "Bisnis Jasa Tulis Konten AI: Artikel & Caption Tinggal Prompt, Selesai Cepat Tanpa Pusing, Klien Tiap Hari, Potensi Rp9 Juta/Bulan!",
+"tagline": "Tools AI tulis, SOP edit anti-robotik, paket per artikel, niche klien, sistem revisi, skrip prospek.",
+"status": "ide"
+},
+{
+"code": "PRMT",
+"niche": "Digital",
+"judul": "Bisnis Jualan Prompt Pack AI: Kumpulan Prompt Siap Pakai Dijual Berkali, Pasar AI Lagi Booming, Modal Receh, Potensi Rp6 Juta/Bulan!",
+"tagline": "Prompt paling dicari, paket bundling, sistem file digital, harga, platform jual, skrip promosi.",
+"status": "ide"
+},
+{
+"code": "IGTP",
+"niche": "Digital",
+"judul": "Bisnis Akun Tema Instagram Faceless: Posting Konten Tinggal Repost, Cuan Endorse & Affiliate Pasif, Potensi Rp8 Juta/Bulan!",
+"tagline": "Niche page paling cepat naik, SOP konten harian, tools jadwal, cara monetisasi endorse, rate card, skrip closing.",
+"status": "ide"
+},
+{
+"code": "DRSH",
+"niche": "Digital",
+"judul": "Bisnis Dropship Tanpa Stok & Modal: Tinggal Posting Produk Supplier, Untung Tiap Order, Cocok Malas Ribet, Potensi Rp12 Juta/Bulan!",
+"tagline": "Cari supplier amanah, pilih produk laris, sistem posting & order, hitung margin, tools otomatis, skrip jualan.",
+"status": "ide"
+},
+{
+"code": "PODK",
+"niche": "Digital",
+"judul": "Bisnis Print-on-Demand Kaos & Mug: Desain Sekali, Sistem Cetak-Kirim Otomatis Tanpa Stok, Potensi Rp10 Juta/Bulan!",
+"tagline": "Platform POD, desain laris, sistem auto cetak-kirim, harga & margin, riset niche, skrip promosi.",
+"status": "ide"
+},
+{
+"code": "UGCR",
+"niche": "Digital",
+"judul": "Bisnis Jadi UGC Creator: Review Produk Brand Dibayar Tanpa Jualan, Modal HP, Skill Dipandu, Potensi Rp10 Juta/Bulan!",
+"tagline": "Cara dapat brand, formula video UGC, rate card, alur kerja, portofolio, skrip pitch brand.",
+"status": "ide"
+},
+{
+"code": "PLRR",
+"niche": "Digital",
+"judul": "Bisnis Jualan Produk Digital Orang Lain (Lisensi Jual): Tinggal Jual Ulang & Ambil 100% Untung, Tanpa Bikin, Potensi Rp9 Juta/Bulan!",
+"tagline": "Cari produk lisensi, sistem jual ulang, paket bundling, harga, platform, skrip jualan.",
+"status": "ide"
+},
+{
+"code": "STKR",
+"niche": "Digital",
+"judul": "Bisnis Jualan Sticker WhatsApp & Telegram: Bikin Pack Sekali Jual Terus, Modal HP, Pasar Luas, Potensi Rp5 Juta/Bulan!",
+"tagline": "Tools bikin sticker, tema laris, sistem jual digital, harga & bundle, platform, skrip promosi.",
+"status": "ide"
+},
+{
+"code": "CVAT",
+"niche": "Digital",
+"judul": "Bisnis Jasa Bikin CV ATS Lolos Screening: Order Tiap Musim Lamaran, Tinggal Ikuti Template, Potensi Rp7 Juta/Bulan!",
+"tagline": "Template CV ATS, SOP isi cepat, paket harga, niche pelamar, alur revisi, skrip promosi job-seeker.",
+"status": "ide"
+},
+{
+"code": "WEBL",
+"niche": "Digital",
+"judul": "Bisnis Jasa Bikin Website & Landing Page UMKM: Pakai Template Tinggal Rakit, Tanpa Coding, Potensi Rp15 Juta/Bulan!",
+"tagline": "Tools no-code, template laris, SOP rakit cepat, paket harga, niche klien, skrip prospek UMKM.",
+"status": "ide"
+},
+{
+"code": "SMMG",
+"niche": "Digital",
+"judul": "Bisnis Jasa Kelola Sosmed UMKM: Atur Konten IG/TikTok Klien dari HP, Fee Bulanan Pasif, Potensi Rp14 Juta/Bulan!",
+"tagline": "SOP konten & jadwal, tools desain, paket kelola bulanan, KPI, niche klien, skrip closing UMKM.",
+"status": "ide"
+},
+{
+"code": "TADS",
+"niche": "Digital",
+"judul": "Bisnis Jasa Iklan TikTok Ads UMKM: Skill Mahal Dibutuhkan Ribuan Seller, Fee Bulanan, Potensi Rp20 Juta/Bulan!",
+"tagline": "SOP setup campaign, struktur budget & audience, template iklan, laporan klien, fee & ROAS, skrip closing.",
+"status": "ide"
+},
+{
+"code": "PPTJ",
+"niche": "Digital",
+"judul": "Bisnis Jasa Bikin Slide & Presentasi Profesional: Order Mahasiswa & Kantor Tiap Hari, Pakai Template, Potensi Rp7 Juta/Bulan!",
+"tagline": "Template slide premium, SOP rakit cepat, paket harga, niche klien, alur revisi, skrip promosi.",
+"status": "ide"
+},
+{
+"code": "FEED",
+"niche": "Digital",
+"judul": "Bisnis Jasa Desain Feed & Carousel IG UMKM: Pakai Template Tinggal Ganti, Order Rutin, Potensi Rp9 Juta/Bulan!",
+"tagline": "Template feed laris, SOP desain cepat, paket bulanan, niche klien, alur revisi, skrip prospek.",
+"status": "ide"
+},
+{
+"code": "DATA",
+"niche": "Digital",
+"judul": "Bisnis Jasa Entry Data & Olah Excel Online: Kerja dari HP/Laptop Tinggal Ikuti Format, Order Stabil, Potensi Rp6 Juta/Bulan!",
+"tagline": "SOP entry cepat & akurat, tools, paket harga, niche klien, QC, skrip prospek.",
+"status": "ide"
+},
+{
+"code": "TRJM",
+"niche": "Digital",
+"judul": "Bisnis Jasa Terjemahan & Subtitle Bantu AI: Selesai Cepat dari Rumah, Order Kreator & Kantor, Potensi Rp8 Juta/Bulan!",
+"tagline": "Tools bantu AI, SOP akurasi, paket per kata/menit, niche klien, QC, skrip prospek.",
+"status": "ide"
+},
+{
+"code": "FBAD",
+"niche": "Digital",
+"judul": "Bisnis Jasa Buka Toko TikTok Shop Seller Baru: Setup & Optimasi Tinggal Ikuti, Seller Bingung Borong Jasamu, Potensi Rp13 Juta/Bulan!",
+"tagline": "SOP buka & verifikasi toko, optimasi etalase, riset produk laris, paket jasa, niche seller, skrip closing.",
+"status": "ide"
+},
+{
+"code": "JSTP",
+"niche": "Jasa",
+"judul": "Bisnis Jastip (Titip Beli) Online: Belanja Sambil Cuan, Modal Receh Tanpa Stok, Cocok Ibu Rumah Tangga, Potensi Rp8 Juta/Bulan!",
+"tagline": "Cara mulai jastip, pilih barang laris, hitung fee, sistem PO & DP, gaet pelanggan, skrip promosi.",
+"status": "ide"
+},
+{
+"code": "KURL",
+"niche": "Jasa",
+"judul": "Bisnis Jasa Antar-Jemput & Kurir Lokal: Modal Motor, Order Tiap Hari dari UMKM Sekitar, Potensi Rp9 Juta/Bulan!",
+"tagline": "Tentukan area & tarif, sistem order, langganan UMKM, kalkulator ongkos, jadwal, skrip gaet toko.",
+"status": "ide"
+},
+{
+"code": "CMTR",
+"niche": "Jasa",
+"judul": "Bisnis Cuci Motor Panggilan: Datang ke Rumah Pelanggan, Modal Alat Kecil, Order Rutin, Potensi Rp8 Juta/Bulan!",
+"tagline": "SOP cuci cepat, daftar alat, paket langganan, kalkulator harga, area layanan, skrip gaet komplek.",
+"status": "ide"
+},
+{
+"code": "TBAN",
+"niche": "Jasa",
+"judul": "Bisnis Jasa Tambal Ban & Aki Panggilan: Darurat Selalu Dicari, Tarif Premium, Modal Kecil, Potensi Rp10 Juta/Bulan!",
+"tagline": "SOP tambal & jumper, daftar alat, tarif darurat, area & jadwal, sistem panggilan, skrip promosi.",
+"status": "ide"
+},
+{
+"code": "STRK",
+"niche": "Jasa",
+"judul": "Bisnis Jasa Setrika & Lipat Kiloan: Kerja dari Rumah Tinggal Ikuti Ritme, Langganan Tiap Minggu, Potensi Rp6 Juta/Bulan!",
+"tagline": "SOP setrika rapi cepat, hitung harga kiloan, jemput-antar, langganan, kapasitas, skrip gaet kos.",
+"status": "ide"
+},
+{
+"code": "HMCL",
+"niche": "Jasa",
+"judul": "Bisnis Jasa Bersih Rumah Harian (Cleaning Service): Order Rutin dari Keluarga Sibuk, Modal Alat, Potensi Rp11 Juta/Bulan!",
+"tagline": "SOP bersih cepat per ruang, checklist, paket langganan, kalkulator harga, tim, skrip gaet perumahan.",
+"status": "ide"
+},
+{
+"code": "PPOB",
+"niche": "Jasa",
+"judul": "Bisnis Agen PPOB Pulsa, Token & Bayar Tagihan: Cuan Tiap Transaksi Tetangga, Modal Receh dari HP, Potensi Rp6 Juta/Bulan!",
+"tagline": "Cara daftar agen, atur margin, layanan paling laku, sistem deposit, gaet pelanggan tetap, skrip promosi.",
+"status": "ide"
+},
+{
+"code": "TOPG",
+"niche": "Jasa",
+"judul": "Bisnis Top-Up Game & Voucher: Pasar Gamer Tak Pernah Sepi, Cuan Tiap Top-Up, Modal Kecil, Potensi Rp7 Juta/Bulan!",
+"tagline": "Cari distributor murah, atur margin, item laris, sistem order cepat, gaet komunitas gamer, skrip promosi.",
+"status": "ide"
+},
+{
+"code": "LNDR",
+"niche": "Jasa",
+"judul": "Bisnis Laundry Kiloan Express Rumahan: Langganan Mahasiswa & Kos Tiap Minggu, Modal Mesin, Potensi Rp12 Juta/Bulan!",
+"tagline": "SOP cuci-kering-lipat, hitung harga & HPP, jemput-antar, paket langganan, kapasitas, skrip gaet kos.",
+"status": "ide"
+},
+{
+"code": "FCPR",
+"niche": "Jasa",
+"judul": "Bisnis Jasa Print & Fotokopi Online: Kirim File Tinggal Cetak Antar, Order Mahasiswa Tiap Hari, Potensi Rp7 Juta/Bulan!",
+"tagline": "Sistem terima file online, daftar harga, antar-jemput, paket jilid, alat minimal, skrip gaet kampus.",
+"status": "ide"
+},
+{
+"code": "AMBL",
+"niche": "Jasa",
+"judul": "Bisnis Jasa Servis & Ganti Sparepart HP: Permintaan Tiap Hari, Skill Dipandu Step, Modal Alat Kecil, Potensi Rp13 Juta/Bulan!",
+"tagline": "SOP servis umum (LCD/baterai), daftar tools & part, kalkulator jasa, sumber part murah, garansi, skrip gaet.",
+"status": "ide"
+},
+{
+"code": "ELKT",
+"niche": "Jasa",
+"judul": "Bisnis Jasa Servis Elektronik Rumahan (Kipas, Magic Com, dll): Barang Rusak Selalu Ada, Modal Kecil, Potensi Rp9 Juta/Bulan!",
+"tagline": "SOP servis umum, daftar alat & part, kalkulator jasa, sumber part, garansi, skrip gaet warga.",
+"status": "ide"
+},
+{
+"code": "KOPL",
+"niche": "Produksi",
+"judul": "Bisnis Kopi Susu Literan Kekinian: Tren Naik Terus, Modal Kecil Margin Tebal, Order Borongan, Potensi Rp15 Juta/Bulan!",
+"tagline": "Resep base & varian, SOP produksi literan, hitung HPP per liter, kemasan, sistem PO, skrip jualan online.",
+"status": "ide"
+},
+{
+"code": "ESTJ",
+"niche": "Produksi",
+"judul": "Bisnis Es Teh Jumbo Premium: Viral & Selalu Laris, Modal Receh Untung Berlipat, Potensi Rp10 Juta/Bulan!",
+"tagline": "Resep teh & varian, SOP cepat, hitung HPP, kemasan jumbo, lokasi & online, skrip promosi.",
+"status": "ide"
+},
+{
+"code": "DSRT",
+"niche": "Produksi",
+"judul": "Bisnis Dessert Box Kekinian: Cantik & Viral di Sosmed, Pre-Order Tiap Hari, Margin Tinggi, Potensi Rp12 Juta/Bulan!",
+"tagline": "Resep dessert laris, SOP layering, hitung HPP per box, kemasan estetik, sistem PO, skrip jualan IG.",
+"status": "ide"
+},
+{
+"code": "MRYM",
+"niche": "Produksi",
+"judul": "Bisnis Roti Maryam & Canai Frozen: Tinggal Panaskan, Tahan Lama, Suplai Cafe & Reseller, Potensi Rp11 Juta/Bulan!",
+"tagline": "Resep adonan, SOP cetak-beku, panduan reheat, HPP per pcs, QC, katalog reseller.",
+"status": "ide"
+},
+{
+"code": "KBAB",
+"niche": "Produksi",
+"judul": "Bisnis Kebab Frozen Siap Goreng: Suplai Resto & Reseller Tiap Hari, Tahan 3 Bulan, Potensi Rp12 Juta/Bulan!",
+"tagline": "Resep isian & kulit, SOP rolling-beku, HPP per pcs, QC, kemasan, katalog reseller.",
+"status": "ide"
+},
+{
+"code": "BMBU",
+"niche": "Produksi",
+"judul": "Bisnis Bumbu Dasar & Marinasi Instan: Emak-Emak Sibuk Borong, Tahan Lama, Modal Dapur, Potensi Rp9 Juta/Bulan!",
+"tagline": "Resep bumbu dasar, SOP produksi & simpan, HPP per pack, kemasan, QC, katalog reseller & online.",
+"status": "ide"
+},
+{
+"code": "YGRT",
+"niche": "Produksi",
+"judul": "Bisnis Yogurt & Kefir Homemade Sehat: Pasar Healthy Lifestyle Naik, Modal Kecil, Langganan, Potensi Rp8 Juta/Bulan!",
+"tagline": "Resep & fermentasi, SOP higienis, HPP per botol, varian rasa, kemasan, skrip jualan sehat.",
+"status": "ide"
+},
+{
+"code": "ABON",
+"niche": "Produksi",
+"judul": "Bisnis Abon Premium (Sapi/Lele/Ayam): Tahan Lama, Oleh-oleh & Reseller Borong, Potensi Rp10 Juta/Bulan!",
+"tagline": "Resep abon kering, SOP produksi, HPP per pack, kemasan, QC, katalog oleh-oleh & reseller.",
+"status": "ide"
+},
+{
+"code": "TLAS",
+"niche": "Produksi",
+"judul": "Bisnis Telur Asin Asap Premium: Awet, Margin Tebal, Pasar Oleh-oleh Stabil, Modal Kecil, Potensi Rp7 Juta/Bulan!",
+"tagline": "SOP pengasinan & asap, HPP per butir, kemasan, QC, lokasi & online, skrip jualan.",
+"status": "ide"
+},
+{
+"code": "FRPN",
+"niche": "Produksi",
+"judul": "Bisnis Frozen Pentol & Bakso Aci: Tinggal Rebus, Anak-Anak Suka, Reseller Borong, Potensi Rp9 Juta/Bulan!",
+"tagline": "Resep kenyal, SOP cetak-beku, HPP per pack, kemasan, QC, katalog reseller.",
+"status": "ide"
+},
+{
+"code": "MDUK",
+"niche": "Produksi",
+"judul": "Bisnis Madu Murni Kemasan Branded: Pasar Herbal Loyal, Margin Tinggi, Modal Kecil, Potensi Rp10 Juta/Bulan!",
+"tagline": "Sumber madu asli, uji keaslian, kemasan & branding, HPP, sistem reseller, skrip jualan herbal.",
+"status": "ide"
+},
+{
+"code": "PRFM",
+"niche": "Produksi",
+"judul": "Bisnis Parfum Isi Ulang & Refill: Pelanggan Balik Terus, Modal Bibit Kecil Margin Besar, Potensi Rp12 Juta/Bulan!",
+"tagline": "Sumber bibit & botol, formula tahan lama, HPP per botol, kemasan, lokasi/booth, skrip gaet pelanggan.",
+"status": "ide"
+},
+{
+"code": "SKML",
+"niche": "Produksi",
+"judul": "Bisnis Skincare Private Label (Maklon): Brand Sendiri Tanpa Pabrik, Pasar Beauty Booming, Potensi Rp20 Juta/Bulan!",
+"tagline": "Cara pilih maklon & izin, riset produk laris, branding & kemasan, HPP & harga, channel jual, skrip launching.",
+"status": "ide"
+},
+{
+"code": "LPTN",
+"niche": "Produksi",
+"judul": "Bisnis Lip Tint & Lip Balm Homemade: Modal Kecil, Pasar Remaja Borong, Cantik & Viral, Potensi Rp8 Juta/Bulan!",
+"tagline": "Formula aman, SOP produksi, HPP per pcs, kemasan estetik, QC, skrip jualan online.",
+"status": "ide"
+},
+{
+"code": "HMPR",
+"niche": "Kerajinan",
+"judul": "Bisnis Hampers & Gift Box Custom: Laris Tiap Musim Lebaran/Nikah, Margin Tebal, Modal Kecil, Potensi Rp12 Juta/Bulan!",
+"tagline": "Ide isi & tema laris, SOP rakit cantik, HPP & paket harga, supplier, sistem PO, skrip jualan.",
+"status": "ide"
+},
+{
+"code": "SBQT",
+"niche": "Kerajinan",
+"judul": "Bisnis Buket Snack & Uang Custom: Order Wisuda & Ultah Tiap Hari, Modal Receh, Margin Tinggi, Potensi Rp9 Juta/Bulan!",
+"tagline": "Cara rakit estetik, ide tema, HPP & harga, supplier murah, sistem PO, skrip jualan IG.",
+"status": "ide"
+},
+{
+"code": "AKSR",
+"niche": "Kerajinan",
+"judul": "Bisnis Aksesoris Handmade Manik & Clay: Tren Y2K Naik, Modal Receh, Pasar Remaja, Potensi Rp7 Juta/Bulan!",
+"tagline": "Teknik bikin laris, ide desain tren, HPP per pcs, kemasan, platform jual, skrip promosi.",
+"status": "ide"
+},
+{
+"code": "CPNG",
+"niche": "Budidaya",
+"judul": "Bisnis Budidaya Ikan Cupang Hias: Hobi Jadi Cuan, Pasar Kolektor Loyal, Modal Kecil, Potensi Rp8 Juta/Bulan!",
+"tagline": "Pilih indukan & breeding, perawatan air, grading kualitas, kalkulator hasil, foto jual, skrip pasar online.",
+"status": "ide"
+},
+{
+"code": "AYKP",
+"niche": "Budidaya",
+"judul": "Bisnis Ternak Ayam Kampung/Joper Cepat Panen: Permintaan Daging Tinggi, Modal Bertahap, Potensi Rp12 Juta/Bulan!",
+"tagline": "SOP kandang & pakan, manajemen panen, kalkulator modal-hasil, kesehatan, jual ke pasar/resto, skrip.",
+"status": "ide"
+},
+{
+"code": "PUYH",
+"niche": "Budidaya",
+"judul": "Bisnis Ternak Puyuh Petelur: Telur Laku Tiap Hari, Modal Kecil Balik Cepat, Potensi Rp9 Juta/Bulan!",
+"tagline": "SOP kandang & pakan, manajemen telur, kalkulator modal-hasil, kesehatan, distribusi, skrip jual.",
+"status": "ide"
+},
+{
+"code": "BLUT",
+"niche": "Budidaya",
+"judul": "Bisnis Budidaya Belut Tanpa Lumpur: Panen Bernilai Tinggi, Lahan Sempit, Modal Kecil, Potensi Rp10 Juta/Bulan!",
+"tagline": "SOP media & bibit, pakan, manajemen panen, kalkulator hasil, pasar & resto, skrip jual.",
+"status": "ide"
+},
+{
+"code": "MGBF",
+"niche": "Budidaya",
+"judul": "Bisnis Budidaya Maggot BSF untuk Pakan: Diburu Peternak, Olah Sampah Organik Jadi Cuan, Potensi Rp8 Juta/Bulan!",
+"tagline": "SOP kandang & bibit, kelola media organik, panen & olah, kalkulator hasil, pasar peternak, skrip jual.",
+"status": "ide"
+},
+{
+"code": "ANGR",
+"niche": "Budidaya",
+"judul": "Bisnis Anggrek & Tanaman Hias Indoor: Hobi Mahal Jadi Cuan, Pasar Kolektor Naik, Potensi Rp9 Juta/Bulan!",
+"tagline": "Pilih jenis laris, perawatan, perbanyakan, kalkulator hasil, foto jual estetik, skrip pasar online.",
+"status": "ide"
+},
+{
+"code": "BBTB",
+"niche": "Budidaya",
+"judul": "Bisnis Bibit Sayur & Buah Polybag Siap Tanam: Hobi Berkebun Booming, Panen Cepat Jual, Potensi Rp7 Juta/Bulan!",
+"tagline": "Pilih bibit laris, SOP semai, perawatan, kalkulator hasil, kemasan polybag, skrip jual online.",
+"status": "ide"
+},
+{
+"code": "RMTR",
+"niche": "Rental",
+"judul": "Bisnis Rental Motor & Sepeda Listrik Wisata: Aset Disewa Tiap Hari di Area Wisata, Potensi Rp14 Juta/Bulan!",
+"tagline": "Pilih unit & lokasi, SOP sewa & deposit, kalkulator BEP, perawatan, sistem booking, skrip gaet turis.",
+"status": "ide"
+},
+{
+"code": "RFRN",
+"niche": "Rental",
+"judul": "Bisnis Rental Furniture & Perabot Kos-Kontrakan: Anak Kos Sewa Bulanan (Kasur, Lemari, Meja), Aset Disewa Pasif Berulang, Potensi Rp11 Juta/Bulan!",
+"tagline": "Item paling laku, SOP cek & deposit, kalkulator sewa & BEP, perawatan, sistem booking bulanan, skrip gaet anak kos & pemilik kontrakan.",
+"status": "ide"
+},
+{
+"code": "RKOS",
+"niche": "Rental",
+"judul": "Bisnis Kelola Kos & Kontrakan (Tanpa Punya Properti): Sistem Sewa-Kelola, Fee Bulanan Pasif, Potensi Rp15 Juta/Bulan!",
+"tagline": "Cara kerjasama pemilik, SOP kelola & maintenance, sistem sewa, kalkulator fee, gaet penyewa, skrip deal pemilik.",
+"status": "ide"
+},
+{
+"code": "RLPC",
+"niche": "Rental",
+"judul": "Bisnis Rental Laptop & PC: Disewa Mahasiswa & Event Tiap Bulan, Aset Balik Modal, Potensi Rp10 Juta/Bulan!",
+"tagline": "Pilih unit, SOP cek & deposit, kalkulator BEP, perawatan, sistem booking, skrip gaet kampus/kantor.",
+"status": "ide"
+},
+{
+"code": "KTRG",
+"niche": "Produksi",
+"judul": "Bisnis Catering Rumahan Harian (Lunch Box): Langganan Karyawan & Kantor Tiap Hari, Potensi Rp14 Juta/Bulan!",
+"tagline": "Menu rotasi & HPP, SOP masak-packing, sistem langganan, kalkulator porsi, antar, skrip gaet kantor.",
+"status": "ide"
+},
+{
+"code": "CKLT",
+"niche": "Produksi",
+"judul": "Bisnis Cokelat & Praline Custom: Order Hampers & Souvenir Nikah, Margin Tinggi, Potensi Rp9 Juta/Bulan!",
+"tagline": "Resep & tempering, SOP cetak, HPP per pcs, kemasan custom, sistem PO, skrip jualan.",
+"status": "ide"
+},
+{
+"code": "KRPK",
+"niche": "Produksi",
+"judul": "Bisnis Keripik Pedas Kemasan Viral: Camilan Tren, Margin Tebal, Reseller & Online Borong, Potensi Rp10 Juta/Bulan!",
+"tagline": "Resep & level pedas, SOP produksi renyah, HPP per pack, kemasan menarik, QC, skrip jualan online.",
+"status": "ide"
+},
+{
+"code": "MTCH",
+"niche": "Produksi",
+"judul": "Bisnis Minuman Matcha & Coklat Literan: Tren Sehat Kekinian, Modal Kecil Margin Besar, Potensi Rp12 Juta/Bulan!",
+"tagline": "Resep base & varian, SOP literan, HPP, kemasan, sistem PO, skrip jualan online.",
+"status": "ide"
+},
+{
+"code": "SAVO",
+"niche": "Digital",
+"judul": "Bisnis Jasa Voice AI & Dubbing Konten: Order Kreator Tiap Hari Tinggal Generate, Modal Laptop, Potensi Rp9 Juta/Bulan!",
+"tagline": "Tools voice AI, SOP natural, paket per durasi, niche klien, alur revisi, skrip prospek.",
+"status": "ide"
+},
+{
+"code": "MUSJ",
+"niche": "Digital",
+"judul": "Bisnis Jasa Bikin Jingle & Backsound UMKM: Order Iklan & Konten, Bantu Tools Musik, Potensi Rp8 Juta/Bulan!",
+"tagline": "Tools musik & AI, SOP cepat, paket harga, niche klien, alur revisi, skrip prospek.",
+"status": "ide"
+}
+]
+}
