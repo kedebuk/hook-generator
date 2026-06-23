@@ -288,7 +288,9 @@ function updateCombo(){const f=st=>HOOKS.filter(x=>x.s===st).length*SCRIPTS.filt
 
 /* ===== SHEET SEARCH (titles.json) ===== */
 let TITLES=[];
-function nicheToJenis(n){return (n||'').toLowerCase().trim();}
+const NICHE_JENIS={"digital":"usaha digital","produksi":"usaha produksi","jasa":"usaha jasa","jasa b2b":"usaha jasa B2B","budidaya":"budidaya","rental":"usaha rental","kerajinan":"usaha kerajinan","trading":"trading","3d print":"usaha 3D print","bangun rumah":"jasa bangun rumah"};
+function nicheToJenis(n){n=(n||'').toLowerCase().trim(); return NICHE_JENIS[n]||(n?("usaha "+n):"usaha ini");}
+function shortName(s){const x=(s||'').split(/[—–:]/)[0].trim(); return x.length>=3?x:(s||'').slice(0,40);}
 function loadTitles(){
   $('syncInfo').textContent="memuat judul…";
   fetch('titles.json?t='+Date.now()).then(r=>r.json()).then(d=>{
@@ -305,11 +307,11 @@ function renderResults(q){
   box.classList.add('show');
 }
 function selectTitle(t){
-  $('judul').value=t.judul||'';
-  if(t.niche) $('jenis').value=nicheToJenis(t.niche);
-  // derive aksi/satuan dari jenis
-  const w=$('jenis').value.trim().split(/\s+/);
-  if(w.length){$('aksi').value=w[0]; $('satuan').value=w.length>1?w.slice(1).join(' '):w[0];}
+  $('judul').value=t.nama||shortName(t.judul);
+  $('jenis').value=nicheToJenis(t.niche);
+  // default generic (biar gak ada kata niche lain nyangkut) — editor bisa sesuaikan di Detail usaha
+  $('aksi').value="kerjain"; $('satuan').value="order";
+  $('segmen').value="orang yang lagi nyari jasa ini"; $('grup').value="lokasi rame"; $('komunitas').value="komunitas";
   $('search').value=(t.judul||'').slice(0,70);
   $('results').classList.remove('show');
   const p=$('picked'); p.classList.add('show');
@@ -331,7 +333,7 @@ $('copyAll').addEventListener('click',e=>{if(current.length)copyText(current.map
 $('out').addEventListener('click',e=>{if(e.target.classList.contains('copy'))copyText(cardText(current[+e.target.dataset.i]),e.target);});
 $('results').addEventListener('click',e=>{const it=e.target.closest('.ritem');if(it)selectTitle(TITLES[+it.dataset.idx]);});
 $('search').addEventListener('input',e=>renderResults(e.target.value));
-$('search').addEventListener('keydown',e=>{if(e.key==='Enter'){const v=e.target.value.trim();if(v&&!$('results').classList.contains('show')){$('judul').value=v;$('picked').classList.remove('show');generate();}}});
+$('search').addEventListener('keydown',e=>{if(e.key==='Enter'){const v=e.target.value.trim();if(v&&!$('results').classList.contains('show')){$('judul').value=shortName(v);$('picked').classList.remove('show');generate();}}});
 document.addEventListener('click',e=>{if(!e.target.closest('.searchbox'))$('results').classList.remove('show');});
 document.querySelectorAll('.seg button').forEach(b=>b.addEventListener('click',()=>{styleMode=b.dataset.style;document.querySelectorAll('.seg button').forEach(x=>x.classList.remove('on'));b.classList.add('on');saveInputs();if(current.length)generate();}));
 
