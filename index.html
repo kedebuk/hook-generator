@@ -131,8 +131,10 @@
       </div>
       <div class="controls">
         <select id="count" style="flex:0 0 auto;width:auto"><option>3</option><option selected>5</option><option>8</option><option>10</option></select>
+        <button class="btn sec" id="diceNum" title="acak ulang angka & omset">🎲 Angka</button>
         <button class="btn" id="gen">🎲 Acak Angle</button>
       </div>
+      <div class="combo" id="omsetInfo"></div>
       <div class="combo" id="combo"></div>
     </div>
 
@@ -253,6 +255,25 @@ function getVals(){
 }
 function fill(s,V){return s.replace(/\{(\w+)\}/g,(m,k)=>k in V?V[k]:m);}
 
+/* ===== AUTO-ROTATE ANGKA (seeded per judul -> omset beda tiap produk) ===== */
+function hashStr(s){let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619);}return h>>>0;}
+function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};}
+const POOLS={harga:[35000,40000,45000,50000,55000,60000,65000],modalpct:[0.1,0.13,0.16,0.2],unit:[11,12,14,15,16,18,20],
+  langganan:[50000,60000,75000,80000,100000,120000],jml:[60,80,100,120,150],modalUsaha:[500000,750000,1000000,1500000,2000000,3000000],
+  ag:[30,40,50,60,80],ak:[25,30,40,50,60],
+  segmen:["orang yang lagi nyari solusi ini","pelanggan di sekitar lokasimu","calon pembeli yang lagi butuh","pasar yang masih sepi pesaing","orang yang rela bayar buat hasil rapi"],
+  grup:["lokasi rame","area perkantoran","komplek perumahan","pusat keramaian","kawasan kampus & kos"],
+  komunitas:["komunitas","grup hobi","komunitas online","perkumpulan warga","grup langganan"]};
+function rollNumbers(seedStr){
+  const rng=mulberry32(hashStr(String(seedStr||Math.random()))), P=a=>a[Math.floor(rng()*a.length)];
+  const harga=P(POOLS.harga), modal=Math.max(2000,Math.round(harga*P(POOLS.modalpct)/1000)*1000);
+  $('harga').value=harga;$('modal').value=modal;$('unit').value=P(POOLS.unit);
+  $('langganan').value=P(POOLS.langganan);$('jmlLangganan').value=P(POOLS.jml);$('modalUsaha').value=P(POOLS.modalUsaha);
+  $('anggotaGrup').value=P(POOLS.ag);$('anggotaKom').value=P(POOLS.ak);
+  $('segmen').value=P(POOLS.segmen);$('grup').value=P(POOLS.grup);$('komunitas').value=P(POOLS.komunitas);
+}
+function omsetInfo(){const V=getVals();$('omsetInfo').innerHTML=`≈ omset <b>${V.OMSET_RANGE}</b>/bln · margin <b>${V.MARGIN}%</b> · langganan ${V.LANGGANAN}/bln`;}
+
 let styleMode='mix',current=[];
 function generate(){
   const V=getVals(),n=parseInt($('count').value,10),uH=new Set(),uS=new Set(),uC=new Set();
@@ -265,7 +286,7 @@ function generate(){
     const cta=pickUnused(CTAS.filter(x=>x.s===st),uC);
     current.push({angle:hook.a,style:st,hook:fill(hook.t,V),alt:altH?fill(altH.t,V):"",script:fill(scr.t,V),cta:fill(cta.t,V)});
   }
-  render(); saveInputs();
+  render(); omsetInfo(); saveInputs();
 }
 function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 function render(){
@@ -312,7 +333,7 @@ function selectTitle(t){
   $('jenis').value=nicheToJenis(t.niche);
   // default generic (biar gak ada kata niche lain nyangkut) — editor bisa sesuaikan di Detail usaha
   $('aksi').value="kerjain"; $('satuan').value="order";
-  $('segmen').value="orang yang lagi nyari jasa ini"; $('grup').value="lokasi rame"; $('komunitas').value="komunitas";
+  rollNumbers(t.code||t.judul); // angka unik per judul (seeded) -> omset beda tiap produk, stabil
   $('search').value=(t.judul||'').slice(0,70);
   $('results').classList.remove('show');
   const p=$('picked'); p.classList.add('show');
@@ -329,6 +350,7 @@ function loadInputs(){let o={};try{o=JSON.parse(localStorage.getItem('hookgen')|
 
 /* ===== EVENTS ===== */
 $('gen').addEventListener('click',generate);
+$('diceNum').addEventListener('click',()=>{rollNumbers(Math.random());if(current.length)generate();else omsetInfo();});
 $('reload').addEventListener('click',loadTitles);
 $('copyAll').addEventListener('click',e=>{if(current.length)copyText(current.map(cardText).join('\n\n———\n\n'),e.target);});
 $('out').addEventListener('click',e=>{if(e.target.classList.contains('copy'))copyText(cardText(current[+e.target.dataset.i]),e.target);});
@@ -342,13 +364,13 @@ $('search').addEventListener('keydown',e=>{
   else if(e.key==='Enter'){
     if(hiIdx>=0&&items[hiIdx]){e.preventDefault();selectTitle(TITLES[+items[hiIdx].dataset.idx]);}
     else if(items.length===1){e.preventDefault();selectTitle(TITLES[+items[0].dataset.idx]);}
-    else{const v=e.target.value.trim();if(v){$('judul').value=shortName(v);box.classList.remove('show');$('picked').classList.remove('show');generate();}}
+    else{const v=e.target.value.trim();if(v){$('judul').value=shortName(v);rollNumbers(v);box.classList.remove('show');$('picked').classList.remove('show');generate();}}
   }
 });
 document.addEventListener('click',e=>{if(!e.target.closest('.searchbox'))$('results').classList.remove('show');});
 document.querySelectorAll('.seg button').forEach(b=>b.addEventListener('click',()=>{styleMode=b.dataset.style;document.querySelectorAll('.seg button').forEach(x=>x.classList.remove('on'));b.classList.add('on');saveInputs();if(current.length)generate();}));
 
-loadInputs(); updateCombo(); loadTitles();
+loadInputs(); updateCombo(); omsetInfo(); loadTitles();
 </script>
 </body>
 </html>
