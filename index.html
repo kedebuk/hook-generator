@@ -337,7 +337,24 @@ const NICHE_FOOTAGE={
 };
 function nicheToJenis(n){n=(n||'').toLowerCase().trim(); return NICHE_JENIS[n]||(n?("usaha "+n):"usaha ini");}
 function shortName(s){const x=(s||'').split(/[—–:]/)[0].trim(); return x.length>=3?x:(s||'').slice(0,40);}
-function footageKw(t){const niche=((t&&t.niche)||'').toLowerCase().trim(); return NICHE_FOOTAGE[niche]||GENERIC_FOOTAGE;}
+const FILLER=new Set("untuk dengan dan yang di ke dari biar dll dst atau juga agar pun ada ini itu sampai tanpa lebih banyak sering cuma malah padahal ternyata bukan tapi kenapa gimana bisa jadi cara jasa bisnis rental sistem teknik formula pola indikator strategi panduan paket buka usaha modal omzet omset juta jutaan bulan harian potensi untung dijamin pakai pake mau gak nggak kamu kita per sekali produksi khusus rahasia bongkar stop capek nol biar pemula".split(/\s+/));
+function cleanPhrase(p){
+  p=(p||'').toLowerCase().replace(/[()\[\]"'.!?:;%*]/g,' ').replace(/\s+/g,' ').trim();
+  var w=p.split(' ').filter(function(x){return x && !FILLER.has(x) && x.length>2 && !/^\d/.test(x);});
+  return w.slice(0,4).join(' ').trim();
+}
+function footageKw(t){
+  var niche=((t&&t.niche)||'').toLowerCase().trim();
+  var judul=(t&&t.judul)||'', tag=(t&&t.tagline)||'';
+  var desc=judul;
+  if(judul.indexOf('—')>=0) desc=judul.split('—').slice(1).join(' ');
+  else if(judul.indexOf(':')>=0) desc=judul.split(':').slice(1).join(' ');
+  var parts=(desc+' , '+tag).split(/[,&+/|]| dan | dengan | untuk | atau /i);
+  var out=[],seen={};
+  parts.forEach(function(p){var c=cleanPhrase(p); if(c && c.length>=4 && !seen[c]){seen[c]=1; out.push(c);}});
+  if(out.length<4){(NICHE_FOOTAGE[niche]||GENERIC_FOOTAGE).forEach(function(x){if(out.indexOf(x)<0)out.push(x);});}
+  return out.slice(0,8);
+}
 function renderFootage(t){
   const kws=footageKw(t), box=$('footage'); box.style.display='block';
   box.innerHTML=`<h2 style="margin-bottom:4px">🎬 Kata kunci footage / B-roll</h2><div class="combo" style="margin-bottom:10px">Buat nyari video di YouTube · TikTok · IG · stok gratis (Pexels). Klik platform = langsung search.</div><div class="fkws">`
