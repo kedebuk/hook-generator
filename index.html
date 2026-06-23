@@ -318,7 +318,7 @@ function updateCombo(){const f=st=>HOOKS.filter(x=>x.s===st).length*SCRIPTS.filt
 
 /* ===== SHEET SEARCH (titles.json) ===== */
 let TITLES=[], hiIdx=-1;
-const NICHE_JENIS={"digital":"usaha digital","produksi":"usaha produksi","jasa":"usaha jasa","jasa b2b":"usaha jasa B2B","budidaya":"budidaya","rental":"usaha rental","kerajinan":"usaha kerajinan","trading":"trading","3d print":"usaha 3D print","bangun rumah":"jasa bangun rumah","kerja luar negeri":"kerja di luar negeri"};
+const NICHE_JENIS={"digital":"usaha digital","produksi":"usaha produksi","jasa":"usaha jasa","jasa b2b":"usaha jasa B2B","budidaya":"budidaya","rental":"usaha rental","kerajinan":"usaha kerajinan","trading":"trading","3d print":"usaha 3D print","bangun rumah":"jasa bangun rumah","kerja luar negeri":"kerja di luar negeri","peluang karir":"peluang kerja & karir","hobi cuan":"hobi yang menghasilkan"};
 const FOOTAGE_MOD=["satisfying","asmr","aesthetic","proses / behind the scenes","before after","timelapse","viral fyp","tutorial"];
 const GENERIC_FOOTAGE=["proses kerja usaha kecil","UMKM Indonesia","small business owner","entrepreneur working","produk handmade","jasa profesional bekerja"];
 const NICHE_FOOTAGE={
@@ -332,7 +332,9 @@ const NICHE_FOOTAGE={
  "kerajinan":["kerajinan tangan proses","handmade craft","pengrajin bekerja","DIY craft satisfying","handicraft closeup","craft aesthetic","UMKM kerajinan","artisan making"],
  "3d print":["3d printing timelapse","3d printer proses","resin 3d print","miniature painting","print farm","3d printed product","filament printer closeup","prototype 3d"],
  "bangun rumah":["konstruksi rumah","tukang bangunan kerja","proses bangun rumah","renovasi rumah","building site","construction timelapse","arsitektur rumah minimalis","pekerja proyek"],
- "kerja luar negeri":["kerja di jepang","working in japan street","tokyo city life","pekerja pabrik jepang","kerja di jerman","ausbildung jerman","germany city street","TKI luar negeri","bandara keberangkatan","airport departure","working abroad vlog","kota eropa malam"]
+ "kerja luar negeri":["kerja di jepang","working in japan street","tokyo city life","pekerja pabrik jepang","kerja di jerman","ausbildung jerman","germany city street","TKI luar negeri","bandara keberangkatan","airport departure","working abroad vlog","kota eropa malam"],
+ "peluang karir":["kerja di jepang","working abroad vlog","kerja di jerman","ausbildung jerman","interview kerja","kantor profesional","gaji besar","bandara keberangkatan","airport departure","karir sukses","TKI luar negeri","kota eropa malam"],
+ "hobi cuan":["hobi menghasilkan uang","jualan hasil hobi","handmade craft business","gaming setup aesthetic","fotografi hobi","melukis dijual","koleksi mainan dijual","content creator hobi","side hustle indonesia","baking di rumah","tanaman hias jualan","kerajinan hobi"]
 };
 function nicheToJenis(n){n=(n||'').toLowerCase().trim(); return NICHE_JENIS[n]||(n?("usaha "+n):"usaha ini");}
 function shortName(s){const x=(s||'').split(/[—–:]/)[0].trim(); return x.length>=3?x:(s||'').slice(0,40);}
