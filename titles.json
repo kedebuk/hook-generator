@@ -1,5 +1,5 @@
 {
-"updated": "2026-06-24 00:35",
+"updated": "2026-06-24 00:46",
 "count": 161,
 "items": [
 {
@@ -506,7 +506,8 @@
 "nama": "Jalur Nihonia",
 "judul": "Jalur Nihonia — Mau Kerja ke Jepang tapi Takut Kena Calo Puluhan Juta? Ternyata Jalur Resmi (SSW/Tokutei) Bisa Diurus Sendiri, Bukan Lewat Sponsor",
 "tagline": "Jenis visa SSW/Tokutei, cara cari job offer resmi, urus dokumen sendiri, estimasi gaji & biaya jujur, ciri sponsor abal-abal. (panduan & risiko)",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/jalur-nihonia/"
 },
 {
 "code": "LMNA",
@@ -522,7 +523,8 @@
 "nama": "Jalur Auslandia",
 "judul": "Jalur Auslandia — Kenapa Banyak yang Gagal Berangkat ke Jerman Padahal Niatnya Kuat? Rahasianya di \"Sertifikat Bahasa\", Bukan Ijazah",
 "tagline": "Alur Ausbildung dari nol, target bahasa A2–B1, cara cari perusahaan sponsor, biaya & timeline realistis. (panduan & risiko)",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/jalur-auslandia/"
 },
 {
 "code": "RSPW",
@@ -530,7 +532,8 @@
 "nama": "Sistem Respawn",
 "judul": "Sistem Respawn — Jago Main Game tapi Dompet Tetap Tipis? Bongkar Cara Gamer Biasa Hasilin Cuan Tanpa Harus Jadi Pro Player",
 "tagline": "Jasa joki/boosting, reseller top-up, konten & donasi live, turnamen kecil, kelola akun + etika & risiko.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/sistem-respawn/"
 },
 {
 "code": "LNTS",
@@ -538,7 +541,8 @@
 "nama": "Sistem Lintasa",
 "judul": "Sistem Lintasa — Capek Lamaran Kerja Luar Negeri Selalu Mentok di Tahap Awal? Ternyata Bukan Kualifikasimu yang Kurang, Tapi Cara Kamu \"Apply\"",
 "tagline": "Riset negara & sektor yang buka lowongan, CV format luar, portal lowongan resmi, siasat interview & dokumen, hindari lowongan palsu.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/sistem-lintasa/"
 },
 {
 "code": "KNVS",
@@ -546,7 +550,8 @@
 "nama": "Pola Kanvasa",
 "judul": "Pola Kanvasa — Hobi Lukis Selama Ini Cuma Numpuk di Gudang? Ubah Jadi \"Mesin Order\" Custom yang Bikin Orang Rela Antre",
 "tagline": "Produk lukis yang laku (custom wajah/sepatu/dinding), patok harga, foto karya, jalur jualan online & galeri kecil.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/pola-kanvasa/"
 },
 {
 "code": "PLGA",
@@ -554,7 +559,8 @@
 "nama": "Jalur Pelagia",
 "judul": "Jalur Pelagia — Digaji Dollar Keliling Dunia di Kapal Pesiar Walau Nol Pengalaman: Bongkar Urutan Masuk yang Jarang Dikasih Tau Agen",
 "tagline": "Posisi entry kapal pesiar, agen resmi vs bodong, dokumen pelaut (BST/seaman book), proses interview user, estimasi gaji USD. (panduan & risiko)",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/jalur-pelagia/"
 },
 {
 "code": "VRDN",
@@ -562,7 +568,8 @@
 "nama": "Akar Verdana",
 "judul": "Akar Verdana — Hobi Tanaman Malah Bikin Boncos Terus? Rahasia Balik Modalnya Ada di \"Indukan\", Bukan Beli Bibit Mahal Mulu",
 "tagline": "Tanaman cepat balik modal, teknik perbanyakan (stek/split), patok harga indukan vs anakan, jualan di marketplace & komunitas.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/akar-verdana/"
 },
 {
 "code": "HNGK",
@@ -570,7 +577,8 @@
 "nama": "Gerbang Hanguk",
 "judul": "Gerbang Hanguk — Stop Gagal EPS-TOPIK Berkali-kali: Rahasia Lolos Itu di \"Cara Latihan\", Bukan Seberapa Lama Belajar",
 "tagline": "Pola soal EPS-TOPIK, strategi belajar efektif, proses SLC & SiSKa, sektor kerja di Korea, hitung gaji bersih & potongan. (panduan & risiko)",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/gerbang-hanguk/"
 },
 {
 "code": "LVNA",
@@ -578,7 +586,8 @@
 "nama": "Resep Lavania",
 "judul": "Resep Lavania — Kue Buatanmu Dipuji Enak tapi Cuma Berakhir di Meja Sendiri? Cara Ubah Jadi Orderan PO yang Diburu Tetangga",
 "tagline": "Menu laku & tahan lama, hitung HPP + harga jual, packaging menarik, sistem PO via WA/sosmed, cara dapat pembeli pertama.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/resep-lavania/"
 },
 {
 "code": "GIPS",
@@ -586,7 +595,8 @@
 "nama": "Studio Gipsa",
 "judul": "Studio Gipsa — Modal Gips & Cat Receh, \"Mainan Patung Lukis\" Diborong Emak buat Kado Anak: Cuan dari Hampers, Ultah & Reseller Sekolah",
 "tagline": "Resep adonan gips anti-retak, cetakan paling laku (donat/hewan/karakter), kemas jadi kit cat+kuas, hitung HPP & harga jual, jualan ke ortu/sekolah/marketplace + sistem reseller.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/studio-gipsa/"
 },
 {
 "code": "LILN",
@@ -594,7 +604,8 @@
 "nama": "Lilin Aurora",
 "judul": "Lilin Aurora — Bukan Sekadar Wangi: Lilin Aroma Buatan Rumah Disulap Jadi Kado & Dekor Estetik, Margin Tembus 4x Lipat",
 "tagline": "Pilih soy wax & sumbu anti-tunnel, takaran fragrance aman, teknik tuang bebas retak/lubang, branding + packaging estetik, jualan hampers/wedding/corporate.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/lilin-aurora-bisnis/"
 },
 {
 "code": "SLIM",
@@ -602,7 +613,8 @@
 "nama": "Slime Galaxy",
 "judul": "Slime Galaxy — Mainan \"Receh\" yang Bikin Anak Nagih: Bikin Slime Aman Anti-Lengket & Jual per Toples ke Sekolah",
 "tagline": "Formula slime aman tanpa borak, tekstur cloud/butter/crunchy, pewarna & charm lucu, kemas toples + label, jualan ke anak sekolah/online + paket ulang tahun.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/slime-galaxy/"
 },
 {
 "code": "RSIN",
@@ -610,7 +622,8 @@
 "nama": "Resin Kilau",
 "judul": "Resin Kilau — Bunga Kering & Foto Disulap Jadi Gantungan Resin yang Dijual Mahal: Kado Personalisasi Anti-Pasaran",
 "tagline": "Pilih resin epoxy bening anti-kuning, teknik cetak anti-gelembung, isian (bunga/foto/nama/inisial), finishing kinclong, jualan kado custom/wisuda/souvenir.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/resin-kilau/"
 },
 {
 "code": "CLAY",
@@ -618,7 +631,8 @@
 "nama": "Studio Clayra",
 "judul": "Studio Clayra — Tepung & Lem Jadi Buket Clay Awet Selamanya: Buket Wisuda & Kado yang Dijual Ratusan Ribu",
 "tagline": "Resep clay autodry anti-retak, bentuk bunga populer (tulip/mawar/matahari/lily), rangkai buket & box, packaging cantik, jualan wisuda/anniversary + pre-order.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/studio-clayra/"
 },
 {
 "code": "SNDL",
@@ -626,7 +640,8 @@
 "nama": "Bisnis Sandal & Sepatu Custom Handmade",
 "judul": "Bisnis Sandal & Sepatu Custom Handmade: Pasar Anti-Mainstream Rela Bayar Mahal, Modal Kecil, Potensi Untung Rp13 Juta/Bulan!",
 "tagline": "SOP pola & jahit, daftar bahan, varian desain custom, kalkulator HPP per pasang, QC, skrip jual komunitas & online.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/sanda-kustoma/"
 },
 {
 "code": "TRRM",
@@ -634,7 +649,8 @@
 "nama": "Bisnis Terrarium & Kokedama Estetik",
 "judul": "Bisnis Terrarium & Kokedama Estetik: Tanaman Hias Mini Bernilai Jual Tinggi, Pasar Dekorasi & Gift, Potensi Untung Rp11 Juta/Bulan!",
 "tagline": "SOP rakit terrarium, daftar tanaman & media, varian desain, kalkulator HPP, QC, skrip jual gift shop & interior.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/terra-rimba/"
 },
 {
 "code": "KRJL",
@@ -642,7 +658,8 @@
 "nama": "Bisnis Kerupuk Ikan & Udang Premium Mentah",
 "judul": "Bisnis Kerupuk Ikan & Udang Premium Mentah: Suplai Oleh-oleh & Reseller Tiap Minggu, Tahan Lama, Potensi Untung Rp15 Juta/Bulan!",
 "tagline": "Formula adonan, SOP cetak & jemur, panduan goreng mengembang, kalkulator HPP per pack, QC, katalog oleh-oleh & reseller.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/kerupuk-krajala/"
 },
 {
 "code": "PCKL",
@@ -650,7 +667,8 @@
 "nama": "Bisnis Pickle & Acar Fermentasi Premium",
 "judul": "Bisnis Pickle & Acar Fermentasi Premium: Pendamping Sehat Pasar Kuliner Naik, Tahan Lama, Potensi Untung Rp10 Juta/Bulan!",
 "tagline": "SOP fermentasi & sterilisasi, rasio brine, varian sayur, kalkulator HPP per jar, QC keasaman, katalog cafe & reseller.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/pickle-pikkla/"
 },
 {
 "code": "LMPU",
@@ -658,7 +676,8 @@
 "nama": "Bisnis Jasa Poles & Restorasi Lampu Mobil Buram",
 "judul": "Bisnis Jasa Poles & Restorasi Lampu Mobil Buram: Lampu Kusam Jadi Bening Seperti Baru Dalam 30 Menit, Pemilik Mobil Rela Bayar, Potensi Untung Rp10 Juta/Bulan!",
 "tagline": "SOP poles & coating lampu, daftar bahan & alat, checklist QC bening, kalkulator harga per titik, jemput-antar, skrip gaet bengkel & komunitas mobil.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/lampu-lumika/"
 },
 {
 "code": "FYTB",
@@ -666,7 +685,8 @@
 "nama": "Bisnis Faceless YouTube Tanpa Muka",
 "judul": "Bisnis Faceless YouTube Tanpa Muka: Upload Video AI Tinggal Ikuti Template, Cuan Adsense Pasif Tanpa Ngomong, Potensi Rp15 Juta/Bulan!",
 "tagline": "Niche faceless paling cuan, SOP riset+script AI, tools voice & visual, template upload, monetisasi Adsense, skrip scale channel.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/facelesa-tube/"
 },
 {
 "code": "TKAF",
@@ -674,7 +694,8 @@
 "nama": "Bisnis TikTok Affiliate Tanpa Modal Produk",
 "judul": "Bisnis TikTok Affiliate Tanpa Modal Produk: Tinggal Review & Posting, Komisi Ngalir Otomatis, Cocok Pemula Malas Ribet, Potensi Rp10 Juta/Bulan!",
 "tagline": "Cara daftar & pilih produk komisi tinggi, formula video viral, jadwal posting, tools editing, sistem komisi, skrip scale.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/tiktok-profita/"
 },
 {
 "code": "SPAF",
@@ -682,7 +703,8 @@
 "nama": "Bisnis Shopee Affiliate Pemula",
 "judul": "Bisnis Shopee Affiliate Pemula: Sebar Link Tinggal Ikuti Step, Komisi Tiap Klik & Beli, Tanpa Stok & Modal, Potensi Rp8 Juta/Bulan!",
 "tagline": "Setup akun affiliate, pilih produk laris, konten penghasil klik, jadwal sebar, tracking komisi, skrip naik level.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/shopee-profita/"
 },
 {
 "code": "CNVA",
@@ -690,7 +712,8 @@
 "nama": "Bisnis Jualan Template Canva Auto-Cuan",
 "judul": "Bisnis Jualan Template Canva Auto-Cuan: Bikin Sekali Jual Berkali Tanpa Modal, Passive Income Pemula, Potensi Rp12 Juta/Bulan!",
 "tagline": "Niche template paling dicari, SOP desain cepat, sistem jual digital, harga & bundling, platform jualan, skrip promosi.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/kanva-profit/"
 },
 {
 "code": "LRPS",
@@ -698,7 +721,8 @@
 "nama": "Bisnis Jualan Preset Lightroom",
 "judul": "Bisnis Jualan Preset Lightroom: Edit Sekali Jual Selamanya, Pasar Fotografi & IG Borong, Modal HP, Potensi Rp7 Juta/Bulan!",
 "tagline": "Cara bikin preset laris, paket bundling, sistem file digital, harga jual, platform & marketplace, skrip jualan.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/preseta/"
 },
 {
 "code": "NOTM",
@@ -706,7 +730,8 @@
 "nama": "Bisnis Jualan Template Notion & Excel",
 "judul": "Bisnis Jualan Template Notion & Excel: Produk Digital Passive Tinggal Upload, Pasar Produktivitas Naik, Potensi Rp9 Juta/Bulan!",
 "tagline": "Template paling laku, SOP bikin rapi, sistem lisensi, harga & bundle, platform jual, skrip promosi.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/notiona/"
 },
 {
 "code": "AIMG",
@@ -714,7 +739,8 @@
 "nama": "Bisnis Jasa Gambar AI",
 "judul": "Bisnis Jasa Gambar AI: Order Desain & Ilustrasi Tinggal Prompt, Tanpa Skill Gambar, UMKM Borong, Potensi Rp10 Juta/Bulan!",
 "tagline": "Tools AI image, formula prompt menjual, paket harga, alur revisi, niche klien, skrip prospek UMKM.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/gambara-ai/"
 },
 {
 "code": "AICW",
@@ -722,7 +748,8 @@
 "nama": "Bisnis Jasa Tulis Konten AI",
 "judul": "Bisnis Jasa Tulis Konten AI: Artikel & Caption Tinggal Prompt, Selesai Cepat Tanpa Pusing, Klien Tiap Hari, Potensi Rp9 Juta/Bulan!",
 "tagline": "Tools AI tulis, SOP edit anti-robotik, paket per artikel, niche klien, sistem revisi, skrip prospek.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/kontena-ai/"
 },
 {
 "code": "PRMT",
@@ -730,7 +757,8 @@
 "nama": "Bisnis Jualan Prompt Pack AI",
 "judul": "Bisnis Jualan Prompt Pack AI: Kumpulan Prompt Siap Pakai Dijual Berkali, Pasar AI Lagi Booming, Modal Receh, Potensi Rp6 Juta/Bulan!",
 "tagline": "Prompt paling dicari, paket bundling, sistem file digital, harga, platform jual, skrip promosi.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/prompta-pack/"
 },
 {
 "code": "IGTP",
@@ -738,7 +766,8 @@
 "nama": "Bisnis Akun Tema Instagram Faceless",
 "judul": "Bisnis Akun Tema Instagram Faceless: Posting Konten Tinggal Repost, Cuan Endorse & Affiliate Pasif, Potensi Rp8 Juta/Bulan!",
 "tagline": "Niche page paling cepat naik, SOP konten harian, tools jadwal, cara monetisasi endorse, rate card, skrip closing.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/themera-ig/"
 },
 {
 "code": "DRSH",
@@ -746,7 +775,8 @@
 "nama": "Bisnis Dropship Tanpa Stok & Modal",
 "judul": "Bisnis Dropship Tanpa Stok & Modal: Tinggal Posting Produk Supplier, Untung Tiap Order, Cocok Malas Ribet, Potensi Rp12 Juta/Bulan!",
 "tagline": "Cari supplier amanah, pilih produk laris, sistem posting & order, hitung margin, tools otomatis, skrip jualan.",
-"status": "ide"
+"status": "ide",
+"lp": "https://id.ilmuwanlama.tech/dropshipa/"
 },
 {
 "code": "PODK",
