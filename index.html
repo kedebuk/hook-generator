@@ -39,6 +39,9 @@
   .picked{margin-top:10px;padding:10px 12px;background:#11142a;border:1px solid var(--line);border-radius:10px;font-size:13px;line-height:1.4;display:none}
   .picked.show{display:block}
   .picked .nq{font-size:10px;font-weight:800;color:var(--blue);text-transform:uppercase}
+  .lplink{display:inline-block;margin-top:9px;background:var(--accent);color:#1a1400;font-weight:800;font-size:12px;padding:6px 13px;border-radius:8px;text-decoration:none}
+  .lplink:hover{filter:brightness(1.08)}
+  .lpnone{display:inline-block;margin-top:9px;font-size:11px;color:var(--muted)}
   details{margin-top:12px;border-top:1px dashed var(--line);padding-top:6px}
   summary{cursor:pointer;font-size:12px;color:var(--accent);font-weight:700;padding:6px 0}
   .controls{display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin:14px 0 6px}
@@ -596,7 +599,8 @@ function selectTitle(t){
   $('search').value=(t.judul||'').slice(0,70);
   $('results').classList.remove('show');
   const p=$('picked'); p.classList.add('show');
-  p.innerHTML=`<span class="nq">${esc(t.code||'')} · ${esc(t.niche||'')}</span><br><b>${esc(t.judul||'')}</b>${t.tagline?'<br><span style="color:var(--muted)">'+esc(t.tagline.slice(0,140))+'</span>':''}`;
+  p.innerHTML=`<span class="nq">${esc(t.code||'')} · ${esc(t.niche||'')}</span><br><b>${esc(t.judul||'')}</b>${t.tagline?'<br><span style="color:var(--muted)">'+esc(t.tagline.slice(0,140))+'</span>':''}`
+   +(t.lp?`<br><a class="lplink" href="${esc(t.lp)}" target="_blank" rel="noopener">🔗 Buka Landing Page</a>`:`<br><span class="lpnone">— LP belum ada —</span>`);
   generate();
 }
 

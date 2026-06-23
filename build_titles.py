@@ -10,11 +10,15 @@ for r in csv.reader(f,delimiter='\t'):
     judul=r[2].strip() if len(r)>2 else ''
     tagline=r[3].strip() if len(r)>3 else ''
     status=r[5].strip() if len(r)>5 else ''
+    lp=r[7].strip() if len(r)>7 else ''            # kolom H = LinkLP
+    if not lp.lower().startswith('http'): lp=''
     if not judul: continue
     if niche.lower() in SKIP_NICHE: continue
     nama=judul.split('—')[0].split('–')[0].split(':')[0].strip()
     if len(nama)<3: nama=judul[:40]
-    rows.append({"code":code,"niche":niche,"nama":nama,"judul":judul,"tagline":tagline,"status":status})
+    item={"code":code,"niche":niche,"nama":nama,"judul":judul,"tagline":tagline,"status":status}
+    if lp: item["lp"]=lp
+    rows.append(item)
 out={"updated":datetime.datetime.now().strftime('%Y-%m-%d %H:%M'),"count":len(rows),"items":rows}
 json.dump(out,open('/Users/kantor/hook-generator/titles.json','w',encoding='utf-8'),ensure_ascii=False,indent=0)
-print("wrote",len(rows),"titles (trading di-skip)")
+print("wrote",len(rows),"titles (trading di-skip),",sum(1 for x in rows if x.get('lp')),"punya LP")
