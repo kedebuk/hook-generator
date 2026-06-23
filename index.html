@@ -73,6 +73,19 @@
   .flinks{display:flex;gap:6px;flex-shrink:0}
   .flinks a{font-size:11px;font-weight:700;color:var(--blue);background:#0c0f1c;border:1px solid var(--line);border-radius:6px;padding:3px 7px;text-decoration:none}
   .flinks a:hover{border-color:var(--accent);color:var(--accent)}
+  .naskah{margin-top:12px;background:#222740;color:var(--accent);border:1px solid var(--line);border-radius:8px;padding:8px 13px;font-size:12px;font-weight:800;cursor:pointer}
+  .naskah:hover{border-color:var(--accent)}
+  .sb{margin-top:8px}
+  .sb-head{font-size:12px;font-weight:800;color:var(--accent);margin:4px 0 8px;display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+  .naskah-copy{background:#222740;border:1px solid var(--line);color:var(--muted);border-radius:7px;padding:4px 9px;font-size:11px;font-weight:700;cursor:pointer}
+  .naskah-copy:hover{color:var(--accent);border-color:var(--accent)}
+  .scene{background:#11142a;border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:8px;padding:9px 11px;margin-bottom:7px}
+  .scn-h{font-size:11px;color:var(--muted);margin-bottom:5px}
+  .scn-h b{color:var(--txt)}
+  .scn-lbl{background:#222740;color:var(--blue);padding:1px 7px;border-radius:10px;font-size:9px;font-weight:800;text-transform:uppercase}
+  .scn-row{font-size:12.5px;line-height:1.5;margin:2px 0;color:#dfe3f3}
+  .scn-k{color:var(--muted)}
+  .scn-row a{font-size:10px;font-weight:700;color:var(--blue);background:#0c0f1c;border:1px solid var(--line);border-radius:5px;padding:1px 6px;text-decoration:none;margin-left:3px}
   .empty{color:var(--muted);text-align:center;padding:50px 20px;font-size:14px;line-height:1.6}
   .note{font-size:11px;color:var(--muted);margin-top:18px;line-height:1.5;border-top:1px solid var(--line);padding-top:12px}
 </style>
@@ -307,7 +320,8 @@ function render(){
       <div class="lab">Hook</div><div class="hook">${esc(c.hook)}</div>
       ${c.alt?`<div class="alt">varian: ${esc(c.alt)}</div>`:""}
       <div class="lab">Script</div><div class="scr">${esc(c.script)}</div>
-      <div class="lab">CTA</div><div class="cta">${esc(c.cta)}</div>`;
+      <div class="lab">CTA</div><div class="cta">${esc(c.cta)}</div>
+      <button class="naskah" data-i="${i}">🎬 Naskah Video</button><div class="sb" id="sb${i}"></div>`;
     out.appendChild(d);});
 }
 function cardText(c){return `[${c.angle} · ${c.style==='hard'?'Hardsell':'Softsell'}]\nHOOK: ${c.hook}\n${c.alt?'VARIAN: '+c.alt+'\n':''}SCRIPT: ${c.script}\nCTA: ${c.cta}`;}
@@ -317,7 +331,7 @@ function updateCombo(){const f=st=>HOOKS.filter(x=>x.s===st).length*SCRIPTS.filt
   $('combo').innerHTML=`Bank: <b>${HOOKS.length}</b> hook · <b>${SCRIPTS.length}</b> script · <b>${CTAS.length}</b> CTA → <b>${(f('hard')+f('soft')).toLocaleString('id')}</b> kombinasi`;}
 
 /* ===== SHEET SEARCH (titles.json) ===== */
-let TITLES=[], hiIdx=-1;
+let TITLES=[], hiIdx=-1, pickedTitle=null;
 const NICHE_JENIS={"digital":"usaha digital","produksi":"usaha produksi","jasa":"usaha jasa","jasa b2b":"usaha jasa B2B","budidaya":"budidaya","rental":"usaha rental","kerajinan":"usaha kerajinan","3d print":"usaha 3D print","bangun rumah":"jasa bangun rumah","kerja luar negeri":"kerja di luar negeri","peluang karir":"peluang kerja & karir","hobi cuan":"hobi yang menghasilkan"};
 const FOOTAGE_MOD=["satisfying","asmr","aesthetic","proses / behind the scenes","before after","timelapse","viral fyp","tutorial"];
 const GENERIC_FOOTAGE=["proses kerja usaha kecil","UMKM Indonesia","small business owner","entrepreneur working","produk handmade","jasa profesional bekerja"];
@@ -356,6 +370,32 @@ function footageKw(t){
   if(out.length<4){(NICHE_FOOTAGE[niche]||GENERIC_FOOTAGE).forEach(function(x){if(out.indexOf(x)<0)out.push(x);});}
   return out.slice(0,8);
 }
+/* ===== NASKAH VIDEO (storyboard scene-by-scene) ===== */
+function splitSentences(s){return (s||'').split(/(?<=[.!?:—–])\s+/).map(function(x){return x.trim();}).filter(function(x){return x.length>3;});}
+function shortCap(s){var w=(s||'').replace(/["“”]/g,'').split(/\s+/);return w.slice(0,6).join(' ')+(w.length>6?'…':'');}
+function buildScenes(card){
+  var kws=footageKw(pickedTitle||{}); if(!kws.length)kws=GENERIC_FOOTAGE;
+  var ki=0,nk=function(){var k=kws[ki%kws.length];ki++;return k;};
+  var sc=[{lbl:'HOOK',dur:3,teks:card.hook,vo:card.hook,kw:nk()}];
+  splitSentences(card.script).forEach(function(s){sc.push({lbl:'ISI',dur:4,teks:shortCap(s),vo:s,kw:nk()});});
+  sc.push({lbl:'CTA',dur:4,teks:card.cta,vo:card.cta,kw:nk()});
+  var t=0; sc.forEach(function(x){x.range=t+'-'+(t+x.dur)+'dtk';t+=x.dur;}); sc.tot=t;
+  return sc;
+}
+function storyboardHTML(card,idx){
+  var sc=buildScenes(card);
+  var rows=sc.map(function(x,i){var q=encodeURIComponent(x.kw);
+    return '<div class="scene"><div class="scn-h"><b>Scene '+(i+1)+'</b> · '+x.range+' · <span class="scn-lbl">'+x.lbl+'</span></div>'
+     +'<div class="scn-row"><span class="scn-k">🎬</span> <b>'+esc(x.kw)+'</b> <a target=_blank rel=noopener href="https://www.youtube.com/results?search_query='+q+'">YT</a> <a target=_blank rel=noopener href="https://www.tiktok.com/search?q='+q+'">TT</a> <a target=_blank rel=noopener href="https://www.pexels.com/search/videos/'+q+'/">Pexels</a></div>'
+     +'<div class="scn-row"><span class="scn-k">📝 teks:</span> '+esc(x.teks)+'</div>'
+     +'<div class="scn-row"><span class="scn-k">🎙️ VO:</span> '+esc(x.vo)+'</div></div>';
+  }).join('');
+  return '<div class="sb-head">🎬 Naskah Video · '+sc.length+' scene · ~'+sc.tot+' detik <button class="naskah-copy" data-i="'+idx+'">📋 Salin naskah</button></div>'+rows;
+}
+function storyboardText(card){
+  var sc=buildScenes(card);
+  return '🎬 NASKAH VIDEO ('+sc.length+' scene, ~'+sc.tot+' dtk)\n\n'+sc.map(function(x,i){return 'SCENE '+(i+1)+' ('+x.range+') ['+x.lbl+']\n🎬 Footage: '+x.kw+'\n📝 Teks layar: '+x.teks+'\n🎙️ VO: '+x.vo;}).join('\n\n');
+}
 function renderFootage(t){
   const kws=footageKw(t), box=$('footage'); box.style.display='block';
   box.innerHTML=`<h2 style="margin-bottom:4px">🎬 Kata kunci footage / B-roll</h2><div class="combo" style="margin-bottom:10px">Buat nyari video di YouTube · TikTok · IG · stok gratis (Pexels). Klik platform = langsung search.</div><div class="fkws">`
@@ -380,6 +420,7 @@ function renderResults(q){
 }
 function moveHi(d){const items=[...$('results').querySelectorAll('.ritem[data-idx]')]; if(!items.length)return; hiIdx=(hiIdx+d+items.length)%items.length; items.forEach((it,i)=>it.classList.toggle('hi',i===hiIdx)); items[hiIdx].scrollIntoView({block:'nearest'});}
 function selectTitle(t){
+  pickedTitle=t;
   $('judul').value=t.nama||shortName(t.judul);
   $('jenis').value=nicheToJenis(t.niche);
   // default generic (biar gak ada kata niche lain nyangkut) — editor bisa sesuaikan di Detail usaha
@@ -405,7 +446,11 @@ $('gen').addEventListener('click',generate);
 $('diceNum').addEventListener('click',()=>{rollNumbers(Math.random());if(current.length)generate();else omsetInfo();});
 $('reload').addEventListener('click',loadTitles);
 $('copyAll').addEventListener('click',e=>{if(current.length)copyText(current.map(cardText).join('\n\n———\n\n'),e.target);});
-$('out').addEventListener('click',e=>{if(e.target.classList.contains('copy'))copyText(cardText(current[+e.target.dataset.i]),e.target);});
+$('out').addEventListener('click',function(e){var t=e.target;
+  if(t.classList.contains('naskah-copy')){copyText(storyboardText(current[+t.dataset.i]),t);return;}
+  if(t.classList.contains('naskah')){var i=+t.dataset.i,box=document.getElementById('sb'+i);box.innerHTML=box.innerHTML?'':storyboardHTML(current[i],i);return;}
+  if(t.classList.contains('copy')){copyText(cardText(current[+t.dataset.i]),t);return;}
+});
 $('results').addEventListener('click',e=>{const it=e.target.closest('.ritem');if(it)selectTitle(TITLES[+it.dataset.idx]);});
 $('search').addEventListener('input',e=>renderResults(e.target.value));
 $('search').addEventListener('keydown',e=>{
@@ -416,7 +461,7 @@ $('search').addEventListener('keydown',e=>{
   else if(e.key==='Enter'){
     if(hiIdx>=0&&items[hiIdx]){e.preventDefault();selectTitle(TITLES[+items[hiIdx].dataset.idx]);}
     else if(items.length===1){e.preventDefault();selectTitle(TITLES[+items[0].dataset.idx]);}
-    else{const v=e.target.value.trim();if(v){$('judul').value=shortName(v);rollNumbers(v);renderFootage({niche:''});box.classList.remove('show');$('picked').classList.remove('show');generate();}}
+    else{const v=e.target.value.trim();if(v){pickedTitle={judul:v,tagline:''};$('judul').value=shortName(v);rollNumbers(v);renderFootage({niche:''});box.classList.remove('show');$('picked').classList.remove('show');generate();}}
   }
 });
 document.addEventListener('click',e=>{if(!e.target.closest('.searchbox'))$('results').classList.remove('show');});
