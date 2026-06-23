@@ -373,6 +373,25 @@ const NICHE_FOOTAGE={
 function nicheToJenis(n){n=(n||'').toLowerCase().trim(); return NICHE_JENIS[n]||(n?("usaha "+n):"usaha ini");}
 const NICHE_BISNIS={"digital":"jualan produk digital","produksi":"produksi rumahan","jasa":"jasa rumahan","jasa b2b":"jadi supplier B2B","budidaya":"budidaya","rental":"rental / persewaan","kerajinan":"kerajinan tangan","3d print":"cetak 3D / figurin","bangun rumah":"jasa bangun & renov rumah","kerja luar negeri":"kerja ke luar negeri","peluang karir":"peluang karir","hobi cuan":"hobi yang dijualin"};
 function nicheToBisnis(n){n=(n||'').toLowerCase().trim();return NICHE_BISNIS[n]||(n?n:"bisnis ini");}
+/* ekstrak nama bisnis SPESIFIK dari judul/tagline (bukan niche generik) */
+function bisnisPhrase(t){
+  const nama=((t&&t.nama)||'').trim(), judul=((t&&t.judul)||''), niche=((t&&t.niche)||'').toLowerCase().trim();
+  const cl=s=>(s||'').replace(/[“”"‘’()]/g,'').replace(/\s+/g,' ').trim().toLowerCase().split(' ').slice(0,6).join(' ').replace(/\b(3d|ac|ai|umkm|b2b|pc|tv|cctv|hpp|sop|qc|usb|led|apar)\b/gi,m=>m.toUpperCase());
+  const m=nama.match(/^(bisnis|jasa|usaha|produksi)\s+(.+)/i); if(m) return cl(m[2]);
+  if(/[—–]/.test(judul)){ // gaya "Brand — hook ... jadi X : ..." → ambil bagian bisnis
+    let seg=(judul.split(/[—–]/)[1]||'').split(':')[0];
+    if(/\bjadi\b/i.test(seg)) seg=seg.split(/\bjadi\b/i).pop();
+    seg=seg.replace(/^\s*(rahasia|cara|stop|sulap|bikin|dari|tukang|jadi|si)\s+/i,'').split(/\s+dengan\s+|\s+untuk\s+|,|\(/i)[0];
+    const c=cl(seg); if(c.split(' ').length>=2) return c;
+  }
+  if(judul.indexOf(':')>=0){ // gaya "Brand: Jasa/Produksi X Dengan Teknik…" → ambil X
+    let after=judul.split(':').slice(1).join(':').split(/\s+dengan\s+|\s+untuk\s+|\s+pakai\s+|,|\(/i)[0];
+    after=after.replace(/^\s*(jasa|bisnis|usaha|produksi|produk)\s+/i,'');
+    const c=cl(after); if(c.split(' ').length>=2) return c;
+  }
+  if(niche) return nicheToBisnis(niche);
+  return cl(shortName(judul))||"bisnis ini";
+}
 function shortName(s){const x=(s||'').split(/[—–:]/)[0].trim(); return x.length>=3?x:(s||'').slice(0,40);}
 const FILLER=new Set("untuk dengan dan yang di ke dari biar dll dst atau juga agar pun ada ini itu sampai tanpa lebih banyak sering cuma malah padahal ternyata bukan tapi kenapa gimana bisa jadi cara jasa bisnis rental sistem teknik formula pola indikator strategi panduan paket buka usaha modal omzet omset juta jutaan bulan harian potensi untung dijamin pakai pake mau gak nggak kamu kita per sekali produksi khusus rahasia bongkar stop capek nol biar pemula".split(/\s+/));
 function cleanPhrase(p){
@@ -439,7 +458,7 @@ function fillTempel(){const TV=tempelVars(),list=$('tempelList');if(!list)return
   currentTempel=tempelList.length?fill(tempelList[0].t,TV):"";
   const badge=$('tempelBadge');if(badge)badge.textContent='BISNIS '+(TV.BISNIS||'').toUpperCase();}
 function renderTempel(t){
-  tempelBisnisDefault=(t&&t.niche)?nicheToBisnis(t.niche):((t&&t.judul)?shortName(t.judul):"bisnis ini");
+  tempelBisnisDefault=(t&&(t.judul||t.niche))?bisnisPhrase(t):"bisnis ini";
   tempelList=pick4(TEMPEL);
   const box=$('tempel');box.style.display='block';
   box.innerHTML='<h2 style="margin-bottom:4px">📌 Hook Tempel</h2>'
