@@ -67,6 +67,12 @@
   .copy{position:absolute;top:13px;right:13px;background:#222740;border:1px solid var(--line);color:var(--muted);border-radius:8px;padding:5px 10px;font-size:11px;font-weight:700;cursor:pointer}
   .copy:hover{color:var(--txt);border-color:var(--accent)}
   .copy.ok{background:var(--soft);color:#04261d;border-color:var(--soft)}
+  .fkws{display:flex;flex-direction:column;gap:6px}
+  .fkw{display:flex;justify-content:space-between;gap:10px;align-items:center;background:#11142a;border:1px solid var(--line);border-radius:9px;padding:7px 11px;font-size:13px}
+  .fk{font-weight:600}
+  .flinks{display:flex;gap:6px;flex-shrink:0}
+  .flinks a{font-size:11px;font-weight:700;color:var(--blue);background:#0c0f1c;border:1px solid var(--line);border-radius:6px;padding:3px 7px;text-decoration:none}
+  .flinks a:hover{border-color:var(--accent);color:var(--accent)}
   .empty{color:var(--muted);text-align:center;padding:50px 20px;font-size:14px;line-height:1.6}
   .note{font-size:11px;color:var(--muted);margin-top:18px;line-height:1.5;border-top:1px solid var(--line);padding-top:12px}
 </style>
@@ -144,6 +150,7 @@
         <div class="t" id="status">Pilih judul dulu, lalu klik “Acak Angle”.</div>
         <button class="btn sec" id="copyAll">📋 Salin Semua</button>
       </div>
+      <div class="panel" id="footage" style="display:none;margin-bottom:14px"></div>
       <div class="out" id="out">
         <div class="empty">Belum ada hasil.<br>Cari &amp; pilih judul di kiri → klik <b>🎲 Acak Angle</b>.</div>
       </div>
@@ -311,9 +318,32 @@ function updateCombo(){const f=st=>HOOKS.filter(x=>x.s===st).length*SCRIPTS.filt
 
 /* ===== SHEET SEARCH (titles.json) ===== */
 let TITLES=[], hiIdx=-1;
-const NICHE_JENIS={"digital":"usaha digital","produksi":"usaha produksi","jasa":"usaha jasa","jasa b2b":"usaha jasa B2B","budidaya":"budidaya","rental":"usaha rental","kerajinan":"usaha kerajinan","trading":"trading","3d print":"usaha 3D print","bangun rumah":"jasa bangun rumah"};
+const NICHE_JENIS={"digital":"usaha digital","produksi":"usaha produksi","jasa":"usaha jasa","jasa b2b":"usaha jasa B2B","budidaya":"budidaya","rental":"usaha rental","kerajinan":"usaha kerajinan","trading":"trading","3d print":"usaha 3D print","bangun rumah":"jasa bangun rumah","kerja luar negeri":"kerja di luar negeri"};
+const FOOTAGE_MOD=["satisfying","asmr","aesthetic","proses / behind the scenes","before after","timelapse","viral fyp","tutorial"];
+const GENERIC_FOOTAGE=["proses kerja usaha kecil","UMKM Indonesia","small business owner","entrepreneur working","produk handmade","jasa profesional bekerja"];
+const NICHE_FOOTAGE={
+ "trading":["trading forex chart","candlestick grafik saham","trader setup desk","stock market screen","crypto trading","grafik trading naik","laptop trading aesthetic","financial charts"],
+ "digital":["work from home laptop","digital marketing","content creator setup","laptop typing closeup","online business owner","social media phone","freelancer working cafe","editing laptop"],
+ "produksi":["proses produksi rumahan","small factory production","manufacturing process","mesin produksi kecil","packaging produk","UMKM produksi","handmade production line","produksi makanan"],
+ "jasa":["jasa profesional bekerja","service worker proses","teknisi bekerja","cleaning service proses","layanan pelanggan","jasa rumahan","orang bekerja telaten","service satisfying"],
+ "jasa b2b":["business meeting","gudang supplier","B2B logistics warehouse","pengiriman barang truk","corporate handshake","office business proses","stok gudang","distribusi barang"],
+ "budidaya":["budidaya ikan kolam","ternak modern","panen sayur","peternakan ayam","hidroponik","farming satisfying","petani sukses","agriculture b-roll"],
+ "rental":["rental mobil showroom","sewa alat","car rental fleet","equipment rental","penyewaan barang","mobil berjejer","rental kamera","booking kendaraan"],
+ "kerajinan":["kerajinan tangan proses","handmade craft","pengrajin bekerja","DIY craft satisfying","handicraft closeup","craft aesthetic","UMKM kerajinan","artisan making"],
+ "3d print":["3d printing timelapse","3d printer proses","resin 3d print","miniature painting","print farm","3d printed product","filament printer closeup","prototype 3d"],
+ "bangun rumah":["konstruksi rumah","tukang bangunan kerja","proses bangun rumah","renovasi rumah","building site","construction timelapse","arsitektur rumah minimalis","pekerja proyek"],
+ "kerja luar negeri":["kerja di jepang","working in japan street","tokyo city life","pekerja pabrik jepang","kerja di jerman","ausbildung jerman","germany city street","TKI luar negeri","bandara keberangkatan","airport departure","working abroad vlog","kota eropa malam"]
+};
 function nicheToJenis(n){n=(n||'').toLowerCase().trim(); return NICHE_JENIS[n]||(n?("usaha "+n):"usaha ini");}
 function shortName(s){const x=(s||'').split(/[—–:]/)[0].trim(); return x.length>=3?x:(s||'').slice(0,40);}
+function footageKw(t){const niche=((t&&t.niche)||'').toLowerCase().trim(); return NICHE_FOOTAGE[niche]||GENERIC_FOOTAGE;}
+function renderFootage(t){
+  const kws=footageKw(t), box=$('footage'); box.style.display='block';
+  box.innerHTML=`<h2 style="margin-bottom:4px">🎬 Kata kunci footage / B-roll</h2><div class="combo" style="margin-bottom:10px">Buat nyari video di YouTube · TikTok · IG · stok gratis (Pexels). Klik platform = langsung search.</div><div class="fkws">`
+   +kws.map(k=>{const q=encodeURIComponent(k);return `<div class="fkw"><span class="fk">${esc(k)}</span><span class="flinks"><a target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query=${q}">YT</a><a target="_blank" rel="noopener" href="https://www.tiktok.com/search?q=${q}">TikTok</a><a target="_blank" rel="noopener" href="https://www.instagram.com/explore/search/keyword/?q=${q}">IG</a><a target="_blank" rel="noopener" href="https://www.pexels.com/search/videos/${q}/">Pexels</a></span></div>`;}).join('')
+   +`</div><div style="margin-top:10px;display:flex;gap:8px;align-items:center;flex-wrap:wrap"><button class="btn sec" id="copyKws">📋 Salin kata kunci</button><span class="combo">+ tempel modifier biar b-roll bagus: <b>${FOOTAGE_MOD.join(' · ')}</b></span></div>`;
+  $('copyKws').onclick=e=>copyText(kws.join('\n'),e.target);
+}
 function loadTitles(){
   $('syncInfo').textContent="memuat judul…";
   fetch('titles.json?t='+Date.now()).then(r=>r.json()).then(d=>{
@@ -336,6 +366,7 @@ function selectTitle(t){
   // default generic (biar gak ada kata niche lain nyangkut) — editor bisa sesuaikan di Detail usaha
   $('aksi').value="kerjain"; $('satuan').value="order";
   rollNumbers(t.code||t.judul); // angka unik per judul (seeded) -> omset beda tiap produk, stabil
+  renderFootage(t);
   $('search').value=(t.judul||'').slice(0,70);
   $('results').classList.remove('show');
   const p=$('picked'); p.classList.add('show');
@@ -366,7 +397,7 @@ $('search').addEventListener('keydown',e=>{
   else if(e.key==='Enter'){
     if(hiIdx>=0&&items[hiIdx]){e.preventDefault();selectTitle(TITLES[+items[hiIdx].dataset.idx]);}
     else if(items.length===1){e.preventDefault();selectTitle(TITLES[+items[0].dataset.idx]);}
-    else{const v=e.target.value.trim();if(v){$('judul').value=shortName(v);rollNumbers(v);box.classList.remove('show');$('picked').classList.remove('show');generate();}}
+    else{const v=e.target.value.trim();if(v){$('judul').value=shortName(v);rollNumbers(v);renderFootage({niche:''});box.classList.remove('show');$('picked').classList.remove('show');generate();}}
   }
 });
 document.addEventListener('click',e=>{if(!e.target.closest('.searchbox'))$('results').classList.remove('show');});
