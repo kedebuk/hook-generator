@@ -285,6 +285,34 @@ const TEMPEL_HOBI=[
  {t:"Jangan cuma buat senang — hobi {BISNIS} bisa hasilin {JT} juta/bulan"},
  {t:"Hobi {BISNIS} kamu nganggur? Padahal itu bisa {JT} juta/bulan"}
 ];
+/* === MODE HALUS (aman Meta — no flat claim, framing peluang/panduan) === */
+const TEMPEL_HALUS=[
+ {t:"Bisnis {BISNIS} dari rumah — modal kecil, cocok buat pemula"},
+ {t:"Lagi banyak yang nyari bisnis {BISNIS}. Peluang dikerjain dari rumah"},
+ {t:"Cara mulai bisnis {BISNIS} dari nol, step by step"},
+ {t:"Bisnis {BISNIS} dari rumah, potensi buat tambahan penghasilan"},
+ {t:"Panduan lengkap buka bisnis {BISNIS} dari rumah"},
+ {t:"Bisnis {BISNIS} yang bisa dimulai pelan-pelan dari rumah"},
+ {t:"Pengen usaha {BISNIS}? Ini langkah pertamanya"}
+];
+const TEMPEL_KARIR_HALUS=[
+ {t:"Peluang kerja di {BISNIS} — panduan jalur resminya"},
+ {t:"Cara mulai persiapan kerja ke {BISNIS} dari nol"},
+ {t:"Mau kerja di {BISNIS}? Ini langkah & dokumennya"},
+ {t:"Info jalur resmi kerja ke {BISNIS}, biar nggak kena calo"},
+ {t:"Panduan lengkap berangkat kerja ke {BISNIS}"},
+ {t:"Tertarik kerja di {BISNIS}? Mulai dari sini"}
+];
+const TEMPEL_HOBI_HALUS=[
+ {t:"Cara ubah hobi {BISNIS} jadi penghasilan dari rumah"},
+ {t:"Hobi {BISNIS} bisa jadi peluang cuan — ini caranya"},
+ {t:"Mulai jualan dari hobi {BISNIS}, step by step"},
+ {t:"Hobi {BISNIS}? Bisa jadi pemasukan tambahan dari rumah"},
+ {t:"Panduan ubah hobi {BISNIS} jadi cuan"},
+ {t:"Dari hobi {BISNIS}, pelan-pelan jadi penghasilan"}
+];
+const TEMPEL_BANKS={agresif:{karir:TEMPEL_KARIR,hobi:TEMPEL_HOBI,usaha:TEMPEL},halus:{karir:TEMPEL_KARIR_HALUS,hobi:TEMPEL_HOBI_HALUS,usaha:TEMPEL_HALUS}};
+function tempelBankFor(t){var cat=nicheCat(t&&t.niche);return (TEMPEL_BANKS[tempelMode]||TEMPEL_BANKS.agresif)[cat];}
 /* ANGLE (hook+script) khusus KARIR & HOBI — biar gak ke-framing "usaha/omset" yg ngaco */
 const HOOKS_KARIR=[
  {a:'Gaji',t:"Kerja di {BISNIS} gaji {JT} juta/bulan. Modal utamanya bukan duit."},
@@ -548,7 +576,7 @@ function renderFootage(t){
   $('copyKws').onclick=e=>copyText(kws.join('\n'),e.target);
 }
 /* ===== HOOK TEMPEL (teks nempel di atas video) ===== */
-let tempelList=[], currentTempel="", tempelBisnisDefault="bisnis ini", tempelBadgePrefix="BISNIS", tempelBank=TEMPEL;
+let tempelList=[], currentTempel="", tempelBisnisDefault="bisnis ini", tempelBadgePrefix="BISNIS", tempelBank=TEMPEL, tempelMode=(function(){try{return localStorage.getItem('tempelmode')||'agresif';}catch(e){return 'agresif';}})();
 function pick4(arr){const u=new Set(),r=[];let g=0;while(r.length<4&&u.size<arr.length&&g++<99){const x=pick(arr);if(!u.has(x.t)){u.add(x.t);r.push(x);}}return r;}
 function tempelVars(){const V=getVals(),omset=V.OMSET_NUM||0;const b=($('bisnisInp')?$('bisnisInp').value.trim():'')||tempelBisnisDefault||"bisnis ini";
   return Object.assign({},V,{BISNIS:b,JT:Math.max(1,Math.round(omset/1e6)),JT_HI:Math.max(2,Math.round(omset*1.25/1e6))});}
@@ -559,13 +587,14 @@ function fillTempel(){const TV=tempelVars(),list=$('tempelList');if(!list)return
 function renderTempel(t){
   const cat=nicheCat(t&&t.niche);
   tempelBisnisDefault=(t&&(t.judul||t.niche))?(topikOf(t)||"bisnis ini"):"bisnis ini";
-  tempelBank=cat==='karir'?TEMPEL_KARIR:cat==='hobi'?TEMPEL_HOBI:TEMPEL;
+  tempelBank=tempelBankFor(t);
   tempelList=pick4(tempelBank);
   tempelBadgePrefix=cat==='karir'?'KERJA DI':cat==='hobi'?'HOBI':'BISNIS';
   const lab=cat==='karir'?'Negara/tujuan kerja':cat==='hobi'?'Hobi':'Bisnis';
   const box=$('tempel');box.style.display='block';
   box.innerHTML='<h2 style="margin-bottom:4px">📌 Hook Tempel</h2>'
-   +'<div class="combo" style="margin-bottom:10px">Teks gede yg <b>NEMPEL di atas video</b> sepanjang durasi. Pilih 1 → Salin → tempel di editor. Angka = estimasi.</div>'
+   +'<div class="combo" style="margin-bottom:8px">Teks gede yg <b>NEMPEL di atas video</b> sepanjang durasi. Pilih 1 → Salin → tempel di editor.</div>'
+   +'<div class="seg" style="margin-bottom:10px"><button data-tm="agresif" class="'+(tempelMode==='agresif'?'on':'')+'">🔥 Agresif</button><button data-tm="halus" class="'+(tempelMode==='halus'?'on':'')+'">🌿 Halus (aman Meta)</button></div>'
    +'<label style="margin:0 0 4px">'+lab+' (buat ngisi hook — edit kalau kurang pas)</label>'
    +'<input id="bisnisInp" value="'+esc(tempelBisnisDefault)+'">'
    +'<div id="tempelList" style="margin-top:11px"></div>'
@@ -616,6 +645,7 @@ $('gen').addEventListener('click',generate);
 $('diceNum').addEventListener('click',()=>{rollNumbers(Math.random());if(current.length)generate();else omsetInfo();if($('tempelList'))fillTempel();});
 $('reload').addEventListener('click',loadTitles);
 $('tempel').addEventListener('click',function(e){var t=e.target;
+  if(t.dataset&&t.dataset.tm){tempelMode=t.dataset.tm;try{localStorage.setItem('tempelmode',tempelMode);}catch(_){}tempelBank=tempelBankFor(pickedTitle);tempelList=pick4(tempelBank);fillTempel();e.currentTarget.querySelectorAll('[data-tm]').forEach(function(b){b.classList.toggle('on',b.dataset.tm===tempelMode);});return;}
   if(t.id==='tempelRoll'){tempelList=pick4(tempelBank);fillTempel();return;}
   if(t.classList.contains('tmp-copy')){copyText(fill(tempelList[+t.dataset.i].t,tempelVars()),t);return;}});
 $('tempel').addEventListener('input',function(e){if(e.target.id==='bisnisInp')fillTempel();});
