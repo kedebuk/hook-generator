@@ -158,7 +158,7 @@
         </div>
       </div>
       <div class="controls">
-        <select id="count" style="flex:0 0 auto;width:auto"><option>3</option><option selected>5</option><option>8</option><option>10</option></select>
+        <select id="count" style="flex:0 0 auto;width:auto"><option>3</option><option selected>5</option><option>8</option><option>10</option><option>15</option><option>20</option><option>30</option></select>
         <button class="btn sec" id="diceNum" title="acak ulang angka & omset">🎲 Angka</button>
         <button class="btn" id="gen">🎲 Acak Angle</button>
       </div>
@@ -240,7 +240,27 @@ const SCRIPTS=[
  {s:'soft',t:"Yang bikin {JENIS} enak: pelanggan langganan. {JUDUL} ngajarin cara bikin paket bulanan biar {SEGMEN} bayar rutin {LANGGANAN_RANGE}. Nggak perlu ngejar order tiap hari — sekali dapet pelanggan, mereka balik terus."},
  {s:'soft',t:"{JUDUL} ngebahas pelan-pelan: kenapa {SEGMEN} butuh {JENIS}, gimana cara masuknya, apa yang dipake, dan cara nentuin harga biar untung tapi tetap laku. Cocok buat pemula yang mulai dari nol."},
  {s:'soft',t:"Bukan janji cepat kaya. {JUDUL} ngasih jalan realistis: {JENIS} modal {MODAL_USAHA}, dikerjain konsisten, pelan-pelan jadi penghasilan utama. Isinya teknik, SOP rapi, sama strategi dapet pelanggan tetap."},
- {s:'soft',t:"Pengen punya usaha sendiri tapi bingung mulai dari mana? {JUDUL} kasih peta lengkap {JENIS}: dari nyiapin yang dibutuhin, teknik biar hasil rapi, harga ({HARGA_RANGE}), sampai cara promosi murah ke {SEGMEN}."}
+ {s:'soft',t:"Pengen punya usaha sendiri tapi bingung mulai dari mana? {JUDUL} kasih peta lengkap {JENIS}: dari nyiapin yang dibutuhin, teknik biar hasil rapi, harga ({HARGA_RANGE}), sampai cara promosi murah ke {SEGMEN}."},
+
+ {s:'hard',t:"Kebanyakan orang gagal di {JENIS} bukan karena gak bisa, tapi gak tau urutannya. {JUDUL} kasih urutan persisnya: dari modal {MODAL_USAHA}, alat, teknik, sampai dapet orderan pertama. {UNIT} {SATUAN}/hari = {OMSET_RANGE}/bulan."},
+ {s:'hard',t:"Ini bukan teori motivasi. {JUDUL} ngasih angka real {JENIS}: modal {MODAL}/{SATUAN}, jual {HARGA_RANGE}, margin {MARGIN}%. {UNIT} {SATUAN} sehari = {OMSET_RANGE}/bulan, bersih {CUAN_BERSIH}. Plus SOP & kalkulator harga."},
+ {s:'hard',t:"Yang bikin {JENIS} cepat balik modal: garap pasar yang udah laper. {JUDUL} nunjukin cara masuk ke {SEGMEN} — 1 {GRUP} aja bisa {PER_GRUP_HARI} sehari. Modal {MODAL_USAHA}, sisanya cuan."},
+ {s:'hard',t:"Stop scroll. {JUDUL} bedah {JENIS} dari A sampai Z: bahan, teknik anti-gagal, harga ({HARGA_RANGE}), sampai cara closing. Konsisten {UNIT} {SATUAN}/hari, kantong nambah {OMSET_RANGE}/bulan."},
+ {s:'hard',t:"Pesaing {JENIS} masih sepi, permintaan jalan terus. {JUDUL} kasih peta lengkap biar kamu masuk duluan: modal {MODAL_USAHA}, target {UNIT} {SATUAN}/hari, omset {OMSET_RANGE}/bulan. Semua ada di panduan."},
+ {s:'hard',t:"Jangan mulai {JENIS} sebelum tau hitungannya. {JUDUL} kasih: HPP per {SATUAN} cuma {MODAL}, harga jual {HARGA_RANGE}, margin {MARGIN}%, sama BEP berapa lama. Lengkap biar gak buang modal."},
+ {s:'hard',t:"Rahasia {JENIS} yang jarang dibahas: bikin pelanggan langganan. {JUDUL} ngajarin paket bulanan {LANGGANAN_RANGE} × {JML_LANGGANAN} pelanggan = {OMSET_LANGGANAN}/bulan rutin. Income jalan walau kamu istirahat."},
+ {s:'hard',t:"Dari nol, tanpa pengalaman. {JUDUL} nuntun {JENIS} step-by-step: siapin alat modal {MODAL_USAHA}, kuasai teknik, patok harga {HARGA_RANGE}, gas promosi murah ke {SEGMEN}. Target {OMSET_RANGE}/bulan."},
+ {s:'hard',t:"Modal {MODAL_USAHA} kerasa banyak? Hitung baliknya: {UNIT} {SATUAN} sehari × {HARGA} = {OMSET_RANGE}/bulan, margin {MARGIN}%. {JUDUL} kasih jalan tercepat balik modal di {JENIS}."},
+
+ {s:'soft',t:"Gak harus resign dulu. {JUDUL} dibikin buat yang mau mulai {JENIS} sambil kerja — {UNIT_LOW} {SATUAN}/hari aja dulu, pelan-pelan naik. Modal {MODAL_USAHA}, semua dipandu dari nol."},
+ {s:'soft',t:"Buat yang takut salah langkah: {JUDUL} kasih panduan {JENIS} yang aman & terukur. Mulai kecil, teknik bener, harga pas ({HARGA_RANGE}), pelanggan dijaga biar balik lagi. Omset numpuk sendiri."},
+ {s:'soft',t:"Kebanyakan pemula bingung mulai dari mana. {JUDUL} jawab itu: checklist {JENIS} dari nyiapin alat, belajar teknik, sampai jualan pertama ke {SEGMEN}. Pelan tapi pasti."},
+ {s:'soft',t:"Bukan bisnis musiman. Permintaan {JENIS} ada terus, dan {JUDUL} nunjukin cara dapet pelanggan tetap yang balik {LANGGANAN_RANGE} tiap bulan. Cocok buat penghasilan jangka panjang."},
+ {s:'soft',t:"{JUDUL} ngebahas {JENIS} pakai bahasa gampang: kenapa {SEGMEN} butuh ini, gimana mulainya, apa yang dipake, dan cara jaga untung. Pas buat yang baru pertama usaha."},
+ {s:'soft',t:"Realistis aja. {JUDUL} gak janji kaya semalam — tapi {JENIS} modal {MODAL_USAHA}, dikerjain telaten, bisa jadi pemasukan tetap. Isinya teknik, SOP, sama strategi jualan."},
+ {s:'soft',t:"Suka kerjaan yang hasilnya keliatan? {JENIS} cocok. {JUDUL} pandu dari {SATUAN} pertama: teknik {AKSI}, foto hasil, patok harga ({HARGA_RANGE}), sampai orderan ngalir pelan-pelan."},
+ {s:'soft',t:"Mulai dari hobi atau dari nol sama-sama bisa. {JUDUL} kasih jalan {JENIS} buat siapa pun: modal kecil, alat seadanya dulu, fokus ke teknik & pelanggan. Naik bertahap ke {OMSET_RANGE}/bulan."},
+ {s:'soft',t:"Pengen pemasukan sendiri tanpa drama? {JUDUL} kasih panduan {JENIS} yang tenang & jelas: langkah kecil tiap hari, harga masuk akal, pelanggan puas dan balik lagi. Sampai {OMSET_RANGE}/bulan."}
 ];
 const CTAS=[
  {s:'hard',t:"Ambil panduannya sekarang sebelum nyesel!"},{s:'hard',t:"Klik, pelajari, langsung praktek hari ini!"},
@@ -322,12 +342,27 @@ const HOOKS_KARIR=[
  {a:'FOMO',t:"Orang lain udah gajian {JT} juta dari {BISNIS}. Kamu kapan berangkat?"},
  {a:'Jalur',t:"Ternyata urus sendiri jalur resmi ke {BISNIS} nggak seribet itu."},
  {a:'Curiosity',t:"Rahasia lolos kerja ke {BISNIS} ada di persiapan, bukan keberuntungan."},
- {a:'Mimpi',t:"Dari kampung sampai gajian {JT} juta/bulan di {BISNIS}. Ini caranya."}
+ {a:'Mimpi',t:"Dari kampung sampai gajian {JT} juta/bulan di {BISNIS}. Ini caranya."},
+ {a:'Biaya',t:"Kerja ke {BISNIS} gak harus bayar calo puluhan juta. Ini jalur resminya."},
+ {a:'Skill',t:"Modal lulus SMA bisa kerja di {BISNIS}, gaji {JT} juta/bulan."},
+ {a:'Takut',t:"Takut ketipu agen buat ke {BISNIS}? Kenali ciri sponsor abal-abal dulu."},
+ {a:'Urutan',t:"Gagal berangkat ke {BISNIS} biasanya salah di langkah pertama. Ini urutan benernya."},
+ {a:'Gaji',t:"Gaji di {BISNIS} {JT}–{JT_HI} juta/bulan. Tinggal tau cara masuknya."},
+ {a:'Mulai',t:"Pengen kerja ke {BISNIS}? Mulai dari urus dokumen & sertifikat ini dulu."}
 ];
 const SCRIPTS_KARIR=[
  {t:"Panduan ini ngebongkar jalur RESMI kerja ke {BISNIS}: dari dokumen, cara cari job offer asli, sampai hindari calo. Gaji {JT} juta/bulan itu nyata buat yang tau urutannya. Lengkap step-by-step dari nol."},
  {t:"Banyak yang gagal berangkat ke {BISNIS} bukan karena kurang pintar, tapi salah langkah di awal. Di sini dibahas riset negara & sektor, dokumen, interview, sampai estimasi gaji bersih {JT} juta/bulan plus potongannya."},
- {t:"Mau kerja ke {BISNIS} tapi takut kena calo & rugi puluhan juta? Panduan ini kasih jalur resmi, ciri sponsor abal-abal, timeline & biaya jujur, biar kamu berangkat aman dan gaji {JT} juta/bulan."}
+ {t:"Mau kerja ke {BISNIS} tapi takut kena calo & rugi puluhan juta? Panduan ini kasih jalur resmi, ciri sponsor abal-abal, timeline & biaya jujur, biar kamu berangkat aman dan gaji {JT} juta/bulan."},
+ {t:"Persiapan kerja ke {BISNIS} itu ada urutannya. {JUDUL} bongkar dari nol: pilih jalur/visa yang pas, dokumen wajib, cara cari sponsor resmi, sampai gambaran gaji {JT} juta/bulan & potongannya."},
+ {t:"Gak punya pengalaman? Bukan halangan ke {BISNIS}. Yang penting tau caranya. {JUDUL} kasih langkah lengkap biar kamu siap berangkat & gaji {JT} juta/bulan, tanpa nyangkut calo."},
+ {t:"Biaya ke {BISNIS} sering digelembungin calo. {JUDUL} kasih rincian jujur: biaya real, timeline, dokumen, ciri sponsor abal-abal — biar kamu aman & gaji {JT} juta/bulan utuh."},
+ {t:"Mau gaji {JT} juta/bulan dari {BISNIS}? Mulai dari persiapan yang bener. {JUDUL} pandu interview, dokumen, bahasa, sampai keberangkatan — step-by-step buat pemula."},
+ {t:"Kerja ke {BISNIS} bukan soal nasib, tapi persiapan. {JUDUL} kasih checklist lengkap: sertifikat, dokumen, jalur resmi, sampai adaptasi awal di sana. Gaji {JT} juta/bulan nyata kalau tau jalannya."},
+ {t:"Banyak yang gagal berangkat ke {BISNIS} karena info simpang siur. {JUDUL} rapihin semua: dari syarat, biaya, sampai cara hindari penipuan. Target jelas: berangkat & gaji {JT} juta/bulan."},
+ {t:"{JUDUL} ngebahas peluang kerja di {BISNIS} apa adanya: sektor yang lagi buka, gaji {JT}–{JT_HI} juta/bulan, plus risiko & cara mitigasinya. Biar kamu ambil keputusan dengan mata terbuka."},
+ {t:"Dari kampung sampai gajian di {BISNIS} — bisa, asal tau urutannya. {JUDUL} kasih peta jalan resmi: dokumen, bahasa, sponsor, keberangkatan. Realistis, bukan janji manis."},
+ {t:"Sebelum bayar agen apa pun buat ke {BISNIS}, baca ini dulu. {JUDUL} kasih jalur resmi yang bisa diurus sendiri, hemat puluhan juta, gaji {JT} juta/bulan tetap di tangan kamu."}
 ];
 const HOOKS_HOBI=[
  {a:'Peluang',t:"Hobi {BISNIS} kamu bisa hasilin {JT} juta/bulan. Beneran."},
@@ -336,12 +371,28 @@ const HOOKS_HOBI=[
  {a:'Social Proof',t:"Banyak yang dari hobi {BISNIS} sekarang panen {JT} juta/bulan."},
  {a:'Modal Kecil',t:"Modal kecil, hobi {BISNIS} bisa jadi penghasilan tetap dari rumah."},
  {a:'Pasar',t:"Karya {BISNIS}-mu cuma numpuk? Ada yang rela bayar mahal buat itu."},
- {a:'Mulai',t:"Gak perlu jadi pro. Hobi {BISNIS} aja udah bisa {JT} juta/bulan."}
+ {a:'Mulai',t:"Gak perlu jadi pro. Hobi {BISNIS} aja udah bisa {JT} juta/bulan."},
+ {a:'Aset',t:"Hobi {BISNIS} kamu itu aset. Sayang kalau cuma buat senang-senang."},
+ {a:'Cara Jual',t:"Jago {BISNIS} tapi sepi orderan? Masalahnya di cara jual, bukan skill."},
+ {a:'Harga',t:"Salah patok harga bikin hobi {BISNIS} gak balik modal. Ini cara benernya."},
+ {a:'Repeat',t:"Hobi {BISNIS} bisa bikin pelanggan langganan. Ini triknya."},
+ {a:'Mindset',t:"Gak usah gengsi jualan hasil {BISNIS}. Yang penting cuannya jalan."},
+ {a:'Pasar',t:"Banyak yang nyari hasil {BISNIS} bagus. Kamu tinggal sediain & patok harga."},
+ {a:'Mulai Kecil',t:"Dari hobi {BISNIS} jadi cuan {JT} juta/bulan — mulai dari 1 produk dulu."}
 ];
 const SCRIPTS_HOBI=[
  {t:"Panduan ini ngajarin cara ubah hobi {BISNIS} jadi penghasilan: produk/jasa yang laku, cara patok harga, bikin portofolio, sampai dapet pembeli pertama. Dari senang-senang jadi cuan {JT} juta/bulan, dikerjain dari rumah."},
  {t:"Jago {BISNIS} tapi belum menghasilkan? Masalahnya bukan skill, tapi cara jualnya. Di sini dibahas yang paling laku, patok tarif, jalur jualan online & komunitas, biar hobimu hasilin {JT} juta/bulan."},
- {t:"Hobi {BISNIS} kamu bisa jadi mesin cuan. Panduan ini kasih langkah realistis: pilih yang laku, harga yang pas, foto & promosi, sampai pelanggan balik lagi. Pelan-pelan tembus {JT} juta/bulan tanpa modal gede."}
+ {t:"Hobi {BISNIS} kamu bisa jadi mesin cuan. Panduan ini kasih langkah realistis: pilih yang laku, harga yang pas, foto & promosi, sampai pelanggan balik lagi. Pelan-pelan tembus {JT} juta/bulan tanpa modal gede."},
+ {t:"Hobi {BISNIS} kamu sebenarnya aset. {JUDUL} ngajarin cara ngubahnya jadi cuan: produk/jasa yang laku, patok harga, sampai pelanggan pertama. Dari iseng jadi {JT} juta/bulan."},
+ {t:"Banyak yang jago {BISNIS} tapi gak tau cara jual. {JUDUL} fokus di situ: kemas hasil hobi jadi produk, tentuin harga, jualan online, sampai repeat order. Hobi pun hasilin {JT} juta/bulan."},
+ {t:"Gak perlu jadi master {BISNIS} buat cuan. {JUDUL} nunjukin level yang udah cukup buat dijual, plus cara dapet klien & patok tarif. Mulai pelan, naik ke {JT} juta/bulan."},
+ {t:"{JUDUL} kasih jalan realistis dari hobi {BISNIS} ke penghasilan: pilih yang paling laku, foto hasil yang menjual, harga yang pas, dan cara promosi murah. Cocok dikerjain dari rumah."},
+ {t:"Hobi {BISNIS} numpuk gak kepake? Sayang. {JUDUL} ngajarin cara monetize: dari produk, jasa, sampai konten yang bisa dibayar. Pelan-pelan tembus {JT} juta/bulan."},
+ {t:"Dari sekadar suka jadi sumber cuan. {JUDUL} bongkar cara orang biasa hidup dari hobi {BISNIS}: model jualan, harga, channel, sampai jaga pelanggan tetap. Step-by-step buat pemula."},
+ {t:"{JUDUL} ngebahas hobi {BISNIS} dari sisi bisnis: apa yang orang rela bayar, berapa harganya, gimana dapet pembeli pertama, dan cara biar ordernya jalan terus tiap bulan."},
+ {t:"Modal kamu udah ada: skill {BISNIS}. {JUDUL} tinggal nambahin cara jualnya — kemasan, harga, promosi, closing. Hobi yang dulu cuma senang-senang, sekarang hasilin {JT} juta/bulan."},
+ {t:"Gak usah gengsi jualan hasil hobi. {JUDUL} kasih mindset plus teknik praktis ubah {BISNIS} jadi cuan: dari portofolio, tarif, sampai cara dapet langganan. Mulai dari rumah, pelan tapi nyata."}
 ];
 
 const DEF={judul:"", jenis:"cuci helm", harga:40000, modal:5000, unit:10, aksi:"cuci", satuan:"helm",
@@ -399,15 +450,18 @@ function rollNumbers(seedStr){
 function omsetInfo(){const V=getVals();$('omsetInfo').innerHTML=`≈ omset <b>${V.OMSET_RANGE}</b>/bln · margin <b>${V.MARGIN}%</b> · langganan ${V.LANGGANAN}/bln`;}
 
 let styleMode='mix',current=[];
+let uH=new Set(),uS=new Set(),uC=new Set(); // ROTASI: persistent antar-klik → ga ngulang sampai 1 putaran penuh
+function resetRot(){uH.clear();uS.clear();uC.clear();}
 function generate(){
-  const V=getVals(),n=parseInt($('count').value,10),uH=new Set(),uS=new Set(),uC=new Set();
+  const V=getVals(),n=parseInt($('count').value,10);
   const cat=pickedTitle?nicheCat(pickedTitle.niche):'usaha';
   V.BISNIS=(pickedTitle?topikOf(pickedTitle):tempelBisnisDefault)||'bisnis ini';
   const HB=cat==='karir'?HOOKS_KARIR:cat==='hobi'?HOOKS_HOBI:null;
   const SB=cat==='karir'?SCRIPTS_KARIR:cat==='hobi'?SCRIPTS_HOBI:null;
+  let styles; if(styleMode==='mix'){const h=Math.ceil(n/2);styles=Array.from({length:n},(_,i)=>i<h?'hard':'soft');for(let i=styles.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1)),tmp=styles[i];styles[i]=styles[j];styles[j]=tmp;}}else styles=Array.from({length:n},()=>styleMode);
   current=[];
   for(let i=0;i<n;i++){
-    const st=styleMode==='mix'?(Math.random()<0.5?'hard':'soft'):styleMode;
+    const st=styles[i];
     let hook,altH,scr,cta;
     if(HB){ // KARIR/HOBI: bank sendiri (gak pakai filter style)
       hook=pickUnused(HB,uH); altH=pick(HB.filter(h=>h.t!==hook.t));
@@ -630,7 +684,7 @@ function selectTitle(t){
   const p=$('picked'); p.classList.add('show');
   p.innerHTML=`<span class="nq">${esc(t.code||'')} · ${esc(t.niche||'')}</span><br><b>${esc(t.judul||'')}</b>${t.tagline?'<br><span style="color:var(--muted)">'+esc(t.tagline.slice(0,140))+'</span>':''}`
    +(t.lp?`<br><a class="lplink" href="${esc(t.lp)}" target="_blank" rel="noopener">🔗 Buka Landing Page</a>`:`<br><span class="lpnone">— LP belum ada —</span>`);
-  generate();
+  resetRot(); generate();
 }
 
 /* ===== PERSIST ===== */
@@ -642,6 +696,7 @@ function loadInputs(){let o={};try{o=JSON.parse(localStorage.getItem('hookgen')|
 
 /* ===== EVENTS ===== */
 $('gen').addEventListener('click',generate);
+$('count').addEventListener('change',function(){resetRot();if(current.length)generate();});
 $('diceNum').addEventListener('click',()=>{rollNumbers(Math.random());if(current.length)generate();else omsetInfo();if($('tempelList'))fillTempel();});
 $('reload').addEventListener('click',loadTitles);
 $('tempel').addEventListener('click',function(e){var t=e.target;
