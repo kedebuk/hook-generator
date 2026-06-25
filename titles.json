@@ -1,5 +1,5 @@
 {
-"updated": "2026-06-26 00:01",
+"updated": "2026-06-26 00:16",
 "count": 161,
 "items": [
 {
@@ -784,7 +784,8 @@
 "nama": "Spoortech Wheel Service",
 "judul": "Spoortech Wheel Service: Jasa Spooring & Balancing Ban Panggilan Dengan Teknik 3D Wheel-Alignment + Dynamic Balancing Untuk Mobil Harian & Travel.",
 "tagline": "SOP alignment & balancing, panduan baca camber-caster-toe, daftar alat & sensor, kalkulator harga per mobil, form inspeksi kaki-kaki, dan skrip gaet pemilik mobil & travel.",
-"status": "ide"
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/spoortech-wheel-service/"
 },
 {
 "code": "LASP",
@@ -792,7 +793,8 @@
 "nama": "Weldcraft Steel Studio",
 "judul": "Weldcraft Steel Studio: Jasa Las Pagar, Kanopi & Teralis Dengan Teknik Full-Weld + Galvanis Anti-Karat Untuk Perumahan, Ruko & Kontraktor.",
 "tagline": "SOP las & finishing anti-karat, panduan ukur & desain, daftar besi-elektroda-alat, kalkulator harga per meter, form survei lokasi, dan skrip gaet perumahan & kontraktor.",
-"status": "ide"
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/weldcraft-steel-studio/"
 },
 {
 "code": "WLPR",
@@ -800,7 +802,8 @@
 "nama": "Decowall Interior Studio",
 "judul": "Decowall Interior Studio: Jasa Pasang Wallpaper & Vinyl Lantai Dengan Teknik Seamless-Match + Bubble-Free Untuk Rumah, Kos & Cafe.",
 "tagline": "SOP pasang seamless, teknik anti-gelembung, daftar bahan & alat, kalkulator harga per roll/m2, form ukur ruangan, dan skrip gaet rumah, kos & cafe.",
-"status": "ide"
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/decowall-interior-studio/"
 },
 {
 "code": "ANTV",
@@ -808,7 +811,8 @@
 "nama": "Signalfix Antenna Service",
 "judul": "Signalfix Antenna Service: Jasa Pasang Antena TV & Parabola Dengan Teknik Signal-Align + Booster-Tuning Untuk Rumah, Warung & Kontrakan.",
 "tagline": "SOP pasang & setting sinyal, panduan arah satelit, daftar perangkat & kabel, paket harga + maintenance, form panggilan, dan skrip gaet warga & warung.",
-"status": "ide"
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/signalfix-antenna-service/"
 },
 {
 "code": "PYNG",
@@ -816,7 +820,8 @@
 "nama": "Umbrella Revive Repair",
 "judul": "Umbrella Revive Repair: Jasa Reparasi Payung & Tenda Lipat Dengan Teknik Rib-Replace + Re-Canvas Untuk Pedagang, Kafe & Rumah Tangga.",
 "tagline": "SOP reparasi rangka & kain, teknik ganti tulang, daftar spare part & alat, daftar harga per jenis, sistem antrian, dan skrip gaet pedagang & kafe.",
-"status": "ide"
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/umbrella-revive-repair/"
 },
 {
 "code": "JTGN",
@@ -824,7 +829,8 @@
 "nama": "Timepiece Care Service",
 "judul": "Timepiece Care Service: Jasa Servis & Ganti Baterai Jam Tangan Dengan Teknik Press-Seal + Anti-Scratch Untuk Konter & Kolektor.",
 "tagline": "SOP buka-pasang & ganti baterai, teknik anti-baret, daftar alat & baterai, daftar harga per jenis, form intake, dan skrip gaet konter & online.",
-"status": "ide"
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/timepiece-care-service/"
 },
 {
 "code": "SOLS",
@@ -832,7 +838,8 @@
 "nama": "Solemate Shoe Repair",
 "judul": "Solemate Shoe Repair: Jasa Sol & Reparasi Sepatu Kulit Dengan Teknik Re-Sole + Color-Restore Untuk Pekerja Kantoran & Kolektor.",
 "tagline": "SOP sol & jahit ulang, teknik recolor kulit, daftar lem-sol-alat, daftar harga per perbaikan, form intake, dan skrip gaet komunitas & online.",
-"status": "ide"
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/solemate-shoe-repair/"
 },
 {
 "code": "RPNT",
@@ -840,7 +847,8 @@
 "nama": "Custompaint Moto Studio",
 "judul": "Custompaint Moto Studio: Jasa Repaint & Cat Custom Motor Dengan Teknik Airbrush + Clear-Coat Glossy Untuk Komunitas & Anak Motor.",
 "tagline": "SOP repaint & clear coat, teknik airbrush & masking, daftar cat-kompresor-alat, paket harga per motor, form intake, dan skrip gaet komunitas motor.",
-"status": "ide"
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/custompaint-moto-studio/"
 },
 {
 "code": "AUDM",
@@ -848,7 +856,8 @@
 "nama": "Soundtune Car Audio",
 "judul": "Soundtune Car Audio: Jasa Pasang Audio & Variasi Mobil Dengan Teknik Sound-Damping + Clean-Wiring Untuk Pemilik Mobil & Bengkel.",
 "tagline": "SOP pasang head unit & speaker, teknik peredam & kabel rapi, daftar perangkat & alat, paket harga per paket, form survei, dan skrip gaet pemilik mobil & bengkel.",
-"status": "ide"
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/soundtune-car-audio/"
 },
 {
 "code": "BRDR",
@@ -856,7 +865,8 @@
 "nama": "Stitchpro Bordir Studio",
 "judul": "Stitchpro Bordir Studio: Jasa Bordir Komputer Logo & Seragam Dengan Teknik Digitasi-Presisi + Hi-Density Untuk Kantor, Sekolah & Komunitas.",
 "tagline": "SOP digitasi & bordir, teknik rapi anti-kerut, daftar benang & bahan, kalkulator harga per pcs, form desain, dan skrip gaet kantor, sekolah & komunitas.",
-"status": "ide"
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/stitchpro-bordir-studio/"
 },
 {
 "code": "SBLN",
@@ -864,7 +874,8 @@
 "nama": "Screenpress Kaos Studio",
 "judul": "Screenpress Kaos Studio: Produksi Sablon Kaos Manual Satuan Dengan Teknik Plastisol + Afdruk-Presisi Untuk Komunitas, Event & Online.",
 "tagline": "SOP afdruk & sablon, teknik warna presisi, daftar tinta-screen-alat, kalkulator HPP per kaos, form desain, dan skrip gaet komunitas, event & online.",
-"status": "ide"
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/screenpress-kaos-studio/"
 },
 {
 "code": "NEON",
@@ -872,7 +883,8 @@
 "nama": "Signbright Neon Studio",
 "judul": "Signbright Neon Studio: Jasa Bikin Neon Box & Huruf Timbul Dengan Teknik Acrylic-Bending + LED-Module Untuk Toko, Cafe & UMKM.",
 "tagline": "SOP cetak & rakit neon box, teknik finishing rapi, daftar akrilik-LED-alat, kalkulator harga per meter, form desain, dan skrip gaet toko & UMKM.",
-"status": "ide"
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/signbright-neon-studio/"
 },
 {
 "code": "CRCL",
@@ -880,7 +892,8 @@
 "nama": "Aci Snack Frozen Co",
 "judul": "Aci Snack Frozen Co: Produksi Cireng, Cilok & Cimol Frozen Dengan Teknik Aci-Blend + Flash-Freeze Untuk Reseller & Toko Frozen.",
 "tagline": "Resep cireng-cilok-cimol & bumbu, SOP produksi & flash-freeze, daftar bahan & alat, kalkulator HPP per pack, QC tekstur kenyal, dan katalog reseller & toko frozen.",
-"status": "ide"
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/aci-snack-frozen/"
 },
 {
 "code": "JSTP",
@@ -888,7 +901,8 @@
 "nama": "Jastip Order Hub",
 "judul": "Jastip Order Hub: Jasa Titip Beli Online & Mall Dengan Sistem Pre-Order + Fee-Transparan Untuk Pelanggan Sibuk & Luar Kota.",
 "tagline": "SOP pre-order & rekap, panduan fee & nego supplier, daftar marketplace & toko, kalkulator margin per order, form titipan, dan skrip gaet pelanggan sibuk & luar kota.",
-"status": "ide"
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/jastip-order-hub/"
 },
 {
 "code": "KURL",
@@ -896,7 +910,8 @@
 "nama": "Sameday Courier Lokal",
 "judul": "Sameday Courier Lokal: Jasa Antar-Jemput & Kurir Instan Dengan Sistem Zona-Tarif + Real-Time Untuk UMKM & Toko Online.",
 "tagline": "SOP pickup-antar, panduan zona tarif, daftar tools & kendaraan, kalkulator ongkir & margin, form orderan, dan skrip gaet UMKM & toko online.",
-"status": "ide"
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/sameday-courier-lokal/"
 },
 {
 "code": "CMTR",
@@ -904,7 +919,8 @@
 "nama": "Motowash Mobile Service",
 "judul": "Motowash Mobile Service: Jasa Cuci & Detailing Motor Panggilan Dengan Teknik Snow-Foam + Wax-Coat Untuk Komuter & Komunitas Motor.",
 "tagline": "SOP cuci & detailing, teknik snow-foam & wax, daftar alat & cairan, paket harga per motor, form panggilan, dan skrip gaet komuter & komunitas motor.",
-"status": "ide"
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/motowash-mobile-service/"
 },
 {
 "code": "TBAN",
@@ -912,7 +928,8 @@
 "nama": "Roadside Ban Rescue",
 "judul": "Roadside Ban Rescue: Jasa Tambal Ban & Aki Panggilan Dengan Teknik Tubeless-Patch + Jumpstart Untuk Pengendara 24 Jam.",
 "tagline": "SOP tambal tubeless & aki, panduan diagnosa, daftar alat & spare part, kalkulator tarif panggilan, form lokasi, dan skrip gaet komuter & grup ojek.",
-"status": "ide"
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/roadside-ban-rescue/"
 },
 {
 "code": "STRK",
@@ -920,7 +937,8 @@
 "nama": "Pressfresh Laundry Service",
 "judul": "Pressfresh Laundry Service: Jasa Setrika & Lipat Kiloan Dengan Teknik Steam-Press + Same-Day Untuk Karyawan, Kos & Keluarga.",
 "tagline": "SOP setrika & lipat, teknik steam-press rapi, daftar alat & hanger, kalkulator harga per kilo, sistem antar-jemput, dan skrip gaet karyawan & kos.",
-"status": "ide"
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/pressfresh-laundry-service/"
 },
 {
 "code": "HMCL",
@@ -928,7 +946,8 @@
 "nama": "Homefresh Cleaning Service",
 "judul": "Homefresh Cleaning Service: Jasa Bersih Rumah Harian Dengan Teknik Room-Checklist + Eco-Cleaner Untuk Keluarga Sibuk & Kontrakan.",
 "tagline": "SOP cleaning per ruangan, checklist standar bersih, daftar alat & cairan eco, paket harga harian/bulanan, form jadwal, dan skrip gaet keluarga & kos.",
-"status": "ide"
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/homefresh-cleaning-service/"
 },
 {
 "code": "PPOB",
@@ -936,7 +955,8 @@
 "nama": "Paysmart Loket Agen",
 "judul": "Paysmart Loket Agen: Bisnis Agen PPOB Pulsa, Token & Tagihan Dengan Sistem One-App + Fee-Admin Untuk Warga & Warung Sekitar.",
 "tagline": "SOP transaksi & deposit, panduan margin per produk, daftar aplikasi & alat, kalkulator profit harian, form pelanggan, dan skrip gaet warga & warung.",
-"status": "ide"
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/paysmart-loket-agen/"
 },
 {
 "code": "TOPG",
