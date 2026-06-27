@@ -154,12 +154,13 @@
       <div class="controls">
         <div class="seg">
           <button data-style="mix" class="on">🔀 Mix</button>
+          <button data-style="winning">🏆 Winning April</button>
           <button data-style="hard">🔥 Hardsell</button>
           <button data-style="soft">🌿 Softsell</button>
         </div>
       </div>
       <div class="controls">
-        <select id="count" style="flex:0 0 auto;width:auto"><option>3</option><option selected>5</option><option>8</option><option>10</option><option>15</option><option>20</option><option>30</option></select>
+        <select id="count" style="flex:0 0 auto;width:auto"><option>3</option><option>5</option><option>8</option><option>10</option><option selected>15</option><option>20</option><option>30</option></select>
         <button class="btn sec" id="diceNum" title="acak ulang angka & omset">🎲 Angka</button>
         <button class="btn" id="gen">🎲 Acak Angle</button>
       </div>
@@ -237,6 +238,28 @@ const HOOKS=[
  {a:'Peluang Pasar',s:'soft',t:"Di sekitarmu ada {SEGMEN}. Mereka semua calon pelangganmu."},
  {a:'Lifestyle',s:'soft',t:"Kerja dari rumah, atur jam sendiri, cuan dari {JENIS}. Bisa kok."}
 ];
+
+/* ===== WINNING APRIL 9ACC — templates dari 5 video pembelian terbaik ===== */
+const WIN_HOOKS=[
+ {a:'Counter Belief',s:'hard',t:"Kamu kira {BISNIS} nggak bisa hasilkan uang besar dari rumah?"},
+ {a:'Value Shock',s:'hard',t:"Produk sederhana ini bisa jadi mesin cuan kalau sistemnya bener: {BISNIS}."},
+ {a:'Low Modal',s:'hard',t:"Modal {MODAL_USAHA} buat mulai {BISNIS}? Yang penting tahu alurnya."},
+ {a:'Not Recipe',s:'hard',t:"Rahasianya bukan cuma tekniknya — tapi sistem jualan {BISNIS}."},
+ {a:'Objection',s:'hard',t:"Banyak yang mau mulai {BISNIS}, tapi takut gagal di langkah pertama."},
+ {a:'Preorder',s:'hard',t:"Jual dulu, uang masuk dulu, baru produksi. Ini cara aman mulai {BISNIS}."},
+ {a:'Premium Market',s:'hard',t:"{BISNIS_CAP} bukan cuma produk biasa — ini bisa masuk pasar premium."},
+ {a:'Repeat Buyer',s:'hard',t:"Kalau sistemnya benar, {BISNIS} bisa bikin pelanggan order lagi dan lagi."},
+ {a:'Small Space',s:'hard',t:"Nggak punya tempat luas? {BISNIS} bisa dimulai dari ruang kecil di rumah."},
+ {a:'Step Stack',s:'hard',t:"Dari bahan, produksi, packaging, sampai jualan — {BISNIS} harus pakai sistem."},
+ {a:'Daily Demand',s:'hard',t:"Setiap hari orang butuh solusi ini. {BISNIS_CAP} tinggal dikemas biar laku."},
+ {a:'Fear Removal',s:'soft',t:"Takut salah mulai {BISNIS}? Mulai dari peta langkah yang jelas dulu."},
+ {a:'Realistic',s:'soft',t:"{BISNIS_CAP} bisa realistis buat pemula kalau mulai kecil dan rapi."},
+ {a:'System',s:'soft',t:"Bukan janji cepat kaya — ini panduan sistem {BISNIS} dari nol."},
+ {a:'Proof Flow',s:'soft',t:"Lihat prosesnya: produk sederhana, sistem rapi, nilai jualnya jadi naik."},
+ {a:'Opportunity',s:'soft',t:"Banyak orang lihat {BISNIS} sebagai hal biasa. Di situlah peluangnya."},
+ {a:'Packaging',s:'soft',t:"Kadang yang bikin {BISNIS} laku bukan ide baru, tapi packaging dan cara cerita."},
+ {a:'CTA Soft',s:'soft',t:"Kalau mau mulai {BISNIS} tanpa nebak-nebak, pelajari langkahnya dulu."}
+];
 const SCRIPTS=[
  {s:'hard',t:"Dulu gue kira {BISNIS} cuma receh. Capek kerja, gaji abis buat sewa kosan. Sampai gue nekat bikin {BISNIS} di rumah — modal {MODAL_USAHA}, sehari kelar. Sekarang laku tiap hari, tembus {OMSET_RANGE}/bulan. {JUDUL} bongkar caranya dari nol sampai cuan."},
  {s:'hard',t:"Gue capek nungguin gajian yang gitu-gitu aja. Terus gue mulai {BISNIS} dari rumah — bahan murah, proses gampang, sekali bikin langsung banyak. Laku bukan satuan, diborong. {JT} juta/bulan masuk. {JUDUL} kasih step-nya lengkap."},
@@ -271,6 +294,27 @@ const SCRIPTS=[
  {s:'soft',t:"Suka kerjaan yang hasilnya keliatan? {JENIS} cocok. {JUDUL} pandu dari {SATUAN} pertama: teknik {AKSI}, foto hasil, patok harga ({HARGA_RANGE}), sampai orderan ngalir pelan-pelan."},
  {s:'soft',t:"Mulai dari hobi atau dari nol sama-sama bisa. {JUDUL} kasih jalan {JENIS} buat siapa pun: modal kecil, alat seadanya dulu, fokus ke teknik & pelanggan. Naik bertahap ke {OMSET_RANGE}/bulan."},
  {s:'soft',t:"Pengen pemasukan sendiri tanpa drama? {JUDUL} kasih panduan {JENIS} yang tenang & jelas: langkah kecil tiap hari, harga masuk akal, pelanggan puas dan balik lagi. Sampai {OMSET_RANGE}/bulan."}
+];
+
+const WIN_SCRIPTS=[
+ {s:'hard',t:"Kamu kira {BISNIS} dari rumah nggak bisa jadi uang besar? Justru peluangnya ada di sistem. Di {JUDUL}, kamu belajar dari nol: pilih bahan/alat, proses yang benar, QC, packaging, sampai cara jualan yang bikin orang paham nilainya. Jangan cuma lihat peluang, pelajari step-nya sekarang."},
+ {s:'hard',t:"Banyak orang mau mulai {BISNIS}, tapi mundur karena takut salah: takut hasil gagal, takut nggak laku, takut modal kebuang. {JUDUL} ngebongkar urutannya dari awal sampai jualan pertama, biar kamu nggak jalan pakai feeling."},
+ {s:'hard',t:"Modal kecil bukan masalah kalau sistemnya jelas. Mulai {BISNIS} dari rumah, susun produk yang gampang dijelaskan, hitung HPP, siapkan packaging, lalu jual ke pasar yang memang butuh. Semua alurnya dibongkar di {JUDUL}."},
+ {s:'hard',t:"Rahasianya bukan cuma resep atau teknik. Yang bikin {BISNIS} jalan adalah sistem: produksi rapi, kualitas konsisten, packaging meyakinkan, dan cara jualan yang bikin pembeli cepat ngerti. {JUDUL} kasih peta lengkapnya."},
+ {s:'hard',t:"Kalau takut stok numpuk, pakai sistem preorder. Jual dulu, uang masuk dulu, baru produksi. Di {JUDUL}, kamu belajar cara bikin penawaran {BISNIS}, kumpulin order, lalu produksi dengan risiko lebih kecil."},
+ {s:'hard',t:"{BISNIS_CAP} kelihatannya sederhana, tapi nilainya bisa naik saat dikemas sebagai solusi. {JUDUL} ngajarin cara ngubah produk biasa jadi offer yang jelas: siapa pembelinya, kenapa mereka butuh, dan gimana cara closing-nya."},
+ {s:'hard',t:"Pasar nggak selalu butuh ide yang rumit. Kadang mereka butuh produk yang praktis, rapi, dan gampang dipercaya. {JUDUL} bongkar cara mulai {BISNIS} dari rumah sampai punya repeat order."},
+ {s:'hard',t:"Jangan cuma jual produk. Jual sistem dan hasil akhirnya. Di {JUDUL}, kamu belajar bikin {BISNIS} terlihat lebih bernilai: dari proses, cerita produk, harga, sampai strategi promosi WhatsApp, IG, dan TikTok."},
+ {s:'soft',t:"Kalau kamu pemula, mulai {BISNIS} nggak harus langsung besar. {JUDUL} nunjukin langkah kecil yang aman: pahami produk, siapkan alat, uji kualitas, tentukan harga, lalu cari pembeli pertama."},
+ {s:'soft',t:"Yang sering bikin orang gagal bukan idenya, tapi urutannya. {JUDUL} merapikan langkah {BISNIS}: mulai dari bahan/alat, proses, packaging, stok, sampai cara menawarkan tanpa terdengar maksa."},
+ {s:'soft',t:"{JUDUL} dibuat buat yang ingin mulai {BISNIS} tanpa nebak-nebak. Isinya bukan cuma inspirasi, tapi panduan praktis: apa yang disiapkan, cara produksi, cara hitung modal, dan cara cari pelanggan."},
+ {s:'soft',t:"Banyak produk bagus terlihat biasa karena ceritanya datar. Di {JUDUL}, kamu belajar membangun cerita {BISNIS}: masalah pembeli, alasan produk ini dibutuhkan, bukti proses, dan ajakan beli yang jelas."},
+ {s:'soft',t:"Kalau kamu takut produk nggak dilirik, fokus dulu ke nilai yang pembeli pahami. {JUDUL} bantu menyusun {BISNIS} jadi offer yang jelas: manfaat, proses, harga, packaging, dan channel jualan."},
+ {s:'soft',t:"{BISNIS_CAP} bisa dimulai pelan-pelan dari rumah. Bukan langsung mengejar besar, tapi bikin sistem kecil yang rapi dulu: produksi konsisten, catat biaya, foto produk, lalu cari repeat buyer."},
+ {s:'soft',t:"Sebelum keluar modal lebih banyak, pahami dulu peta {BISNIS}. {JUDUL} membahas peluang pasar, kesalahan pemula, teknik dasar, sampai strategi jualan yang realistis buat mulai dari nol."},
+ {s:'soft',t:"Yang bikin {BISNIS} lebih kuat adalah repeat order. {JUDUL} ngajarin cara bikin pelanggan paham, puas, lalu balik lagi: dari kualitas produk, kemasan, follow-up, sampai promosi ringan."},
+ {s:'hard',t:"Dari ruang kecil di rumah, {BISNIS} bisa kelihatan profesional kalau prosesnya rapi. {JUDUL} kasih checklist: bahan, alat, SOP, packaging, foto produk, harga, dan skrip jualan biar cepat jalan."},
+ {s:'hard',t:"Peluang {BISNIS} bukan cuma di produknya, tapi di pasar yang sudah butuh. {JUDUL} bantu kamu cari angle pembeli, bikin alasan beli yang kuat, lalu menutupnya dengan CTA yang jelas."}
 ];
 const CTAS=[
  {s:'hard',t:"Ambil panduannya sekarang sebelum nyesel!"},{s:'hard',t:"Klik, pelajari, langsung praktek hari ini!"},
@@ -466,28 +510,35 @@ function generate(){
   const V=getVals(),n=parseInt($('count').value,10);
   const cat=pickedTitle?nicheCat(pickedTitle.niche):'usaha';
   V.BISNIS=(pickedTitle?topikOf(pickedTitle):tempelBisnisDefault)||'bisnis ini';
+  V.BISNIS_CAP=cap(V.BISNIS);
   const HB=cat==='karir'?HOOKS_KARIR:cat==='hobi'?HOOKS_HOBI:null;
   const SB=cat==='karir'?SCRIPTS_KARIR:cat==='hobi'?SCRIPTS_HOBI:null;
-  let styles; if(styleMode==='mix'){const h=Math.ceil(n/2);styles=Array.from({length:n},(_,i)=>i<h?'hard':'soft');for(let i=styles.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1)),tmp=styles[i];styles[i]=styles[j];styles[j]=tmp;}}else styles=Array.from({length:n},()=>styleMode);
+  let styles; if(styleMode==='winning') styles=Array.from({length:n},()=> 'winning');
+  else if(styleMode==='mix'){const h=Math.ceil(n/2);styles=Array.from({length:n},(_,i)=>i<h?'hard':'soft');for(let i=styles.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1)),tmp=styles[i];styles[i]=styles[j];styles[j]=tmp;}}
+  else styles=Array.from({length:n},()=>styleMode);
   current=[];
   for(let i=0;i<n;i++){
     const st=styles[i];
-    let hook,altH,scr,cta;
-    if(HB){ // KARIR/HOBI: bank sendiri (gak pakai filter style)
+    let hook,altH,scr,cta,cardStyle=st;
+    if(st==='winning'){
+      hook=pickUnused(WIN_HOOKS,uH); altH=pick(WIN_HOOKS.filter(h=>h.t!==hook.t));
+      scr=pickUnused(WIN_SCRIPTS,uS); cardStyle=scr.s||hook.s||'hard';
+      cta=pickUnused(CTAS.filter(x=>x.s===cardStyle),uC);
+    } else if(HB){ // KARIR/HOBI: bank sendiri (gak pakai filter style)
       hook=pickUnused(HB,uH); altH=pick(HB.filter(h=>h.t!==hook.t));
       scr=pickUnused(SB,uS); cta=pickUnused(CTAS.filter(x=>x.s===st),uC);
     } else {
       hook=pickUnused(HOOKS.filter(h=>h.s===st),uH); altH=pick(HOOKS.filter(h=>h.s===st&&h.t!==hook.t));
       scr=pickUnused(SCRIPTS.filter(x=>x.s===st),uS); cta=pickUnused(CTAS.filter(x=>x.s===st),uC);
     }
-    current.push({angle:hook.a||'Angle',style:st,hook:fill(hook.t,V),alt:altH?fill(altH.t,V):"",script:fill(scr.t,V),cta:fill(cta.t,V)});
+    current.push({angle:hook.a||'Angle',style:cardStyle,hook:fill(hook.t,V),alt:altH?fill(altH.t,V):"",script:fill(scr.t,V),cta:fill(cta.t,V)});
   }
   render(); omsetInfo(); saveInputs();
 }
 function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 function render(){
   const out=$('out'); out.innerHTML="";
-  $('status').textContent=current.length+" angle · "+(styleMode==='mix'?'Mix':styleMode==='hard'?'Hardsell':'Softsell');
+  $('status').textContent=current.length+" angle · "+(styleMode==='winning'?'Winning April':styleMode==='mix'?'Mix':styleMode==='hard'?'Hardsell':'Softsell');
   current.forEach((c,i)=>{const d=document.createElement('div');d.className='ang';
     d.innerHTML=`<button class="copy" data-i="${i}">📋 Salin</button>
       <div class="tags"><span class="tag angle">${c.angle}</span><span class="tag ${c.style}">${c.style==='hard'?'🔥 Hardsell':'🌿 Softsell'}</span></div>
@@ -502,7 +553,7 @@ function cardText(c){return `[${c.angle} · ${c.style==='hard'?'Hardsell':'Softs
 function copyText(t,btn){navigator.clipboard.writeText(t).then(()=>{if(btn){const o=btn.textContent;btn.textContent='✓ Tersalin';btn.classList.add('ok');setTimeout(()=>{btn.textContent=o;btn.classList.remove('ok');},1200);}}).catch(()=>{const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();if(btn)btn.textContent='✓ Tersalin';});}
 
 function updateCombo(){const f=st=>HOOKS.filter(x=>x.s===st).length*SCRIPTS.filter(x=>x.s===st).length*CTAS.filter(x=>x.s===st).length;
-  $('combo').innerHTML=`Bank: <b>${HOOKS.length}</b> hook · <b>${SCRIPTS.length}</b> script · <b>${CTAS.length}</b> CTA → <b>${(f('hard')+f('soft')).toLocaleString('id')}</b> kombinasi`;}
+  $('combo').innerHTML=`Bank: <b>${HOOKS.length}</b> hook · <b>${SCRIPTS.length}</b> script · <b>${WIN_HOOKS.length}</b> winning hook · <b>${WIN_SCRIPTS.length}</b> winning script · <b>${CTAS.length}</b> CTA → <b>${(f('hard')+f('soft')+WIN_HOOKS.length*WIN_SCRIPTS.length*CTAS.length).toLocaleString('id')}</b> kombinasi`;}
 
 /* ===== SHEET SEARCH (titles.json) ===== */
 let TITLES=[], hiIdx=-1, pickedTitle=null;
