@@ -63,12 +63,25 @@
   .tag.angle{background:#222740;color:var(--blue)}
   .tag.hard{background:rgba(255,93,93,.16);color:var(--hard)}
   .tag.soft{background:rgba(57,196,163,.16);color:var(--soft)}
+  .tag.win{background:rgba(255,210,63,.18);color:var(--accent);box-shadow:0 0 0 1px rgba(255,210,63,.22) inset}
+  .tag.mode{background:#11142a;color:var(--muted)}
+  .modebar{background:#10142a;border:1px solid var(--line);border-radius:10px;padding:8px 10px;margin:8px 0 10px;font-size:12px;color:var(--muted)}
+  .modebar b{color:var(--accent)}
+  .actions{display:flex;gap:7px;align-items:center;justify-content:flex-end;flex-wrap:wrap;margin-bottom:10px;padding-right:0}
+  .mini{background:#222740;border:1px solid var(--line);color:var(--muted);border-radius:8px;padding:6px 10px;font-size:11px;font-weight:800;cursor:pointer}
+  .mini:hover{color:var(--txt);border-color:var(--accent)}
+  .mini.ok,.usedBtn.on{background:var(--soft);color:#04261d;border-color:var(--soft)}
+  .rot{color:var(--accent)}
+  .usedBtn.on:before{content:'✓ ';font-weight:900}
+  .ang.used{opacity:.58;border-color:rgba(57,196,163,.55);background:linear-gradient(0deg,rgba(57,196,163,.07),rgba(57,196,163,.07)),var(--card)}
+  .ang.used:after{content:'SUDAH DIPAKAI';position:absolute;left:14px;top:13px;font-size:9px;font-weight:900;letter-spacing:.8px;color:var(--soft);background:rgba(57,196,163,.13);border:1px solid rgba(57,196,163,.35);border-radius:20px;padding:3px 8px}
   .ang .lab{font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin:10px 0 3px;font-weight:700}
   .ang .hook{font-size:17px;font-weight:800;line-height:1.35}
   .ang .alt{font-size:13px;color:var(--muted);font-style:italic;margin-top:5px}
   .ang .scr{font-size:14px;line-height:1.6;color:#dfe3f3}
   .ang .cta{font-size:14.5px;font-weight:800;color:var(--accent)}
   .copy{position:absolute;top:13px;right:13px;background:#222740;border:1px solid var(--line);color:var(--muted);border-radius:8px;padding:5px 10px;font-size:11px;font-weight:700;cursor:pointer}
+  .actions .copy{position:static;top:auto;right:auto;padding:6px 10px;font-weight:800}
   .copy:hover{color:var(--txt);border-color:var(--accent)}
   .copy.ok{background:var(--soft);color:#04261d;border-color:var(--soft)}
   .fkws{display:flex;flex-direction:column;gap:6px}
@@ -654,7 +667,8 @@ function rbRange(n){ return "Rp"+Math.round(n*0.875/1000)+"–"+Math.round(n*1.2
 function jtRange(n){ let hi=Math.max(1,Math.round(n/1e6)),lo=Math.max(1,hi-OMSET_SPREAD); if(lo>=hi)lo=Math.max(1,hi-1); return "Rp"+lo+"–"+hi+"jt"; }
 const cap=s=>s?s.charAt(0).toUpperCase()+s.slice(1):s;
 const pick=a=>a[Math.floor(Math.random()*a.length)];
-function pickUnused(a,u){let av=a.filter(x=>!u.has(x)); if(!av.length){u.clear();av=a;} let x=pick(av); u.add(x); return x;}
+function pickKey(x){return (x&&x.t)||String(x)}
+function pickUnused(a,u){let av=a.filter(x=>!u.has(pickKey(x))); if(!av.length){u.clear();av=a;} let x=pick(av); u.add(pickKey(x)); return x;}
 
 function getVals(){
   const g=(id,d)=>{let v=$(id).value.trim();return v===""?d:v;};
@@ -696,52 +710,69 @@ function omsetInfo(){const V=getVals();$('omsetInfo').innerHTML=`≈ omset <b>${
 
 let styleMode='mix',current=[];
 let uH=new Set(),uS=new Set(),uC=new Set(); // ROTASI: persistent antar-klik → ga ngulang sampai 1 putaran penuh
+let usedCards=new Set();
+try{usedCards=new Set(JSON.parse(localStorage.getItem('hookgen_used')||'[]'));}catch(e){usedCards=new Set();}
 function resetRot(){uH.clear();uS.clear();uC.clear();}
-function generate(){
-  const V=getVals(),n=parseInt($('count').value,10);
+function hashText(s){let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619);}return 'u'+(h>>>0).toString(36);}
+function cardId(c){return hashText([(c&&c.mode)||'',(c&&c.style)||'',(c&&c.angle)||'',(c&&c.hook)||'',(c&&c.script)||''].join('|'));}
+function isUsed(c){return usedCards.has(cardId(c));}
+function saveUsed(){try{localStorage.setItem('hookgen_used',JSON.stringify(Array.from(usedCards).slice(-2500)));}catch(e){}}
+function toggleUsed(i){const c=current[i];if(!c)return;const id=cardId(c);if(usedCards.has(id))usedCards.delete(id);else usedCards.add(id);saveUsed();render();}
+function modeLabel(c){return (c&&c.mode)==='winning'?'🏆 Winning April':'Reguler';}
+function styleLabel(c){return (c&&c.style)==='hard'?'🔥 Hardhook':'🌿 Softhook';}
+function buildCardRaw(st,V,cat,HB,SB){
+  let hook,altH,scr,cta,cardStyle=st,mode=st==='winning'?'winning':'regular';
+  if(st==='winning'){
+    const WB=winningPools(pickedTitle||{});
+    hook=pickUnused(WB.hooks,uH); altH=pick(WB.hooks.filter(h=>h.t!==hook.t));
+    scr=pickUnused(WB.scripts,uS); cardStyle=scr.s||hook.s||'hard';
+    cta=pickUnused(CTAS.filter(x=>x.s===cardStyle),uC);
+  } else if(HB){ // KARIR/HOBI: bank sendiri (gak pakai filter style)
+    hook=pickUnused(HB,uH); altH=pick(HB.filter(h=>h.t!==hook.t));
+    scr=pickUnused(SB,uS); cta=pickUnused(CTAS.filter(x=>x.s===st),uC);
+  } else {
+    hook=pickUnused(HOOKS.filter(h=>h.s===st),uH); altH=pick(HOOKS.filter(h=>h.s===st&&h.t!==hook.t));
+    scr=pickUnused(SCRIPTS.filter(x=>x.s===st),uS); cta=pickUnused(CTAS.filter(x=>x.s===st),uC);
+  }
+  return {mode:mode,angle:hook.a||'Angle',style:cardStyle,hook:fill(hook.t,V),alt:altH?fill(altH.t,V):"",script:fill(scr.t,V),cta:fill(cta.t,V)};
+}
+function buildCard(st,V,cat,HB,SB){let c=null;for(let tries=0;tries<24;tries++){c=buildCardRaw(st,V,cat,HB,SB);if(!isUsed(c))break;}return c;}
+function cardContext(){
+  const V=getVals();
   const cat=pickedTitle?nicheCat(pickedTitle.niche):'usaha';
   V.BISNIS=(pickedTitle?topikOf(pickedTitle):tempelBisnisDefault)||'bisnis ini';
   V.BISNIS_CAP=cap(V.BISNIS);
-  const HB=cat==='karir'?HOOKS_KARIR:cat==='hobi'?HOOKS_HOBI:null;
-  const SB=cat==='karir'?SCRIPTS_KARIR:cat==='hobi'?SCRIPTS_HOBI:null;
+  return {V,cat,HB:cat==='karir'?HOOKS_KARIR:cat==='hobi'?HOOKS_HOBI:null,SB:cat==='karir'?SCRIPTS_KARIR:cat==='hobi'?SCRIPTS_HOBI:null};
+}
+function generate(){
+  const ctx=cardContext(),n=parseInt($('count').value,10);
   let styles; if(styleMode==='winning') styles=Array.from({length:n},()=> 'winning');
   else if(styleMode==='mix'){const h=Math.ceil(n/2);styles=Array.from({length:n},(_,i)=>i<h?'hard':'soft');for(let i=styles.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1)),tmp=styles[i];styles[i]=styles[j];styles[j]=tmp;}}
   else styles=Array.from({length:n},()=>styleMode);
-  current=[];
-  for(let i=0;i<n;i++){
-    const st=styles[i];
-    let hook,altH,scr,cta,cardStyle=st;
-    if(st==='winning'){
-      const WB=winningPools(pickedTitle||{});
-      hook=pickUnused(WB.hooks,uH); altH=pick(WB.hooks.filter(h=>h.t!==hook.t));
-      scr=pickUnused(WB.scripts,uS); cardStyle=scr.s||hook.s||'hard';
-      cta=pickUnused(CTAS.filter(x=>x.s===cardStyle),uC);
-    } else if(HB){ // KARIR/HOBI: bank sendiri (gak pakai filter style)
-      hook=pickUnused(HB,uH); altH=pick(HB.filter(h=>h.t!==hook.t));
-      scr=pickUnused(SB,uS); cta=pickUnused(CTAS.filter(x=>x.s===st),uC);
-    } else {
-      hook=pickUnused(HOOKS.filter(h=>h.s===st),uH); altH=pick(HOOKS.filter(h=>h.s===st&&h.t!==hook.t));
-      scr=pickUnused(SCRIPTS.filter(x=>x.s===st),uS); cta=pickUnused(CTAS.filter(x=>x.s===st),uC);
-    }
-    current.push({angle:hook.a||'Angle',style:cardStyle,hook:fill(hook.t,V),alt:altH?fill(altH.t,V):"",script:fill(scr.t,V),cta:fill(cta.t,V)});
-  }
+  current=styles.map(st=>buildCard(st,ctx.V,ctx.cat,ctx.HB,ctx.SB));
   render(); omsetInfo(); saveInputs();
 }
+function rotateCard(i){if(!current[i])return;const ctx=cardContext(),st=current[i].mode==='winning'?'winning':current[i].style;current[i]=buildCard(st,ctx.V,ctx.cat,ctx.HB,ctx.SB);render();omsetInfo();saveInputs();}
 function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 function render(){
   const out=$('out'); out.innerHTML="";
-  $('status').textContent=current.length+" angle · "+(styleMode==='winning'?'Winning April':styleMode==='mix'?'Mix':styleMode==='hard'?'Hardsell':'Softsell');
-  current.forEach((c,i)=>{const d=document.createElement('div');d.className='ang';
-    d.innerHTML=`<button class="copy" data-i="${i}">📋 Salin</button>
-      <div class="tags"><span class="tag angle">${c.angle}</span><span class="tag ${c.style}">${c.style==='hard'?'🔥 Hardsell':'🌿 Softsell'}</span></div>
+  $('status').textContent=current.length+" angle · "+(styleMode==='winning'?'🏆 Winning April':styleMode==='mix'?'🔀 Mix Hard/Soft':styleMode==='hard'?'🔥 Hardhook':'🌿 Softhook')+" · tombol rotasi + centang sudah dipakai aktif";
+  current.forEach((c,i)=>{const d=document.createElement('div');const used=isUsed(c);d.className='ang'+(used?' used':'');
+    const winTag=c.mode==='winning'?'<span class="tag win">🏆 Winning</span>':'<span class="tag mode">Reguler</span>';
+    d.innerHTML=`<div class="actions"><button class="mini rot" data-i="${i}">🔄 Rotasi</button><button class="mini usedBtn ${used?'on':''}" data-i="${i}">${used?'Sudah dipakai':'☐ Tandai dipakai'}</button><button class="mini copy" data-i="${i}">📋 Salin</button></div>
+      <div class="tags">${winTag}<span class="tag angle">${c.angle}</span><span class="tag ${c.style}">${c.style==='hard'?'🔥 Hardhook':'🌿 Softhook'}</span></div>
+      <div class="modebar">Mode: <b>${modeLabel(c)}</b> · Tipe hook/script: <b>${styleLabel(c)}</b></div>
       <div class="lab">Hook</div><div class="hook">${esc(c.hook)}</div>
       ${c.alt?`<div class="alt">varian: ${esc(c.alt)}</div>`:""}
-      <div class="lab">Script</div><div class="scr">${esc(c.script)}</div>
+      <div class="lab">Script · ${modeLabel(c)} · ${styleLabel(c)}</div><div class="scr">${esc(c.script)}</div>
       <div class="lab">CTA</div><div class="cta">${esc(c.cta)}</div>
       <button class="naskah" data-i="${i}">🎬 Naskah Video</button><div class="sb" id="sb${i}"></div>`;
     out.appendChild(d);});
 }
-function cardText(c){return `[${c.angle} · ${c.style==='hard'?'Hardsell':'Softsell'}]\nHOOK: ${c.hook}\n${c.alt?'VARIAN: '+c.alt+'\n':''}SCRIPT: ${c.script}\nCTA: ${c.cta}`;}
+function cardText(c){
+  const variant=c.alt?('VARIAN: '+c.alt+'\n'):'';
+  return '['+modeLabel(c)+' · '+styleLabel(c)+' · '+c.angle+']\nHOOK: '+c.hook+'\n'+variant+'SCRIPT: '+c.script+'\nCTA: '+c.cta;
+}
 function copyText(t,btn){navigator.clipboard.writeText(t).then(()=>{if(btn){const o=btn.textContent;btn.textContent='✓ Tersalin';btn.classList.add('ok');setTimeout(()=>{btn.textContent=o;btn.classList.remove('ok');},1200);}}).catch(()=>{const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();if(btn)btn.textContent='✓ Tersalin';});}
 
 function updateCombo(){const f=st=>HOOKS.filter(x=>x.s===st).length*SCRIPTS.filter(x=>x.s===st).length*CTAS.filter(x=>x.s===st).length;
@@ -870,14 +901,14 @@ function storyboardHTML(card,idx){
      +'<div class="scn-row"><span class="scn-k">📝 teks:</span> '+esc(x.teks)+'</div>'
      +'<div class="scn-row"><span class="scn-k">🎙️ VO:</span> '+esc(x.vo)+'</div></div>';
   }).join('');
-  var head='<div class="sb-head">🎬 Naskah Video · '+sc.length+' scene · ~'+sc.tot+' detik <button class="naskah-copy" data-i="'+idx+'">📋 Salin naskah</button></div>';
+  var head='<div class="sb-head">🎬 Naskah Video · '+modeLabel(card)+' · '+styleLabel(card)+' · '+sc.length+' scene · ~'+sc.tot+' detik <button class="naskah-copy" data-i="'+idx+'">📋 Salin naskah</button></div>';
   var pin=currentTempel?'<div class="scene" style="border-left-color:var(--soft)"><div class="scn-h"><span class="scn-lbl" style="background:rgba(57,196,163,.16);color:var(--soft)">TEMPEL</span> nempel di ATAS sepanjang video</div><div class="scn-row"><span class="scn-k">📌</span> <b>'+esc(currentTempel)+'</b></div></div>':'';
   return head+pin+rows;
 }
 function storyboardText(card){
   var sc=buildScenes(card);
   var pin=currentTempel?'📌 TEKS TEMPEL (nempel di ATAS sepanjang video):\n'+currentTempel+'\n\n':'';
-  return '🎬 NASKAH VIDEO ('+sc.length+' scene, ~'+sc.tot+' dtk)\n\n'+pin+sc.map(function(x,i){return 'SCENE '+(i+1)+' ('+x.range+') ['+x.lbl+']\n🎬 Footage: '+x.kw+'\n📝 Teks layar: '+x.teks+'\n🎙️ VO: '+x.vo;}).join('\n\n');
+  return '🎬 NASKAH VIDEO · '+modeLabel(card)+' · '+styleLabel(card)+' ('+sc.length+' scene, ~'+sc.tot+' dtk)\n\n'+pin+sc.map(function(x,i){return 'SCENE '+(i+1)+' ('+x.range+') ['+x.lbl+']\n🎬 Footage: '+x.kw+'\n📝 Teks layar: '+x.teks+'\n🎙️ VO: '+x.vo;}).join('\n\n');
 }
 function renderFootage(t){
   const kws=footageKw(t), box=$('footage'); box.style.display='block';
@@ -965,6 +996,8 @@ $('tempel').addEventListener('click',function(e){var t=e.target;
 $('tempel').addEventListener('input',function(e){if(e.target.id==='bisnisInp')fillTempel();});
 $('copyAll').addEventListener('click',e=>{if(current.length){var pin=currentTempel?'📌 TEKS TEMPEL (nempel di atas video): '+currentTempel+'\n\n═══\n\n':'';copyText(pin+current.map(cardText).join('\n\n———\n\n'),e.target);}});
 $('out').addEventListener('click',function(e){var t=e.target;
+  if(t.classList.contains('rot')){rotateCard(+t.dataset.i);return;}
+  if(t.classList.contains('usedBtn')){toggleUsed(+t.dataset.i);return;}
   if(t.classList.contains('naskah-copy')){copyText(storyboardText(current[+t.dataset.i]),t);return;}
   if(t.classList.contains('naskah')){var i=+t.dataset.i,box=document.getElementById('sb'+i);box.innerHTML=box.innerHTML?'':storyboardHTML(current[i],i);return;}
   if(t.classList.contains('copy')){copyText(cardText(current[+t.dataset.i]),t);return;}
