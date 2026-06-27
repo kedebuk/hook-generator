@@ -241,24 +241,24 @@ const HOOKS=[
 
 /* ===== WINNING APRIL 9ACC — templates dari 5 video pembelian terbaik ===== */
 const WIN_HOOKS=[
- {a:'Counter Belief',s:'hard',t:"Kamu kira {BISNIS} nggak bisa hasilkan uang besar dari rumah?"},
- {a:'Value Shock',s:'hard',t:"Produk sederhana ini bisa jadi mesin cuan kalau sistemnya bener: {BISNIS}."},
- {a:'Low Modal',s:'hard',t:"Modal {MODAL_USAHA} buat mulai {BISNIS}? Yang penting tahu alurnya."},
- {a:'Not Recipe',s:'hard',t:"Rahasianya bukan cuma tekniknya — tapi sistem jualan {BISNIS}."},
- {a:'Objection',s:'hard',t:"Banyak yang mau mulai {BISNIS}, tapi takut gagal di langkah pertama."},
- {a:'Preorder',s:'hard',t:"Jual dulu, uang masuk dulu, baru produksi. Ini cara aman mulai {BISNIS}."},
- {a:'Premium Market',s:'hard',t:"{BISNIS_CAP} bukan cuma produk biasa — ini bisa masuk pasar premium."},
- {a:'Repeat Buyer',s:'hard',t:"Kalau sistemnya benar, {BISNIS} bisa bikin pelanggan order lagi dan lagi."},
- {a:'Small Space',s:'hard',t:"Nggak punya tempat luas? {BISNIS} bisa dimulai dari ruang kecil di rumah."},
- {a:'Step Stack',s:'hard',t:"Dari bahan, produksi, packaging, sampai jualan — {BISNIS} harus pakai sistem."},
- {a:'Daily Demand',s:'hard',t:"Setiap hari orang butuh solusi ini. {BISNIS_CAP} tinggal dikemas biar laku."},
- {a:'Fear Removal',s:'soft',t:"Takut salah mulai {BISNIS}? Mulai dari peta langkah yang jelas dulu."},
- {a:'Realistic',s:'soft',t:"{BISNIS_CAP} bisa realistis buat pemula kalau mulai kecil dan rapi."},
- {a:'System',s:'soft',t:"Bukan janji cepat kaya — ini panduan sistem {BISNIS} dari nol."},
- {a:'Proof Flow',s:'soft',t:"Lihat prosesnya: produk sederhana, sistem rapi, nilai jualnya jadi naik."},
- {a:'Opportunity',s:'soft',t:"Banyak orang lihat {BISNIS} sebagai hal biasa. Di situlah peluangnya."},
- {a:'Packaging',s:'soft',t:"Kadang yang bikin {BISNIS} laku bukan ide baru, tapi packaging dan cara cerita."},
- {a:'CTA Soft',s:'soft',t:"Kalau mau mulai {BISNIS} tanpa nebak-nebak, pelajari langkahnya dulu."}
+ {a:'Offer Clarity',s:'hard',t:"{BISNIS_CAP} nggak akan laku kalau cuma disebut peluang. Offer-nya harus jelas."},
+ {a:'Problem First',s:'hard',t:"Yang dibeli orang bukan {BISNIS}, tapi solusi dari masalah yang mereka rasakan."},
+ {a:'Target Market',s:'hard',t:"Sebelum jual {BISNIS}, tentukan dulu siapa yang paling butuh dan kenapa mereka harus percaya."},
+ {a:'Wrong Order',s:'hard',t:"Banyak yang gagal di {BISNIS} bukan karena idenya jelek, tapi karena urutannya salah."},
+ {a:'Proof',s:'hard',t:"{BISNIS_CAP} harus kelihatan meyakinkan: bukti proses, hasil, harga, dan cara order."},
+ {a:'Simple System',s:'hard',t:"Kalau alurnya rapi, {BISNIS} bisa jalan tanpa harus nebak-nebak tiap hari."},
+ {a:'Positioning',s:'hard',t:"{BISNIS_CAP} terlihat mahal saat posisinya jelas: untuk siapa, hasilnya apa, bedanya di mana."},
+ {a:'First Buyer',s:'hard',t:"Pembeli pertama {BISNIS} biasanya datang dari offer yang spesifik, bukan promosi asal ramai."},
+ {a:'Trust',s:'hard',t:"Orang mau bayar {BISNIS} kalau mereka paham prosesnya dan percaya hasil akhirnya."},
+ {a:'Anti Random',s:'hard',t:"Jangan mulai {BISNIS} dari feeling. Mulai dari peta: target, biaya, offer, channel."},
+ {a:'Low Risk',s:'soft',t:"Mulai {BISNIS} bisa dibuat lebih aman kalau validasi kecil dulu sebelum keluar modal besar."},
+ {a:'Realistic',s:'soft',t:"{BISNIS_CAP} realistis buat pemula kalau langkahnya kecil, terukur, dan konsisten."},
+ {a:'Angle',s:'soft',t:"Kadang yang bikin {BISNIS} nyangkut bukan produknya, tapi angle cerita yang belum pas."},
+ {a:'Pricing',s:'soft',t:"Harga {BISNIS} jangan ditebak. Hitung biaya, nilai yang diterima pembeli, dan margin aman."},
+ {a:'Channel',s:'soft',t:"{BISNIS_CAP} perlu channel jualan yang cocok, bukan sekadar upload lalu berharap viral."},
+ {a:'Checklist',s:'soft',t:"Kalau bingung mulai {BISNIS}, pecah jadi checklist: siapa targetnya, apa offernya, cara jualnya."},
+ {a:'Follow Up',s:'soft',t:"Banyak penjualan {BISNIS} hilang bukan karena pembeli nggak minat, tapi karena follow-up berantakan."},
+ {a:'Better Offer',s:'soft',t:"Offer {BISNIS} yang jelas bikin orang lebih cepat paham dan lebih gampang ambil keputusan."}
 ];
 const SCRIPTS=[
  {s:'hard',t:"Dulu gue kira {BISNIS} cuma receh. Capek kerja, gaji abis buat sewa kosan. Sampai gue nekat bikin {BISNIS} di rumah — modal {MODAL_USAHA}, sehari kelar. Sekarang laku tiap hari, tembus {OMSET_RANGE}/bulan. {JUDUL} bongkar caranya dari nol sampai cuan."},
@@ -297,25 +297,160 @@ const SCRIPTS=[
 ];
 
 const WIN_SCRIPTS=[
- {s:'hard',t:"Kamu kira {BISNIS} dari rumah nggak bisa jadi uang besar? Justru peluangnya ada di sistem. Di {JUDUL}, kamu belajar dari nol: pilih bahan/alat, proses yang benar, QC, packaging, sampai cara jualan yang bikin orang paham nilainya. Jangan cuma lihat peluang, pelajari step-nya sekarang."},
- {s:'hard',t:"Banyak orang mau mulai {BISNIS}, tapi mundur karena takut salah: takut hasil gagal, takut nggak laku, takut modal kebuang. {JUDUL} ngebongkar urutannya dari awal sampai jualan pertama, biar kamu nggak jalan pakai feeling."},
- {s:'hard',t:"Modal kecil bukan masalah kalau sistemnya jelas. Mulai {BISNIS} dari rumah, susun produk yang gampang dijelaskan, hitung HPP, siapkan packaging, lalu jual ke pasar yang memang butuh. Semua alurnya dibongkar di {JUDUL}."},
- {s:'hard',t:"Rahasianya bukan cuma resep atau teknik. Yang bikin {BISNIS} jalan adalah sistem: produksi rapi, kualitas konsisten, packaging meyakinkan, dan cara jualan yang bikin pembeli cepat ngerti. {JUDUL} kasih peta lengkapnya."},
- {s:'hard',t:"Kalau takut stok numpuk, pakai sistem preorder. Jual dulu, uang masuk dulu, baru produksi. Di {JUDUL}, kamu belajar cara bikin penawaran {BISNIS}, kumpulin order, lalu produksi dengan risiko lebih kecil."},
- {s:'hard',t:"{BISNIS_CAP} kelihatannya sederhana, tapi nilainya bisa naik saat dikemas sebagai solusi. {JUDUL} ngajarin cara ngubah produk biasa jadi offer yang jelas: siapa pembelinya, kenapa mereka butuh, dan gimana cara closing-nya."},
- {s:'hard',t:"Pasar nggak selalu butuh ide yang rumit. Kadang mereka butuh produk yang praktis, rapi, dan gampang dipercaya. {JUDUL} bongkar cara mulai {BISNIS} dari rumah sampai punya repeat order."},
- {s:'hard',t:"Jangan cuma jual produk. Jual sistem dan hasil akhirnya. Di {JUDUL}, kamu belajar bikin {BISNIS} terlihat lebih bernilai: dari proses, cerita produk, harga, sampai strategi promosi WhatsApp, IG, dan TikTok."},
- {s:'soft',t:"Kalau kamu pemula, mulai {BISNIS} nggak harus langsung besar. {JUDUL} nunjukin langkah kecil yang aman: pahami produk, siapkan alat, uji kualitas, tentukan harga, lalu cari pembeli pertama."},
- {s:'soft',t:"Yang sering bikin orang gagal bukan idenya, tapi urutannya. {JUDUL} merapikan langkah {BISNIS}: mulai dari bahan/alat, proses, packaging, stok, sampai cara menawarkan tanpa terdengar maksa."},
- {s:'soft',t:"{JUDUL} dibuat buat yang ingin mulai {BISNIS} tanpa nebak-nebak. Isinya bukan cuma inspirasi, tapi panduan praktis: apa yang disiapkan, cara produksi, cara hitung modal, dan cara cari pelanggan."},
- {s:'soft',t:"Banyak produk bagus terlihat biasa karena ceritanya datar. Di {JUDUL}, kamu belajar membangun cerita {BISNIS}: masalah pembeli, alasan produk ini dibutuhkan, bukti proses, dan ajakan beli yang jelas."},
- {s:'soft',t:"Kalau kamu takut produk nggak dilirik, fokus dulu ke nilai yang pembeli pahami. {JUDUL} bantu menyusun {BISNIS} jadi offer yang jelas: manfaat, proses, harga, packaging, dan channel jualan."},
- {s:'soft',t:"{BISNIS_CAP} bisa dimulai pelan-pelan dari rumah. Bukan langsung mengejar besar, tapi bikin sistem kecil yang rapi dulu: produksi konsisten, catat biaya, foto produk, lalu cari repeat buyer."},
- {s:'soft',t:"Sebelum keluar modal lebih banyak, pahami dulu peta {BISNIS}. {JUDUL} membahas peluang pasar, kesalahan pemula, teknik dasar, sampai strategi jualan yang realistis buat mulai dari nol."},
- {s:'soft',t:"Yang bikin {BISNIS} lebih kuat adalah repeat order. {JUDUL} ngajarin cara bikin pelanggan paham, puas, lalu balik lagi: dari kualitas produk, kemasan, follow-up, sampai promosi ringan."},
- {s:'hard',t:"Dari ruang kecil di rumah, {BISNIS} bisa kelihatan profesional kalau prosesnya rapi. {JUDUL} kasih checklist: bahan, alat, SOP, packaging, foto produk, harga, dan skrip jualan biar cepat jalan."},
- {s:'hard',t:"Peluang {BISNIS} bukan cuma di produknya, tapi di pasar yang sudah butuh. {JUDUL} bantu kamu cari angle pembeli, bikin alasan beli yang kuat, lalu menutupnya dengan CTA yang jelas."}
+ {s:'hard',t:"Kamu nggak perlu mulai {BISNIS} dengan asal coba. Di {JUDUL}, alurnya dirapikan dari nol: siapa targetnya, masalah apa yang diselesaikan, cara bikin offer, cara hitung harga, sampai channel jualan yang paling masuk akal."},
+ {s:'hard',t:"Banyak peluang terlihat bagus, tapi gagal karena penawarannya kabur. {JUDUL} bantu kamu bikin {BISNIS} lebih jelas: manfaat utama, bukti, harga, alasan beli sekarang, dan cara follow-up pembeli."},
+ {s:'hard',t:"Kalau orang belum paham kenapa harus beli, {BISNIS} akan susah closing. Panduan ini ngajarin cara membungkus ide jadi offer yang gampang dimengerti, dipercaya, dan siap dijual."},
+ {s:'hard',t:"Jangan mulai dari feeling. Mulai dari sistem kecil: validasi target, susun biaya, bikin paket penawaran, siapkan materi promosi, lalu tes ke calon pembeli. Semua langkahnya dibedah di {JUDUL}."},
+ {s:'hard',t:"Yang bikin {BISNIS} naik nilai bukan sekadar ramai, tapi positioning. Siapa pembelinya, hasil apa yang mereka mau, apa bedanya kamu, dan kenapa harga itu masuk akal. {JUDUL} kasih peta praktisnya."},
+ {s:'hard',t:"Pembeli butuh alasan yang konkret. Di {JUDUL}, kamu belajar menyusun {BISNIS} jadi penawaran yang kuat: problem, solusi, proses, bukti, harga, dan CTA yang nggak membingungkan."},
+ {s:'hard',t:"Kalau takut modal kebuang, jangan langsung besar. Validasi {BISNIS} dari offer kecil, lihat respon pasar, catat biaya, lalu naikkan pelan-pelan. {JUDUL} nunjukin urutannya."},
+ {s:'hard',t:"{BISNIS_CAP} bisa lebih mudah dijual kalau kamu tahu angle yang tepat. Panduan ini bantu bikin pesan yang tajam, bukan copy asal heboh: target jelas, manfaat jelas, action jelas."},
+ {s:'hard',t:"Bukan cuma soal ide. {JUDUL} ngajarin sistem eksekusi {BISNIS}: riset singkat, susun paket, cek harga, siapkan konten, follow-up, dan evaluasi mana yang benar-benar menghasilkan."},
+ {s:'soft',t:"Kalau kamu pemula, mulai {BISNIS} nggak harus langsung sempurna. {JUDUL} memecahnya jadi langkah kecil: pahami target, siapkan offer, hitung biaya, dan tes penjualan pertama secara realistis."},
+ {s:'soft',t:"Seringnya orang bukan gagal karena malas, tapi karena bingung urutan. {JUDUL} merapikan proses {BISNIS} dari awal sampai siap ditawarkan ke calon pembeli."},
+ {s:'soft',t:"{JUDUL} dibuat buat yang ingin mulai {BISNIS} tanpa nebak-nebak. Isinya panduan praktis: apa yang harus disiapkan, cara menilai peluang, cara bikin harga, dan cara cari pembeli awal."},
+ {s:'soft',t:"Kadang ide bagus terlihat biasa karena ceritanya datar. Di {JUDUL}, kamu belajar menyusun cerita {BISNIS}: masalah pembeli, alasan solusi ini relevan, bukti proses, dan ajakan beli yang jelas."},
+ {s:'soft',t:"Sebelum keluar modal lebih banyak, pahami dulu peta {BISNIS}. Panduan ini membahas kesalahan pemula, cara validasi, cara menyusun offer, dan strategi jualan yang realistis."},
+ {s:'soft',t:"{BISNIS_CAP} bisa dimulai pelan-pelan. Fokus dulu ke sistem kecil yang rapi: target jelas, biaya tercatat, pesan promosi konsisten, dan follow-up yang tidak berantakan."},
+ {s:'soft',t:"Kalau produk atau jasa kamu belum dilirik, jangan cuma ganti caption. Cek offer-nya: manfaat, harga, bukti, dan alasan beli. {JUDUL} bantu membongkar bagian itu."},
+ {s:'soft',t:"{JUDUL} bukan janji cepat kaya. Ini panduan untuk bikin {BISNIS} lebih masuk akal: mulai dari riset, biaya, offer, konten, sampai cara menjaga pembeli agar balik lagi."},
+ {s:'soft',t:"Dengan langkah yang lebih rapi, {BISNIS} jadi tidak terasa acak. Kamu tahu apa yang disiapkan, ke siapa dijual, berapa harga aman, dan bagaimana memperbaiki penawaran setelah tes pasar."}
 ];
+
+const WIN_HOOKS_EXTRA={
+ jasa:[
+  {a:'Trust',s:'hard',t:"Jasa {BISNIS} nggak cukup kelihatan murah. Calon klien harus percaya proses dan hasilnya."},
+  {a:'Before After',s:'hard',t:"Yang bikin jasa {BISNIS} cepat dipercaya: bukti before-after, SOP, dan hasil yang kelihatan."},
+  {a:'Pain Klien',s:'hard',t:"Klien bayar {BISNIS} karena mau masalahnya beres tanpa ribet."},
+  {a:'Repeat Client',s:'hard',t:"Jasa {BISNIS} bisa repeat kalau hasilnya konsisten dan follow-up-nya rapi."},
+  {a:'Premium Service',s:'soft',t:"{BISNIS_CAP} bisa naik harga kalau diposisikan sebagai layanan profesional, bukan jasa asal murah."},
+  {a:'Booking',s:'soft',t:"Sistem booking, checklist kerja, dan bukti hasil bikin {BISNIS} lebih gampang closing."},
+  {a:'SOP',s:'soft',t:"Klien nggak cuma beli tenaga. Mereka beli SOP {BISNIS} yang rapi dan bisa dipertanggungjawabkan."},
+  {a:'Anti Komplain',s:'soft',t:"Komplain jasa {BISNIS} sering muncul karena ekspektasi nggak jelas dari awal."}
+ ],
+ digital:[
+  {a:'Portfolio',s:'hard',t:"Jasa digital {BISNIS} nggak akan dipercaya tanpa contoh hasil dan proses kerja yang jelas."},
+  {a:'Retainer',s:'hard',t:"{BISNIS_CAP} bisa jadi pemasukan rutin kalau paketnya dibuat bulanan, bukan sekali kerja doang."},
+  {a:'Result',s:'hard',t:"UMKM nggak bayar {BISNIS} karena desainnya keren saja. Mereka bayar karena hasilnya membantu jualan."},
+  {a:'Client Pain',s:'hard',t:"Banyak bisnis butuh {BISNIS}, tapi bingung cari orang yang bisa jelasin hasil kerjanya."},
+  {a:'Offer Digital',s:'soft',t:"Paket {BISNIS} yang jelas bikin calon klien lebih cepat paham: output apa, berapa revisi, kapan selesai."},
+  {a:'Proof Digital',s:'soft',t:"Di jasa digital, bukti proses dan contoh output lebih kuat dari sekadar janji."},
+  {a:'Scope',s:'soft',t:"{BISNIS_CAP} harus punya scope kerja yang jelas supaya nggak revisi tanpa ujung."},
+  {a:'Client Fit',s:'soft',t:"Jasa digital lebih gampang closing kalau target kliennya spesifik, bukan semua orang."}
+ ],
+ b2b:[
+  {a:'Kontrak',s:'hard',t:"B2B {BISNIS} menang di SOP, invoice rapi, dan repeat order — bukan sekadar harga murah."},
+  {a:'Operasional',s:'hard',t:"Klien bisnis butuh {BISNIS} yang stabil, bisa dijadwalkan, dan minim drama."},
+  {a:'Vendor Trust',s:'hard',t:"Kalau mau jadi vendor {BISNIS}, yang dijual adalah kepercayaan operasional."},
+  {a:'Repeat B2B',s:'soft',t:"Satu klien B2B {BISNIS} bisa bernilai panjang kalau service level-nya jelas."},
+  {a:'SLA',s:'soft',t:"{BISNIS_CAP} untuk bisnis harus punya standar kerja, logbook, dan follow-up yang rapi."},
+  {a:'Decision Maker',s:'soft',t:"Menjual {BISNIS} ke bisnis beda: bicara hemat waktu, minim risiko, dan laporan jelas."}
+ ],
+ rental:[
+  {a:'Asset Cuan',s:'hard',t:"Rental {BISNIS} bukan cuma punya barang. Kuncinya booking, deposit, perawatan, dan utilisasi."},
+  {a:'Utilisasi',s:'hard',t:"Barang rental {BISNIS} harus sering keluar. Kalau kalender kosong, profit ikut kosong."},
+  {a:'Risk Control',s:'hard',t:"Bisnis rental {BISNIS} rawan rugi kalau kontrak, deposit, dan checklist barang nggak rapi."},
+  {a:'Booking',s:'soft',t:"{BISNIS_CAP} lebih aman kalau punya sistem booking, jadwal, dan foto kondisi barang."},
+  {a:'Maintenance',s:'soft',t:"Profit rental {BISNIS} datang dari aset yang terawat dan dipakai berulang."},
+  {a:'Event Demand',s:'soft',t:"Permintaan {BISNIS} sering musiman. Sistem kalender bikin kamu siap sebelum ramai."}
+ ],
+ budidaya:[
+  {a:'Panen',s:'hard',t:"Budidaya {BISNIS} bukan cuma panen. Kuncinya bibit, pakan, jadwal, dan pembeli sebelum panen."},
+  {a:'Buyer First',s:'hard',t:"Sebelum perbesar {BISNIS}, pastikan dulu siapa yang siap beli hasil panennya."},
+  {a:'Risiko',s:'hard',t:"Banyak gagal budidaya {BISNIS} karena hitung pakan, siklus, dan mortalitasnya asal."},
+  {a:'Small Batch',s:'soft',t:"Mulai {BISNIS} dari skala kecil dulu, ukur biaya dan hasilnya sebelum tambah kapasitas."},
+  {a:'Quality',s:'soft',t:"Harga {BISNIS} naik kalau kualitas panen, sortasi, dan pasarnya jelas."},
+  {a:'Cycle',s:'soft',t:"Budidaya {BISNIS} perlu kalender siklus, bukan cuma semangat mulai."}
+ ],
+ produk:[
+  {a:'Produk Offer',s:'hard',t:"Produk {BISNIS} nggak cukup enak/bagus. Packaging, harga, dan alasan beli harus jelas."},
+  {a:'Preorder Produk',s:'hard',t:"Takut stok {BISNIS} numpuk? Tes market kecil dulu sebelum produksi banyak."},
+  {a:'Margin',s:'hard',t:"{BISNIS_CAP} harus dihitung dari HPP, bukan cuma ikut harga pesaing."},
+  {a:'QC',s:'hard',t:"Produk {BISNIS} bisa repeat kalau rasa/hasil, kemasan, dan kualitasnya konsisten."},
+  {a:'Premium',s:'soft',t:"Produk sederhana seperti {BISNIS} bisa naik nilai kalau dikemas untuk momen dan target yang tepat."},
+  {a:'Story Product',s:'soft',t:"Cerita produk {BISNIS} harus menjawab: kenapa ini beda, cocok untuk siapa, dan kapan dibeli."},
+  {a:'Sampling',s:'soft',t:"Sebelum produksi banyak, {BISNIS} bisa dites lewat sample, PO, dan feedback kecil."},
+  {a:'Repeat Product',s:'soft',t:"Repeat order {BISNIS} datang dari kualitas konsisten, bukan hook viral saja."}
+ ],
+ bangun:[
+  {a:'Anti Markup',s:'hard',t:"Bangun rumah rawan bocor biaya kalau RAB, material, dan upah nggak kamu pegang dari awal."},
+  {a:'Kontrol Tukang',s:'hard',t:"Masalah proyek rumah sering mulai dari brief yang kabur dan pengawasan yang lemah."},
+  {a:'DP Aman',s:'hard',t:"Sebelum kasih DP tukang, cek dulu RAB, progres, dan sistem pembayaran yang aman."},
+  {a:'Owner Control',s:'soft',t:"Pemilik rumah perlu ngerti dasar proyek supaya nggak gampang di-markup atau diulur."},
+  {a:'Checklist Proyek',s:'soft',t:"RAB, material, timeline, dan checklist harian bikin proyek rumah lebih terkendali."},
+  {a:'Risiko Proyek',s:'soft',t:"Proyek rumah bukan cuma desain bagus. Risiko terbesar ada di biaya, tukang, dan material."}
+ ],
+ karir:[
+  {a:'Jalur Resmi',s:'hard',t:"Mau kerja ke {BISNIS}? Mulai dari jalur resmi, bukan dari janji agen."},
+  {a:'Anti Calo',s:'hard',t:"Takut ketipu kerja {BISNIS}? Pahami dulu dokumen, sponsor, biaya, dan red flag-nya."},
+  {a:'Dokumen',s:'soft',t:"Kerja ke {BISNIS} lebih aman kalau dokumen dan urutannya rapi sejak awal."}
+ ],
+ hobi:[
+  {a:'Monetize',s:'hard',t:"Hobi {BISNIS} bisa jadi pemasukan kalau diubah jadi offer, bukan cuma upload karya."},
+  {a:'Portofolio',s:'hard',t:"Jago {BISNIS} tapi belum cuan? Mulai dari portofolio kecil dan harga yang masuk akal."},
+  {a:'Karya Laku',s:'soft',t:"Karya {BISNIS} lebih gampang laku kalau ada cerita, paket, dan cara order yang jelas."}
+ ]
+};
+const WIN_SCRIPTS_EXTRA={
+ jasa:[
+  {s:'hard',t:"Jasa {BISNIS} itu bisnis kepercayaan. {JUDUL} bantu kamu susun SOP, before-after, paket harga, cara jelasin proses, sampai follow-up supaya klien paham kenapa harus pilih kamu."},
+  {s:'hard',t:"Klien nggak mau ribet. Mereka butuh {BISNIS} yang hasilnya jelas dan aman. Di panduan ini, kamu belajar bikin checklist kerja, foto bukti, penawaran, dan sistem booking yang rapi."},
+  {s:'soft',t:"Kalau jasa {BISNIS} kamu sering ditawar murah, kemungkinan value-nya belum kelihatan. {JUDUL} bantu bikin paket layanan, scope kerja, dan cara komunikasi supaya lebih profesional."}
+ ],
+ digital:[
+  {s:'hard',t:"Jasa digital {BISNIS} menang kalau output dan hasilnya jelas. {JUDUL} bantu susun paket, contoh portofolio, batas revisi, harga, dan cara closing klien UMKM tanpa terlihat asal jualan."},
+  {s:'hard',t:"Banyak klien butuh {BISNIS}, tapi mereka takut hasilnya nggak sesuai. Panduan ini ngajarin cara bikin brief, mockup, paket layanan, timeline, dan bukti kerja yang bikin mereka percaya."},
+  {s:'soft',t:"Kalau mau {BISNIS} jadi pemasukan rutin, jangan jual satuan terus. {JUDUL} bahas cara bikin paket bulanan, scope kerja, dan follow-up klien yang lebih rapi."}
+ ],
+ b2b:[
+  {s:'hard',t:"Menjual {BISNIS} ke bisnis butuh bahasa operasional: hemat waktu, minim risiko, laporan jelas. {JUDUL} bantu susun penawaran B2B, SOP, invoice, dan repeat order."},
+  {s:'soft',t:"Klien B2B nggak cuma cari harga. Mereka cari vendor {BISNIS} yang stabil. Panduan ini membahas standar kerja, jadwal, logbook, dan cara menjaga kontrak tetap jalan."}
+ ],
+ rental:[
+  {s:'hard',t:"Rental {BISNIS} profit kalau asetnya sering keluar dan tetap aman. {JUDUL} bahas booking, deposit, kontrak, foto kondisi barang, perawatan, dan cara hitung utilisasi."},
+  {s:'soft',t:"Sebelum beli banyak aset untuk {BISNIS}, hitung dulu permintaan, kalender ramai, biaya maintenance, dan risiko rusak. Panduan ini bantu mulai lebih terukur."}
+ ],
+ budidaya:[
+  {s:'hard',t:"Budidaya {BISNIS} jangan dimulai dari beli bibit doang. {JUDUL} bahas siklus, pakan, risiko mati, biaya, jadwal panen, dan cara cari pembeli sebelum hasilnya numpuk."},
+  {s:'soft',t:"Mulai {BISNIS} lebih aman dari skala kecil. Panduan ini bantu catat biaya, kualitas panen, jadwal, dan market supaya kamu tahu kapan layak diperbesar."}
+ ],
+ produk:[
+  {s:'hard',t:"Produk {BISNIS} perlu lebih dari sekadar hasil bagus. {JUDUL} bahas HPP, margin, packaging, foto produk, preorder, channel jualan, dan cara bikin pembeli ngerti nilainya."},
+  {s:'hard',t:"Kalau takut stok numpuk, mulai {BISNIS} dari validasi kecil. Panduan ini ngajarin cara bikin sample, buka PO, hitung harga, dan perbaiki offer dari feedback pembeli."},
+  {s:'soft',t:"Produk sederhana bisa naik nilai kalau target dan kemasannya tepat. {JUDUL} bantu menyusun cerita {BISNIS}, harga, packaging, dan strategi jualan yang realistis."}
+ ],
+ bangun:[
+  {s:'hard',t:"Bangun rumah itu rawan bocor biaya. {JUDUL} bantu kamu ngerti RAB, material, upah, sistem pembayaran, dan cara ngawasi tukang supaya nggak asal percaya."},
+  {s:'soft',t:"Sebelum mulai proyek rumah, pemilik perlu peta sederhana: RAB, timeline, material, progres, dan risiko. Panduan ini dibuat supaya kamu bisa kontrol keputusan dengan lebih tenang."}
+ ],
+ karir:[
+  {s:'hard',t:"Kerja ke {BISNIS} jangan dimulai dari bayar agen dulu. {JUDUL} bahas jalur resmi, dokumen, biaya, sponsor, red flag calo, dan persiapan interview supaya langkahmu aman."},
+  {s:'soft',t:"Kalau targetmu {BISNIS}, urutannya harus jelas: riset jalur, siapkan dokumen, latihan bahasa/interview, cek sponsor, baru ambil keputusan. Panduan ini merapikan semuanya."}
+ ],
+ hobi:[
+  {s:'hard',t:"Hobi {BISNIS} bisa jadi pemasukan kalau kamu ubah jadi offer. {JUDUL} bahas portofolio, paket harga, cara cerita karya, channel jualan, dan follow-up pembeli."},
+  {s:'soft',t:"Kalau karya {BISNIS} belum laku, jangan cuma upload lebih sering. Panduan ini bantu susun niche, contoh karya, harga, dan cara menawarkan tanpa terasa maksa."}
+ ]
+};
+function winningKey(t){var n=((t&&t.niche)||'').toLowerCase().trim(), s=ttx(t);
+ if(n==='peluang karir'||n==='kerja luar negeri'||/kerja ke|kerja di jepang|ausbildung|ssw|tokutei|job offer|sponsor/.test(s))return 'karir';
+ if(['produksi','resep','diy cuan','kerajinan','limbah cuan','3d print'].includes(n))return 'produk';
+ if(n==='hobi cuan'||/hobi|lukis|game|fotografi|musik|karya/.test(s))return 'hobi';
+ if(n==='jasa b2b')return 'b2b';
+ if(n==='jasa'||n==='digital'||/jasa|service|studio|desain|reels|marketplace setup|iklan|admin/.test(s))return n==='digital'?'digital':'jasa';
+ if(n==='rental'||/rental|sewa|penyewaan/.test(s))return 'rental';
+ if(n==='budidaya'||/budidaya|ternak|panen|bibit|lele|jamur|madu|tanam/.test(s))return 'budidaya';
+ if(n==='bangun rumah'||/\brab\b|bangun rumah|renovasi|\bmaterial\b/.test(s))return 'bangun';
+ return 'produk';}
+function asWin(arr,sty){return arr.map(function(x){return {a:x.a||'Winning',s:x.s||sty||'hard',t:x.t};});}
+function winningPools(t){var k=winningKey(t);
+ if(k==='karir')return {hooks:asWin((WIN_HOOKS_EXTRA.karir||[]).concat(HOOKS_KARIR),'hard'),scripts:asWin((WIN_SCRIPTS_EXTRA.karir||[]).concat(SCRIPTS_KARIR),'hard')};
+ if(k==='hobi')return {hooks:asWin((WIN_HOOKS_EXTRA.hobi||[]).concat(HOOKS_HOBI),'hard'),scripts:asWin((WIN_SCRIPTS_EXTRA.hobi||[]).concat(SCRIPTS_HOBI),'hard')};
+ var eh=WIN_HOOKS_EXTRA[k]||WIN_HOOKS_EXTRA.produk||[];
+ var es=WIN_SCRIPTS_EXTRA[k]||WIN_SCRIPTS_EXTRA.produk||[];
+ return {hooks:asWin(eh).concat(WIN_HOOKS),scripts:asWin(es).concat(WIN_SCRIPTS)};}
+function winningTempelBank(t){var k=winningKey(t), src=(WIN_HOOKS_EXTRA[k]||WIN_HOOKS_EXTRA.produk||[]).concat(WIN_HOOKS); return src.map(function(x){return {t:x.t};});}
+
 const CTAS=[
  {s:'hard',t:"Ambil panduannya sekarang sebelum nyesel!"},{s:'hard',t:"Klik, pelajari, langsung praktek hari ini!"},
  {s:'hard',t:"Stop mikir — ambil sekarang, mulai cuan!"},{s:'hard',t:"Buruan ambil, harga segini nggak selamanya!"},
@@ -388,24 +523,24 @@ const TEMPEL_HOBI_HALUS=[
 
 /* TEMPEL khusus WINNING APRIL 9ACC — pendek, tajam, cocok nempel di atas video */
 const TEMPEL_WINNING=[
- {t:"Kamu kira {BISNIS} nggak bisa hasilkan uang dari rumah?"},
- {t:"Bukan cuma produk — {BISNIS} ini bisa jadi sistem cuan"},
- {t:"Modal kecil, mulai {BISNIS} dari rumah pakai sistem"},
- {t:"Takut mulai {BISNIS}? Ini urutan biar nggak nebak"},
- {t:"Jual dulu, uang masuk dulu — baru produksi {BISNIS}"},
- {t:"{BISNIS_CAP} sederhana, tapi kalau dikemas bisa premium"},
- {t:"Rahasia {BISNIS}: bukan resep, tapi sistem jualannya"},
- {t:"Dari bahan sampai closing — sistem {BISNIS} dibongkar"},
- {t:"Produk biasa jadi offer yang orang paham nilainya"},
- {t:"Takut nggak laku? {BISNIS} butuh cerita dan packaging"},
- {t:"Pasar sudah butuh, tinggal susun offer {BISNIS}"},
- {t:"{BISNIS_CAP} bisa repeat order kalau sistemnya rapi"},
- {t:"Ruang kecil di rumah bisa jadi awal {BISNIS}"},
- {t:"Pembeli nggak beli produk — mereka beli solusi {BISNIS}"},
- {t:"Jangan stok dulu, tes market {BISNIS} pakai preorder"},
- {t:"{BISNIS_CAP} dari nol: alat, proses, packaging, jualan"},
- {t:"Peluang {BISNIS} ada di cara ngemas nilainya"},
- {t:"Mulai kecil, bikin rapi, jual konsisten: {BISNIS}"}
+ {t:"{BISNIS_CAP}: offer harus jelas, bukan cuma kelihatan ramai"},
+ {t:"Banyak yang gagal di {BISNIS} karena urutannya acak"},
+ {t:"Sebelum jual {BISNIS}, tentukan target dan alasan belinya"},
+ {t:"{BISNIS_CAP} butuh bukti, harga, dan CTA yang jelas"},
+ {t:"Jangan mulai {BISNIS} dari feeling — mulai dari sistem"},
+ {t:"Pembeli {BISNIS} butuh paham manfaatnya dalam 3 detik"},
+ {t:"Offer {BISNIS} yang jelas lebih kuat dari caption rame"},
+ {t:"Validasi kecil dulu sebelum modal besar di {BISNIS}"},
+ {t:"{BISNIS_CAP}: target, biaya, offer, channel — rapiin dulu"},
+ {t:"Kalau {BISNIS} belum closing, cek offer dan follow-up"},
+ {t:"Harga {BISNIS} harus dihitung, bukan ditebak"},
+ {t:"Cerita {BISNIS} harus jawab: untuk siapa dan hasilnya apa"},
+ {t:"Bikin {BISNIS} gampang dipercaya lewat proses dan bukti"},
+ {t:"Mulai {BISNIS} dari langkah kecil yang bisa dites"},
+ {t:"{BISNIS_CAP} lebih nyambung kalau angle-nya spesifik"},
+ {t:"Jangan jual ke semua orang — pilih target {BISNIS}"},
+ {t:"Sistem kecil {BISNIS} yang rapi lebih kuat dari nebak-nebak"},
+ {t:"Pembeli bukan beli ide, mereka beli hasil dari {BISNIS}"}
 ];
 const TEMPEL_KARIR_WINNING=[
  {t:"Mau kerja ke {BISNIS}? Mulai dari jalur resmi, bukan calo"},
@@ -442,7 +577,7 @@ const TEMPEL_HOBI_WINNING=[
  {t:"Mulai monetize {BISNIS} dari 1 jasa/produk kecil"}
 ];
 const TEMPEL_BANKS={agresif:{karir:TEMPEL_KARIR,hobi:TEMPEL_HOBI,usaha:TEMPEL},halus:{karir:TEMPEL_KARIR_HALUS,hobi:TEMPEL_HOBI_HALUS,usaha:TEMPEL_HALUS},winning:{karir:TEMPEL_KARIR_WINNING,hobi:TEMPEL_HOBI_WINNING,usaha:TEMPEL_WINNING}};
-function tempelBankFor(t){var cat=nicheCat(t&&t.niche);return (TEMPEL_BANKS[tempelMode]||TEMPEL_BANKS.agresif)[cat];}
+function tempelBankFor(t){var cat=nicheCat(t&&t.niche); if(tempelMode==='winning'){ if(cat==='karir')return TEMPEL_KARIR_WINNING; if(cat==='hobi')return TEMPEL_HOBI_WINNING; return winningTempelBank(t); } return (TEMPEL_BANKS[tempelMode]||TEMPEL_BANKS.agresif)[cat];}
 /* ANGLE (hook+script) khusus KARIR & HOBI — biar gak ke-framing "usaha/omset" yg ngaco */
 const HOOKS_KARIR=[
  {a:'Gaji',t:"Kerja di {BISNIS} gaji {JT} juta/bulan. Modal utamanya bukan duit."},
@@ -577,8 +712,9 @@ function generate(){
     const st=styles[i];
     let hook,altH,scr,cta,cardStyle=st;
     if(st==='winning'){
-      hook=pickUnused(WIN_HOOKS,uH); altH=pick(WIN_HOOKS.filter(h=>h.t!==hook.t));
-      scr=pickUnused(WIN_SCRIPTS,uS); cardStyle=scr.s||hook.s||'hard';
+      const WB=winningPools(pickedTitle||{});
+      hook=pickUnused(WB.hooks,uH); altH=pick(WB.hooks.filter(h=>h.t!==hook.t));
+      scr=pickUnused(WB.scripts,uS); cardStyle=scr.s||hook.s||'hard';
       cta=pickUnused(CTAS.filter(x=>x.s===cardStyle),uC);
     } else if(HB){ // KARIR/HOBI: bank sendiri (gak pakai filter style)
       hook=pickUnused(HB,uH); altH=pick(HB.filter(h=>h.t!==hook.t));
@@ -609,7 +745,7 @@ function cardText(c){return `[${c.angle} · ${c.style==='hard'?'Hardsell':'Softs
 function copyText(t,btn){navigator.clipboard.writeText(t).then(()=>{if(btn){const o=btn.textContent;btn.textContent='✓ Tersalin';btn.classList.add('ok');setTimeout(()=>{btn.textContent=o;btn.classList.remove('ok');},1200);}}).catch(()=>{const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();if(btn)btn.textContent='✓ Tersalin';});}
 
 function updateCombo(){const f=st=>HOOKS.filter(x=>x.s===st).length*SCRIPTS.filter(x=>x.s===st).length*CTAS.filter(x=>x.s===st).length;
-  $('combo').innerHTML=`Bank: <b>${HOOKS.length}</b> hook · <b>${SCRIPTS.length}</b> script · <b>${WIN_HOOKS.length}</b> winning hook · <b>${WIN_SCRIPTS.length}</b> winning script · <b>${CTAS.length}</b> CTA → <b>${(f('hard')+f('soft')+WIN_HOOKS.length*WIN_SCRIPTS.length*CTAS.length).toLocaleString('id')}</b> kombinasi`;}
+  $('combo').innerHTML=`Bank: <b>${HOOKS.length}</b> hook · <b>${SCRIPTS.length}</b> script · <b>${WIN_HOOKS.length}</b> winning netral + niche-aware · <b>${WIN_SCRIPTS.length}</b> script netral · <b>${CTAS.length}</b> CTA → <b>${(f('hard')+f('soft')+WIN_HOOKS.length*WIN_SCRIPTS.length*CTAS.length).toLocaleString('id')}</b> kombinasi dasar`;}
 
 /* ===== SHEET SEARCH (titles.json) ===== */
 let TITLES=[], hiIdx=-1, pickedTitle=null;
@@ -647,9 +783,13 @@ function bisnisPhrase(t){
     seg=seg.replace(/^\s*(rahasia|cara|stop|sulap|bikin|dari|tukang|jadi|si)\s+/i,'').split(/\s+dengan\s+|\s+untuk\s+|,|\(/i)[0];
     const c=cl(seg); if(ok(c)) return c;
   }
-  else if(judul.indexOf(':')>=0){ // gaya "Brand: Jasa/Produksi X Dengan Teknik…" → ambil X (cuma kalau BUKAN gaya "—")
+  else if(judul.indexOf(':')>=0 && !/\s+-\s+/.test(judul)){ // gaya "Brand: Jasa/Produksi X Dengan Teknik…" → ambil X (bukan gaya "Brand - Produk: klaim")
     let after=judul.split(':').slice(1).join(':').split(/\s+dengan\s+|\s+untuk\s+|\s+pakai\s+|,|\(/i)[0];
     after=after.replace(/^\s*(jasa|bisnis|usaha|produksi|produk)\s+/i,'');
+    const c=cl(after); if(ok(c)) return c;
+  }
+  else if(/\s+-\s+/.test(judul)){ // gaya "Brand - Produk utama: klaim..." → ambil produk utama
+    let after=(judul.split(/\s+-\s+/)[1]||'').split(/:|,|\s+yang\s+|\s+untuk\s+|\s+dengan\s+|\s+viral\b|\s+laku\b|\s+modal\b|\s+pasar\b|\s+potensi\b/i)[0];
     const c=cl(after); if(ok(c)) return c;
   }
   if(niche) return nicheToBisnis(niche);
