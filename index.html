@@ -385,7 +385,63 @@ const TEMPEL_HOBI_HALUS=[
  {t:"Panduan ubah hobi {BISNIS} jadi cuan"},
  {t:"Dari hobi {BISNIS}, pelan-pelan jadi penghasilan"}
 ];
-const TEMPEL_BANKS={agresif:{karir:TEMPEL_KARIR,hobi:TEMPEL_HOBI,usaha:TEMPEL},halus:{karir:TEMPEL_KARIR_HALUS,hobi:TEMPEL_HOBI_HALUS,usaha:TEMPEL_HALUS}};
+
+/* TEMPEL khusus WINNING APRIL 9ACC — pendek, tajam, cocok nempel di atas video */
+const TEMPEL_WINNING=[
+ {t:"Kamu kira {BISNIS} nggak bisa hasilkan uang dari rumah?"},
+ {t:"Bukan cuma produk — {BISNIS} ini bisa jadi sistem cuan"},
+ {t:"Modal kecil, mulai {BISNIS} dari rumah pakai sistem"},
+ {t:"Takut mulai {BISNIS}? Ini urutan biar nggak nebak"},
+ {t:"Jual dulu, uang masuk dulu — baru produksi {BISNIS}"},
+ {t:"{BISNIS_CAP} sederhana, tapi kalau dikemas bisa premium"},
+ {t:"Rahasia {BISNIS}: bukan resep, tapi sistem jualannya"},
+ {t:"Dari bahan sampai closing — sistem {BISNIS} dibongkar"},
+ {t:"Produk biasa jadi offer yang orang paham nilainya"},
+ {t:"Takut nggak laku? {BISNIS} butuh cerita dan packaging"},
+ {t:"Pasar sudah butuh, tinggal susun offer {BISNIS}"},
+ {t:"{BISNIS_CAP} bisa repeat order kalau sistemnya rapi"},
+ {t:"Ruang kecil di rumah bisa jadi awal {BISNIS}"},
+ {t:"Pembeli nggak beli produk — mereka beli solusi {BISNIS}"},
+ {t:"Jangan stok dulu, tes market {BISNIS} pakai preorder"},
+ {t:"{BISNIS_CAP} dari nol: alat, proses, packaging, jualan"},
+ {t:"Peluang {BISNIS} ada di cara ngemas nilainya"},
+ {t:"Mulai kecil, bikin rapi, jual konsisten: {BISNIS}"}
+];
+const TEMPEL_KARIR_WINNING=[
+ {t:"Mau kerja ke {BISNIS}? Mulai dari jalur resmi, bukan calo"},
+ {t:"Gaji luar negeri dimulai dari dokumen {BISNIS} yang benar"},
+ {t:"Takut ketipu agen {BISNIS}? Pelajari urutan resminya dulu"},
+ {t:"Kerja ke {BISNIS} bukan nasib — ada step yang harus disiapkan"},
+ {t:"Sebelum bayar agen, cek jalur resmi kerja {BISNIS}"},
+ {t:"Dari nol ke {BISNIS}: dokumen, skill, sponsor, berangkat"},
+ {t:"Banyak gagal ke {BISNIS} karena salah langkah pertama"},
+ {t:"Jangan asal daftar kerja {BISNIS}, pahami risikonya dulu"},
+ {t:"Kerja di {BISNIS}: peluang besar kalau urutannya benar"},
+ {t:"Mau berangkat ke {BISNIS}? Ini peta jalan pemula"},
+ {t:"Calo mahal bukan satu-satunya jalan ke {BISNIS}"},
+ {t:"Dokumen rapi dulu, baru kejar job offer {BISNIS}"},
+ {t:"Peluang kerja {BISNIS} ada, tapi jangan jalan buta"},
+ {t:"Persiapan {BISNIS}: bahasa, dokumen, interview, sponsor"},
+ {t:"Kerja luar negeri aman dimulai dari info yang benar"}
+];
+const TEMPEL_HOBI_WINNING=[
+ {t:"Hobi {BISNIS} bukan cuma senang-senang — bisa jadi offer"},
+ {t:"Jago {BISNIS} tapi belum cuan? Masalahnya cara jual"},
+ {t:"Karya {BISNIS} bisa laku kalau dikemas dengan benar"},
+ {t:"Dari hobi {BISNIS}, mulai 1 produk dulu sampai repeat"},
+ {t:"Skill {BISNIS} kamu aset, jangan cuma disimpan"},
+ {t:"Hobi {BISNIS} bisa jadi pemasukan kalau ada sistem"},
+ {t:"Bukan cuma bikin, belajar jual hasil {BISNIS}"},
+ {t:"Takut jual karya {BISNIS}? Mulai dari portofolio kecil"},
+ {t:"Harga salah bikin hobi {BISNIS} nggak balik modal"},
+ {t:"Pembeli butuh cerita, bukan cuma hasil {BISNIS}"},
+ {t:"Hobi {BISNIS} bisa naik nilai dengan packaging"},
+ {t:"Dari iseng {BISNIS} jadi orderan, asal tahu caranya"},
+ {t:"Pasar hobi {BISNIS} ada, tinggal cari angle jualnya"},
+ {t:"Jangan cuma upload karya {BISNIS}, bikin offer-nya"},
+ {t:"Mulai monetize {BISNIS} dari 1 jasa/produk kecil"}
+];
+const TEMPEL_BANKS={agresif:{karir:TEMPEL_KARIR,hobi:TEMPEL_HOBI,usaha:TEMPEL},halus:{karir:TEMPEL_KARIR_HALUS,hobi:TEMPEL_HOBI_HALUS,usaha:TEMPEL_HALUS},winning:{karir:TEMPEL_KARIR_WINNING,hobi:TEMPEL_HOBI_WINNING,usaha:TEMPEL_WINNING}};
 function tempelBankFor(t){var cat=nicheCat(t&&t.niche);return (TEMPEL_BANKS[tempelMode]||TEMPEL_BANKS.agresif)[cat];}
 /* ANGLE (hook+script) khusus KARIR & HOBI — biar gak ke-framing "usaha/omset" yg ngaco */
 const HOOKS_KARIR=[
@@ -692,9 +748,10 @@ function renderFootage(t){
 }
 /* ===== HOOK TEMPEL (teks nempel di atas video) ===== */
 let tempelList=[], currentTempel="", tempelBisnisDefault="bisnis ini", tempelBadgePrefix="BISNIS", tempelBank=TEMPEL, tempelMode=(function(){try{return localStorage.getItem('tempelmode')||'agresif';}catch(e){return 'agresif';}})();
-function pick4(arr){const u=new Set(),r=[];let g=0;while(r.length<4&&u.size<arr.length&&g++<99){const x=pick(arr);if(!u.has(x.t)){u.add(x.t);r.push(x);}}return r;}
+function tempelPickCount(){return tempelMode==='winning'?15:4;}
+function pickTempel(arr){const n=tempelPickCount(),u=new Set(),r=[];let g=0;while(r.length<n&&u.size<arr.length&&g++<300){const x=pick(arr);if(!u.has(x.t)){u.add(x.t);r.push(x);}}return r;}
 function tempelVars(){const V=getVals(),omset=V.OMSET_NUM||0;const b=($('bisnisInp')?$('bisnisInp').value.trim():'')||tempelBisnisDefault||"bisnis ini";
-  return Object.assign({},V,{BISNIS:b,JT:Math.max(1,Math.round(omset/1e6)),JT_HI:Math.max(2,Math.round(omset*1.25/1e6))});}
+  return Object.assign({},V,{BISNIS:b,BISNIS_CAP:cap(b),JT:Math.max(1,Math.round(omset/1e6)),JT_HI:Math.max(2,Math.round(omset*1.25/1e6))});}
 function fillTempel(){const TV=tempelVars(),list=$('tempelList');if(!list)return;
   list.innerHTML=tempelList.map((tp,i)=>'<div class="tmp-item"><div class="tmp-prev">'+esc(fill(tp.t,TV))+'</div><button class="tmp-copy" data-i="'+i+'">📋 Salin teks ini</button></div>').join('');
   currentTempel=tempelList.length?fill(tempelList[0].t,TV):"";
@@ -702,14 +759,15 @@ function fillTempel(){const TV=tempelVars(),list=$('tempelList');if(!list)return
 function renderTempel(t){
   const cat=nicheCat(t&&t.niche);
   tempelBisnisDefault=(t&&(t.judul||t.niche))?(topikOf(t)||"bisnis ini"):"bisnis ini";
+  if(styleMode==='winning') tempelMode='winning';
   tempelBank=tempelBankFor(t);
-  tempelList=pick4(tempelBank);
+  tempelList=pickTempel(tempelBank);
   tempelBadgePrefix=cat==='karir'?'KERJA DI':cat==='hobi'?'HOBI':'BISNIS';
   const lab=cat==='karir'?'Negara/tujuan kerja':cat==='hobi'?'Hobi':'Bisnis';
   const box=$('tempel');box.style.display='block';
   box.innerHTML='<h2 style="margin-bottom:4px">📌 Hook Tempel</h2>'
    +'<div class="combo" style="margin-bottom:8px">Teks gede yg <b>NEMPEL di atas video</b> sepanjang durasi. Pilih 1 → Salin → tempel di editor.</div>'
-   +'<div class="seg" style="margin-bottom:10px"><button data-tm="agresif" class="'+(tempelMode==='agresif'?'on':'')+'">🔥 Agresif</button><button data-tm="halus" class="'+(tempelMode==='halus'?'on':'')+'">🌿 Halus (aman Meta)</button></div>'
+   +'<div class="seg" style="margin-bottom:10px"><button data-tm="agresif" class="'+(tempelMode==='agresif'?'on':'')+'">🔥 Agresif</button><button data-tm="halus" class="'+(tempelMode==='halus'?'on':'')+'">🌿 Halus</button><button data-tm="winning" class="'+(tempelMode==='winning'?'on':'')+'">🏆 Winning April</button></div>'
    +'<label style="margin:0 0 4px">'+lab+' (buat ngisi hook — edit kalau kurang pas)</label>'
    +'<input id="bisnisInp" value="'+esc(tempelBisnisDefault)+'">'
    +'<div id="tempelList" style="margin-top:11px"></div>'
@@ -761,8 +819,8 @@ $('count').addEventListener('change',function(){resetRot();if(current.length)gen
 $('diceNum').addEventListener('click',()=>{rollNumbers(Math.random());if(current.length)generate();else omsetInfo();if($('tempelList'))fillTempel();});
 $('reload').addEventListener('click',loadTitles);
 $('tempel').addEventListener('click',function(e){var t=e.target;
-  if(t.dataset&&t.dataset.tm){tempelMode=t.dataset.tm;try{localStorage.setItem('tempelmode',tempelMode);}catch(_){}tempelBank=tempelBankFor(pickedTitle);tempelList=pick4(tempelBank);fillTempel();e.currentTarget.querySelectorAll('[data-tm]').forEach(function(b){b.classList.toggle('on',b.dataset.tm===tempelMode);});return;}
-  if(t.id==='tempelRoll'){tempelList=pick4(tempelBank);fillTempel();return;}
+  if(t.dataset&&t.dataset.tm){tempelMode=t.dataset.tm;try{localStorage.setItem('tempelmode',tempelMode);}catch(_){}tempelBank=tempelBankFor(pickedTitle);tempelList=pickTempel(tempelBank);fillTempel();e.currentTarget.querySelectorAll('[data-tm]').forEach(function(b){b.classList.toggle('on',b.dataset.tm===tempelMode);});return;}
+  if(t.id==='tempelRoll'){tempelList=pickTempel(tempelBank);fillTempel();return;}
   if(t.classList.contains('tmp-copy')){copyText(fill(tempelList[+t.dataset.i].t,tempelVars()),t);return;}});
 $('tempel').addEventListener('input',function(e){if(e.target.id==='bisnisInp')fillTempel();});
 $('copyAll').addEventListener('click',e=>{if(current.length){var pin=currentTempel?'📌 TEKS TEMPEL (nempel di atas video): '+currentTempel+'\n\n═══\n\n':'';copyText(pin+current.map(cardText).join('\n\n———\n\n'),e.target);}});
@@ -785,7 +843,7 @@ $('search').addEventListener('keydown',e=>{
   }
 });
 document.addEventListener('click',e=>{if(!e.target.closest('.searchbox'))$('results').classList.remove('show');});
-document.querySelectorAll('.seg button').forEach(b=>b.addEventListener('click',()=>{styleMode=b.dataset.style;document.querySelectorAll('.seg button').forEach(x=>x.classList.remove('on'));b.classList.add('on');saveInputs();if(current.length)generate();}));
+document.querySelectorAll('.seg button[data-style]').forEach(b=>b.addEventListener('click',()=>{styleMode=b.dataset.style;document.querySelectorAll('.seg button[data-style]').forEach(x=>x.classList.remove('on'));b.classList.add('on');if(styleMode==='winning'){tempelMode='winning';try{localStorage.setItem('tempelmode',tempelMode);}catch(_){}if(pickedTitle)renderTempel(pickedTitle);}saveInputs();if(current.length)generate();}));
 
 loadInputs(); updateCombo(); omsetInfo(); loadTitles();
 </script>
