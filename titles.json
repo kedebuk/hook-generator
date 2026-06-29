@@ -1,5 +1,5 @@
 {
-"updated": "2026-06-29 11:05",
+"updated": "2026-06-29 11:19",
 "count": 161,
 "items": [
 {
@@ -8,7 +8,13 @@
 "nama": "Sistem Resina",
 "judul": "Sistem Resina — Dari 1 Printer di Pojok Kamar Jadi Tukang \"Cetak Apa Aja\": Terima Order Custom yang Orang Rela Bayar Mahal",
 "tagline": "Setting printer anti-gagal, HPP per gram filament + harga jual, jenis order paling dicari & skrip nawarin online.",
-"status": ""
+"status": "",
+"fxkw": "cetak apa aja",
+"fx": {
+"th": "พิมพ์อะไรก็ได้",
+"vi": "in bất cứ thứ gì",
+"ms": "mencetak apa sahaja"
+}
 },
 {
 "code": "FGRA",
@@ -16,7 +22,13 @@
 "nama": "Teknik Figura",
 "judul": "Teknik Figura — Sulap Foto Jadi Figurin Mini 3D \"Mirip Orangnya\": Kado yang Dijual Ratusan Ribu & Bikin Pembeli Tertarik",
 "tagline": "Alur foto-ke-model 3D (tool AI), finishing & cat detail, paket harga couple/wisuda/family & cara dapet order viral.",
-"status": ""
+"status": "",
+"fxkw": "figurin mini 3D mirip orangnya",
+"fx": {
+"th": "ฟิกเกอร์จิ๋ว 3 มิติที่ดูเหมือนคน",
+"vi": "Tượng nhỏ 3D trông giống người",
+"ms": "Patung mini 3D yang kelihatan seperti orang"
+}
 },
 {
 "code": "FBRA",
@@ -24,7 +36,13 @@
 "nama": "Sistem Faberia",
 "judul": "Sistem Faberia — Rahasia \"Print Farm\" Rumahan: Beberapa Printer Nyala 24 Jam Cetak Produk Sepele yang Diborong Reseller",
 "tagline": "Pilih produk fast-selling margin tinggi, atur antrian multi-printer, hitung listrik+filament & jalur jual marketplace.",
-"status": ""
+"status": "",
+"fxkw": "print farm rumahan",
+"fx": {
+"th": "ฟาร์มพิมพ์ที่บ้าน",
+"vi": "trang trại in nhà",
+"ms": "ladang cetakan rumah"
+}
 },
 {
 "code": "MNDR",
@@ -32,7 +50,13 @@
 "nama": "Sistem Mandira",
 "judul": "Sistem Mandira — Cara Pilih Tukang biar Ga Kabur Tengah Jalan & Hasilnya Ga Bikin Nyesel (Sebelum Kasih DP Sepeser pun)",
 "tagline": "Checklist seleksi & interview tukang, cek portofolio asli, contoh surat perjanjian kerja & sistem termin pembayaran aman.",
-"status": ""
+"status": "",
+"fxkw": "bangun rumah",
+"fx": {
+"th": "สร้างบ้าน",
+"vi": "xây một ngôi nhà",
+"ms": "membina rumah"
+}
 },
 {
 "code": "RBNA",
@@ -40,7 +64,13 @@
 "nama": "Formula Rabona",
 "judul": "Formula Rabona — Susun RAB Bangun Rumah Sendiri biar Ga Di-Markup Gila2an: Tau Harga Asli Material & Upah Sebelum Ketemu Tukang",
 "tagline": "Template RAB per item (pondasi-atap), harga material & upah borongan vs harian, trik nego & cara cegah dana jebol tengah jalan.",
-"status": ""
+"status": "",
+"fxkw": "bangun rumah",
+"fx": {
+"th": "สร้างบ้าน",
+"vi": "xây một ngôi nhà",
+"ms": "membina rumah"
+}
 },
 {
 "code": "VGLA",
@@ -48,7 +78,13 @@
 "nama": "Teknik Vigila",
 "judul": "Teknik Vigila — Ngawasi Tukang biar Ga Dikadalin: Tanda Semen Dikurangi, Besi Diakalin, Material di kurangin & Proyek Sengaja Diulur",
 "tagline": "Checklist pengawasan harian, takaran campuran semen yang benar, titik rawan kecurangan & cara komplain tanpa ribut.",
-"status": ""
+"status": "",
+"fxkw": "bangun rumah",
+"fx": {
+"th": "สร้างบ้าน",
+"vi": "xây một ngôi nhà",
+"ms": "membina rumah"
+}
 },
 {
 "code": "CRIS",
@@ -57,7 +93,13 @@
 "judul": "Crystal Clear Ice Lab: Produksi Es Batu Kristal Bening Untuk Cafe & Bar Dengan Teknik Directional Freezing, Cetak Cube & Sphere Tahan Lama Untuk Signature Drink.",
 "tagline": "SOP directional freezing, daftar cetakan & alat, panduan ukuran cube/sphere, kalkulator HPP per balok, QC bening tanpa retak, dan skrip penawaran ke cafe/bar.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/crystal-clear-ice-lab/"
+"lp": "https://id.ilmuwanlama.tech/crystal-clear-ice-lab/",
+"fxkw": "es batu kristal bening",
+"fx": {
+"th": "ก้อนน้ำแข็งใส",
+"vi": "khối đá pha lê trong suốt",
+"ms": "ketulan ais kristal jernih"
+}
 },
 {
 "code": "BMDS",
@@ -66,7 +108,13 @@
 "judul": "Barista Machine Descale Service: Jasa Descale & Backflush Mesin Kopi Cafe Dengan Teknik Group-Head Backflush, Boiler Descale Dan Jadwal Maintenance Bulanan.",
 "tagline": "SOP backflush group-head, daftar chemical food-safe, checklist boiler descale, form inspeksi mesin, paket maintenance bulanan, dan skrip closing ke cafe.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/barista-machine-descale-service/"
+"lp": "https://id.ilmuwanlama.tech/barista-machine-descale-service/",
+"fxkw": "descale & backflush mesin kopi cafe",
+"fx": {
+"th": "เครื่องชงกาแฟคาเฟ่ขจัดตะกรันและแบ็คฟลัช",
+"vi": "máy pha cà phê khử cặn & xả ngược",
+"ms": "descale & backflush mesin kopi kafe"
+}
 },
 {
 "code": "KASR",
@@ -75,7 +123,13 @@
 "judul": "Hotel Mattress Sanitizing Co: Jasa Sanitasi Kasur Hotel, Kos & Homestay Dengan Teknik Dry-Vacuum Tungau + UV-C Pass Dan SOP Rotasi Kamar.",
 "tagline": "SOP dry-vacuum + UV-C, peta rotasi kamar, checklist tungau & noda, kalkulator paket per kamar, QC kering higienis, dan skrip penawaran hotel/kos.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/hotel-mattress-sanitizing-co/"
+"lp": "https://id.ilmuwanlama.tech/hotel-mattress-sanitizing-co/",
+"fxkw": "sanitasi kasur hotel",
+"fx": {
+"th": "สุขอนามัยที่นอนของโรงแรม",
+"vi": "vệ sinh nệm khách sạn",
+"ms": "sanitasi tilam hotel"
+}
 },
 {
 "code": "HOOD",
@@ -84,7 +138,13 @@
 "judul": "Kitchen Hood Degrease Method: Jasa Bersih Cerobong & Hood Dapur Resto Dengan Teknik Hot-Foam Degrease, Filter Soak Dan Logbook Anti-Kebakaran.",
 "tagline": "SOP hot-foam degrease, teknik filter soak, logbook jadwal, daftar chemical aman, paket kontrak bulanan, dan skrip penawaran ke resto/cafe.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/kitchen-hood-degrease-method/"
+"lp": "https://id.ilmuwanlama.tech/kitchen-hood-degrease-method/",
+"fxkw": "bersih cerobong & hood dapur resto",
+"fx": {
+"th": "ปล่องไฟและเครื่องดูดควันในครัวร้านอาหารสะอาด",
+"vi": "làm sạch ống khói và máy hút mùi nhà bếp nhà hàng",
+"ms": "cerobong & tudung dapur restoran bersih"
+}
 },
 {
 "code": "CIFS",
@@ -93,7 +153,13 @@
 "judul": "Car Interior Fresh Studio: Jasa Deep Clean & Anti-Bau Interior Mobil Dengan Teknik Ozone Deodorize + Hot-Water Extraction Untuk Mobil Keluarga & Rental.",
 "tagline": "SOP extraction jok-karpet, teknik ozone deodorize, checklist jamur-noda, form intake mobil, paket harga per kelas mobil, dan skrip gaet rental/taxi online.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/car-interior-fresh-studio/"
+"lp": "https://id.ilmuwanlama.tech/car-interior-fresh-studio/",
+"fxkw": "deep clean & anti-bau interior mobil",
+"fx": {
+"th": "ภายในรถสะอาดล้ำลึกและป้องกันกลิ่น",
+"vi": "nội thất ô tô sạch sâu & khử mùi hôi",
+"ms": "dalaman kereta yang bersih & anti bau"
+}
 },
 {
 "code": "WFRV",
@@ -102,7 +168,13 @@
 "judul": "Wood Furniture Revive Studio: Jasa Restorasi & Poles Furniture Kayu Kusam Dengan Teknik Sand-Seal-Buff Dan Color Match Untuk Rumah, Cafe & Hotel.",
 "tagline": "SOP sand-seal-buff, panduan color match, daftar bahan finishing, form intake barang, paket harga per item, dan skrip before-after untuk IG.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/wood-furniture-revive-studio/"
+"lp": "https://id.ilmuwanlama.tech/wood-furniture-revive-studio/",
+"fxkw": "restorasi & poles furniture kayu kusam",
+"fx": {
+"th": "การบูรณะและขัดเงาเฟอร์นิเจอร์ไม้ทื่อ",
+"vi": "phục hồi và đánh bóng đồ gỗ xỉn màu",
+"ms": "pemulihan & penggilap perabot kayu yang kusam"
+}
 },
 {
 "code": "HELM",
@@ -111,7 +183,13 @@
 "judul": "Helmet Care Express: Jasa Deep Clean & Anti-Bau Helm Dengan Teknik Foam-Soak Busa + UV Deodorize Untuk Driver Ojol Dan Komunitas Motor.",
 "tagline": "SOP foam-soak + keringkan, teknik UV deodorize, checklist busa-visor, paket langganan driver, kalkulator harga, dan skrip gaet komunitas ojol/motor.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/helmet-care-express/"
+"lp": "https://id.ilmuwanlama.tech/helmet-care-express/",
+"fxkw": "deep clean & anti-bau helm",
+"fx": {
+"th": "หมวกกันน็อคที่สะอาดล้ำลึกและป้องกันกลิ่น",
+"vi": "Mũ bảo hiểm sạch sâu & chống mùi hôi",
+"ms": "topi keledar yang bersih & anti bau"
+}
 },
 {
 "code": "BWAX",
@@ -120,7 +198,13 @@
 "judul": "Beeswax Food Wrap Studio: Produksi Pembungkus Makanan Beeswax Reusable Dengan Teknik Resin-Jojoba Coating Untuk Pasar Zero-Waste & Cafe Sehat.",
 "tagline": "Formula coating beeswax-resin-jojoba, SOP press kain, panduan ukuran wrap, kalkulator HPP per lembar, QC daya rekat, dan katalog B2B cafe/eco-store.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/beeswax-food-wrap-studio/"
+"lp": "https://id.ilmuwanlama.tech/beeswax-food-wrap-studio/",
+"fxkw": "pembungkus makanan beeswax reusable",
+"fx": {
+"th": "กระดาษห่ออาหารขี้ผึ้งแบบใช้ซ้ำได้",
+"vi": "màng bọc thực phẩm bằng sáp ong có thể tái sử dụng",
+"ms": "pembalut makanan lilin lebah yang boleh diguna semula"
+}
 },
 {
 "code": "ABMX",
@@ -129,7 +213,13 @@
 "judul": "Hydro Nutrient Mix Lab: Produksi Larutan Nutrisi AB-Mix Hidroponik Dengan Teknik Takaran EC-Calibrated Untuk Pekebun Sayur Dan Toko Tani.",
 "tagline": "Formula AB-mix per komoditas, SOP pencampuran, panduan EC/PPM, checklist keamanan, kalkulator HPP per liter, dan template label + katalog toko tani.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/hydro-nutrient-mix-lab/"
+"lp": "https://id.ilmuwanlama.tech/hydro-nutrient-mix-lab/",
+"fxkw": "larutan nutrisi ab-mix hidroponik",
+"fx": {
+"th": "สารละลายธาตุอาหารไฮโดรโพนิก ab-mix",
+"vi": "Dung dịch dinh dưỡng thủy canh ab-mix",
+"ms": "larutan nutrien hidroponik campuran ab"
+}
 },
 {
 "code": "KRPT",
@@ -138,7 +228,13 @@
 "judul": "Office Carpet Encap Service: Jasa Cuci Karpet & Sofa Kantor Dengan Teknik Low-Moisture Encapsulation Yang Cepat Kering Tanpa Ganggu Jam Kerja.",
 "tagline": "SOP encapsulation low-moisture, daftar chemical & pad, checklist QC kering 1 jam, jadwal di luar jam sibuk, kalkulator harga per m2, dan skrip penawaran gedung/kantor.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/office-carpet-encap-service/"
+"lp": "https://id.ilmuwanlama.tech/office-carpet-encap-service/",
+"fxkw": "cuci karpet & sofa kantor",
+"fx": {
+"th": "ล้างพรมและโซฟาสำนักงาน",
+"vi": "giặt thảm, sofa văn phòng",
+"ms": "basuh karpet & sofa pejabat"
+}
 },
 {
 "code": "TORN",
@@ -147,7 +243,13 @@
 "judul": "Tankguard Toren Service: Jasa Kuras & Sanitasi Tandon/Toren Air Dengan Teknik Vacuum-Drain + UV Sanitize Untuk Kos, Gedung & Rumah Tingkat.",
 "tagline": "SOP vacuum-drain, checklist sanitasi UV, jadwal kuras berkala, kalkulator harga per kapasitas, form inspeksi, dan skrip langganan ke pengelola kos/gedung.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/tankguard-toren-service/"
+"lp": "https://id.ilmuwanlama.tech/tankguard-toren-service/",
+"fxkw": "kuras & sanitasi tandon/toren air",
+"fx": {
+"th": "ระบายน้ำและฆ่าเชื้ออ่างเก็บน้ำ/กระแสน้ำ",
+"vi": "Xả và vệ sinh hồ chứa nước/dòng chảy",
+"ms": "Toskan & bersihkan takungan air/torrents"
+}
 },
 {
 "code": "APAR",
@@ -156,7 +258,13 @@
 "judul": "Safefill APAR Service: Jasa Isi Ulang & Inspeksi APAR Dengan Teknik Pressure-Test + Refill Dry-Powder Untuk Ruko, Kantor & Pabrik Kecil.",
 "tagline": "SOP pressure-test, panduan jenis media, logbook inspeksi tahunan, daftar alat, kalkulator paket, dan skrip penawaran ke ruko/kantor.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/safefill-apar-service/"
+"lp": "https://id.ilmuwanlama.tech/safefill-apar-service/",
+"fxkw": "isi ulang & inspeksi APAR",
+"fx": {
+"th": "การเติมและตรวจสอบถังดับเพลิง",
+"vi": "nạp và kiểm tra bình chữa cháy",
+"ms": "isian semula & pemeriksaan alat pemadam api"
+}
 },
 {
 "code": "RYAP",
@@ -165,7 +273,13 @@
 "judul": "Termiguard Soil Barrier: Jasa Anti-Rayap Bangunan Dengan Teknik Drill-Inject Soil-Barrier + Spot Treatment Untuk Rumah, Gudang & Furniture.",
 "tagline": "Peta titik injeksi, SOP drill-inject, daftar termitisida aman, garansi & logbook, kalkulator per m2, dan skrip penawaran ke perumahan.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/termiguard-soil-barrier/"
+"lp": "https://id.ilmuwanlama.tech/termiguard-soil-barrier/",
+"fxkw": "anti-rayap bangunan",
+"fx": {
+"th": "อาคารป้องกันปลวก",
+"vi": "tòa nhà chống mối mọt",
+"ms": "bangunan anti anai-anai"
+}
 },
 {
 "code": "KLAM",
@@ -174,7 +288,13 @@
 "judul": "Poolcare Service Method: Jasa Maintenance Kolam Renang Dengan Teknik Chlorine-Balance + Vacuum Dasar Untuk Villa, Hotel & Perumahan.",
 "tagline": "SOP test & balance kimia, jadwal vacuum, checklist filter, daftar chemical, paket bulanan, dan skrip closing ke villa/hotel.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/poolcare-service-method/"
+"lp": "https://id.ilmuwanlama.tech/poolcare-service-method/",
+"fxkw": "maintenance kolam renang",
+"fx": {
+"th": "การบำรุงรักษาสระว่ายน้ำ",
+"vi": "bảo trì hồ bơi",
+"ms": "penyelenggaraan kolam renang"
+}
 },
 {
 "code": "ATAP",
@@ -183,7 +303,13 @@
 "judul": "Roofresh Bio-Coat: Jasa Cuci & Anti-Jamur Atap/Dinding Dengan Teknik Bio-Wash + Water-Repellent Coating Untuk Rumah & Ruko.",
 "tagline": "SOP bio-wash, panduan coating anti-air, checklist safety ketinggian, kalkulator per m2, form before-after, dan skrip penawaran perumahan.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/roofresh-bio-coat/"
+"lp": "https://id.ilmuwanlama.tech/roofresh-bio-coat/",
+"fxkw": "cuci & anti-jamur atap/dinding",
+"fx": {
+"th": "ล้างและป้องกันเชื้อราหลังคา/ผนัง",
+"vi": "rửa & chống nấm mốc mái/tường",
+"ms": "atap/dinding cuci & anti kulat"
+}
 },
 {
 "code": "SJDH",
@@ -192,7 +318,13 @@
 "judul": "Sajadah Carpet Wash: Jasa Cuci Karpet Masjid & Permadani Dengan Teknik Roll-Wash + Anti-Bau Ozone Untuk Masjid, Musholla & Kantor.",
 "tagline": "SOP roll-wash, teknik anti-bau ozone, jadwal jemput-antar, kalkulator per m2, QC kering wangi, dan skrip penawaran ke DKM/kantor.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/sajadah-carpet-wash/"
+"lp": "https://id.ilmuwanlama.tech/sajadah-carpet-wash/",
+"fxkw": "cuci karpet masjid & permadani",
+"fx": {
+"th": "ซักพรมและพรมของมัสยิด",
+"vi": "giặt thảm và thảm nhà thờ Hồi giáo",
+"ms": "basuh karpet & permaidani masjid"
+}
 },
 {
 "code": "GOWS",
@@ -201,7 +333,13 @@
 "judul": "Pitstop Bike Mobile: Jasa Tune-Up & Servis Sepeda Panggilan Dengan Teknik Drivetrain Degrease + Brake-Bleed Untuk Komunitas Gowes.",
 "tagline": "SOP tune-up, checklist drivetrain & rem, daftar tools, paket servis berkala, form intake, dan skrip gaet komunitas gowes/roadbike.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/pitstop-bike-mobile/"
+"lp": "https://id.ilmuwanlama.tech/pitstop-bike-mobile/",
+"fxkw": "tune-up & servis sepeda panggilan",
+"fx": {
+"th": "การปรับแต่งจักรยานและบริการเมื่อโทร",
+"vi": "điều chỉnh xe đạp và dịch vụ theo yêu cầu",
+"ms": "penalaan basikal & servis atas panggilan"
+}
 },
 {
 "code": "STRL",
@@ -210,7 +348,13 @@
 "judul": "Strollerfresh Steam Clean: Jasa Cuci Stroller & Carseat Bayi Dengan Teknik Steam-Sanitasi Food-Safe Untuk Orangtua & Daycare.",
 "tagline": "SOP steam-sanitasi, checklist sela & busa, daftar cairan food-safe, paket harga, form intake, dan skrip gaet komunitas ibu/daycare.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/strollerfresh-steam-clean/"
+"lp": "https://id.ilmuwanlama.tech/strollerfresh-steam-clean/",
+"fxkw": "cuci stroller & carseat bayi",
+"fx": {
+"th": "ล้างรถเข็นเด็กและคาร์ซีท",
+"vi": "rửa xe đẩy và ghế ngồi ô tô cho bé",
+"ms": "basuh kereta sorong bayi & tempat duduk kereta"
+}
 },
 {
 "code": "FOGG",
@@ -219,7 +363,13 @@
 "judul": "Sterilo Fogging Service: Jasa Fogging & Disinfeksi Ruangan Dengan Teknik ULV Cold-Fog Untuk Sekolah, Kantor & Klinik.",
 "tagline": "SOP ULV cold-fog, daftar disinfektan aman, jadwal berkala, checklist area, kalkulator per m2, dan skrip penawaran ke sekolah/klinik.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/sterilo-fogging-service/"
+"lp": "https://id.ilmuwanlama.tech/sterilo-fogging-service/",
+"fxkw": "fogging & disinfeksi ruangan",
+"fx": {
+"th": "การพ่นหมอกควันและการฆ่าเชื้อในห้อง",
+"vi": "phun sương & khử trùng phòng",
+"ms": "pengabusan & pembasmian kuman bilik"
+}
 },
 {
 "code": "KEJU",
@@ -228,7 +378,13 @@
 "judul": "Mozzafresco Curd Lab: Produksi Keju Mozzarella & Ricotta Segar Dengan Teknik Stretch-Curd 80C Untuk Pizzeria & Cafe.",
 "tagline": "SOP stretch-curd, rasio susu-rennet-asam, standar tekstur leleh, kalkulator HPP per kg, QC kesegaran, dan template katalog B2B pizzeria.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/mozzafresco-curd-lab/"
+"lp": "https://id.ilmuwanlama.tech/mozzafresco-curd-lab/",
+"fxkw": "keju mozzarella & ricotta segar",
+"fx": {
+"th": "มอสซาเรลลาสดและริคอตต้าชีส",
+"vi": "phô mai mozzarella & ricotta tươi",
+"ms": "keju mozzarella & ricotta segar"
+}
 },
 {
 "code": "BRIO",
@@ -237,7 +393,13 @@
 "judul": "Brioche Bun Supply: Produksi Burger Bun Brioche Beku Dengan Teknik Tangzhong Soft-Crumb Untuk Kedai Burger & Cafe.",
 "tagline": "Formula tangzhong, SOP proofing & par-bake, panduan reheat stabil, kalkulator HPP per pcs, QC kelembutan, dan katalog supply kedai burger.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/brioche-bun-supply/"
+"lp": "https://id.ilmuwanlama.tech/brioche-bun-supply/",
+"fxkw": "burger bun brioche beku",
+"fx": {
+"th": "ขนมปังเบอร์เกอร์ brioche แช่แข็ง",
+"vi": "bánh burger brioche đông lạnh",
+"ms": "roti burger brioche beku"
+}
 },
 {
 "code": "TRTL",
@@ -246,7 +408,13 @@
 "judul": "Tortilla Press Kitchen: Produksi Tortilla & Kulit Kebab Segar Dengan Teknik Press-Griddle Elastis Untuk Resto Kebab & Mexican.",
 "tagline": "Formula adonan elastis, SOP press-griddle, panduan simpan tetap lentur, kalkulator HPP per lembar, QC anti-sobek, dan katalog B2B resto.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/tortilla-press-kitchen/"
+"lp": "https://id.ilmuwanlama.tech/tortilla-press-kitchen/",
+"fxkw": "tortilla & kulit kebab segar",
+"fx": {
+"th": "ตอติญ่าสดและหนังเคบับ",
+"vi": "bánh tortilla tươi và vỏ kebab",
+"ms": "tortilla & kulit kebab segar"
+}
 },
 {
 "code": "MDTM",
@@ -255,7 +423,13 @@
 "judul": "Greenmix Media Tanam: Produksi Media Tanam Siap Pakai Dengan Teknik Cocopeat-Compost Ratio Untuk Nursery & Pekebun Hidroponik.",
 "tagline": "Formula rasio cocopeat-kompos-sekam, SOP sterilisasi, panduan per komoditas, kalkulator HPP per karung, QC pH, dan template label + katalog.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/greenmix-media-tanam/"
+"lp": "https://id.ilmuwanlama.tech/greenmix-media-tanam/",
+"fxkw": "media tanam siap",
+"fx": {
+"th": "สื่อการปลูกพร้อมแล้ว",
+"vi": "chất trồng đã sẵn sàng",
+"ms": "medium penanaman sudah siap"
+}
 },
 {
 "code": "CBRW",
@@ -264,7 +438,13 @@
 "judul": "Slowdrip Coldbrew Co: Produksi Konsentrat Cold Brew Kopi Dengan Teknik Slow-Drip 12 Jam Untuk Cafe, Kantor & Reseller.",
 "tagline": "SOP slow-drip 12 jam, rasio kopi-air, panduan simpan & dilusi, kalkulator HPP per botol, QC rasa konsisten, dan katalog B2B cafe.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/slowdrip-coldbrew-co/"
+"lp": "https://id.ilmuwanlama.tech/slowdrip-coldbrew-co/",
+"fxkw": "konsentrat cold brew kopi",
+"fx": {
+"th": "กาแฟชงเย็นเข้มข้น",
+"vi": "cà phê ủ lạnh cô đặc",
+"ms": "pekat kopi bancuhan sejuk"
+}
 },
 {
 "code": "TFLN",
@@ -273,7 +453,13 @@
 "judul": "Recoatpro Teflon Studio: Jasa Recoat Panci & Wajan Teflon Mengelupas Dengan Teknik Sandblast + Re-Coating Food-Grade Untuk Rumah Tangga & Warung.",
 "tagline": "SOP sandblast & recoat, daftar coating food-grade, checklist keamanan, form intake, kalkulator per item, dan skrip before-after.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/recoatpro-teflon-studio/"
+"lp": "https://id.ilmuwanlama.tech/recoatpro-teflon-studio/",
+"fxkw": "recoat panci & wajan teflon mengelupas",
+"fx": {
+"th": "เคลือบหม้อและกระทะเทฟลอนอีกครั้ง",
+"vi": "sơn lại lớp bong tróc nồi chảo Teflon",
+"ms": "recoat Teflon periuk & kuali mengelupas"
+}
 },
 {
 "code": "RELS",
@@ -282,7 +468,13 @@
 "judul": "Reelsboost Editor: Jasa Edit Reels & Video Pendek UMKM Dengan Teknik Hook-3-Detik + Template Retensi Untuk UMKM Kuliner & Fashion.",
 "tagline": "Bank hook 3 detik, template editing, SOP revisi, paket langganan konten, kalkulator per video, dan skrip prospek UMKM.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/reelsboost-editor/"
+"lp": "https://id.ilmuwanlama.tech/reelsboost-editor/",
+"fxkw": "edit reels & video pendek UMKM",
+"fx": {
+"th": "แก้ไขม้วน MSME และวิดีโอสั้น ๆ",
+"vi": "chỉnh sửa cuộn MSME và video ngắn",
+"ms": "edit kekili MSME & video pendek"
+}
 },
 {
 "code": "PKGN",
@@ -291,7 +483,13 @@
 "judul": "Packlabel Design Studio: Jasa Desain Kemasan & Label Produk UMKM Dengan Teknik Mockup Print-Ready Untuk UMKM Makanan & Skincare.",
 "tagline": "Template kemasan print-ready, SOP file siap cetak, daftar percetakan partner, paket revisi, kalkulator per desain, dan skrip penawaran UMKM.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/packlabel-design-studio/"
+"lp": "https://id.ilmuwanlama.tech/packlabel-design-studio/",
+"fxkw": "desain kemasan & label produk UMKM",
+"fx": {
+"th": "ออกแบบบรรจุภัณฑ์และฉลากผลิตภัณฑ์ MSME",
+"vi": "Thiết kế bao bì & nhãn mác sản phẩm MSME",
+"ms": "Reka bentuk pembungkusan & label produk MSME"
+}
 },
 {
 "code": "MRKT",
@@ -300,7 +498,13 @@
 "judul": "Lapaknaik Marketplace Setup: Jasa Setup & Optimasi Toko Shopee/Tokopedia Dengan Teknik Listing-SEO + Foto Grid Untuk Seller Pemula.",
 "tagline": "SOP listing-SEO, template foto grid, checklist optimasi toko, paket kelola bulanan, kalkulator jasa, dan skrip gaet seller pemula.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/lapaknaik-marketplace-setup/"
+"lp": "https://id.ilmuwanlama.tech/lapaknaik-marketplace-setup/",
+"fxkw": "setup & optimasi toko shopee/tokopedia",
+"fx": {
+"th": "การตั้งค่าและการเพิ่มประสิทธิภาพร้านค้า shopee/tokopedia",
+"vi": "thiết lập và tối ưu hóa cửa hàng shopee/tokopedia",
+"ms": "persediaan & pengoptimuman kedai shopee/tokopedia"
+}
 },
 {
 "code": "SOUN",
@@ -309,7 +513,13 @@
 "judul": "Eventsound Rental: Bisnis Rental Sound System & Proyektor Event Dengan Teknik Quick-Setup Plug-and-Play Untuk EO, Sekolah & Hajatan.",
 "tagline": "Daftar paket sound/proyektor, SOP quick-setup, checklist kabel & cadangan, kalkulator sewa & BEP, form booking + deposit, dan skrip gaet EO/sekolah.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/eventsound-rental/"
+"lp": "https://id.ilmuwanlama.tech/eventsound-rental/",
+"fxkw": "rental sound system & proyektor event",
+"fx": {
+"th": "ให้เช่าระบบเครื่องเสียงและโปรเจคเตอร์",
+"vi": "Cho thuê hệ thống âm thanh & máy chiếu sự kiện",
+"ms": "sistem bunyi acara & sewa projektor"
+}
 },
 {
 "code": "HJTN",
@@ -318,7 +528,13 @@
 "judul": "Hajatan Gear Rental: Bisnis Rental Kursi, Tenda & Alat Hajatan Dengan Teknik Inventory-Rotation Untuk Hajatan & Event Kampung.",
 "tagline": "Daftar item paling laku, SOP inventory-rotation, jadwal antar-bongkar, kalkulator sewa & BEP, sistem deposit, dan skrip gaet panitia hajatan/RT.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/hajatan-gear-rental/"
+"lp": "https://id.ilmuwanlama.tech/hajatan-gear-rental/",
+"fxkw": "rental kursi",
+"fx": {
+"th": "เช่าเก้าอี้",
+"vi": "thuê ghế",
+"ms": "sewa kerusi"
+}
 },
 {
 "code": "GRDN",
@@ -327,7 +543,13 @@
 "judul": "Bisnis Jasa Cuci Gorden & Vitrase Panggilan: Modal Mesin Kecil, Hotel & Rumah Tangga Butuh Rutin, Jarang Pesaing, Potensi Untung Rp14 Juta/Bulan!",
 "tagline": "SOP cuci & steam gorden, daftar deterjen aman warna, checklist QC tanpa lepas-pasang, kalkulator harga per meter, jemput-antar, skrip gaet hotel & perumahan.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/bisnis-jasa-cuci-gorden-vitrase-panggilan/"
+"lp": "https://id.ilmuwanlama.tech/bisnis-jasa-cuci-gorden-vitrase-panggilan/",
+"fxkw": "jasa cuci gorden & vitrase panggilan",
+"fx": {
+"th": "บริการทำความสะอาดผ้าม่านและบริการโทรเรียก",
+"vi": "dịch vụ giặt rèm & vitrage theo yêu cầu",
+"ms": "perkhidmatan pembersihan langsir & vitrage on call"
+}
 },
 {
 "code": "NANO",
@@ -336,7 +558,13 @@
 "judul": "Bisnis Coating Nano Ceramic Motor & Mobil: Modal Kecil, Pemilik Kendaraan Rela Bayar Mahal Demi Kilap Tahan 2 Tahun, Potensi Rp20 Juta/Bulan!",
 "tagline": "SOP aplikasi coating, daftar bahan & alat, checklist QC kilap, kalkulator paket harga, form intake, skrip penawaran komunitas otomotif.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/bisnis-coating-nano-ceramic-motor-mobil/"
+"lp": "https://id.ilmuwanlama.tech/bisnis-coating-nano-ceramic-motor-mobil/",
+"fxkw": "coating nano ceramic motor & mobil",
+"fx": {
+"th": "เคลือบนาโนเซรามิกสำหรับรถมอเตอร์ไซค์และรถยนต์",
+"vi": "phủ nano ceramic cho xe máy, ô tô",
+"ms": "salutan seramik nano untuk motosikal & kereta"
+}
 },
 {
 "code": "ACSV",
@@ -345,7 +573,13 @@
 "judul": "Bisnis Jasa Cuci & Service AC Rumahan: Permintaan Membludak Tiap Kemarau, Modal Alat Terjangkau, Potensi Untung Rp18 Juta/Bulan!",
 "tagline": "SOP cuci & isi freon, daftar tools, checklist tekanan & kebocoran, kalkulator harga, paket langganan, skrip gaet perumahan & kantor.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/bisnis-jasa-cuci-service-ac-rumahan/"
+"lp": "https://id.ilmuwanlama.tech/bisnis-jasa-cuci-service-ac-rumahan/",
+"fxkw": "jasa cuci & service AC rumahan",
+"fx": {
+"th": "บริการทำความสะอาดเครื่องปรับอากาศภายในบ้าน",
+"vi": "Dịch vụ vệ sinh máy lạnh tại nhà",
+"ms": "pembersihan & servis AC rumah"
+}
 },
 {
 "code": "LWNG",
@@ -354,7 +588,13 @@
 "judul": "Bisnis Jasa Potong Rumput & Rawat Taman Panggilan: Modal Mesin Kecil, Komplek & Kantor Butuh Rutin, Potensi Untung Rp14 Juta/Bulan!",
 "tagline": "SOP rawat taman, daftar alat, jadwal langganan, kalkulator harga per m2, form survei, skrip gaet komplek & perkantoran.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/bisnis-jasa-potong-rumput-rawat-taman-panggilan/"
+"lp": "https://id.ilmuwanlama.tech/bisnis-jasa-potong-rumput-rawat-taman-panggilan/",
+"fxkw": "jasa potong rumput & rawat taman",
+"fx": {
+"th": "บริการตัดหญ้าและดูแลสวน",
+"vi": "Dịch vụ cắt cỏ và chăm sóc sân vườn",
+"ms": "Perkhidmatan memotong rumput & penyelenggaraan taman"
+}
 },
 {
 "code": "SHOE",
@@ -363,7 +603,13 @@
 "judul": "Bisnis Laundry Sepatu & Tas Branded: Modal Rp1 Juta, Anak Muda Rela Bayar Premium, Order Tiap Hari, Potensi Untung Rp12 Juta/Bulan!",
 "tagline": "SOP deep clean & whitening, daftar cairan aman, checklist QC, kalkulator paket, jemput-antar, skrip gaet komunitas sneakers.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/bisnis-laundry-sepatu-tas-branded/"
+"lp": "https://id.ilmuwanlama.tech/bisnis-laundry-sepatu-tas-branded/",
+"fxkw": "laundry sepatu & tas branded",
+"fx": {
+"th": "ซักรีดรองเท้าและกระเป๋าแบรนด์เนม",
+"vi": "giặt giày túi xách hàng hiệu",
+"ms": "dobi kasut & beg berjenama"
+}
 },
 {
 "code": "WCMP",
@@ -372,7 +618,13 @@
 "judul": "Bisnis Jasa Sedot WC & Atasi Saluran Mampet: Permintaan Tak Pernah Sepi, Tarif Premium Per Panggilan, Potensi Untung Rp25 Juta/Bulan!",
 "tagline": "SOP penyedotan & high-pressure, daftar alat, checklist keamanan, kalkulator tarif, jadwal darurat, skrip gaet perumahan & resto.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/bisnis-jasa-sedot-wc-atasi-saluran-mampet/"
+"lp": "https://id.ilmuwanlama.tech/bisnis-jasa-sedot-wc-atasi-saluran-mampet/",
+"fxkw": "jasa sedot wc & atasi saluran",
+"fx": {
+"th": "บริการซ่อมดูดและระบายน้ำในห้องน้ำ",
+"vi": "Dịch vụ sửa chữa thông tắc cống nhà vệ sinh",
+"ms": "perkhidmatan sedut tandas & pembaikan longkang"
+}
 },
 {
 "code": "MOVE",
@@ -381,7 +633,13 @@
 "judul": "Bisnis Jasa Pindahan & Packing Rumah: Modal Sistem & Tenaga, Order Premium Tiap Akhir Pekan, Potensi Untung Rp22 Juta/Bulan!",
 "tagline": "SOP packing aman, daftar material, checklist inventaris, kalkulator harga per volume, form survei, skrip gaet apartemen & kos.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/bisnis-jasa-pindahan-packing-rumah/"
+"lp": "https://id.ilmuwanlama.tech/bisnis-jasa-pindahan-packing-rumah/",
+"fxkw": "jasa pindahan & packing rumah",
+"fx": {
+"th": "บริการขนย้ายและแพ็คของบ้าน",
+"vi": "dịch vụ chuyển nhà & đóng gói đồ đạc",
+"ms": "perkhidmatan pindah rumah & pembungkusan"
+}
 },
 {
 "code": "KCGD",
@@ -390,7 +648,13 @@
 "judul": "Bisnis Jasa Cuci Kaca Gedung & Ruko: Modal Alat Ketinggian, Kontrak Bulanan Gedung, Potensi Untung Rp28 Juta/Bulan!",
 "tagline": "SOP cuci kaca aman, checklist safety ketinggian, daftar alat, kalkulator harga per m2, jadwal kontrak, skrip penawaran gedung.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/bisnis-jasa-cuci-kaca-gedung-ruko/"
+"lp": "https://id.ilmuwanlama.tech/bisnis-jasa-cuci-kaca-gedung-ruko/",
+"fxkw": "jasa cuci kaca gedung & ruko",
+"fx": {
+"th": "บริการล้างหน้าต่างอาคารและร้านค้า",
+"vi": "dịch vụ lau kính tòa nhà và cửa hàng",
+"ms": "perkhidmatan mencuci tingkap bangunan & kedai"
+}
 },
 {
 "code": "KMBC",
@@ -399,7 +663,13 @@
 "judul": "Bisnis Kombucha Artisan: Olah Teh Jadi Minuman Probiotik Premium Tahan Lama, Pasar Healthy Lifestyle Naik, Potensi Untung Rp16 Juta/Bulan!",
 "tagline": "SOP fermentasi SCOBY, rasio teh-gula, panduan flavor & karbonasi, kalkulator HPP per botol, QC keamanan, katalog B2B cafe.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/bisnis-kombucha-artisan/"
+"lp": "https://id.ilmuwanlama.tech/bisnis-kombucha-artisan/",
+"fxkw": "kombucha artisan",
+"fx": {
+"th": "ช่างคอมบูชา",
+"vi": "kombucha thủ công",
+"ms": "Kombucha artisan"
+}
 },
 {
 "code": "GRNL",
@@ -408,7 +678,13 @@
 "judul": "Bisnis Granola & Sereal Sehat Homemade: Camilan Diet Premium Tahan 3 Bulan, Pasar Wellness Borong, Potensi Untung Rp14 Juta/Bulan!",
 "tagline": "Formula granola renyah, SOP panggang, varian topping, kalkulator HPP per pouch, QC kerenyahan, katalog reseller & cafe.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/bisnis-granola-sereal-sehat-homemade/"
+"lp": "https://id.ilmuwanlama.tech/bisnis-granola-sereal-sehat-homemade/",
+"fxkw": "granola & sereal sehat homemade",
+"fx": {
+"th": "กราโนล่าและซีเรียลเพื่อสุขภาพแบบโฮมเมด",
+"vi": "Granola & ngũ cốc tự làm tốt cho sức khỏe",
+"ms": "Granola & bijirin sihat buatan sendiri"
+}
 },
 {
 "code": "VFRY",
@@ -417,7 +693,13 @@
 "judul": "Bisnis Keripik Sayur & Buah Vacuum Fry: Camilan Sehat Renyah Tahan Lama, Modal Vacuum Fryer, Potensi Untung Rp18 Juta/Bulan!",
 "tagline": "SOP vacuum frying, daftar bahan, panduan kerenyahan, kalkulator HPP per pack, QC kadar minyak, katalog oleh-oleh & reseller.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/bisnis-keripik-sayur-buah-vacuum-fry/"
+"lp": "https://id.ilmuwanlama.tech/bisnis-keripik-sayur-buah-vacuum-fry/",
+"fxkw": "keripik sayur & buah vacuum fry",
+"fx": {
+"th": "ทอดผักและผลไม้แบบสูญญากาศ",
+"vi": "Chiên trái cây và rau củ chiên chân không",
+"ms": "Goreng vakum cip sayur & buah"
+}
 },
 {
 "code": "GLTO",
@@ -426,7 +708,13 @@
 "judul": "Bisnis Gelato & Es Krim Homemade Premium: Modal Rumahan, Cafe & Event Borong, Margin Tebal, Potensi Untung Rp20 Juta/Bulan!",
 "tagline": "Formula base gelato, SOP churning, varian rasa, kalkulator HPP per scoop, QC tekstur, katalog supply cafe & event.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/bisnis-gelato-es-krim-homemade-premium/"
+"lp": "https://id.ilmuwanlama.tech/bisnis-gelato-es-krim-homemade-premium/",
+"fxkw": "gelato & es krim homemade premium",
+"fx": {
+"th": "เจลาโต้โฮมเมดและไอศกรีมระดับพรีเมี่ยม",
+"vi": "Kem & gelato tự làm cao cấp",
+"ms": "Gelato & aiskrim buatan sendiri premium"
+}
 },
 {
 "code": "SDGH",
@@ -435,7 +723,13 @@
 "judul": "Bisnis Roti Sourdough Artisan: Tren Roti Sehat Naik, Pelanggan Loyal Pre-Order, Margin Tinggi, Potensi Untung Rp15 Juta/Bulan!",
 "tagline": "SOP starter & fermentasi, formula adonan, panduan baking, kalkulator HPP per loaf, QC remah, katalog pre-order & cafe.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/bisnis-roti-sourdough-artisan/"
+"lp": "https://id.ilmuwanlama.tech/bisnis-roti-sourdough-artisan/",
+"fxkw": "roti sourdough artisan",
+"fx": {
+"th": "ขนมปังเปรี้ยวช่างฝีมือ",
+"vi": "bánh mì chua thủ công",
+"ms": "roti masam artisan"
+}
 },
 {
 "code": "PSTA",
@@ -444,7 +738,13 @@
 "judul": "Bisnis Pasta & Mie Segar Premium: Suplai Resto Italia & Cafe Tiap Hari, Modal Mesin Pasta, Potensi Untung Rp17 Juta/Bulan!",
 "tagline": "Formula adonan elastis, SOP cetak & simpan, varian pasta, kalkulator HPP per porsi, QC tekstur, katalog B2B resto.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/bisnis-pasta-mie-segar-premium/"
+"lp": "https://id.ilmuwanlama.tech/bisnis-pasta-mie-segar-premium/",
+"fxkw": "pasta & mie segar premium",
+"fx": {
+"th": "พาสต้าและบะหมี่สดระดับพรีเมี่ยม",
+"vi": "mỳ và mì tươi cao cấp",
+"ms": "pasta & mee segar premium"
+}
 },
 {
 "code": "KLDU",
@@ -453,7 +753,13 @@
 "judul": "Bisnis Kaldu Jamur & Bumbu Bubuk Alami Tanpa MSG: Pasar Masakan Sehat Borong, Tahan 1 Tahun, Potensi Untung Rp13 Juta/Bulan!",
 "tagline": "Formula kaldu alami, SOP pengeringan & giling, varian rasa, kalkulator HPP per pack, QC kelarutan, katalog reseller sehat.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/bisnis-kaldu-jamur-bumbu-bubuk-alami-tanpa-msg/"
+"lp": "https://id.ilmuwanlama.tech/bisnis-kaldu-jamur-bumbu-bubuk-alami-tanpa-msg/",
+"fxkw": "kaldu jamur & bumbu bubuk alami",
+"fx": {
+"th": "น้ำซุปเห็ดและเครื่องเทศผงธรรมชาติ",
+"vi": "nước luộc nấm & bột gia vị tự nhiên",
+"ms": "sup cendawan & rempah serbuk asli"
+}
 },
 {
 "code": "LELE",
@@ -462,7 +768,13 @@
 "judul": "Bisnis Lele Bioflok Pekarangan: Panen Padat Tanpa Kolam Tanah, Permintaan Pasar Stabil, Potensi Untung Rp12 Juta/Bulan!",
 "tagline": "SOP bioflok, takaran pakan & probiotik, manajemen air, kalkulator modal-panen, QC kesehatan ikan, skrip jual ke pasar & resto.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/bisnis-lele-bioflok-pekarangan/"
+"lp": "https://id.ilmuwanlama.tech/bisnis-lele-bioflok-pekarangan/",
+"fxkw": "lele bioflok pekarangan",
+"fx": {
+"th": "ปลาดุกหลา biofloc",
+"vi": "Cá da trơn biofloc sân vườn",
+"ms": "Ikan keli bioflok halaman"
+}
 },
 {
 "code": "JMTI",
@@ -471,7 +783,13 @@
 "judul": "Bisnis Jamur Tiram & Kuping Rumahan: Panen Tiap Hari Dari Kumbung Kecil, Pasar Sayur Borong, Potensi Untung Rp10 Juta/Bulan!",
 "tagline": "SOP baglog & inkubasi, kontrol suhu-lembap, jadwal panen, kalkulator modal-hasil, QC steril, skrip jual pasar & reseller.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/bisnis-jamur-tiram-kuping-rumahan/"
+"lp": "https://id.ilmuwanlama.tech/bisnis-jamur-tiram-kuping-rumahan/",
+"fxkw": "jamur tiram & kuping rumahan",
+"fx": {
+"th": "หอยนางรมและเห็ดหูหนูแบบโฮมเมด",
+"vi": "Nấm sò tai nhà làm",
+"ms": "Tiram & cendawan telinga buatan sendiri"
+}
 },
 {
 "code": "KLLT",
@@ -480,7 +798,13 @@
 "judul": "Bisnis Madu Kelulut (Trigona): Lebah Tanpa Sengat, Madu Bernilai Tinggi, Pasar Herbal Premium, Potensi Untung Rp15 Juta/Bulan!",
 "tagline": "SOP koloni & panen, panduan pakan & lokasi, teknik panen higienis, kalkulator hasil, QC kadar air, skrip jual herbal & online.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/bisnis-madu-kelulut-trigona/"
+"lp": "https://id.ilmuwanlama.tech/bisnis-madu-kelulut-trigona/",
+"fxkw": "madu kelulut trigona",
+"fx": {
+"th": "น้ำผึ้งตรีโกนา เกลูลุต",
+"vi": "Mật ong Trigona kelulut",
+"ms": "Madu kelulut trigona"
+}
 },
 {
 "code": "MCGR",
@@ -489,7 +813,13 @@
 "judul": "Bisnis Microgreen Premium: Panen Kilat 10 Hari Tanpa Lahan, Restoran & Hotel Rela Bayar Mahal, Potensi Untung Rp14 Juta/Bulan!",
 "tagline": "SOP semai-panen, daftar varian laris, kontrol cahaya-air, kalkulator HPP per tray, QC kesegaran, skrip gaet resto & hotel.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/bisnis-microgreen-premium/"
+"lp": "https://id.ilmuwanlama.tech/bisnis-microgreen-premium/",
+"fxkw": "microgreen premium",
+"fx": {
+"th": "ไมโครกรีนระดับพรีเมี่ยม",
+"vi": "rau xanh cao cấp",
+"ms": "mikrohijau premium"
+}
 },
 {
 "code": "CCST",
@@ -498,7 +828,13 @@
 "judul": "Bisnis Cacing Sutra & Lumbricus: Pakan Bernilai Tinggi Diburu Peternak Ikan & Pasar Herbal, Panen Cepat, Potensi Untung Rp11 Juta/Bulan!",
 "tagline": "SOP budidaya media, manajemen pakan, teknik panen, kalkulator modal-hasil, QC kepadatan, skrip jual peternak & online.",
 "status": "live",
-"lp": "https://id.ilmuwanlama.tech/bisnis-cacing-sutra-lumbricus/"
+"lp": "https://id.ilmuwanlama.tech/bisnis-cacing-sutra-lumbricus/",
+"fxkw": "cacing sutra & lumbricus",
+"fx": {
+"th": "หนอนไหมและลัมบริคัส",
+"vi": "giun tơ và thắt lưng",
+"ms": "ulat sutera & lumbricus"
+}
 },
 {
 "code": "NHNA",
@@ -507,7 +843,13 @@
 "judul": "Jalur Nihonia — Mau Kerja ke Jepang tapi Takut Kena Calo Puluhan Juta? Ternyata Jalur Resmi (SSW/Tokutei) Bisa Diurus Sendiri, Bukan Lewat Sponsor",
 "tagline": "Jenis visa SSW/Tokutei, cara cari job offer resmi, urus dokumen sendiri, estimasi gaji & biaya jujur, ciri sponsor abal-abal. (panduan & risiko)",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/jalur-nihonia/"
+"lp": "https://id.ilmuwanlama.tech/jalur-nihonia/",
+"fxkw": "peluang karir",
+"fx": {
+"th": "โอกาสในการทำงาน",
+"vi": "cơ hội nghề nghiệp",
+"ms": "peluang kerjaya"
+}
 },
 {
 "code": "LMNA",
@@ -515,7 +857,13 @@
 "nama": "Teknik Lumina",
 "judul": "Teknik Lumina — Foto Kamu Bagus tapi Ga Ada yang Beli? Ternyata Masalahnya Bukan di Kamera, Tapi di \"Cara Jual\"-nya",
 "tagline": "Genre foto paling laku, jual foto stok & jasa (produk/wisuda), patok tarif, bikin portofolio, cara dapat klien pertama.",
-"status": "ide"
+"status": "ide",
+"fxkw": "foto kamu bagus tapi ga ada",
+"fx": {
+"th": "ภาพถ่ายของคุณดีแต่ไม่มีอยู่จริง",
+"vi": "Ảnh của bạn đẹp nhưng chúng không tồn tại",
+"ms": "Foto anda bagus tetapi ia tidak wujud"
+}
 },
 {
 "code": "AUSL",
@@ -524,7 +872,13 @@
 "judul": "Jalur Auslandia — Kenapa Banyak yang Gagal Berangkat ke Jerman Padahal Niatnya Kuat? Rahasianya di \"Sertifikat Bahasa\", Bukan Ijazah",
 "tagline": "Alur Ausbildung dari nol, target bahasa A2–B1, cara cari perusahaan sponsor, biaya & timeline realistis. (panduan & risiko)",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/jalur-auslandia/"
+"lp": "https://id.ilmuwanlama.tech/jalur-auslandia/",
+"fxkw": "peluang karir",
+"fx": {
+"th": "โอกาสในการทำงาน",
+"vi": "cơ hội nghề nghiệp",
+"ms": "peluang kerjaya"
+}
 },
 {
 "code": "RSPW",
@@ -533,7 +887,13 @@
 "judul": "Sistem Respawn — Jago Main Game tapi Dompet Tetap Tipis? Bongkar Cara Gamer Biasa Hasilin Cuan Tanpa Harus Jadi Pro Player",
 "tagline": "Jasa joki/boosting, reseller top-up, konten & donasi live, turnamen kecil, kelola akun + etika & risiko.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/sistem-respawn/"
+"lp": "https://id.ilmuwanlama.tech/sistem-respawn/",
+"fxkw": "pro player",
+"fx": {
+"th": "ผู้เล่นมืออาชีพ",
+"vi": "tuyển thủ chuyên nghiệp",
+"ms": "pemain pro"
+}
 },
 {
 "code": "LNTS",
@@ -542,7 +902,13 @@
 "judul": "Sistem Lintasa — Capek Lamaran Kerja Luar Negeri Selalu Mentok di Tahap Awal? Ternyata Bukan Kualifikasimu yang Kurang, Tapi Cara Kamu \"Apply\"",
 "tagline": "Riset negara & sektor yang buka lowongan, CV format luar, portal lowongan resmi, siasat interview & dokumen, hindari lowongan palsu.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/sistem-lintasa/"
+"lp": "https://id.ilmuwanlama.tech/sistem-lintasa/",
+"fxkw": "peluang karir",
+"fx": {
+"th": "โอกาสในการทำงาน",
+"vi": "cơ hội nghề nghiệp",
+"ms": "peluang kerjaya"
+}
 },
 {
 "code": "KNVS",
@@ -551,7 +917,13 @@
 "judul": "Pola Kanvasa — Hobi Lukis Selama Ini Cuma Numpuk di Gudang? Ubah Jadi \"Mesin Order\" Custom yang Bikin Orang Rela Antre",
 "tagline": "Produk lukis yang laku (custom wajah/sepatu/dinding), patok harga, foto karya, jalur jualan online & galeri kecil.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/pola-kanvasa/"
+"lp": "https://id.ilmuwanlama.tech/pola-kanvasa/",
+"fxkw": "mesin order custom yang bikin orang",
+"fx": {
+"th": "เครื่องสั่งทำพิเศษที่ทำให้คน",
+"vi": "máy đặt hàng tùy chỉnh làm cho mọi người",
+"ms": "mesin pesanan tersuai yang membuat orang"
+}
 },
 {
 "code": "PLGA",
@@ -560,7 +932,13 @@
 "judul": "Jalur Pelagia — Digaji Dollar Keliling Dunia di Kapal Pesiar Walau Nol Pengalaman: Bongkar Urutan Masuk yang Jarang Dikasih Tau Agen",
 "tagline": "Posisi entry kapal pesiar, agen resmi vs bodong, dokumen pelaut (BST/seaman book), proses interview user, estimasi gaji USD. (panduan & risiko)",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/jalur-pelagia/"
+"lp": "https://id.ilmuwanlama.tech/jalur-pelagia/",
+"fxkw": "digaji dollar keliling dunia di kapal",
+"fx": {
+"th": "จ่ายเป็นดอลลาร์เพื่อเดินทางรอบโลกบนเรือ",
+"vi": "được trả bằng đô la đi vòng quanh thế giới trên một con tàu",
+"ms": "dibayar dalam dolar mengembara ke seluruh dunia di atas kapal"
+}
 },
 {
 "code": "VRDN",
@@ -569,7 +947,13 @@
 "judul": "Akar Verdana — Hobi Tanaman Malah Bikin Boncos Terus? Rahasia Balik Modalnya Ada di \"Indukan\", Bukan Beli Bibit Mahal Mulu",
 "tagline": "Tanaman cepat balik modal, teknik perbanyakan (stek/split), patok harga indukan vs anakan, jualan di marketplace & komunitas.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/akar-verdana/"
+"lp": "https://id.ilmuwanlama.tech/akar-verdana/",
+"fxkw": "hobi cuan",
+"fx": {
+"th": "งานอดิเรกที่ทำกำไรได้",
+"vi": "sở thích có lợi nhuận",
+"ms": "hobi yang menguntungkan"
+}
 },
 {
 "code": "HNGK",
@@ -578,7 +962,13 @@
 "judul": "Gerbang Hanguk — Stop Gagal EPS-TOPIK Berkali-kali: Rahasia Lolos Itu di \"Cara Latihan\", Bukan Seberapa Lama Belajar",
 "tagline": "Pola soal EPS-TOPIK, strategi belajar efektif, proses SLC & SiSKa, sektor kerja di Korea, hitung gaji bersih & potongan. (panduan & risiko)",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/gerbang-hanguk/"
+"lp": "https://id.ilmuwanlama.tech/gerbang-hanguk/",
+"fxkw": "peluang karir",
+"fx": {
+"th": "โอกาสในการทำงาน",
+"vi": "cơ hội nghề nghiệp",
+"ms": "peluang kerjaya"
+}
 },
 {
 "code": "LVNA",
@@ -587,7 +977,13 @@
 "judul": "Resep Lavania — Kue Buatanmu Dipuji Enak tapi Cuma Berakhir di Meja Sendiri? Cara Ubah Jadi Orderan PO yang Diburu Tetangga",
 "tagline": "Menu laku & tahan lama, hitung HPP + harga jual, packaging menarik, sistem PO via WA/sosmed, cara dapat pembeli pertama.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/resep-lavania/"
+"lp": "https://id.ilmuwanlama.tech/resep-lavania/",
+"fxkw": "orderan po yang diburu tetangga",
+"fx": {
+"th": "ปอ.สั่งเพื่อนบ้านตามล่าหา",
+"vi": "Đơn hàng PO được hàng xóm săn lùng",
+"ms": "Pesanan PO yang diburu oleh jiran"
+}
 },
 {
 "code": "GIPS",
@@ -596,7 +992,13 @@
 "judul": "Studio Gipsa — Modal Gips & Cat Receh, \"Mainan Patung Lukis\" Diborong Emak buat Kado Anak: Cuan dari Hampers, Ultah & Reseller Sekolah",
 "tagline": "Resep adonan gips anti-retak, cetakan paling laku (donat/hewan/karakter), kemas jadi kit cat+kuas, hitung HPP & harga jual, jualan ke ortu/sekolah/marketplace + sistem reseller.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/studio-gipsa/"
+"lp": "https://id.ilmuwanlama.tech/studio-gipsa/",
+"fxkw": "modal gips & cat receh",
+"fx": {
+"th": "ทุนปูนปลาสเตอร์และสีเปลี่ยนอะไหล่",
+"vi": "vốn thạch cao & sơn thay dự phòng",
+"ms": "modal plaster & cat ganti ganti"
+}
 },
 {
 "code": "LILN",
@@ -605,7 +1007,13 @@
 "judul": "Lilin Aurora — Bukan Sekadar Wangi: Lilin Aroma Buatan Rumah Disulap Jadi Kado & Dekor Estetik, Margin Tembus 4x Lipat",
 "tagline": "Pilih soy wax & sumbu anti-tunnel, takaran fragrance aman, teknik tuang bebas retak/lubang, branding + packaging estetik, jualan hampers/wedding/corporate.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/lilin-aurora-bisnis/"
+"lp": "https://id.ilmuwanlama.tech/lilin-aurora-bisnis/",
+"fxkw": "bukan sekadar wangi",
+"fx": {
+"th": "ไม่ใช่แค่มีกลิ่นหอมเท่านั้น",
+"vi": "không chỉ thơm",
+"ms": "bukan setakat wangi"
+}
 },
 {
 "code": "SLIM",
@@ -614,7 +1022,13 @@
 "judul": "Slime Galaxy — Mainan \"Receh\" yang Bikin Anak Nagih: Bikin Slime Aman Anti-Lengket & Jual per Toples ke Sekolah",
 "tagline": "Formula slime aman tanpa borak, tekstur cloud/butter/crunchy, pewarna & charm lucu, kemas toples + label, jualan ke anak sekolah/online + paket ulang tahun.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/slime-galaxy/"
+"lp": "https://id.ilmuwanlama.tech/slime-galaxy/",
+"fxkw": "mainan receh yang bikin anak nagih",
+"fx": {
+"th": "ของเล่นเปลี่ยนเล็กๆ น้อยๆ ที่ทำให้เด็กๆ ติดใจ",
+"vi": "Đồ chơi thay đổi nhỏ khiến trẻ nghiện",
+"ms": "perubahan kecil mainan yang membuat kanak-kanak ketagih"
+}
 },
 {
 "code": "RSIN",
@@ -623,7 +1037,13 @@
 "judul": "Resin Kilau — Bunga Kering & Foto Disulap Jadi Gantungan Resin yang Dijual Mahal: Kado Personalisasi Anti-Pasaran",
 "tagline": "Pilih resin epoxy bening anti-kuning, teknik cetak anti-gelembung, isian (bunga/foto/nama/inisial), finishing kinclong, jualan kado custom/wisuda/souvenir.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/resin-kilau/"
+"lp": "https://id.ilmuwanlama.tech/resin-kilau/",
+"fxkw": "gantungan resin yang dijual mahal",
+"fx": {
+"th": "ไม้แขวนเสื้อเรซินขายราคาแพง",
+"vi": "móc treo bằng nhựa được bán đắt",
+"ms": "penyangkut resin dijual mahal"
+}
 },
 {
 "code": "CLAY",
@@ -632,7 +1052,13 @@
 "judul": "Studio Clayra — Tepung & Lem Jadi Buket Clay Awet Selamanya: Buket Wisuda & Kado yang Dijual Ratusan Ribu",
 "tagline": "Resep clay autodry anti-retak, bentuk bunga populer (tulip/mawar/matahari/lily), rangkai buket & box, packaging cantik, jualan wisuda/anniversary + pre-order.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/studio-clayra/"
+"lp": "https://id.ilmuwanlama.tech/studio-clayra/",
+"fxkw": "buket clay awet selamanya",
+"fx": {
+"th": "ช่อดอกไม้ดินเหนียวคงอยู่ตลอดไป",
+"vi": "Bó hoa đất sét tồn tại mãi mãi",
+"ms": "Sejambak tanah liat kekal selama-lamanya"
+}
 },
 {
 "code": "SNDL",
@@ -641,7 +1067,13 @@
 "judul": "Bisnis Sandal & Sepatu Custom Handmade: Pasar Anti-Mainstream Rela Bayar Mahal, Modal Kecil, Potensi Untung Rp13 Juta/Bulan!",
 "tagline": "SOP pola & jahit, daftar bahan, varian desain custom, kalkulator HPP per pasang, QC, skrip jual komunitas & online.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/sanda-kustoma/"
+"lp": "https://id.ilmuwanlama.tech/sanda-kustoma/",
+"fxkw": "sandal & sepatu custom handmade",
+"fx": {
+"th": "รองเท้าแตะและรองเท้าที่ทำด้วยมือตามสั่ง",
+"vi": "dép và giày thủ công tùy chỉnh",
+"ms": "sandal & kasut buatan tangan tersuai"
+}
 },
 {
 "code": "TRRM",
@@ -650,7 +1082,13 @@
 "judul": "Bisnis Terrarium & Kokedama Estetik: Tanaman Hias Mini Bernilai Jual Tinggi, Pasar Dekorasi & Gift, Potensi Untung Rp11 Juta/Bulan!",
 "tagline": "SOP rakit terrarium, daftar tanaman & media, varian desain, kalkulator HPP, QC, skrip jual gift shop & interior.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/terra-rimba/"
+"lp": "https://id.ilmuwanlama.tech/terra-rimba/",
+"fxkw": "terrarium & kokedama estetik",
+"fx": {
+"th": "สวนขวดที่สวยงามและโคเคดามะ",
+"vi": "hồ cạn thẩm mỹ & kokedama",
+"ms": "terarium estetik & kokedama"
+}
 },
 {
 "code": "KRJL",
@@ -659,7 +1097,12 @@
 "judul": "Bisnis Kerupuk Ikan & Udang Premium Mentah: Suplai Oleh-oleh & Reseller Tiap Minggu, Tahan Lama, Potensi Untung Rp15 Juta/Bulan!",
 "tagline": "Formula adonan, SOP cetak & jemur, panduan goreng mengembang, kalkulator HPP per pack, QC, katalog oleh-oleh & reseller.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/kerupuk-krajala/"
+"lp": "https://id.ilmuwanlama.tech/kerupuk-krajala/",
+"fxkw": "kerupuk ikan & udang premium mentah",
+"auth": 1,
+"fx": {
+"ms": "Ikan premium mentah & keropok udang"
+}
 },
 {
 "code": "PCKL",
@@ -668,7 +1111,13 @@
 "judul": "Bisnis Pickle & Acar Fermentasi Premium: Pendamping Sehat Pasar Kuliner Naik, Tahan Lama, Potensi Untung Rp10 Juta/Bulan!",
 "tagline": "SOP fermentasi & sterilisasi, rasio brine, varian sayur, kalkulator HPP per jar, QC keasaman, katalog cafe & reseller.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/pickle-pikkla/"
+"lp": "https://id.ilmuwanlama.tech/pickle-pikkla/",
+"fxkw": "pickle & acar fermentasi premium",
+"fx": {
+"th": "ผักดองและผักดองพรีเมียม",
+"vi": "dưa chua & dưa chua lên men cao cấp",
+"ms": "jeruk & jeruk yang ditapai premium"
+}
 },
 {
 "code": "LMPU",
@@ -677,7 +1126,13 @@
 "judul": "Bisnis Jasa Poles & Restorasi Lampu Mobil Buram: Lampu Kusam Jadi Bening Seperti Baru Dalam 30 Menit, Pemilik Mobil Rela Bayar, Potensi Untung Rp10 Juta/Bulan!",
 "tagline": "SOP poles & coating lampu, daftar bahan & alat, checklist QC bening, kalkulator harga per titik, jemput-antar, skrip gaet bengkel & komunitas mobil.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/lampu-lumika/"
+"lp": "https://id.ilmuwanlama.tech/lampu-lumika/",
+"fxkw": "jasa poles & restorasi lampu mobil",
+"fx": {
+"th": "บริการขัดและฟื้นฟูไฟหน้ารถยนต์",
+"vi": "Dịch vụ đánh bóng và phục hồi đèn pha ô tô",
+"ms": "perkhidmatan menggilap & membaik pulih lampu kereta"
+}
 },
 {
 "code": "FYTB",
@@ -686,7 +1141,13 @@
 "judul": "Bisnis Faceless YouTube Tanpa Muka: Upload Video AI Tinggal Ikuti Template, Cuan Adsense Pasif Tanpa Ngomong, Potensi Rp15 Juta/Bulan!",
 "tagline": "Niche faceless paling cuan, SOP riset+script AI, tools voice & visual, template upload, monetisasi Adsense, skrip scale channel.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/facelesa-tube/"
+"lp": "https://id.ilmuwanlama.tech/facelesa-tube/",
+"fxkw": "faceless youtube tanpa muka",
+"fx": {
+"th": "ยูทูปไร้หน้าไร้หน้า",
+"vi": "youtube vô danh không có khuôn mặt",
+"ms": "youtube tanpa muka tanpa muka"
+}
 },
 {
 "code": "TKAF",
@@ -695,7 +1156,13 @@
 "judul": "Bisnis TikTok Affiliate Tanpa Modal Produk: Tinggal Review & Posting, Komisi Ngalir Otomatis, Cocok Pemula Malas Ribet, Potensi Rp10 Juta/Bulan!",
 "tagline": "Cara daftar & pilih produk komisi tinggi, formula video viral, jadwal posting, tools editing, sistem komisi, skrip scale.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/tiktok-profita/"
+"lp": "https://id.ilmuwanlama.tech/tiktok-profita/",
+"fxkw": "tiktok affiliate tanpa modal produk",
+"fx": {
+"th": "TikTok Affiliate ที่ไม่มีทุนผลิตภัณฑ์",
+"vi": "Liên kết TikTok không có vốn sản phẩm",
+"ms": "Gabungan TikTok tanpa modal produk"
+}
 },
 {
 "code": "SPAF",
@@ -704,7 +1171,13 @@
 "judul": "Bisnis Shopee Affiliate Pemula: Sebar Link Tinggal Ikuti Step, Komisi Tiap Klik & Beli, Tanpa Stok & Modal, Potensi Rp8 Juta/Bulan!",
 "tagline": "Setup akun affiliate, pilih produk laris, konten penghasil klik, jadwal sebar, tracking komisi, skrip naik level.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/shopee-profita/"
+"lp": "https://id.ilmuwanlama.tech/shopee-profita/",
+"fxkw": "shopee affiliate pemula",
+"fx": {
+"th": "พันธมิตร shopee เริ่มต้น",
+"vi": "người mới bắt đầu liên kết shopee",
+"ms": "affiliate shopee pemula"
+}
 },
 {
 "code": "CNVA",
@@ -713,7 +1186,13 @@
 "judul": "Bisnis Jualan Template Canva Auto-Cuan: Bikin Sekali Jual Berkali Tanpa Modal, Passive Income Pemula, Potensi Rp12 Juta/Bulan!",
 "tagline": "Niche template paling dicari, SOP desain cepat, sistem jual digital, harga & bundling, platform jualan, skrip promosi.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/kanva-profit/"
+"lp": "https://id.ilmuwanlama.tech/kanva-profit/",
+"fxkw": "jualan template canva auto-cuan",
+"fx": {
+"th": "ขายเทมเพลต Canva ที่ทำกำไรอัตโนมัติ",
+"vi": "bán mẫu Canva kiếm lợi nhuận tự động",
+"ms": "menjual templat Canva untung automatik"
+}
 },
 {
 "code": "LRPS",
@@ -722,7 +1201,13 @@
 "judul": "Bisnis Jualan Preset Lightroom: Edit Sekali Jual Selamanya, Pasar Fotografi & IG Borong, Modal HP, Potensi Rp7 Juta/Bulan!",
 "tagline": "Cara bikin preset laris, paket bundling, sistem file digital, harga jual, platform & marketplace, skrip jualan.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/preseta/"
+"lp": "https://id.ilmuwanlama.tech/preseta/",
+"fxkw": "jualan preset lightroom",
+"fx": {
+"th": "ขาย lightroom preset",
+"vi": "bán cài đặt trước lightroom",
+"ms": "menjual pratetap lightroom"
+}
 },
 {
 "code": "NOTM",
@@ -731,7 +1216,13 @@
 "judul": "Bisnis Jualan Template Notion & Excel: Produk Digital Passive Tinggal Upload, Pasar Produktivitas Naik, Potensi Rp9 Juta/Bulan!",
 "tagline": "Template paling laku, SOP bikin rapi, sistem lisensi, harga & bundle, platform jual, skrip promosi.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/notiona/"
+"lp": "https://id.ilmuwanlama.tech/notiona/",
+"fxkw": "jualan template notion & excel",
+"fx": {
+"th": "แนวคิดการขายและเทมเพลต Excel",
+"vi": "bán ý tưởng và mẫu excel",
+"ms": "menjual templat idea & excel"
+}
 },
 {
 "code": "AIMG",
@@ -740,7 +1231,13 @@
 "judul": "Bisnis Jasa Gambar AI: Order Desain & Ilustrasi Tinggal Prompt, Tanpa Skill Gambar, UMKM Borong, Potensi Rp10 Juta/Bulan!",
 "tagline": "Tools AI image, formula prompt menjual, paket harga, alur revisi, niche klien, skrip prospek UMKM.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/gambara-ai/"
+"lp": "https://id.ilmuwanlama.tech/gambara-ai/",
+"fxkw": "jasa gambar AI",
+"fx": {
+"th": "บริการภาพ AI",
+"vi": "Dịch vụ hình ảnh AI",
+"ms": "Perkhidmatan imej AI"
+}
 },
 {
 "code": "AICW",
@@ -749,7 +1246,13 @@
 "judul": "Bisnis Jasa Tulis Konten AI: Artikel & Caption Tinggal Prompt, Selesai Cepat Tanpa Pusing, Klien Tiap Hari, Potensi Rp9 Juta/Bulan!",
 "tagline": "Tools AI tulis, SOP edit anti-robotik, paket per artikel, niche klien, sistem revisi, skrip prospek.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/kontena-ai/"
+"lp": "https://id.ilmuwanlama.tech/kontena-ai/",
+"fxkw": "jasa tulis konten AI",
+"fx": {
+"th": "บริการเขียนเนื้อหาด้วย AI",
+"vi": "Dịch vụ viết nội dung AI",
+"ms": "Perkhidmatan penulisan kandungan AI"
+}
 },
 {
 "code": "PRMT",
@@ -758,7 +1261,13 @@
 "judul": "Bisnis Jualan Prompt Pack AI: Kumpulan Prompt Siap Pakai Dijual Berkali, Pasar AI Lagi Booming, Modal Receh, Potensi Rp6 Juta/Bulan!",
 "tagline": "Prompt paling dicari, paket bundling, sistem file digital, harga, platform jual, skrip promosi.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/prompta-pack/"
+"lp": "https://id.ilmuwanlama.tech/prompta-pack/",
+"fxkw": "jualan prompt pack AI",
+"fx": {
+"th": "AI พร้อมขายแพ็ค",
+"vi": "Bán gói nhắc nhở AI",
+"ms": "Jualan pek gesaan AI"
+}
 },
 {
 "code": "IGTP",
@@ -767,7 +1276,13 @@
 "judul": "Bisnis Akun Tema Instagram Faceless: Posting Konten Tinggal Repost, Cuan Endorse & Affiliate Pasif, Potensi Rp8 Juta/Bulan!",
 "tagline": "Niche page paling cepat naik, SOP konten harian, tools jadwal, cara monetisasi endorse, rate card, skrip closing.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/themera-ig/"
+"lp": "https://id.ilmuwanlama.tech/themera-ig/",
+"fxkw": "akun tema instagram faceless",
+"fx": {
+"th": "บัญชีธีม Instagram แบบไร้หน้า",
+"vi": "tài khoản chủ đề instagram vô danh",
+"ms": "akaun tema instagram tanpa wajah"
+}
 },
 {
 "code": "DRSH",
@@ -776,7 +1291,13 @@
 "judul": "Bisnis Dropship Tanpa Stok & Modal: Tinggal Posting Produk Supplier, Untung Tiap Order, Cocok Malas Ribet, Potensi Rp12 Juta/Bulan!",
 "tagline": "Cari supplier amanah, pilih produk laris, sistem posting & order, hitung margin, tools otomatis, skrip jualan.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/dropshipa/"
+"lp": "https://id.ilmuwanlama.tech/dropshipa/",
+"fxkw": "dropship tanpa stok & modal",
+"fx": {
+"th": "Dropship โดยไม่มีสต็อกและเงินทุน",
+"vi": "dropship không cần chứng khoán và vốn",
+"ms": "dropship tanpa stok & modal"
+}
 },
 {
 "code": "SPRG",
@@ -785,7 +1306,13 @@
 "judul": "Spoortech Wheel Service: Jasa Spooring & Balancing Ban Panggilan Dengan Teknik 3D Wheel-Alignment + Dynamic Balancing Untuk Mobil Harian & Travel.",
 "tagline": "SOP alignment & balancing, panduan baca camber-caster-toe, daftar alat & sensor, kalkulator harga per mobil, form inspeksi kaki-kaki, dan skrip gaet pemilik mobil & travel.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/spoortech-wheel-service/"
+"lp": "https://id.ilmuwanlama.tech/spoortech-wheel-service/",
+"fxkw": "spooring & balancing ban panggilan",
+"fx": {
+"th": "การสปูร์ยางและการทรงตัวของยางเมื่อโทร",
+"vi": "làm mòn lốp và cân bằng theo yêu cầu",
+"ms": "tayar spooring & balancing on call"
+}
 },
 {
 "code": "LASP",
@@ -794,7 +1321,13 @@
 "judul": "Weldcraft Steel Studio: Jasa Las Pagar, Kanopi & Teralis Dengan Teknik Full-Weld + Galvanis Anti-Karat Untuk Perumahan, Ruko & Kontraktor.",
 "tagline": "SOP las & finishing anti-karat, panduan ukur & desain, daftar besi-elektroda-alat, kalkulator harga per meter, form survei lokasi, dan skrip gaet perumahan & kontraktor.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/weldcraft-steel-studio/"
+"lp": "https://id.ilmuwanlama.tech/weldcraft-steel-studio/",
+"fxkw": "las pagar",
+"fx": {
+"th": "เชื่อมรั้ว",
+"vi": "hàn hàng rào",
+"ms": "mengimpal pagar"
+}
 },
 {
 "code": "WLPR",
@@ -803,7 +1336,13 @@
 "judul": "Decowall Interior Studio: Jasa Pasang Wallpaper & Vinyl Lantai Dengan Teknik Seamless-Match + Bubble-Free Untuk Rumah, Kos & Cafe.",
 "tagline": "SOP pasang seamless, teknik anti-gelembung, daftar bahan & alat, kalkulator harga per roll/m2, form ukur ruangan, dan skrip gaet rumah, kos & cafe.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/decowall-interior-studio/"
+"lp": "https://id.ilmuwanlama.tech/decowall-interior-studio/",
+"fxkw": "pasang wallpaper & vinyl lantai",
+"fx": {
+"th": "ติดตั้งวอลเปเปอร์และพื้นไวนิล",
+"vi": "lắp đặt giấy dán tường và sàn vinyl",
+"ms": "pasang kertas dinding & lantai vinil"
+}
 },
 {
 "code": "ANTV",
@@ -812,7 +1351,13 @@
 "judul": "Signalfix Antenna Service: Jasa Pasang Antena TV & Parabola Dengan Teknik Signal-Align + Booster-Tuning Untuk Rumah, Warung & Kontrakan.",
 "tagline": "SOP pasang & setting sinyal, panduan arah satelit, daftar perangkat & kabel, paket harga + maintenance, form panggilan, dan skrip gaet warga & warung.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/signalfix-antenna-service/"
+"lp": "https://id.ilmuwanlama.tech/signalfix-antenna-service/",
+"fxkw": "pasang antena TV & parabola",
+"fx": {
+"th": "ติดตั้งเสาอากาศทีวีและจานดาวเทียม",
+"vi": "lắp đặt ăng-ten TV và đĩa vệ tinh",
+"ms": "pasang antena TV & parabola"
+}
 },
 {
 "code": "PYNG",
@@ -821,7 +1366,13 @@
 "judul": "Umbrella Revive Repair: Jasa Reparasi Payung & Tenda Lipat Dengan Teknik Rib-Replace + Re-Canvas Untuk Pedagang, Kafe & Rumah Tangga.",
 "tagline": "SOP reparasi rangka & kain, teknik ganti tulang, daftar spare part & alat, daftar harga per jenis, sistem antrian, dan skrip gaet pedagang & kafe.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/umbrella-revive-repair/"
+"lp": "https://id.ilmuwanlama.tech/umbrella-revive-repair/",
+"fxkw": "reparasi payung & tenda lipat",
+"fx": {
+"th": "ซ่อมร่มและเต็นท์พับ",
+"vi": "sửa ô, gấp lều",
+"ms": "membaiki payung & khemah lipat"
+}
 },
 {
 "code": "JTGN",
@@ -830,7 +1381,13 @@
 "judul": "Timepiece Care Service: Jasa Servis & Ganti Baterai Jam Tangan Dengan Teknik Press-Seal + Anti-Scratch Untuk Konter & Kolektor.",
 "tagline": "SOP buka-pasang & ganti baterai, teknik anti-baret, daftar alat & baterai, daftar harga per jenis, form intake, dan skrip gaet konter & online.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/timepiece-care-service/"
+"lp": "https://id.ilmuwanlama.tech/timepiece-care-service/",
+"fxkw": "servis & ganti baterai jam tangan",
+"fx": {
+"th": "บริการและเปลี่ยนแบตเตอรี่นาฬิกา",
+"vi": "bảo trì & thay pin đồng hồ",
+"ms": "servis & tukar bateri jam"
+}
 },
 {
 "code": "SOLS",
@@ -839,7 +1396,13 @@
 "judul": "Solemate Shoe Repair: Jasa Sol & Reparasi Sepatu Kulit Dengan Teknik Re-Sole + Color-Restore Untuk Pekerja Kantoran & Kolektor.",
 "tagline": "SOP sol & jahit ulang, teknik recolor kulit, daftar lem-sol-alat, daftar harga per perbaikan, form intake, dan skrip gaet komunitas & online.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/solemate-shoe-repair/"
+"lp": "https://id.ilmuwanlama.tech/solemate-shoe-repair/",
+"fxkw": "sol & reparasi sepatu kulit",
+"fx": {
+"th": "พื้นรองเท้าหนังและการซ่อมแซม",
+"vi": "đế giày da & sửa chữa",
+"ms": "tapak kasut kulit & pembaikan"
+}
 },
 {
 "code": "RPNT",
@@ -848,7 +1411,13 @@
 "judul": "Custompaint Moto Studio: Jasa Repaint & Cat Custom Motor Dengan Teknik Airbrush + Clear-Coat Glossy Untuk Komunitas & Anak Motor.",
 "tagline": "SOP repaint & clear coat, teknik airbrush & masking, daftar cat-kompresor-alat, paket harga per motor, form intake, dan skrip gaet komunitas motor.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/custompaint-moto-studio/"
+"lp": "https://id.ilmuwanlama.tech/custompaint-moto-studio/",
+"fxkw": "repaint & cat custom motor",
+"fx": {
+"th": "ทาสีใหม่และทำสีมอเตอร์ไซค์ตามสั่ง",
+"vi": "sơn lại & sơn xe máy theo yêu cầu",
+"ms": "mengecat semula & cat motor custom"
+}
 },
 {
 "code": "AUDM",
@@ -857,7 +1426,13 @@
 "judul": "Soundtune Car Audio: Jasa Pasang Audio & Variasi Mobil Dengan Teknik Sound-Damping + Clean-Wiring Untuk Pemilik Mobil & Bengkel.",
 "tagline": "SOP pasang head unit & speaker, teknik peredam & kabel rapi, daftar perangkat & alat, paket harga per paket, form survei, dan skrip gaet pemilik mobil & bengkel.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/soundtune-car-audio/"
+"lp": "https://id.ilmuwanlama.tech/soundtune-car-audio/",
+"fxkw": "pasang audio & variasi mobil",
+"fx": {
+"th": "ติดตั้งเครื่องเสียงและรถยนต์",
+"vi": "cài đặt các biến thể âm thanh và ô tô",
+"ms": "pasang audio & variasi kereta"
+}
 },
 {
 "code": "BRDR",
@@ -866,7 +1441,13 @@
 "judul": "Stitchpro Bordir Studio: Jasa Bordir Komputer Logo & Seragam Dengan Teknik Digitasi-Presisi + Hi-Density Untuk Kantor, Sekolah & Komunitas.",
 "tagline": "SOP digitasi & bordir, teknik rapi anti-kerut, daftar benang & bahan, kalkulator harga per pcs, form desain, dan skrip gaet kantor, sekolah & komunitas.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/stitchpro-bordir-studio/"
+"lp": "https://id.ilmuwanlama.tech/stitchpro-bordir-studio/",
+"fxkw": "bordir komputer logo & seragam",
+"fx": {
+"th": "โลโก้ปักคอมพิวเตอร์และชุดยูนิฟอร์ม",
+"vi": "logo & đồng phục thêu vi tính",
+"ms": "logo sulaman komputer & uniform"
+}
 },
 {
 "code": "SBLN",
@@ -875,7 +1456,13 @@
 "judul": "Screenpress Kaos Studio: Produksi Sablon Kaos Manual Satuan Dengan Teknik Plastisol + Afdruk-Presisi Untuk Komunitas, Event & Online.",
 "tagline": "SOP afdruk & sablon, teknik warna presisi, daftar tinta-screen-alat, kalkulator HPP per kaos, form desain, dan skrip gaet komunitas, event & online.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/screenpress-kaos-studio/"
+"lp": "https://id.ilmuwanlama.tech/screenpress-kaos-studio/",
+"fxkw": "sablon kaos manual satuan",
+"fx": {
+"th": "การพิมพ์สกรีนเสื้อยืดด้วยตนเองแบบเดี่ยว",
+"vi": "In màn hình áo thun thủ công một lần",
+"ms": "Pencetakan skrin t-shirt manual tunggal"
+}
 },
 {
 "code": "NEON",
@@ -884,7 +1471,13 @@
 "judul": "Signbright Neon Studio: Jasa Bikin Neon Box & Huruf Timbul Dengan Teknik Acrylic-Bending + LED-Module Untuk Toko, Cafe & UMKM.",
 "tagline": "SOP cetak & rakit neon box, teknik finishing rapi, daftar akrilik-LED-alat, kalkulator harga per meter, form desain, dan skrip gaet toko & UMKM.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/signbright-neon-studio/"
+"lp": "https://id.ilmuwanlama.tech/signbright-neon-studio/",
+"fxkw": "bikin neon box & huruf timbul",
+"fx": {
+"th": "ทำกล่องนีออนและตัวอักษรนูน",
+"vi": "làm hộp đèn neon & chữ dập nổi",
+"ms": "buat kotak neon & huruf timbul"
+}
 },
 {
 "code": "CRCL",
@@ -893,7 +1486,12 @@
 "judul": "Aci Snack Frozen Co: Produksi Cireng, Cilok & Cimol Frozen Dengan Teknik Aci-Blend + Flash-Freeze Untuk Reseller & Toko Frozen.",
 "tagline": "Resep cireng-cilok-cimol & bumbu, SOP produksi & flash-freeze, daftar bahan & alat, kalkulator HPP per pack, QC tekstur kenyal, dan katalog reseller & toko frozen.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/aci-snack-frozen/"
+"lp": "https://id.ilmuwanlama.tech/aci-snack-frozen/",
+"fxkw": "produksi",
+"auth": 1,
+"fx": {
+"ms": "pengeluaran"
+}
 },
 {
 "code": "JSTP",
@@ -902,7 +1500,13 @@
 "judul": "Jastip Order Hub: Jasa Titip Beli Online & Mall Dengan Sistem Pre-Order + Fee-Transparan Untuk Pelanggan Sibuk & Luar Kota.",
 "tagline": "SOP pre-order & rekap, panduan fee & nego supplier, daftar marketplace & toko, kalkulator margin per order, form titipan, dan skrip gaet pelanggan sibuk & luar kota.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/jastip-order-hub/"
+"lp": "https://id.ilmuwanlama.tech/jastip-order-hub/",
+"fxkw": "titip beli online & mall",
+"fx": {
+"th": "ออกไปซื้อออนไลน์และห้างสรรพสินค้า",
+"vi": "rời khỏi để mua trực tuyến và trung tâm mua sắm",
+"ms": "cuti beli online & mall"
+}
 },
 {
 "code": "KURL",
@@ -911,7 +1515,13 @@
 "judul": "Sameday Courier Lokal: Jasa Antar-Jemput & Kurir Instan Dengan Sistem Zona-Tarif + Real-Time Untuk UMKM & Toko Online.",
 "tagline": "SOP pickup-antar, panduan zona tarif, daftar tools & kendaraan, kalkulator ongkir & margin, form orderan, dan skrip gaet UMKM & toko online.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/sameday-courier-lokal/"
+"lp": "https://id.ilmuwanlama.tech/sameday-courier-lokal/",
+"fxkw": "antar-jemput & kurir instan",
+"fx": {
+"th": "รถรับส่งและบริการจัดส่งด่วน",
+"vi": "đưa đón và chuyển phát nhanh",
+"ms": "ulang-alik & kurier segera"
+}
 },
 {
 "code": "CMTR",
@@ -920,7 +1530,13 @@
 "judul": "Motowash Mobile Service: Jasa Cuci & Detailing Motor Panggilan Dengan Teknik Snow-Foam + Wax-Coat Untuk Komuter & Komunitas Motor.",
 "tagline": "SOP cuci & detailing, teknik snow-foam & wax, daftar alat & cairan, paket harga per motor, form panggilan, dan skrip gaet komuter & komunitas motor.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/motowash-mobile-service/"
+"lp": "https://id.ilmuwanlama.tech/motowash-mobile-service/",
+"fxkw": "cuci & detailing motor panggilan",
+"fx": {
+"th": "บริการล้างรถมอเตอร์ไซค์และเก็บรายละเอียดเมื่อโทร",
+"vi": "rửa xe máy & chi tiết theo yêu cầu",
+"ms": "cuci motor & detailing on call"
+}
 },
 {
 "code": "TBAN",
@@ -929,7 +1545,13 @@
 "judul": "Roadside Ban Rescue: Jasa Tambal Ban & Aki Panggilan Dengan Teknik Tubeless-Patch + Jumpstart Untuk Pengendara 24 Jam.",
 "tagline": "SOP tambal tubeless & aki, panduan diagnosa, daftar alat & spare part, kalkulator tarif panggilan, form lokasi, dan skrip gaet komuter & grup ojek.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/roadside-ban-rescue/"
+"lp": "https://id.ilmuwanlama.tech/roadside-ban-rescue/",
+"fxkw": "tambal ban & aki panggilan",
+"fx": {
+"th": "ซ่อมยางและแบตเตอรี่ โทร",
+"vi": "Sửa chữa lốp và ắc quy theo yêu cầu",
+"ms": "Pembaikan tayar & bateri atas panggilan"
+}
 },
 {
 "code": "STRK",
@@ -938,7 +1560,13 @@
 "judul": "Pressfresh Laundry Service: Jasa Setrika & Lipat Kiloan Dengan Teknik Steam-Press + Same-Day Untuk Karyawan, Kos & Keluarga.",
 "tagline": "SOP setrika & lipat, teknik steam-press rapi, daftar alat & hanger, kalkulator harga per kilo, sistem antar-jemput, dan skrip gaet karyawan & kos.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/pressfresh-laundry-service/"
+"lp": "https://id.ilmuwanlama.tech/pressfresh-laundry-service/",
+"fxkw": "setrika & lipat kiloan",
+"fx": {
+"th": "เหล็กและพับกิโล",
+"vi": "sắt & gấp kg",
+"ms": "besi & lipat kilo"
+}
 },
 {
 "code": "HMCL",
@@ -947,7 +1575,13 @@
 "judul": "Homefresh Cleaning Service: Jasa Bersih Rumah Harian Dengan Teknik Room-Checklist + Eco-Cleaner Untuk Keluarga Sibuk & Kontrakan.",
 "tagline": "SOP cleaning per ruangan, checklist standar bersih, daftar alat & cairan eco, paket harga harian/bulanan, form jadwal, dan skrip gaet keluarga & kos.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/homefresh-cleaning-service/"
+"lp": "https://id.ilmuwanlama.tech/homefresh-cleaning-service/",
+"fxkw": "bersih rumah harian",
+"fx": {
+"th": "ทำความสะอาดบ้านทุกวัน",
+"vi": "dọn dẹp nhà cửa hàng ngày",
+"ms": "pembersihan rumah harian"
+}
 },
 {
 "code": "PPOB",
@@ -956,7 +1590,13 @@
 "judul": "Paysmart Loket Agen: Bisnis Agen PPOB Pulsa, Token & Tagihan Dengan Sistem One-App + Fee-Admin Untuk Warga & Warung Sekitar.",
 "tagline": "SOP transaksi & deposit, panduan margin per produk, daftar aplikasi & alat, kalkulator profit harian, form pelanggan, dan skrip gaet warga & warung.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/paysmart-loket-agen/"
+"lp": "https://id.ilmuwanlama.tech/paysmart-loket-agen/",
+"fxkw": "agen ppob pulsa",
+"fx": {
+"th": "ตัวแทนสินเชื่อ PPOB",
+"vi": "Đại lý tín dụng PPOB",
+"ms": "ejen kredit PPOB"
+}
 },
 {
 "code": "BKSU",
@@ -965,7 +1605,13 @@
 "judul": "Buketin Joy - Rangkai Buket Snack & Uang yang Diborong Tiap Wisuda, Sekali Rangkai Untung Ratusan Ribu",
 "tagline": "Jenis buket (snack/uang/bunga), teknik rangkai & box, patok harga, foto produk, jualan musiman & pre-order, skrip gaet pelanggan.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/buketin-joy/"
+"lp": "https://id.ilmuwanlama.tech/buketin-joy/",
+"fxkw": "rangkai buket snack & uang",
+"fx": {
+"th": "จัดช่อดอกไม้และเงิน",
+"vi": "sắp xếp một bó đồ ăn nhẹ và tiền",
+"ms": "susun sejambak snek & duit"
+}
 },
 {
 "code": "DUBC",
@@ -974,7 +1620,13 @@
 "judul": "Choco Dubai - Cokelat Kunafa Pistachio Viral Sejagat: 1 Batang Laku Rp150rb, di Indonesia Masih Langka yang Jual",
 "tagline": "Resep kunafa pistachio anti gagal, sumber bahan, cetak & packaging premium, hitung HPP & harga, cara jualan online + reseller, skrip.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/choco-dubai/"
+"lp": "https://id.ilmuwanlama.tech/choco-dubai/",
+"fxkw": "cokelat kunafa pistachio",
+"fx": {
+"th": "ช็อคโกแลตพิสตาชิโอคูนาฟา",
+"vi": "sô cô la quả hồ trăn kunafa",
+"ms": "coklat kunafa pistachio"
+}
 },
 {
 "code": "JLTH",
@@ -983,7 +1635,13 @@
 "judul": "Jelantah Berkah - Minyak Jelantah Jangan Dibuang! Sulap Jadi Sabun & Lilin Cantik yang Laku Dijual",
 "tagline": "Olah jelantah jadi sabun & lilin aromaterapi, takaran aman, pewangi & cetakan, packaging, hitung modal, jualan + kumpulin dari tetangga, skrip.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/jelantah-berkah/"
+"lp": "https://id.ilmuwanlama.tech/jelantah-berkah/",
+"fxkw": "limbah cuan",
+"fx": {
+"th": "เสียเงิน",
+"vi": "lãng phí tiền bạc",
+"ms": "pembaziran wang"
+}
 },
 {
 "code": "RJUT",
@@ -992,7 +1650,13 @@
 "judul": "Amigura Knit - Benang Rajut Cuma Numpuk? Sulap Jadi Boneka & Buket Rajut Wisuda yang Bikin Orang Antre Pre-Order",
 "tagline": "Dasar tusuk rajut, pola boneka & bunga, rangkai buket rajut, pilih benang, patok harga, jualan online & wisuda, skrip.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/amigura-knit/"
+"lp": "https://id.ilmuwanlama.tech/amigura-knit/",
+"fxkw": "hobi cuan",
+"fx": {
+"th": "งานอดิเรกที่ทำกำไรได้",
+"vi": "sở thích có lợi nhuận",
+"ms": "hobi yang menguntungkan"
+}
 },
 {
 "code": "TGHL",
@@ -1001,7 +1665,13 @@
 "judul": "Tanghulu Crunch - Buah Berlapis Gula Kristal yang Bikin Anak Sekolah Antre: Modal Receh, Viral TikTok, Saingan Sepi",
 "tagline": "Resep gula kristal anti lembek, pilih buah, teknik celup & tusuk, kemasan, hitung modal, jualan sekolah/online & konten viral, skrip.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/tanghulu-crunch/"
+"lp": "https://id.ilmuwanlama.tech/tanghulu-crunch/",
+"fxkw": "buah berlapis gula kristal",
+"fx": {
+"th": "ผลไม้เคลือบน้ำตาลคริสตัล",
+"vi": "trái cây bọc đường pha lê",
+"ms": "buah bersalut gula kristal"
+}
 },
 {
 "code": "AMPK",
@@ -1010,7 +1680,13 @@
 "judul": "Ampas Berkah - Ampas Kopi yang Biasa Dibuang Ternyata Bisa Jadi Lulur & Sabun Cuan",
 "tagline": "Olah ampas kopi jadi lulur & sabun, formula aman, pewangi, packaging cantik, hitung modal, jualan online + reseller, skrip.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/ampas-berkah/"
+"lp": "https://id.ilmuwanlama.tech/ampas-berkah/",
+"fxkw": "ampas kopi",
+"fx": {
+"th": "กากกาแฟ",
+"vi": "bã cà phê",
+"ms": "serbuk kopi"
+}
 },
 {
 "code": "MCRM",
@@ -1019,7 +1695,13 @@
 "judul": "Simpul Macra - Dari Tali Biasa Jadi Dekor Dinding Estetik: Macrame yang Diburu Anak Kos & Cafe",
 "tagline": "Simpul dasar, proyek (wall hanging/pot/tas), pilih tali, patok harga, foto produk, jualan dekor & cafe, skrip.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/simpul-macra/"
+"lp": "https://id.ilmuwanlama.tech/simpul-macra/",
+"fxkw": "dari tali biasa jadi dekor dinding",
+"fx": {
+"th": "จากเชือกธรรมดามาสู่การตกแต่งผนัง",
+"vi": "từ dây thừng thông thường thành trang trí tường",
+"ms": "daripada tali biasa menjadi hiasan dinding"
+}
 },
 {
 "code": "SNSB",
@@ -1028,7 +1710,13 @@
 "judul": "Basque Senja - Cheesecake 'Gosong' ala Spanyol yang Lagi Hits di Cafe: Cuma Blender & Panggang, Dijual Premium",
 "tagline": "Resep basque anti gagal, bahan & loyang, teknik panggang, slice & box, hitung HPP, jualan cafe-grade online & PO, skrip.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/basque-senja/"
+"lp": "https://id.ilmuwanlama.tech/basque-senja/",
+"fxkw": "cheesecake 'gosong' ala spanyol",
+"fx": {
+"th": "ชีสเค้ก 'เบิร์น' สไตล์สเปน",
+"vi": "Bánh phô mai 'cháy' kiểu Tây Ban Nha",
+"ms": "Kek keju 'terbakar' ala Sepanyol"
+}
 },
 {
 "code": "ECOE",
@@ -1037,7 +1725,13 @@
 "judul": "Enzim Dapur - Sisa Kulit Buah Disulap Jadi Cairan Pembersih Serbaguna yang Diburu Ibu-ibu",
 "tagline": "Cara bikin eco-enzyme, takaran & fermentasi, varian pembersih, kemasan botol, hitung modal, jualan online & komunitas, skrip.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/enzim-dapur/"
+"lp": "https://id.ilmuwanlama.tech/enzim-dapur/",
+"fxkw": "sisa kulit buah disulap jadi cairan",
+"fx": {
+"th": "ผิวผลไม้ที่เหลือจะเปลี่ยนเป็นของเหลว",
+"vi": "vỏ trái cây còn lại được chuyển thành chất lỏng",
+"ms": "kulit buah yang tinggal berubah menjadi cecair"
+}
 },
 {
 "code": "FLNL",
@@ -1046,7 +1740,13 @@
 "judul": "Feltora Bloom - Bunga yang Nggak Pernah Layu: Buket Flanel Wisuda & Anniversary Dijual Ratusan Ribu",
 "tagline": "Pola kelopak flanel, bunga populer, rangkai buket & box, packaging, patok harga, jualan wisuda & PO, skrip.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/feltora-bloom/"
+"lp": "https://id.ilmuwanlama.tech/feltora-bloom/",
+"fxkw": "hobi cuan",
+"fx": {
+"th": "งานอดิเรกที่ทำกำไรได้",
+"vi": "sở thích có lợi nhuận",
+"ms": "hobi yang menguntungkan"
+}
 },
 {
 "code": "CRMB",
@@ -1055,7 +1755,13 @@
 "judul": "Cromboni Day - Croissant Bulat Isi Lumer yang Diburu Anak Kota: Pastry Viral yang di Daerahmu Belum Ada Saingan",
 "tagline": "Resep adonan short-cut, bentuk & isi lumer, panggang, kemasan, hitung modal, jualan online & PO, konten viral, skrip.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/cromboni-day/"
+"lp": "https://id.ilmuwanlama.tech/cromboni-day/",
+"fxkw": "croissant bulat isi lumer",
+"fx": {
+"th": "ครัวซองต์กลมละลาย",
+"vi": "Bánh sừng bò tròn nhân tan chảy",
+"ms": "Croissant bulat yang cair"
+}
 },
 {
 "code": "KMPS",
@@ -1064,7 +1770,13 @@
 "judul": "Pupuk Dapur - Sampah Dapur Jadi Pupuk Organik Premium yang Diborong Pehobi Tanaman",
 "tagline": "Pilah sampah dapur, kompos cepat tanpa bau, kemasan, hitung modal, jualan pehobi tanaman online & komunitas, skrip.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/pupuk-dapur/"
+"lp": "https://id.ilmuwanlama.tech/pupuk-dapur/",
+"fxkw": "sampah dapur jadi pupuk organik premium",
+"fx": {
+"th": "ขยะจากครัวกลายเป็นปุ๋ยอินทรีย์คุณภาพเยี่ยม",
+"vi": "Chất thải nhà bếp trở thành phân bón hữu cơ cao cấp",
+"ms": "Sisa dapur menjadi baja organik premium"
+}
 },
 {
 "code": "HMPR",
@@ -1073,7 +1785,13 @@
 "judul": "Hampera Gift - Tiap Lebaran Orang Sibuk Cari Hampers: Rakit Gift Box Cantik yang Untungnya Berlipat per Musim",
 "tagline": "Konsep hampers, isi & supplier, rakit & wrapping, patok harga paket, jualan musiman & korporat, skrip.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/hampera-gift/"
+"lp": "https://id.ilmuwanlama.tech/hampera-gift/",
+"fxkw": "tiap lebaran orang sibuk cari hampers",
+"fx": {
+"th": "ทุกเทศกาลอีด ผู้คนต่างยุ่งอยู่กับการหากระเช้า",
+"vi": "Mỗi dịp lễ Eid, mọi người đều bận rộn tìm kiếm đồ ăn vặt",
+"ms": "Setiap kali raya, orang ramai sibuk mencari hamper"
+}
 },
 {
 "code": "SNDO",
@@ -1082,7 +1800,13 @@
 "judul": "Sando Story - Sandwich Buah ala Jepang yang Cantiknya Bikin Difoto: Simpel Tapi Mewah, Jualan Aesthetic Naik Daun",
 "tagline": "Resep sando buah, pilih roti & krim, teknik potong cantik, kemasan, hitung modal, jualan aesthetic online & PO, skrip.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/sando-story/"
+"lp": "https://id.ilmuwanlama.tech/sando-story/",
+"fxkw": "sandwich buah ala jepang",
+"fx": {
+"th": "แซนด์วิชผลไม้สไตล์ญี่ปุ่น",
+"vi": "Bánh mì trái cây kiểu Nhật",
+"ms": "Sandwic buah gaya Jepun"
+}
 },
 {
 "code": "LERI",
@@ -1091,7 +1815,13 @@
 "judul": "Beras Berkah - Air Cucian Beras yang Dibuang Ternyata Jadi Pupuk Cair & Skincare yang Laku",
 "tagline": "Olah air leri jadi pupuk cair & toner, fermentasi aman, kemasan, hitung modal, jualan online & komunitas, skrip.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/beras-berkah/"
+"lp": "https://id.ilmuwanlama.tech/beras-berkah/",
+"fxkw": "air cucian beras",
+"fx": {
+"th": "น้ำล้างข้าว",
+"vi": "nước vo gạo",
+"ms": "air basuhan beras"
+}
 },
 {
 "code": "MANK",
@@ -1100,7 +1830,13 @@
 "judul": "Manika Beads - Manik di Toples Numpuk? Rangkai Gelang & Kalung Custom Nama yang Lagi Viral & Diburu",
 "tagline": "Teknik meronce, pola custom nama, pilih manik, patok harga, foto produk, jualan online & custom, skrip.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/manika-beads/"
+"lp": "https://id.ilmuwanlama.tech/manika-beads/",
+"fxkw": "hobi cuan",
+"fx": {
+"th": "งานอดิเรกที่ทำกำไรได้",
+"vi": "sở thích có lợi nhuận",
+"ms": "hobi yang menguntungkan"
+}
 },
 {
 "code": "CAKE",
@@ -1109,7 +1845,13 @@
 "judul": "Mama Bakery - Kue Ultah Mungil dalam Kotak (Bento Cake) yang Diorder Tiap Ada Momen: Cantik & Untung Manis",
 "tagline": "Resep base & buttercream, hias bento cake, custom tulisan, box, hitung HPP, jualan kado online & PO, skrip.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/mama-bakery/"
+"lp": "https://id.ilmuwanlama.tech/mama-bakery/",
+"fxkw": "kue ultah mungil dalam kotak bento",
+"fx": {
+"th": "เค้กวันเกิดชิ้นเล็กๆ ในกล่องเบนโตะ",
+"vi": "Bánh sinh nhật nhỏ trong hộp bento",
+"ms": "Kek hari jadi kecil dalam kotak bento"
+}
 },
 {
 "code": "CKTL",
@@ -1118,7 +1860,13 @@
 "judul": "Cangkang Berkah - Cangkang Telur & Kulit Bawang Dibuang? Jadi Pupuk Organik Kaya Kalsium yang Laku",
 "tagline": "Olah cangkang & kulit bawang jadi pupuk, keringkan & haluskan, kemasan, hitung modal, jualan pehobi tanaman, skrip.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/cangkang-berkah/"
+"lp": "https://id.ilmuwanlama.tech/cangkang-berkah/",
+"fxkw": "cangkang telur & kulit bawang dibuang?",
+"fx": {
+"th": "เปลือกไข่และหนังหัวหอมถูกโยนทิ้งไปเหรอ?",
+"vi": "vỏ trứng và vỏ hành tây bị vứt đi?",
+"ms": "kulit telur & kulit bawang dibuang?"
+}
 },
 {
 "code": "SABN",
@@ -1127,7 +1875,13 @@
 "judul": "Sabore Craft - Sabun Cantik nan Wangi Bikinan Sendiri: Awalnya buat Keluarga, Sekarang Dipesan Se-Komplek",
 "tagline": "Resep sabun aman (CP/MP), cetak & warna, pewangi, packaging kado, hitung modal, jualan online & hampers, skrip.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/sabore-craft/"
+"lp": "https://id.ilmuwanlama.tech/sabore-craft/",
+"fxkw": "sabun cantik nan wangi bikinan sendiri",
+"fx": {
+"th": "สบู่โฮมเมดที่สวยงามและมีกลิ่นหอม",
+"vi": "Xà phòng tự chế đẹp và thơm",
+"ms": "Sabun buatan sendiri yang cantik dan wangi"
+}
 },
 {
 "code": "PPFL",
@@ -1136,7 +1890,13 @@
 "judul": "Paperbloom - Bunga Kertas Mewah buat Backdrop: Dekor Event & Wedding yang Dibayar Jutaan per Set",
 "tagline": "Pola kelopak besar, rangka backdrop, kombinasi warna, hitung harga paket event, jualan ke EO & wedding, skrip.",
 "status": "siap",
-"lp": "https://id.ilmuwanlama.tech/paperbloom/"
+"lp": "https://id.ilmuwanlama.tech/paperbloom/",
+"fxkw": "bunga kertas mewah buat backdrop",
+"fx": {
+"th": "ดอกไม้กระดาษหรูหราสำหรับฉากหลัง",
+"vi": "Hoa giấy sang trọng làm nền",
+"ms": "Bunga kertas yang mewah untuk latar belakang"
+}
 },
 {
 "code": "SBQT",
@@ -1144,7 +1904,13 @@
 "nama": "Snackbouquet Studio",
 "judul": "Snackbouquet Studio: Produksi Buket Snack, Uang & Bunga Custom Dengan Teknik Foam-Arrange + Wrap-Estetik Untuk Wisuda, Ultah & Anniversary.",
 "tagline": "Panduan arrange & tema, SOP rakit & wrap estetik, daftar bahan & vendor, kalkulator HPP per buket, form pesanan, dan skrip gaet kampus & event.",
-"status": "ide"
+"status": "ide",
+"fxkw": "buket snack",
+"fx": {
+"th": "ช่อดอกไม้ของว่าง",
+"vi": "bó hoa ăn nhẹ",
+"ms": "sejambak makanan ringan"
+}
 },
 {
 "code": "AKSR",
@@ -1152,7 +1918,13 @@
 "nama": "Beadcraft Accessory Studio",
 "judul": "Beadcraft Accessory Studio: Produksi Aksesoris Handmade Manik & Clay Dengan Teknik Wire-Work + Polymer-Bake Untuk Gift, Bazaar & Online.",
 "tagline": "Panduan desain & teknik, SOP rangkai & bake, daftar manik-clay-alat, kalkulator HPP per pcs, QC kerapian, dan katalog gift, bazaar & online.",
-"status": "ide"
+"status": "ide",
+"fxkw": "aksesoris handmade manik & clay",
+"fx": {
+"th": "อุปกรณ์ลูกปัดและดินเผาทำมือ",
+"vi": "phụ kiện hạt và đất sét thủ công",
+"ms": "aksesori manik & tanah liat buatan tangan"
+}
 },
 {
 "code": "CPNG",
@@ -1160,7 +1932,13 @@
 "nama": "Bettapro Fish Farm",
 "judul": "Bettapro Fish Farm: Budidaya & Breeding Ikan Cupang Hias Dengan Teknik Selective-Breeding + Water-Conditioning Untuk Hobiis & Kontes.",
 "tagline": "SOP breeding & grow-out, panduan kualitas air, daftar pakan & wadah, kalkulator modal-panen, QC warna-sirip, dan skrip gaet hobiis & pasar online.",
-"status": "ide"
+"status": "ide",
+"fxkw": "budidaya & breeding ikan cupang hias",
+"fx": {
+"th": "การเพาะเลี้ยงและเพาะพันธุ์ปลากัดสวยงาม",
+"vi": "nuôi và nhân giống cá betta cảnh",
+"ms": "penanaman & pembiakan ikan betta hiasan"
+}
 },
 {
 "code": "AYKP",
@@ -1168,7 +1946,13 @@
 "nama": "Joperfarm Poultry Co",
 "judul": "Joperfarm Poultry Co: Budidaya Ayam Kampung & Joper Cepat Panen Dengan Teknik Pakan-Fermentasi + Brooding-Optimal Untuk Pasar & Resto.",
 "tagline": "SOP brooding & pembesaran, formula pakan fermentasi, panduan kesehatan, kalkulator modal-panen, QC bobot, dan skrip jual ke pasar & resto.",
-"status": "ide"
+"status": "ide",
+"fxkw": "budidaya ayam kampung & joper cepat",
+"fx": {
+"th": "เลี้ยงไก่แบบปล่อยและโจเปอร์อย่างรวดเร็ว",
+"vi": "Nuôi gà thả rông nhanh chóng",
+"ms": "Menternak ayam kampung & joper dengan cepat"
+}
 },
 {
 "code": "PUYH",
@@ -1176,7 +1960,13 @@
 "nama": "Quailegg Poultry Farm",
 "judul": "Quailegg Poultry Farm: Budidaya Puyuh Petelur Dengan Teknik Battery-Cage + Layer-Boost-Feed Untuk Pasar, Warung & Reseller.",
 "tagline": "SOP kandang & perawatan, formula pakan boost-telur, panduan manajemen, kalkulator modal-panen, QC produktivitas, dan skrip jual pasar & warung.",
-"status": "ide"
+"status": "ide",
+"fxkw": "budidaya puyuh petelur",
+"fx": {
+"th": "การเพาะปลูกนกกระทา",
+"vi": "nuôi chim cút",
+"ms": "penanaman burung puyuh"
+}
 },
 {
 "code": "BLUT",
@@ -1184,7 +1974,12 @@
 "nama": "Cleaneel Mud-Free Farm",
 "judul": "Cleaneel Mud-Free Farm: Budidaya Belut Tanpa Lumpur Dengan Teknik Clean-Water + Staged-Feeding Untuk Pasar & Resto Pecel Lele.",
 "tagline": "SOP kolam tanpa lumpur, formula pakan bertahap, panduan kualitas air, kalkulator modal-panen, QC kesehatan, dan skrip jual ke pasar & resto.",
-"status": "ide"
+"status": "ide",
+"fxkw": "budidaya belut tanpa lumpur",
+"auth": 1,
+"fx": {
+"ms": "menanam belut tanpa lumpur"
+}
 },
 {
 "code": "MGBF",
@@ -1192,7 +1987,13 @@
 "nama": "Maggotpro BSF Lab",
 "judul": "Maggotpro BSF Lab: Budidaya Maggot BSF Untuk Pakan Dengan Teknik Waste-Bioconversion + Staged-Harvest Untuk Peternak & Pembudidaya.",
 "tagline": "SOP kandang & bio-konversi, panduan media & telur, jadwal panen bertingkat, kalkulator modal-panen, QC kualitas maggot, dan skrip gaet peternak & toko pakan.",
-"status": "ide"
+"status": "ide",
+"fxkw": "budidaya maggot bsf",
+"fx": {
+"th": "การเพาะเลี้ยงหนอน BSF",
+"vi": "Nuôi giòi BSF",
+"ms": "Penanaman ulat BSF"
+}
 },
 {
 "code": "ANGR",
@@ -1200,7 +2001,13 @@
 "nama": "Orchidindoor Nursery",
 "judul": "Orchidindoor Nursery: Budidaya Anggrek & Tanaman Hias Indoor Dengan Teknik Pot-Culture + Healthy-Repotting Untuk Kolektor & Florist.",
 "tagline": "SOP tanam & repotting, panduan media & nutrisi, daftar varietas laku, kalkulator HPP per pot, perawatan anti-busuk, dan skrip gaet kolektor & florist.",
-"status": "ide"
+"status": "ide",
+"fxkw": "budidaya anggrek & tanaman hias indoor",
+"fx": {
+"th": "การปลูกกล้วยไม้และไม้ประดับในร่ม",
+"vi": "trồng lan và cây cảnh trong nhà",
+"ms": "penanaman orkid & tanaman hiasan dalaman"
+}
 },
 {
 "code": "BBTB",
@@ -1208,7 +2015,13 @@
 "nama": "Seedready Nursery Co",
 "judul": "Seedready Nursery Co: Produksi Bibit Sayur & Buah Polybag Siap Tanam Dengan Teknik Sterile-Semai + Hardening Untuk Pekebun & Toko Tani.",
 "tagline": "SOP semai & hardening, panduan media & benih, daftar komoditas laku, kalkulator HPP per polybag, QC daya tumbuh, dan katalog toko tani & pekebun.",
-"status": "ide"
+"status": "ide",
+"fxkw": "bibit sayur & buah polybag siap",
+"fx": {
+"th": "เมล็ดผักและผลไม้ Polybag พร้อมแล้ว",
+"vi": "Hạt giống rau củ quả Polybag đã sẵn sàng",
+"ms": "Polibeg benih sayur & buah siap"
+}
 },
 {
 "code": "RMTR",
@@ -1216,7 +2029,13 @@
 "nama": "Touringbike Rental Co",
 "judul": "Touringbike Rental Co: Bisnis Rental Motor & Sepeda Listrik Wisata Dengan Sistem Daily-Booking + GPS-Tracker Untuk Turis & Mahasiswa.",
 "tagline": "Daftar unit paling laku, SOP cek-rawat & deposit, kalkulator sewa & BEP, jadwal booking, form sewa + jaminan, dan skrip gaet turis & kampus.",
-"status": "ide"
+"status": "ide",
+"fxkw": "rental motor & sepeda listrik wisata",
+"fx": {
+"th": "รถมอเตอร์ไซค์ท่องเที่ยวและจักรยานไฟฟ้าให้เช่า",
+"vi": "cho thuê xe máy và xe đạp điện du lịch",
+"ms": "sewa motosikal pelancong & basikal elektrik"
+}
 },
 {
 "code": "RFRN",
@@ -1224,7 +2043,13 @@
 "nama": "Furnirent Kos Co",
 "judul": "Furnirent Kos Co: Bisnis Rental Furniture & Perabot Kos-Kontrakan Dengan Sistem Monthly-Package + Antar-Pasang Untuk Anak Kos & Perantau.",
 "tagline": "Daftar paket perabot, SOP antar-pasang & cek, kalkulator sewa & BEP, jadwal kontrak, form sewa + deposit, dan skrip gaet anak kos & perantau.",
-"status": "ide"
+"status": "ide",
+"fxkw": "rental furniture & perabot kos-kontrakan",
+"fx": {
+"th": "เฟอร์นิเจอร์ให้เช่าและเฟอร์นิเจอร์หอพัก",
+"vi": "cho thuê nội thất & nội thất nhà trọ",
+"ms": "sewa perabot & perabot rumah tumpangan"
+}
 },
 {
 "code": "RKOS",
@@ -1232,7 +2057,13 @@
 "nama": "Kospro Property Manager",
 "judul": "Kospro Property Manager: Bisnis Kelola Kos & Kontrakan Tanpa Punya Properti Dengan Sistem Lease-Manage + Management-Fee Untuk Pemilik & Penyewa.",
 "tagline": "Panduan akad sewa-kelola, SOP operasional & maintenance, sistem pembayaran, kalkulator fee & profit, form penyewa, dan skrip gaet pemilik properti.",
-"status": "ide"
+"status": "ide",
+"fxkw": "kelola kos & kontrakan tanpa punya",
+"fx": {
+"th": "จัดการการขึ้นเครื่องและการเช่าโดยไม่ต้องเป็นเจ้าของ",
+"vi": "quản lý nội trú và thuê mà không cần sở hữu",
+"ms": "menguruskan asrama & sewa tanpa memilikinya"
+}
 },
 {
 "code": "RLPC",
@@ -1240,7 +2071,13 @@
 "nama": "Techrent Laptop Co",
 "judul": "Techrent Laptop Co: Bisnis Rental Laptop & PC Dengan Sistem Daily-Weekly + Spec-Match Untuk Mahasiswa, Event & Kantor.",
 "tagline": "Daftar unit & spec laku, SOP cek-format & deposit, kalkulator sewa & BEP, jadwal booking, form sewa + jaminan, dan skrip gaet kampus & EO.",
-"status": "ide"
+"status": "ide",
+"fxkw": "rental laptop & PC",
+"fx": {
+"th": "เช่าแล็ปท็อปและพีซี",
+"vi": "cho thuê laptop & PC",
+"ms": "sewa komputer riba & PC"
+}
 },
 {
 "code": "KTRG",
@@ -1248,7 +2085,13 @@
 "nama": "Dailybox Catering Co",
 "judul": "Dailybox Catering Co: Produksi Catering Rumahan Harian Lunch Box Dengan Sistem Menu-Rotasi + Cook-Chill Untuk Karyawan & Kantor.",
 "tagline": "Menu rotasi & HPP, SOP masak-packing cook-chill, daftar bahan & alat, kalkulator porsi & margin, sistem langganan-antar, dan skrip gaet kantor & instansi.",
-"status": "ide"
+"status": "ide",
+"fxkw": "catering rumahan harian lunch box",
+"fx": {
+"th": "กล่องอาหารกลางวันจัดเลี้ยงที่บ้านทุกวัน",
+"vi": "Hộp cơm trưa phục vụ tại nhà hàng ngày",
+"ms": "Kotak makan tengah hari katering rumah harian"
+}
 },
 {
 "code": "CKLT",
@@ -1256,7 +2099,13 @@
 "nama": "Pralinecraft Chocolate Studio",
 "judul": "Pralinecraft Chocolate Studio: Produksi Cokelat & Praline Custom Dengan Teknik Tempering + Glossy-Mold Untuk Hampers, Wedding & Souvenir.",
 "tagline": "Resep & teknik tempering, SOP cetak & isian, daftar bahan & cetakan, kalkulator HPP per box, QC kilap-tekstur, dan katalog hampers & wedding.",
-"status": "ide"
+"status": "ide",
+"fxkw": "cokelat & praline custom",
+"fx": {
+"th": "ช็อคโกแลตและพราลีนแบบกำหนดเอง",
+"vi": "sôcôla & pralines tùy chỉnh",
+"ms": "coklat & praline tersuai"
+}
 },
 {
 "code": "KRPK",
@@ -1264,7 +2113,13 @@
 "nama": "Spicychips Viral Co",
 "judul": "Spicychips Viral Co: Produksi Keripik Pedas Kemasan Viral Dengan Teknik Vacuum-Crisp + Level-Bumbu Untuk Reseller & Online.",
 "tagline": "Resep & level bumbu pedas, SOP produksi & vacuum-crisp, daftar bahan & alat, kalkulator HPP per pack, QC kerenyahan, dan katalog reseller & online.",
-"status": "ide"
+"status": "ide",
+"fxkw": "keripik pedas kemasan viral",
+"fx": {
+"th": "ชิปรสเผ็ดบรรจุไวรัล",
+"vi": "khoai tây chiên cay đóng gói virus",
+"ms": "kerepek pedas bungkus viral"
+}
 },
 {
 "code": "MTCH",
@@ -1272,7 +2127,13 @@
 "nama": "Matchaliter Drink Co",
 "judul": "Matchaliter Drink Co: Produksi Minuman Matcha & Coklat Literan Dengan Teknik Fresh-Whisk + Anti-Clump Untuk Booth & Reseller.",
 "tagline": "Resep matcha-coklat & varian, SOP seduh & literan-packing, daftar bahan & alat, kalkulator HPP per liter, QC rasa, dan katalog booth & reseller.",
-"status": "ide"
+"status": "ide",
+"fxkw": "minuman matcha & coklat literan",
+"fx": {
+"th": "ลิตรมัทฉะและเครื่องดื่มช็อคโกแลต",
+"vi": "lít matcha và sô cô la uống",
+"ms": "minuman matcha & coklat liter"
+}
 },
 {
 "code": "EMPK",
@@ -1280,7 +2141,12 @@
 "nama": "Fishcake Frozen Co",
 "judul": "Fishcake Frozen Co: Produksi Empek-empek & Otak-otak Frozen Dengan Teknik Fish-Dough + Flash-Freeze Untuk Oleh-oleh & Reseller.",
 "tagline": "Formula adonan ikan & cuko, SOP produksi & flash-freeze, daftar bahan & alat, kalkulator HPP per pack, QC ketahanan, dan katalog oleh-oleh & reseller.",
-"status": "ide"
+"status": "ide",
+"fxkw": "empek-empek & otak-otak frozen",
+"auth": 1,
+"fx": {
+"ms": "empek-empek & otak beku"
+}
 },
 {
 "code": "DNUT",
@@ -1288,7 +2154,13 @@
 "nama": "Potatodough Donut Co",
 "judul": "Potatodough Donut Co: Produksi Donat Kentang Empuk Frozen Dengan Teknik Potato-Dough + Proof-Freeze Untuk Reseller & Online.",
 "tagline": "Resep donat kentang & topping, SOP produksi & proof-freeze, daftar bahan & alat, kalkulator HPP per box, QC keempukan, dan katalog reseller & online.",
-"status": "ide"
+"status": "ide",
+"fxkw": "donat kentang empuk frozen",
+"fx": {
+"th": "โดนัทมันเทศแช่แข็ง",
+"vi": "bánh rán khoai tây mềm đông lạnh",
+"ms": "donat kentang lembut beku"
+}
 },
 {
 "code": "ULHK",
@@ -1296,7 +2168,13 @@
 "nama": "Reseller Borong",
 "judul": "Reseller Borong",
 "tagline": "SOP produksi & proof-freeze",
-"status": "ide"
+"status": "ide",
+"fxkw": "budidaya",
+"fx": {
+"th": "การเพาะปลูก",
+"vi": "trồng trọt",
+"ms": "penanaman"
+}
 },
 {
 "code": "SALE",
@@ -1304,7 +2182,13 @@
 "nama": "Bisnis Sale & Keripik Pisang Aneka Rasa",
 "judul": "Bisnis Sale & Keripik Pisang Aneka Rasa: Oleh-oleh Laris Diborong Reseller",
 "tagline": "daftar bahan & alat",
-"status": "ide"
+"status": "ide",
+"fxkw": "sale & keripik pisang aneka rasa",
+"fx": {
+"th": "ขายและกล้วยทอดหลายรสชาติ",
+"vi": "bán và các hương vị khác nhau của chuối chip",
+"ms": "jualan & pelbagai perisa kerepek pisang"
+}
 },
 {
 "code": "AQSC",
@@ -1312,7 +2196,13 @@
 "nama": "Bisnis Kacang Telur",
 "judul": "Bisnis Kacang Telur",
 "tagline": "kalkulator HPP per box",
-"status": "ide"
+"status": "ide",
+"fxkw": "kacang telur",
+"fx": {
+"th": "ถั่วไข่",
+"vi": "quả trứng",
+"ms": "kacang telur"
+}
 },
 {
 "code": "PECL",
@@ -1320,7 +2210,12 @@
 "nama": "Bisnis Bumbu Pecel & Sambal Kacang Instan",
 "judul": "Bisnis Bumbu Pecel & Sambal Kacang Instan: Pasar Rumahan & Warung Stabil",
 "tagline": "QC keempukan",
-"status": "ide"
+"status": "ide",
+"fxkw": "bumbu pecel & sambal kacang instan",
+"auth": 1,
+"fx": {
+"ms": "pecel segera & perasa kuah kacang"
+}
 },
 {
 "code": "CHNA",
@@ -1328,7 +2223,13 @@
 "nama": "Bisnis Budidaya Ikan Channa & Predator Hias",
 "judul": "Bisnis Budidaya Ikan Channa & Predator Hias: Hobi Mahal Pasar Naik",
 "tagline": "dan katalog reseller & online.",
-"status": "ide"
+"status": "ide",
+"fxkw": "budidaya ikan channa & predator hias",
+"fx": {
+"th": "การเลี้ยงปลาช่อนและสัตว์นักล่าประดับ",
+"vi": "nuôi cá channa và các loài săn mồi trang trí",
+"ms": "penanaman ikan channa & pemangsa hiasan"
+}
 },
 {
 "code": "LVBD",
@@ -1336,7 +2237,13 @@
 "nama": "Bisnis Ternak Lovebird & Burung Kicau",
 "judul": "Bisnis Ternak Lovebird & Burung Kicau: Pasar Hobi Stabil",
 "tagline": "SOP ternak & penjodohan",
-"status": "ide"
+"status": "ide",
+"fxkw": "ternak lovebird & burung kicau",
+"fx": {
+"th": "การเลี้ยงนกเลิฟเบิร์ดและการเลี้ยงนกร้องเจี๊ยก ๆ",
+"vi": "nuôi chim lovebird và chim hót líu lo",
+"ms": "lovebird & ternakan burung kicau"
+}
 },
 {
 "code": "AGLO",
@@ -1344,7 +2251,13 @@
 "nama": "Bisnis Budidaya Aglonema & Janda Bolong",
 "judul": "Bisnis Budidaya Aglonema & Janda Bolong: Tanaman Hias Bernilai Tinggi",
 "tagline": "SOP tanam & perbanyakan",
-"status": "ide"
+"status": "ide",
+"fxkw": "budidaya aglonema & janda bolong",
+"fx": {
+"th": "การเพาะปลูก Aglonema และ Janda Bolong",
+"vi": "Trồng trọt Aglonema & Janda Bolong",
+"ms": "Penanaman Aglonema & Janda Bolong"
+}
 },
 {
 "code": "GNST",
@@ -1352,7 +2265,13 @@
 "nama": "Bisnis Rental Genset & Lampu Sorot Event",
 "judul": "Bisnis Rental Genset & Lampu Sorot Event: Aset Disewa Tiap Hajatan & Proyek",
 "tagline": "Daftar unit paling laku",
-"status": "ide"
+"status": "ide",
+"fxkw": "rental genset & lampu sorot event",
+"fx": {
+"th": "เครื่องปั่นไฟให้เช่าและสปอตไลท์งานต่างๆ",
+"vi": "cho thuê máy phát điện & đèn chiếu sự kiện",
+"ms": "penyewaan penjana & lampu sorot acara"
+}
 },
 {
 "code": "KMRA",
@@ -1360,7 +2279,13 @@
 "nama": "Balik Modal Cepat",
 "judul": "Balik Modal Cepat",
 "tagline": "SOP cek-rawat & deposit",
-"status": "ide"
+"status": "ide",
+"fxkw": "rental",
+"fx": {
+"th": "เช่า",
+"vi": "cho thuê",
+"ms": "sewaan"
+}
 },
 {
 "code": "PSRN",
@@ -1368,7 +2293,13 @@
 "nama": "Potensi Untung Rp15 Juta/Bulan!",
 "judul": "Potensi Untung Rp15 Juta/Bulan!",
 "tagline": "kalkulator sewa & BEP",
-"status": "ide"
+"status": "ide",
+"fxkw": "rental",
+"fx": {
+"th": "เช่า",
+"vi": "cho thuê",
+"ms": "sewaan"
+}
 },
 {
 "code": "KSTM",
@@ -1376,7 +2307,13 @@
 "nama": "Bisnis Rental Kostum, Toga & Baju Adat",
 "judul": "Bisnis Rental Kostum, Toga & Baju Adat: Disewa Tiap Musim Wisuda & Event, Margin Tebal, Potensi Untung Rp13 Juta/Bulan!",
 "tagline": "jadwal booking",
-"status": "ide"
+"status": "ide",
+"fxkw": "rental kostum, toga & baju adat",
+"fx": {
+"th": "ให้เช่าเครื่องแต่งกาย เสื้อคลุม และเสื้อผ้าแบบดั้งเดิม",
+"vi": "cho thuê trang phục, áo dài và quần áo truyền thống",
+"ms": "penyewaan pakaian, togas & pakaian tradisional"
+}
 },
 {
 "code": "TOYL",
@@ -1384,7 +2321,13 @@
 "nama": "Bisnis Rental Mainan Anak (Toy Library)",
 "judul": "Bisnis Rental Mainan Anak (Toy Library): Orangtua Hemat Rela Langganan, Aset Disewa Berulang, Potensi Untung Rp11 Juta/Bulan!",
 "tagline": "form sewa",
-"status": "ide"
+"status": "ide",
+"fxkw": "rental mainan anak toy library",
+"fx": {
+"th": "ห้องสมุดของเล่น ของเล่นเด็ก ให้เช่า",
+"vi": "Thư viện đồ chơi cho thuê đồ chơi trẻ em",
+"ms": "Perpustakaan mainan sewaan mainan kanak-kanak"
+}
 },
 {
 "code": "CMPG",
@@ -1392,7 +2335,13 @@
 "nama": "Bisnis Rental Alat Camping & Outdoor",
 "judul": "Bisnis Rental Alat Camping & Outdoor: Tren Healing Naik, Aset Disewa Tiap Akhir Pekan, Potensi Untung Rp14 Juta/Bulan!",
 "tagline": "skrip gaet EO",
-"status": "ide"
+"status": "ide",
+"fxkw": "rental alat camping & outdoor",
+"fx": {
+"th": "การเช่าอุปกรณ์ตั้งแคมป์และกลางแจ้ง",
+"vi": "Cho thuê thiết bị cắm trại & dã ngoại",
+"ms": "perkhemahan & penyewaan peralatan luar"
+}
 },
 {
 "code": "SABN",
@@ -1400,7 +2349,13 @@
 "nama": "Bisnis Sabun Artisan Cold Process",
 "judul": "Bisnis Sabun Artisan Cold Process: Produk Natural Premium Bernilai Jual Tinggi, Pasar Gift & Spa, Potensi Untung Rp12 Juta/Bulan!",
 "tagline": "hajatan & proyek.",
-"status": "ide"
+"status": "ide",
+"fxkw": "sabun artisan cold process",
+"fx": {
+"th": "สบู่ช่างฝีมือกระบวนการเย็น",
+"vi": "xà phòng thủ công quá trình lạnh",
+"ms": "sabun artisan proses sejuk"
+}
 },
 {
 "code": "RESN",
@@ -1408,7 +2363,13 @@
 "nama": "Bisnis Aksesoris Resin Epoxy",
 "judul": "Bisnis Aksesoris Resin Epoxy: Sulap Bunga & Foto Jadi Perhiasan Estetik, Modal Receh Margin Tebal, Potensi Untung Rp10 Juta/Bulan!",
 "tagline": "SOP cetak resin anti-gelembung, daftar bahan, varian produk, kalkulator HPP, QC bening, skrip jual online & gift.",
-"status": "ide"
+"status": "ide",
+"fxkw": "aksesoris resin epoxy",
+"fx": {
+"th": "อุปกรณ์เสริมอีพอกซีเรซิน",
+"vi": "phụ kiện nhựa epoxy",
+"ms": "aksesori resin epoksi"
+}
 }
 ]
 }
