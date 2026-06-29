@@ -1,5 +1,5 @@
 {
-"updated": "2026-06-29 20:36",
+"updated": "2026-06-29 20:51",
 "count": 161,
 "items": [
 {
@@ -2165,15 +2165,15 @@
 {
 "code": "ULHK",
 "niche": "Budidaya",
-"nama": "Reseller Borong",
-"judul": "Reseller Borong",
-"tagline": "SOP produksi & proof-freeze",
+"nama": "Coolcare AC Service",
+"judul": "Coolcare AC Service: Jasa Cuci & Servis AC Panggilan Dengan Teknik Deep-Vacuum Cleaning + Freon-Check Untuk Rumah, Kos & Kantor.",
+"tagline": "SOP cuci & servis AC, panduan alat jet & vakum, daftar tools & sparepart, kalkulator HPP per unit, form intake & garansi, dan skrip gaet rumah, kos & kantor.",
 "status": "ide",
-"fxkw": "budidaya",
+"fxkw": "cuci & servis AC panggilan",
 "fx": {
-"th": "การเพาะปลูก",
-"vi": "trồng trọt",
-"ms": "penanaman"
+"th": "ซักผ้า AC & บริการโทร",
+"vi": "Giặt và bảo dưỡng điều hòa theo yêu cầu",
+"ms": "Mencuci & menservis AC atas panggilan"
 }
 },
 {
