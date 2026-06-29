@@ -1,5 +1,5 @@
 {
-"updated": "2026-06-30 02:23",
+"updated": "2026-06-30 02:38",
 "count": 161,
 "items": [
 {
@@ -1904,7 +1904,8 @@
 "nama": "Snackbouquet Studio",
 "judul": "Snackbouquet Studio: Produksi Buket Snack, Uang & Bunga Custom Dengan Teknik Foam-Arrange + Wrap-Estetik Untuk Wisuda, Ultah & Anniversary.",
 "tagline": "Panduan arrange & tema, SOP rakit & wrap estetik, daftar bahan & vendor, kalkulator HPP per buket, form pesanan, dan skrip gaet kampus & event.",
-"status": "ide",
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/snackbouquet-studio/",
 "fxkw": "buket snack",
 "fx": {
 "th": "ช่อดอกไม้ของว่าง",
@@ -1918,7 +1919,8 @@
 "nama": "Beadcraft Accessory Studio",
 "judul": "Beadcraft Accessory Studio: Produksi Aksesoris Handmade Manik & Clay Dengan Teknik Wire-Work + Polymer-Bake Untuk Gift, Bazaar & Online.",
 "tagline": "Panduan desain & teknik, SOP rangkai & bake, daftar manik-clay-alat, kalkulator HPP per pcs, QC kerapian, dan katalog gift, bazaar & online.",
-"status": "ide",
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/beadcraft-accessory-studio/",
 "fxkw": "aksesoris handmade manik & clay",
 "fx": {
 "th": "อุปกรณ์ลูกปัดและดินเผาทำมือ",
@@ -1932,7 +1934,8 @@
 "nama": "Bettapro Fish Farm",
 "judul": "Bettapro Fish Farm: Budidaya & Breeding Ikan Cupang Hias Dengan Teknik Selective-Breeding + Water-Conditioning Untuk Hobiis & Kontes.",
 "tagline": "SOP breeding & grow-out, panduan kualitas air, daftar pakan & wadah, kalkulator modal-panen, QC warna-sirip, dan skrip gaet hobiis & pasar online.",
-"status": "ide",
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/bettapro-fish-farm/",
 "fxkw": "budidaya & breeding ikan cupang hias",
 "fx": {
 "th": "การเพาะเลี้ยงและเพาะพันธุ์ปลากัดสวยงาม",
@@ -1946,7 +1949,8 @@
 "nama": "Joperfarm Poultry Co",
 "judul": "Joperfarm Poultry Co: Budidaya Ayam Kampung & Joper Cepat Panen Dengan Teknik Pakan-Fermentasi + Brooding-Optimal Untuk Pasar & Resto.",
 "tagline": "SOP brooding & pembesaran, formula pakan fermentasi, panduan kesehatan, kalkulator modal-panen, QC bobot, dan skrip jual ke pasar & resto.",
-"status": "ide",
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/joperfarm-poultry-co/",
 "fxkw": "budidaya ayam kampung & joper cepat",
 "fx": {
 "th": "เลี้ยงไก่แบบปล่อยและโจเปอร์อย่างรวดเร็ว",
@@ -1960,7 +1964,8 @@
 "nama": "Quailegg Poultry Farm",
 "judul": "Quailegg Poultry Farm: Budidaya Puyuh Petelur Dengan Teknik Battery-Cage + Layer-Boost-Feed Untuk Pasar, Warung & Reseller.",
 "tagline": "SOP kandang & perawatan, formula pakan boost-telur, panduan manajemen, kalkulator modal-panen, QC produktivitas, dan skrip jual pasar & warung.",
-"status": "ide",
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/quailegg-poultry-farm/",
 "fxkw": "budidaya puyuh petelur",
 "fx": {
 "th": "การเพาะปลูกนกกระทา",
@@ -1974,7 +1979,8 @@
 "nama": "Cleaneel Mud-Free Farm",
 "judul": "Cleaneel Mud-Free Farm: Budidaya Belut Tanpa Lumpur Dengan Teknik Clean-Water + Staged-Feeding Untuk Pasar & Resto Pecel Lele.",
 "tagline": "SOP kolam tanpa lumpur, formula pakan bertahap, panduan kualitas air, kalkulator modal-panen, QC kesehatan, dan skrip jual ke pasar & resto.",
-"status": "ide",
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/cleaneel-mudfree-farm/",
 "fxkw": "budidaya belut tanpa lumpur",
 "auth": 1,
 "fx": {
@@ -1987,7 +1993,8 @@
 "nama": "Maggotpro BSF Lab",
 "judul": "Maggotpro BSF Lab: Budidaya Maggot BSF Untuk Pakan Dengan Teknik Waste-Bioconversion + Staged-Harvest Untuk Peternak & Pembudidaya.",
 "tagline": "SOP kandang & bio-konversi, panduan media & telur, jadwal panen bertingkat, kalkulator modal-panen, QC kualitas maggot, dan skrip gaet peternak & toko pakan.",
-"status": "ide",
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/maggotpro-bsf-lab/",
 "fxkw": "budidaya maggot bsf",
 "fx": {
 "th": "การเพาะเลี้ยงหนอน BSF",
@@ -2001,7 +2008,8 @@
 "nama": "Orchidindoor Nursery",
 "judul": "Orchidindoor Nursery: Budidaya Anggrek & Tanaman Hias Indoor Dengan Teknik Pot-Culture + Healthy-Repotting Untuk Kolektor & Florist.",
 "tagline": "SOP tanam & repotting, panduan media & nutrisi, daftar varietas laku, kalkulator HPP per pot, perawatan anti-busuk, dan skrip gaet kolektor & florist.",
-"status": "ide",
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/orchidindoor-nursery/",
 "fxkw": "budidaya anggrek & tanaman hias indoor",
 "fx": {
 "th": "การปลูกกล้วยไม้และไม้ประดับในร่ม",
@@ -2015,7 +2023,8 @@
 "nama": "Seedready Nursery Co",
 "judul": "Seedready Nursery Co: Produksi Bibit Sayur & Buah Polybag Siap Tanam Dengan Teknik Sterile-Semai + Hardening Untuk Pekebun & Toko Tani.",
 "tagline": "SOP semai & hardening, panduan media & benih, daftar komoditas laku, kalkulator HPP per polybag, QC daya tumbuh, dan katalog toko tani & pekebun.",
-"status": "ide",
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/seedready-nursery-co/",
 "fxkw": "bibit sayur & buah polybag siap",
 "fx": {
 "th": "เมล็ดผักและผลไม้ Polybag พร้อมแล้ว",
@@ -2029,7 +2038,8 @@
 "nama": "Touringbike Rental Co",
 "judul": "Touringbike Rental Co: Bisnis Rental Motor & Sepeda Listrik Wisata Dengan Sistem Daily-Booking + GPS-Tracker Untuk Turis & Mahasiswa.",
 "tagline": "Daftar unit paling laku, SOP cek-rawat & deposit, kalkulator sewa & BEP, jadwal booking, form sewa + jaminan, dan skrip gaet turis & kampus.",
-"status": "ide",
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/touringbike-rental-co/",
 "fxkw": "rental motor & sepeda listrik wisata",
 "fx": {
 "th": "รถมอเตอร์ไซค์ท่องเที่ยวและจักรยานไฟฟ้าให้เช่า",
@@ -2043,7 +2053,8 @@
 "nama": "Furnirent Kos Co",
 "judul": "Furnirent Kos Co: Bisnis Rental Furniture & Perabot Kos-Kontrakan Dengan Sistem Monthly-Package + Antar-Pasang Untuk Anak Kos & Perantau.",
 "tagline": "Daftar paket perabot, SOP antar-pasang & cek, kalkulator sewa & BEP, jadwal kontrak, form sewa + deposit, dan skrip gaet anak kos & perantau.",
-"status": "ide",
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/furnirent-kos-co/",
 "fxkw": "rental furniture & perabot kos-kontrakan",
 "fx": {
 "th": "เฟอร์นิเจอร์ให้เช่าและเฟอร์นิเจอร์หอพัก",
@@ -2057,7 +2068,8 @@
 "nama": "Kospro Property Manager",
 "judul": "Kospro Property Manager: Bisnis Kelola Kos & Kontrakan Tanpa Punya Properti Dengan Sistem Lease-Manage + Management-Fee Untuk Pemilik & Penyewa.",
 "tagline": "Panduan akad sewa-kelola, SOP operasional & maintenance, sistem pembayaran, kalkulator fee & profit, form penyewa, dan skrip gaet pemilik properti.",
-"status": "ide",
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/kospro-property-manager/",
 "fxkw": "kelola kos & kontrakan tanpa punya",
 "fx": {
 "th": "จัดการการขึ้นเครื่องและการเช่าโดยไม่ต้องเป็นเจ้าของ",
@@ -2071,7 +2083,8 @@
 "nama": "Techrent Laptop Co",
 "judul": "Techrent Laptop Co: Bisnis Rental Laptop & PC Dengan Sistem Daily-Weekly + Spec-Match Untuk Mahasiswa, Event & Kantor.",
 "tagline": "Daftar unit & spec laku, SOP cek-format & deposit, kalkulator sewa & BEP, jadwal booking, form sewa + jaminan, dan skrip gaet kampus & EO.",
-"status": "ide",
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/techrent-laptop-co/",
 "fxkw": "rental laptop & PC",
 "fx": {
 "th": "เช่าแล็ปท็อปและพีซี",
@@ -2085,7 +2098,8 @@
 "nama": "Dailybox Catering Co",
 "judul": "Dailybox Catering Co: Produksi Catering Rumahan Harian Lunch Box Dengan Sistem Menu-Rotasi + Cook-Chill Untuk Karyawan & Kantor.",
 "tagline": "Menu rotasi & HPP, SOP masak-packing cook-chill, daftar bahan & alat, kalkulator porsi & margin, sistem langganan-antar, dan skrip gaet kantor & instansi.",
-"status": "ide",
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/dailybox-catering-co/",
 "fxkw": "catering rumahan harian lunch box",
 "fx": {
 "th": "กล่องอาหารกลางวันจัดเลี้ยงที่บ้านทุกวัน",
@@ -2099,7 +2113,8 @@
 "nama": "Pralinecraft Chocolate Studio",
 "judul": "Pralinecraft Chocolate Studio: Produksi Cokelat & Praline Custom Dengan Teknik Tempering + Glossy-Mold Untuk Hampers, Wedding & Souvenir.",
 "tagline": "Resep & teknik tempering, SOP cetak & isian, daftar bahan & cetakan, kalkulator HPP per box, QC kilap-tekstur, dan katalog hampers & wedding.",
-"status": "ide",
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/pralinecraft-chocolate-studio/",
 "fxkw": "cokelat & praline custom",
 "fx": {
 "th": "ช็อคโกแลตและพราลีนแบบกำหนดเอง",
@@ -2113,7 +2128,8 @@
 "nama": "Spicychips Viral Co",
 "judul": "Spicychips Viral Co: Produksi Keripik Pedas Kemasan Viral Dengan Teknik Vacuum-Crisp + Level-Bumbu Untuk Reseller & Online.",
 "tagline": "Resep & level bumbu pedas, SOP produksi & vacuum-crisp, daftar bahan & alat, kalkulator HPP per pack, QC kerenyahan, dan katalog reseller & online.",
-"status": "ide",
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/spicychips-viral-co/",
 "fxkw": "keripik pedas kemasan viral",
 "fx": {
 "th": "ชิปรสเผ็ดบรรจุไวรัล",
@@ -2127,7 +2143,8 @@
 "nama": "Matchaliter Drink Co",
 "judul": "Matchaliter Drink Co: Produksi Minuman Matcha & Coklat Literan Dengan Teknik Fresh-Whisk + Anti-Clump Untuk Booth & Reseller.",
 "tagline": "Resep matcha-coklat & varian, SOP seduh & literan-packing, daftar bahan & alat, kalkulator HPP per liter, QC rasa, dan katalog booth & reseller.",
-"status": "ide",
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/matchaliter-drink-co/",
 "fxkw": "minuman matcha & coklat literan",
 "fx": {
 "th": "ลิตรมัทฉะและเครื่องดื่มช็อคโกแลต",
@@ -2141,7 +2158,8 @@
 "nama": "Fishcake Frozen Co",
 "judul": "Fishcake Frozen Co: Produksi Empek-empek & Otak-otak Frozen Dengan Teknik Fish-Dough + Flash-Freeze Untuk Oleh-oleh & Reseller.",
 "tagline": "Formula adonan ikan & cuko, SOP produksi & flash-freeze, daftar bahan & alat, kalkulator HPP per pack, QC ketahanan, dan katalog oleh-oleh & reseller.",
-"status": "ide",
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/fishcake-frozen-co/",
 "fxkw": "empek-empek & otak-otak frozen",
 "auth": 1,
 "fx": {
@@ -2154,7 +2172,8 @@
 "nama": "Potatodough Donut Co",
 "judul": "Potatodough Donut Co: Produksi Donat Kentang Empuk Frozen Dengan Teknik Potato-Dough + Proof-Freeze Untuk Reseller & Online.",
 "tagline": "Resep donat kentang & topping, SOP produksi & proof-freeze, daftar bahan & alat, kalkulator HPP per box, QC keempukan, dan katalog reseller & online.",
-"status": "ide",
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/potatodough-donut-co/",
 "fxkw": "donat kentang empuk frozen",
 "fx": {
 "th": "โดนัทมันเทศแช่แข็ง",
@@ -2168,7 +2187,8 @@
 "nama": "Coolcare AC Service",
 "judul": "Coolcare AC Service: Jasa Cuci & Servis AC Panggilan Dengan Teknik Deep-Vacuum Cleaning + Freon-Check Untuk Rumah, Kos & Kantor.",
 "tagline": "SOP cuci & servis AC, panduan alat jet & vakum, daftar tools & sparepart, kalkulator HPP per unit, form intake & garansi, dan skrip gaet rumah, kos & kantor.",
-"status": "ide",
+"status": "siap",
+"lp": "https://id.ilmuwanlama.tech/coolcare-ac-service/",
 "fxkw": "cuci & servis AC panggilan",
 "fx": {
 "th": "ซักผ้า AC & บริการโทร",
