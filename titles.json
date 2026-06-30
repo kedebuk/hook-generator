@@ -1,6 +1,6 @@
 {
-"updated": "2026-07-01 01:29",
-"count": 296,
+"updated": "2026-07-01 01:46",
+"count": 596,
 "items": [
 {
 "code": "RSNA",
@@ -4267,6 +4267,4155 @@
 "th": "การเก็บรายละเอียดมอเตอร์ไซค์และการเคลือบสี",
 "vi": "Chi tiết & sơn phủ xe máy",
 "ms": "perincian motosikal & salutan cat"
+}
+},
+{
+"code": "GERABA",
+"niche": "Kerajinan",
+"nama": "Gerabah Keramik Studio",
+"judul": "Gerabah Keramik Studio: Produksi gerabah & keramik hias mini Dengan Teknik Hand-Mold & Glaze-Fire Untuk Dekor, Souvenir & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "gerabah & keramik hias mini",
+"auth": 1,
+"fx": {
+"ms": "tembikar hiasan mini & seramik"
+}
+},
+{
+"code": "KERUPU",
+"niche": "Resep",
+"nama": "Kerupuk Singkong Lab",
+"judul": "Kerupuk Singkong Lab: Produksi kerupuk singkong & opak balado Dengan Teknik Slice-Sun-Dry & Fry Untuk Oleh-oleh, Toples & Reseller.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "kerupuk singkong & opak balado",
+"auth": 1,
+"fx": {
+"ms": "keropok ubi kayu & opak balado"
+}
+},
+{
+"code": "TABUNG",
+"niche": "Jasa",
+"nama": "Tabung Pemadam House",
+"judul": "Tabung Pemadam House: Jasa servis & isi ulang tabung pemadam (APAR) Dengan Teknik Refill-Test & Seal Untuk Kantor, Ruko & Pabrik.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "servis & isi ulang tabung pemadam",
+"fx": {
+"th": "บริการและเติมถังดับเพลิง",
+"vi": "bảo trì & nạp bình chữa cháy",
+"ms": "servis & isi semula alat pemadam api"
+}
+},
+{
+"code": "KESETS",
+"niche": "Produksi",
+"nama": "Keset Sandal Pro",
+"judul": "Keset Sandal Pro: Produksi keset & sandal hotel kain produksi Dengan Teknik Cut-Sew & Pack Untuk Hotel, Kos & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "keset & sandal hotel kain produksi",
+"fx": {
+"th": "ผลิตเสื่อผ้าโรงแรมและรองเท้าแตะ",
+"vi": "sản xuất thảm khách sạn và dép đi trong nhà",
+"ms": "fabrik pengeluaran tikar & selipar hotel"
+}
+},
+{
+"code": "SOUNDS",
+"niche": "Rental",
+"nama": "Sound System Co",
+"judul": "Sound System Co: Bisnis Rental rental sound system & speaker event Dengan Teknik Setup-Operate & Maintain Untuk Hajatan, EO & Sekolah.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental sound system & speaker",
+"fx": {
+"th": "ให้เช่าเครื่องเสียงและลำโพงให้เช่า",
+"vi": "cho thuê dàn âm thanh, loa",
+"ms": "sewa sound system & sewa speaker"
+}
+},
+{
+"code": "KERAJI",
+"niche": "Limbah Cuan",
+"nama": "Kerajinan Furnitur Craft",
+"judul": "Kerajinan Furnitur Craft: Produksi kerajinan & furnitur drum/tong bekas Dengan Teknik Cut-Weld & Paint Untuk Cafe, Dekor & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "kerajinan & furnitur drum/tong bekas",
+"fx": {
+"th": "งานฝีมือและเฟอร์นิเจอร์ถัง/ถังมือสอง",
+"vi": "Đồ thủ công & đồ nội thất trống/thùng đã qua sử dụng",
+"ms": "Kraf & perabot dram/tong terpakai"
+}
+},
+{
+"code": "TIKART",
+"niche": "Kerajinan",
+"nama": "Tikar Tas Berkah",
+"judul": "Tikar Tas Berkah: Produksi tikar & tas anyaman pandan Dengan Teknik Weave-Dry & Frame Untuk Etnik, Kado & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "tikar & tas anyaman pandan",
+"auth": 1,
+"fx": {
+"ms": "tikar & beg anyaman pandan"
+}
+},
+{
+"code": "KERIP2",
+"niche": "Resep",
+"nama": "Keripik Pisang Makmur",
+"judul": "Keripik Pisang Makmur: Produksi keripik pisang & sukun aneka rasa Dengan Teknik Thin-Slice & Coat-Fry Untuk Oleh-oleh, Grosir & Reseller.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "keripik pisang & sukun aneka rasa",
+"fx": {
+"th": "กล้วยทอดและสาเกหลายรสชาติ",
+"vi": "hương vị khác nhau của khoai tây chiên chuối và bánh mì",
+"ms": "pelbagai perisa kerepek pisang & sukun"
+}
+},
+{
+"code": "VAKUMS",
+"niche": "Jasa",
+"nama": "Vakum Springbed Nusantara",
+"judul": "Vakum Springbed Nusantara: Jasa cuci & vakum springbed/kasur kantor Dengan Teknik Extract-UV & Dry Untuk Hotel, Kantor & Rumah.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "cuci & vakum springbed/kasur kantor",
+"fx": {
+"th": "สปริงซักและดูดฝุ่น/ที่นอนสำนักงาน",
+"vi": "giặt và hút bụi nệm lò xo/nệm văn phòng",
+"ms": "basuh & vakum springbed/tilam pejabat"
+}
+},
+{
+"code": "AYAMPE",
+"niche": "Budidaya",
+"nama": "Ayam Pedaging Jaya",
+"judul": "Ayam Pedaging Jaya: Budidaya ternak ayam pedaging (broiler) kemitraan Dengan Teknik Brood-Feed & Health Untuk Pasar, Resto & Mitra.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya ternak ayam pedaging",
+"fx": {
+"th": "การเลี้ยงไก่เนื้อ",
+"vi": "nuôi gà thịt",
+"ms": "penanaman ayam pedaging"
+}
+},
+{
+"code": "SAPUKE",
+"niche": "Produksi",
+"nama": "Sapu Kemoceng Mandiri",
+"judul": "Sapu Kemoceng Mandiri: Produksi sapu, kemoceng & alat kebersihan Dengan Teknik Assemble-Bind & Pack Untuk Rumah, Grosir & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "produksi",
+"fx": {
+"ms": "pengeluaran"
+}
+},
+{
+"code": "LIGHT2",
+"niche": "Rental",
+"nama": "Lighting Smoke Karya",
+"judul": "Lighting Smoke Karya: Bisnis Rental rental lighting & smoke panggung Dengan Teknik Rig-Program & Operate Untuk EO, Konser & Event.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental lighting & smoke panggung",
+"fx": {
+"th": "เช่าไฟส่องสว่างและเช่าควันไฟบนเวที",
+"vi": "Cho thuê ánh sáng, khói sân khấu",
+"ms": "sewa lampu & sewa asap pentas"
+}
+},
+{
+"code": "TOPISE",
+"niche": "Kerajinan",
+"nama": "Topi Sepatu Sentosa",
+"judul": "Topi Sepatu Sentosa: Produksi topi & sepatu rajut bayi Dengan Teknik Soft-Crochet & Assemble Untuk Newborn, Kado & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "topi & sepatu rajut bayi",
+"fx": {
+"th": "หมวกและรองเท้าเด็กถักนิตติ้ง",
+"vi": "mũ và giày dệt kim cho bé",
+"ms": "topi & kasut bayi rajutan"
+}
+},
+{
+"code": "REMPEY",
+"niche": "Resep",
+"nama": "Rempeyek Kacang Prima",
+"judul": "Rempeyek Kacang Prima: Produksi rempeyek kacang & teri renyah Dengan Teknik Batter-Drizzle & Fry Untuk Lebaran, Toples & Reseller.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "rempeyek kacang & teri renyah",
+"auth": 1,
+"fx": {
+"ms": "ikan bilis rapuh & rangup"
+}
+},
+{
+"code": "POLESK",
+"niche": "Jasa",
+"nama": "Poles Kristalisasi Kreasi",
+"judul": "Poles Kristalisasi Kreasi: Jasa poles & kristalisasi lantai marmer Dengan Teknik Grind-Crystallize & Buff Untuk Hotel, Ruko & Rumah.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "poles & kristalisasi lantai marmer",
+"fx": {
+"th": "พื้นหินอ่อนขัดและตกผลึก",
+"vi": "đánh bóng và kết tinh sàn đá cẩm thạch",
+"ms": "menggilap & menghablur lantai marmar"
+}
+},
+{
+"code": "PUYUHP",
+"niche": "Budidaya",
+"nama": "Puyuh Pedaging Hub",
+"judul": "Puyuh Pedaging Hub: Budidaya ternak puyuh pedaging & telur asin Dengan Teknik Cage-Process & Pack Untuk Pasar, Warung & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya ternak puyuh pedaging & telur",
+"fx": {
+"th": "การเลี้ยงไก่เนื้อและไข่นกกระทา",
+"vi": "nuôi gà thịt và trứng cút",
+"ms": "penanaman ayam pedaging & puyuh telur"
+}
+},
+{
+"code": "KANTON",
+"niche": "Produksi",
+"nama": "Kantong Kresek Indo",
+"judul": "Kantong Kresek Indo: Produksi kantong kresek & plastik kemasan Dengan Teknik Blow-Cut & Print Untuk Toko, Pasar & Grosir.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "kantong kresek & plastik kemasan",
+"fx": {
+"th": "ถุงพลาสติกและบรรจุภัณฑ์พลาสติก",
+"vi": "túi nhựa và bao bì nhựa",
+"ms": "beg plastik & pembungkusan plastik"
+}
+},
+{
+"code": "LEDSCR",
+"niche": "Rental",
+"nama": "Led Screen Raya",
+"judul": "Led Screen Raya: Bisnis Rental rental LED screen & videotron Dengan Teknik Setup-Content & Operate Untuk EO, Pameran & Event.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental LED screen & videotron",
+"fx": {
+"th": "ให้เช่าจอ LED และวีดีโอตรอน",
+"vi": "Cho thuê màn hình LED & videotron",
+"ms": "Skrin LED & penyewaan videotron"
+}
+},
+{
+"code": "TASDOM",
+"niche": "Limbah Cuan",
+"nama": "Tas Dompet Asri",
+"judul": "Tas Dompet Asri: Produksi tas & dompet dari jeans/denim bekas Dengan Teknik Cut-Stitch & Finish Untuk Eco-Fashion, Bazaar & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "tas & dompet dari jeans/denim bekas",
+"fx": {
+"th": "กระเป๋าและกระเป๋าสตางค์จากกางเกงยีนส์/เดนิมมือสอง",
+"vi": "túi xách và ví từ quần jean/denim đã qua sử dụng",
+"ms": "beg & dompet dari jeans/denim terpakai"
+}
+},
+{
+"code": "SEPATU",
+"niche": "Kerajinan",
+"nama": "Sepatu Slip Cuan",
+"judul": "Sepatu Slip Cuan: Produksi sepatu & slip-on lukis custom Dengan Teknik Fabric-Paint & Seal Untuk Anak Muda, Custom & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "sepatu & slip-on lukis custom",
+"fx": {
+"th": "รองเท้าและรองเท้าแบบสวมสั่งทำพิเศษ",
+"vi": "giày và dép được sơn theo yêu cầu",
+"ms": "kasut & slip-on dicat khas"
+}
+},
+{
+"code": "KUEKER",
+"niche": "Resep",
+"nama": "Kue Kering Studio",
+"judul": "Kue Kering Studio: Produksi kue kering putri salju & lidah kucing Dengan Teknik Pipe-Bake & Dust Untuk Lebaran, Hampers & Reseller.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "kue kering putri salju & lidah",
+"fx": {
+"th": "สโนว์ไวท์และคุกกี้ลิ้น",
+"vi": "bánh quy lưỡi bạch tuyết",
+"ms": "snow white & tongue cookies"
+}
+},
+{
+"code": "GANTIK",
+"niche": "Jasa",
+"nama": "Ganti Kaca Lab",
+"judul": "Ganti Kaca Lab: Jasa servis & ganti kaca mobil/film Dengan Teknik Cut-Install & Tint Untuk Mobil, Bengkel & Panggilan.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "servis & ganti kaca mobil/film",
+"fx": {
+"th": "บริการเปลี่ยนกระจก/ฟิล์มรถยนต์",
+"vi": "Dịch vụ & thay thế kính/phim ô tô",
+"ms": "servis & tukar kaca/filem kereta"
+}
+},
+{
+"code": "KAMBIN",
+"niche": "Budidaya",
+"nama": "Kambing Perah House",
+"judul": "Kambing Perah House: Budidaya ternak kambing perah & susu etawa Dengan Teknik Stall-Milk & Process Untuk Sehat, Pasar & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya ternak kambing perah & susu",
+"fx": {
+"th": "เลี้ยงโคนมแพะและนม",
+"vi": "nuôi dê lấy sữa",
+"ms": "penanaman kambing tenusu & susu"
+}
+},
+{
+"code": "KERTAS",
+"niche": "Produksi",
+"nama": "Kertas Paper Pro",
+"judul": "Kertas Paper Pro: Produksi kemasan kertas (paper bag/box) custom Dengan Teknik Diecut-Glue & Print Untuk UMKM, Cafe & Online.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "kemasan kertas",
+"fx": {
+"th": "บรรจุภัณฑ์กระดาษ",
+"vi": "bao bì giấy",
+"ms": "pembungkusan kertas"
+}
+},
+{
+"code": "TENDAK",
+"niche": "Rental",
+"nama": "Tenda Kursi Co",
+"judul": "Tenda Kursi Co: Bisnis Rental rental tenda, kursi & meja hajatan Dengan Teknik Erect-Set & Transport Untuk Hajatan, Komplek & Event.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental tenda",
+"fx": {
+"th": "เช่าเต็นท์",
+"vi": "cho thuê lều",
+"ms": "sewa khemah"
+}
+},
+{
+"code": "KOMPOS",
+"niche": "Limbah Cuan",
+"nama": "Kompos Poc Craft",
+"judul": "Kompos Poc Craft: Produksi kompos & POC dari limbah pasar Dengan Teknik Ferment-Cure & Pack Untuk Tani, Pehobi & Reseller.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "kompos & poc dari limbah pasar",
+"fx": {
+"th": "ปุ๋ยหมักและขยะจากขยะจากตลาด",
+"vi": "phân trộn & poc từ rác thải chợ",
+"ms": "kompos & poc daripada sisa pasaran"
+}
+},
+{
+"code": "KAOSTI",
+"niche": "Kerajinan",
+"nama": "Kaos Tie Berkah",
+"judul": "Kaos Tie Berkah: Produksi kaos tie-dye & ikat warna Dengan Teknik Bind-Dye & Set Untuk Fashion, Distro & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "kaos tie-dye & ikat warna",
+"fx": {
+"th": "เสื้อยืดมัดย้อมและสีมัดย้อม",
+"vi": "áo thun màu cà vạt và cà vạt",
+"ms": "t-shirt warna tie-dye & tie"
+}
+},
+{
+"code": "BOLUKU",
+"niche": "Resep",
+"nama": "Bolu Kukus Makmur",
+"judul": "Bolu Kukus Makmur: Produksi bolu kukus mekar & brownies panggang Dengan Teknik Whisk-Steam/Bake & Pack Untuk PO, Oleh-oleh & Reseller.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "bolu kukus mekar & brownies panggang",
+"fx": {
+"th": "เค้กนึ่งบานและบราวนี่อบ",
+"vi": "bánh hấp nở và bánh hạnh nhân nướng",
+"ms": "kek kukus mekar & brownies bakar"
+}
+},
+{
+"code": "SAPIPE",
+"niche": "Budidaya",
+"nama": "Sapi Perah Nusantara",
+"judul": "Sapi Perah Nusantara: Budidaya ternak sapi perah & olahan susu Dengan Teknik Stall-Milk & Chill Untuk Koperasi, Pasar & Reseller.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya ternak sapi perah & olahan",
+"fx": {
+"th": "การเพาะปลูกโคนมและโคแปรรูป",
+"vi": "chăn nuôi bò sữa và gia súc chế biến",
+"ms": "penanaman tenusu & lembu diproses"
+}
+},
+{
+"code": "LILINS",
+"niche": "Produksi",
+"nama": "Lilin Sumbu Jaya",
+"judul": "Lilin Sumbu Jaya: Produksi lilin & sumbu untuk industri Dengan Teknik Pour-Wick & Pack Untuk Hotel, Spa & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "lilin & sumbu",
+"fx": {
+"th": "เทียนและไส้ตะเกียง",
+"vi": "nến & bấc",
+"ms": "lilin & sumbu"
+}
+},
+{
+"code": "DEKORA",
+"niche": "Rental",
+"nama": "Dekorasi Pelaminan Mandiri",
+"judul": "Dekorasi Pelaminan Mandiri: Bisnis Rental rental dekorasi pelaminan & lamaran Dengan Teknik Style-Install & Cleanup Untuk Nikah, Lamaran & Event.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental dekorasi pelaminan & lamaran",
+"fx": {
+"th": "เช่าอุปกรณ์ตกแต่งงานแต่งงานและข้อเสนอ",
+"vi": "cho thuê đồ trang trí đám cưới và cầu hôn",
+"ms": "sewa hiasan perkahwinan & cadangan"
+}
+},
+{
+"code": "TASBIH",
+"niche": "Kerajinan",
+"nama": "Tasbih Gelang Karya",
+"judul": "Tasbih Gelang Karya: Produksi tasbih & gelang batu alam Dengan Teknik String-Knot & Polish Untuk Religi, Pria & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "tasbih & gelang batu alam",
+"fx": {
+"th": "ลูกปัดอธิษฐานและสร้อยข้อมือหินธรรมชาติ",
+"vi": "Chuỗi hạt và vòng tay cầu nguyện bằng đá tự nhiên",
+"ms": "tasbih & gelang batu asli"
+}
+},
+{
+"code": "KLEPON",
+"niche": "Resep",
+"nama": "Klepon Onde Sentosa",
+"judul": "Klepon Onde Sentosa: Produksi klepon & onde-onde frozen Dengan Teknik Fill-Shape & Freeze Untuk Reseller, Booth & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "klepon & onde-onde frozen",
+"auth": 1,
+"fx": {
+"ms": "klepon & onde-onde beku"
+}
+},
+{
+"code": "POTONG",
+"niche": "Jasa",
+"nama": "Potong Desain Prima",
+"judul": "Potong Desain Prima: Jasa jasa potong & desain taman vertikal Dengan Teknik Build-Plant & Maintain Untuk Rumah, Cafe & Kantor.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa potong & desain taman vertikal",
+"fx": {
+"th": "บริการตัดและออกแบบสวนแนวตั้ง",
+"vi": "Dịch vụ thiết kế và cắt vườn thẳng đứng",
+"ms": "perkhidmatan memotong & reka bentuk taman menegak"
+}
+},
+{
+"code": "KELINC",
+"niche": "Budidaya",
+"nama": "Kelinci Hias Kreasi",
+"judul": "Kelinci Hias Kreasi: Budidaya ternak kelinci hias & pedaging Dengan Teknik Cage-Breed & Feed Untuk Pet, Pasar & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya ternak kelinci hias & pedaging",
+"fx": {
+"th": "การเลี้ยงกระต่ายประดับและกระต่ายเนื้อ",
+"vi": "nuôi thỏ cảnh và thịt",
+"ms": "penanaman arnab hiasan & daging"
+}
+},
+{
+"code": "PUPUKN",
+"niche": "Produksi",
+"nama": "Pupuk Npk Hub",
+"judul": "Pupuk Npk Hub: Produksi pupuk NPK & dolomit kemasan ulang Dengan Teknik Blend-Repack & Label Untuk Tani, Toko & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "pupuk npk & dolomit kemasan ulang",
+"fx": {
+"th": "บรรจุปุ๋ย NPK และโดโลไมต์ใหม่",
+"vi": "Phân bón NPK & dolomite đóng gói lại",
+"ms": "Baja NPK & dolomit dibungkus semula"
+}
+},
+{
+"code": "PAVING",
+"niche": "Limbah Cuan",
+"nama": "Paving Bata Indo",
+"judul": "Paving Bata Indo: Produksi paving & bata dari abu/limbah pabrik Dengan Teknik Mix-Press & Cure Untuk Proyek, Toko & Reseller.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "paving & bata dari abu/limbah pabrik",
+"fx": {
+"th": "ปูและอิฐจากขี้เถ้า/ขยะโรงงาน",
+"vi": "lát và gạch từ tro/rác thải nhà máy",
+"ms": "penurapan & batu bata daripada abu/sisa kilang"
+}
+},
+{
+"code": "MINIAT",
+"niche": "Kerajinan",
+"nama": "Miniatur Kapal Raya",
+"judul": "Miniatur Kapal Raya: Produksi miniatur rumah & kapal kayu Dengan Teknik Cut-Assemble & Finish Untuk Kolektor, Dekor & Kado.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "miniatur rumah & kapal kayu",
+"fx": {
+"th": "บ้านไม้และเรือขนาดเล็ก",
+"vi": "nhà và thuyền gỗ thu nhỏ",
+"ms": "rumah kayu kecil & bot"
+}
+},
+{
+"code": "GETUKL",
+"niche": "Resep",
+"nama": "Getuk Lupis Asri",
+"judul": "Getuk Lupis Asri: Produksi getuk & lupis tradisional kemasan Dengan Teknik Steam-Mash & Pack Untuk Pasar, Oleh-oleh & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "getuk & lupis tradisional kemasan",
+"auth": 1,
+"fx": {
+"ms": "getuk & lupis bungkus tradisional"
+}
+},
+{
+"code": "KALIBR",
+"niche": "Jasa",
+"nama": "Kalibrasi Timbangan Cuan",
+"judul": "Kalibrasi Timbangan Cuan: Jasa servis & kalibrasi timbangan digital Dengan Teknik Calibrate-Repair & Cert Untuk Pasar, Toko & UMKM.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "servis & kalibrasi timbangan digital",
+"fx": {
+"th": "บริการและสอบเทียบเครื่องชั่งดิจิตอล",
+"vi": "Dịch vụ & hiệu chuẩn cân kỹ thuật số",
+"ms": "servis & penentukuran penimbang digital"
+}
+},
+{
+"code": "BURUNG",
+"niche": "Budidaya",
+"nama": "Burung Perkutut Studio",
+"judul": "Burung Perkutut Studio: Budidaya ternak burung perkutut & derkuku Dengan Teknik Aviary-Breed & Train Untuk Pehobi, Lomba & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya ternak burung perkutut & derkuku",
+"fx": {
+"th": "การปลูกนกพิราบและนกพิราบเต่า",
+"vi": "Nuôi bồ câu và bồ câu rùa",
+"ms": "Menanam burung merpati & merpati penyu"
+}
+},
+{
+"code": "PAKANA",
+"niche": "Produksi",
+"nama": "Pakan Ayam Lab",
+"judul": "Pakan Ayam Lab: Produksi pakan ayam & konsentrat ternak Dengan Teknik Mill-Mix & Pack Untuk Peternak, Toko & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "pakan ayam & konsentrat ternak",
+"fx": {
+"th": "อาหารไก่และปศุสัตว์เข้มข้น",
+"vi": "thức ăn chăn nuôi gà và thức ăn chăn nuôi đậm đặc",
+"ms": "makanan ayam & pekat ternakan"
+}
+},
+{
+"code": "PAKANM",
+"niche": "Limbah Cuan",
+"nama": "Pakan Maggot House",
+"judul": "Pakan Maggot House: Produksi pakan maggot & kompos dari sampah dapur Dengan Teknik Bio-Rear & Harvest Untuk Peternak, Tani & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "pakan maggot & kompos dari sampah",
+"fx": {
+"th": "อาหารหนอนและปุ๋ยหมักจากขยะ",
+"vi": "thức ăn cho giòi & phân trộn từ rác thải",
+"ms": "makanan ulat & kompos daripada sisa"
+}
+},
+{
+"code": "UKIRAN",
+"niche": "Kerajinan",
+"nama": "Ukiran Sabun Pro",
+"judul": "Ukiran Sabun Pro: Produksi ukiran sabun (soap carving) Dengan Teknik Carve-Detail & Wrap Untuk Souvenir, Spa & Kado.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "ukiran sabun",
+"fx": {
+"th": "แกะสลักสบู่",
+"vi": "chạm khắc xà phòng",
+"ms": "ukiran sabun"
+}
+},
+{
+"code": "WINGKO",
+"niche": "Resep",
+"nama": "Wingko Bakpia Co",
+"judul": "Wingko Bakpia Co: Produksi wingko & bakpia isi kacang Dengan Teknik Fill-Bake & Wrap Untuk Oleh-oleh, PO & Reseller.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "wingko & bakpia isi kacang",
+"fx": {
+"th": "wingko & bakpia สอดไส้ถั่วลิสง",
+"vi": "wingko & bakpia chứa đầy đậu phộng",
+"ms": "wingko & bakpia isi kacang tanah"
+}
+},
+{
+"code": "AYAMKA",
+"niche": "Budidaya",
+"nama": "Ayam Kalkun Craft",
+"judul": "Ayam Kalkun Craft: Budidaya ternak ayam kalkun & ayam mutiara Dengan Teknik Free-Range & Feed Untuk Resto, Pehobi & Pasar.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya ternak ayam kalkun & ayam",
+"fx": {
+"th": "เลี้ยงไก่งวงและไก่",
+"vi": "nuôi gà tây và gà",
+"ms": "penanaman ayam belanda & ayam"
+}
+},
+{
+"code": "ARANGB",
+"niche": "Produksi",
+"nama": "Arang Batok Berkah",
+"judul": "Arang Batok Berkah: Produksi arang batok & arang kayu kemasan Dengan Teknik Carbonize-Sort & Pack Untuk BBQ, Resto & Ekspor.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "arang batok & arang kayu kemasan",
+"fx": {
+"th": "ถ่านเปลือกและถ่านไม้บรรจุหีบห่อ",
+"vi": "than vỏ & than gỗ đóng gói",
+"ms": "arang tempurung & arang kayu yang dibungkus"
+}
+},
+{
+"code": "KERAJ2",
+"niche": "Limbah Cuan",
+"nama": "Kerajinan Kayu Makmur",
+"judul": "Kerajinan Kayu Makmur: Produksi kerajinan kayu palet & peti bekas Dengan Teknik Sand-Build & Finish Untuk Cafe, Rumah & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "kerajinan kayu palet & peti bekas",
+"fx": {
+"th": "งานฝีมือจากลังไม้และลังไม้มือสอง",
+"vi": "pallet gỗ & thùng hàng thủ công đã qua sử dụng",
+"ms": "pallet kayu & kraf peti terpakai"
+}
+},
+{
+"code": "KARTUU",
+"niche": "Kerajinan",
+"nama": "Kartu Undangan Nusantara",
+"judul": "Kartu Undangan Nusantara: Produksi kartu & undangan laser cut Dengan Teknik Laser-Cut & Layer Untuk Nikah, Event & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "kartu & undangan laser cut",
+"fx": {
+"th": "การ์ดและบัตรเชิญที่ตัดด้วยเลเซอร์",
+"vi": "thiệp và thiệp cắt laser",
+"ms": "kad potong laser & jemputan"
+}
+},
+{
+"code": "DODOLJ",
+"niche": "Resep",
+"nama": "Dodol Jenang Jaya",
+"judul": "Dodol Jenang Jaya: Produksi dodol & jenang buah kemasan Dengan Teknik Slow-Cook & Wrap Untuk Oleh-oleh, Lebaran & Reseller.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "dodol & jenang buah kemasan",
+"fx": {
+"th": "โดดอลและเจนังผลไม้บรรจุห่อ",
+"vi": "dodol & trái cây đóng gói jenang",
+"ms": "dodol & jenang buah bungkus"
+}
+},
+{
+"code": "FUMIGA",
+"niche": "Jasa",
+"nama": "Fumigasi Anti Mandiri",
+"judul": "Fumigasi Anti Mandiri: Jasa jasa fumigasi & anti rayap rumah Dengan Teknik Inject-Treat & Warranty Untuk Rumah, Gudang & Kantor.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa fumigasi & anti rayap rumah",
+"fx": {
+"th": "บริการรมควันบ้านและป้องกันปลวก",
+"vi": "Dịch vụ khử trùng và diệt mối tại nhà",
+"ms": "perkhidmatan pengasapan rumah & anti-anai-anai"
+}
+},
+{
+"code": "ENTOKM",
+"niche": "Budidaya",
+"nama": "Entok Mentok Karya",
+"judul": "Entok Mentok Karya: Budidaya ternak entok & mentok pedaging Dengan Teknik Free-Range & Feed Untuk Pasar, Resto & Reseller.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya",
+"fx": {
+"th": "การเพาะปลูก",
+"vi": "trồng trọt",
+"ms": "penanaman"
+}
+},
+{
+"code": "SABUNC",
+"niche": "Produksi",
+"nama": "Sabun Cair Sentosa",
+"judul": "Sabun Cair Sentosa: Produksi sabun cair & hand soap refill galon Dengan Teknik Blend-Dilute & Fill Untuk Rumah, Refill & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "sabun cair & hand soap refill",
+"fx": {
+"th": "สบู่เหลวและสบู่ล้างมือแบบเติม",
+"vi": "xà phòng lỏng và xà phòng rửa tay",
+"ms": "sabun cecair & sabun tangan isi semula"
+}
+},
+{
+"code": "PLAYST",
+"niche": "Rental",
+"nama": "Playstation Konsol Prima",
+"judul": "Playstation Konsol Prima: Bisnis Rental rental PlayStation, VR & konsol game Dengan Teknik Setup-Sanitize & Deliver Untuk Anak Muda, Event & Kos.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental playstation",
+"fx": {
+"th": "เช่าเพลย์สเตชั่น",
+"vi": "Cho thuê máy chơi game Playstation",
+"ms": "Sewa Playstation"
+}
+},
+{
+"code": "BRIKET",
+"niche": "Limbah Cuan",
+"nama": "Briket Pelet Kreasi",
+"judul": "Briket Pelet Kreasi: Produksi briket & pelet dari sabut/serat kelapa Dengan Teknik Bind-Press & Dry Untuk BBQ, Industri & Reseller.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "briket & pelet dari sabut/serat kelapa",
+"fx": {
+"th": "อิฐและเม็ดจากมะพร้าว/ใยมะพร้าว",
+"vi": "Than bánh & viên từ xơ dừa/xơ dừa",
+"ms": "Briket & pelet daripada sabut/sabut kelapa"
+}
+},
+{
+"code": "SCRAPB",
+"niche": "Kerajinan",
+"nama": "Scrapbook Album Hub",
+"judul": "Scrapbook Album Hub: Produksi scrapbook & album foto custom Dengan Teknik Layer-Craft & Bind Untuk Kado, Wisuda & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "scrapbook & album foto custom",
+"fx": {
+"th": "สมุดภาพและอัลบั้มภาพที่กำหนดเอง",
+"vi": "sổ lưu niệm và album ảnh tùy chỉnh",
+"ms": "buku skrap tersuai & album foto"
+}
+},
+{
+"code": "MANISA",
+"niche": "Resep",
+"nama": "Manisan Asinan Indo",
+"judul": "Manisan Asinan Indo: Produksi manisan & asinan buah kering Dengan Teknik Brine-Dry & Pack Untuk Camilan, Toples & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "manisan & asinan buah kering",
+"auth": 1,
+"fx": {
+"ms": "manisan & jeruk buah-buahan kering"
+}
+},
+{
+"code": "OVERHA",
+"niche": "Jasa",
+"nama": "Overhaul Genset Raya",
+"judul": "Overhaul Genset Raya: Jasa servis & overhaul genset kecil Dengan Teknik Diagnose-Part & Tune Untuk Event, Ruko & Rumah.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "servis & overhaul genset kecil",
+"fx": {
+"th": "การบริการและการยกเครื่องเครื่องกำเนิดไฟฟ้าขนาดเล็ก",
+"vi": "bảo trì và đại tu máy phát điện nhỏ",
+"ms": "menservis & membaik pulih janakuasa kecil"
+}
+},
+{
+"code": "IKANLE",
+"niche": "Budidaya",
+"nama": "Ikan Lele Asri",
+"judul": "Ikan Lele Asri: Budidaya ternak ikan lele kolam bioflok Dengan Teknik Bioflok-Probiotik & Feed Untuk Pasar, Warung & Reseller.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya ternak ikan lele kolam bioflok",
+"fx": {
+"th": "การเลี้ยงปลาดุกในบ่อไบโอฟลอก",
+"vi": "nuôi cá tra trong ao biofloc",
+"ms": "penanaman ikan keli di kolam bioflok"
+}
+},
+{
+"code": "KARBOL",
+"niche": "Produksi",
+"nama": "Karbol Pembersih Cuan",
+"judul": "Karbol Pembersih Cuan: Produksi karbol & pembersih lantai industri Dengan Teknik Formula-Dilute & Bottle Untuk Sekolah, Kantor & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "karbol & pembersih lantai industri",
+"fx": {
+"th": "คาร์โบลิคและน้ำยาทำความสะอาดพื้นอุตสาหกรรม",
+"vi": "nước lau sàn carbolic & công nghiệp",
+"ms": "pembersih lantai karbol & industri"
+}
+},
+{
+"code": "DOMPE2",
+"niche": "Limbah Cuan",
+"nama": "Dompet Tas Studio",
+"judul": "Dompet Tas Studio: Produksi dompet & tas dari kemasan plastik sachet Dengan Teknik Clean-Fold & Weave Untuk Eco, Bazaar & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "dompet & tas dari kemasan plastik",
+"fx": {
+"th": "กระเป๋าสตางค์และกระเป๋าจากบรรจุภัณฑ์พลาสติก",
+"vi": "ví & túi xách từ bao bì nhựa",
+"ms": "dompet & beg daripada pembungkusan plastik"
+}
+},
+{
+"code": "LAMPUT",
+"niche": "Kerajinan",
+"nama": "Lampu Tidur Lab",
+"judul": "Lampu Tidur Lab: Produksi lampu tidur 3D akrilik nama Dengan Teknik Engrave & LED-Base Untuk Anak, Kado & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "lampu tidur 3D akrilik nama",
+"fx": {
+"th": "โคมไฟอะคริลิค 3 มิติสำหรับกลางคืน",
+"vi": "Đèn ngủ acrylic 3D",
+"ms": "Lampu malam akrilik 3D"
+}
+},
+{
+"code": "KACANG",
+"niche": "Resep",
+"nama": "Kacang Sembunyi House",
+"judul": "Kacang Sembunyi House: Produksi kacang sembunyi & kacang atom Dengan Teknik Coat-Dough & Fry Untuk Oleh-oleh, Toples & Reseller.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "kacang sembunyi & kacang atom",
+"fx": {
+"th": "ซ่อนถั่วและถั่วอะตอมมิก",
+"vi": "giấu hạt và hạt nguyên tử",
+"ms": "sorok kacang & kacang atom"
+}
+},
+{
+"code": "PEWANG",
+"niche": "Produksi",
+"nama": "Pewangi Ruangan Pro",
+"judul": "Pewangi Ruangan Pro: Produksi pewangi ruangan & gel air kemasan Dengan Teknik Blend-Set & Cup Untuk Rumah, Toilet & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "pewangi ruangan & gel air kemasan",
+"fx": {
+"th": "น้ำหอมปรับอากาศสำหรับห้องและเจลน้ำบรรจุขวด",
+"vi": "nước thơm phòng & gel nước đóng chai",
+"ms": "penyegar bilik & gel air botol"
+}
+},
+{
+"code": "STROLL",
+"niche": "Rental",
+"nama": "Stroller Car Co",
+"judul": "Stroller Car Co: Bisnis Rental rental stroller, car seat & baby gear Dengan Teknik Sanitize-Check & Deliver Untuk Ortu, Traveler & Online.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental stroller",
+"fx": {
+"th": "เช่ารถเข็นเด็ก",
+"vi": "cho thuê xe đẩy cho thuê",
+"ms": "sewa kereta sorong sewa"
+}
+},
+{
+"code": "KERTA2",
+"niche": "Limbah Cuan",
+"nama": "Kertas Daur Craft",
+"judul": "Kertas Daur Craft: Produksi kertas daur ulang & undangan eco Dengan Teknik Pulp-Press & Dry Untuk Souvenir, Event & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "kertas daur ulang & undangan eco",
+"fx": {
+"th": "กระดาษรีไซเคิลและคำเชิญเชิงนิเวศ",
+"vi": "giấy tái chế & thiệp mời sinh thái",
+"ms": "kertas kitar semula & jemputan eko"
+}
+},
+{
+"code": "KESETT",
+"niche": "Kerajinan",
+"nama": "Keset Taplak Berkah",
+"judul": "Keset Taplak Berkah: Produksi keset & taplak rajut bulat Dengan Teknik Crochet-Round & Block Untuk Rumah, Kado & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "keset & taplak rajut bulat",
+"fx": {
+"th": "พรมเช็ดเท้าและผ้าปูโต๊ะแบบถักทรงกลม",
+"vi": "thảm chùi chân và khăn trải bàn dệt kim tròn",
+"ms": "alas pintu & alas meja berkait bulat"
+}
+},
+{
+"code": "STICKK",
+"niche": "Resep",
+"nama": "Stick Kentang Makmur",
+"judul": "Stick Kentang Makmur: Produksi stick kentang & french fries frozen Dengan Teknik Cut-Blanch & Freeze Untuk Reseller, Booth & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "stick kentang & french fries frozen",
+"fx": {
+"th": "มันฝรั่งแท่งแช่แข็งและเฟรนช์ฟรายส์",
+"vi": "khoai tây chiên đông lạnh và khoai tây chiên",
+"ms": "batang kentang sejuk beku & kentang goreng"
+}
+},
+{
+"code": "SETRIK",
+"niche": "Jasa",
+"nama": "Setrika Lipat Nusantara",
+"judul": "Setrika Lipat Nusantara: Jasa jasa setrika & lipat laundry kiloan Dengan Teknik Press-Fold & Pack Untuk Rumah, Kos & Kantor.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa setrika & lipat laundry kiloan",
+"fx": {
+"th": "บริการรีดผ้าและพับผ้าเป็นกิโล",
+"vi": "dịch vụ giặt ủi gấp theo kg",
+"ms": "perkhidmatan menyeterika & dobi lipat mengikut kilo"
+}
+},
+{
+"code": "IKANBA",
+"niche": "Budidaya",
+"nama": "Ikan Bawal Jaya",
+"judul": "Ikan Bawal Jaya: Budidaya ternak ikan bawal & patin kolam Dengan Teknik Pond-Rear & Feed Untuk Pasar, Resto & Reseller.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya ternak ikan bawal & patin",
+"fx": {
+"th": "การเลี้ยงปลาทับทิมและปลาดุก",
+"vi": "nuôi cá chim và cá da trơn",
+"ms": "ternakan ikan bawal & keli"
+}
+},
+{
+"code": "SABUN2",
+"niche": "Produksi",
+"nama": "Sabun Colek Mandiri",
+"judul": "Sabun Colek Mandiri: Produksi sabun colek & krim deterjen pasta Dengan Teknik Saponify-Mix & Pack Untuk Rumah Tangga, Grosir & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "sabun colek & krim deterjen pasta",
+"fx": {
+"th": "สบู่และครีมผงซักฟอกวางตบเบา ๆ",
+"vi": "thoa xà phòng và kem tẩy rửa",
+"ms": "pes detergen sabun & krim"
+}
+},
+{
+"code": "KOSTUM",
+"niche": "Rental",
+"nama": "Kostum Maskot Karya",
+"judul": "Kostum Maskot Karya: Bisnis Rental rental kostum, maskot & badut Dengan Teknik Sanitize-Size & Deliver Untuk Event, Sekolah & Ultah.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental kostum",
+"fx": {
+"th": "เช่าเครื่องแต่งกาย",
+"vi": "cho thuê trang phục",
+"ms": "sewa pakaian"
+}
+},
+{
+"code": "KERAJ3",
+"niche": "Limbah Cuan",
+"nama": "Kerajinan Tas Sentosa",
+"judul": "Kerajinan Tas Sentosa: Produksi kerajinan & tas dari sak/karung semen Dengan Teknik Clean-Cut & Sew Untuk Eco, UMKM & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "kerajinan & tas dari sak/karung semen",
+"fx": {
+"th": "งานฝีมือและกระเป๋าจากกระสอบซีเมนต์",
+"vi": "hàng thủ công & túi từ bao xi măng",
+"ms": "kraf & beg dari guni simen"
+}
+},
+{
+"code": "SARUNG",
+"niche": "Kerajinan",
+"nama": "Sarung Bantal Prima",
+"judul": "Sarung Bantal Prima: Produksi sarung bantal sulam custom Dengan Teknik Embroider & Sew Untuk Dekor, Kado & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "sarung bantal sulam custom",
+"fx": {
+"th": "ปลอกหมอนปักแบบกำหนดเอง",
+"vi": "vỏ gối thêu theo yêu cầu",
+"ms": "sarung bantal bersulam khas"
+}
+},
+{
+"code": "NASIKU",
+"niche": "Resep",
+"nama": "Nasi Kuning Kreasi",
+"judul": "Nasi Kuning Kreasi: Produksi nasi kuning & nasi uduk box catering Dengan Teknik Cook-Plate & Pack Untuk Catering, PO & Kantor.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "nasi kuning & nasi uduk box",
+"fx": {
+"th": "ข้าวเหลืองและข้าวกล่องอูดุ๊ก",
+"vi": "hộp cơm vàng & uduk",
+"ms": "nasi kuning & nasi uduk kotak"
+}
+},
+{
+"code": "RAKITK",
+"niche": "Jasa",
+"nama": "Rakit Komputer Hub",
+"judul": "Rakit Komputer Hub: Jasa servis & rakit komputer/laptop Dengan Teknik Diagnose-Upgrade & Clean Untuk Pelajar, Kantor & Gamer.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "servis & rakit komputer/laptop",
+"fx": {
+"th": "บริการและประกอบคอมพิวเตอร์/แล็ปท็อป",
+"vi": "Dịch vụ & lắp ráp máy tính/laptop",
+"ms": "servis & pasang komputer/laptop"
+}
+},
+{
+"code": "IKANMU",
+"niche": "Budidaya",
+"nama": "Ikan Mujair Indo",
+"judul": "Ikan Mujair Indo: Budidaya ternak ikan mujair & mas kolam Dengan Teknik Pond-Rear & Feed Untuk Pasar, Konsumsi & Reseller.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya ternak ikan mujair & mas",
+"fx": {
+"th": "การเลี้ยงปลานิลและปลาคาร์พ",
+"vi": "nuôi cá rô phi và cá chép",
+"ms": "penanaman ikan tilapia & ikan karp"
+}
+},
+{
+"code": "MINYAK",
+"niche": "Produksi",
+"nama": "Minyak Goreng Raya",
+"judul": "Minyak Goreng Raya: Produksi minyak goreng curah & repack jeriken Dengan Teknik Filter-Repack & Seal Untuk Warung, Resto & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "minyak goreng curah & repack jeriken",
+"fx": {
+"th": "น้ำมันปรุงอาหารจำนวนมากและบรรจุกระป๋องเจอร์รี่ใหม่",
+"vi": "dầu ăn số lượng lớn & đóng gói lại lon jerry",
+"ms": "minyak masak pukal & bungkus semula jerry tin"
+}
+},
+{
+"code": "HIASAN",
+"niche": "Limbah Cuan",
+"nama": "Hiasan Bunga Asri",
+"judul": "Hiasan Bunga Asri: Produksi hiasan & bunga dari kantong plastik kresek Dengan Teknik Cut-Iron & Shape Untuk Dekor, Sekolah & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "hiasan & bunga dari kantong plastik",
+"fx": {
+"th": "ของตกแต่งและดอกไม้จากถุงพลาสติก",
+"vi": "đồ trang trí và hoa từ túi nhựa",
+"ms": "hiasan & bunga dari beg plastik"
+}
+},
+{
+"code": "IKATPI",
+"niche": "Kerajinan",
+"nama": "Ikat Pinggang Cuan",
+"judul": "Ikat Pinggang Cuan: Produksi ikat pinggang & gelang kulit nama Dengan Teknik Stamp-Tool & Burnish Untuk Pria, Kado & Corporate.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "ikat pinggang & gelang kulit nama",
+"fx": {
+"th": "เข็มขัดหนังและสร้อยข้อมือชื่อ",
+"vi": "thắt lưng và vòng tay da tên",
+"ms": "namakan tali pinggang & gelang kulit"
+}
+},
+{
+"code": "AYAMUN",
+"niche": "Resep",
+"nama": "Ayam Ungkep Studio",
+"judul": "Ayam Ungkep Studio: Produksi ayam ungkep & frozen marinasi bumbu Dengan Teknik Marinate-Ungkep & Freeze Untuk Perantau, Reseller & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "ayam ungkep & frozen marinasi bumbu",
+"fx": {
+"th": "ไก่ย่างและแช่แข็งหมักด้วยเครื่องเทศ",
+"vi": "gà nướng đông lạnh ướp gia vị",
+"ms": "ayam panggang & sejuk beku diperap dengan rempah ratus"
+}
+},
+{
+"code": "IKANHI",
+"niche": "Budidaya",
+"nama": "Ikan Hias Lab",
+"judul": "Ikan Hias Lab: Budidaya ternak ikan hias guppy & platy Dengan Teknik Tank-Breed & Grade Untuk Pehobi, Akuarium & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya ternak ikan hias guppy &",
+"fx": {
+"th": "การเลี้ยงปลาหางนกยูงและปลาสวยงาม",
+"vi": "nuôi cá bảy màu và cá cảnh",
+"ms": "ternakan guppy & ikan hiasan"
+}
+},
+{
+"code": "TEPUNG",
+"niche": "Produksi",
+"nama": "Tepung Beras House",
+"judul": "Tepung Beras House: Produksi tepung beras, ketan & bumbu giling Dengan Teknik Mill-Sift & Pack Untuk Pasar, Resto & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "tepung beras",
+"fx": {
+"th": "แป้งข้าวเจ้า",
+"vi": "bột gạo",
+"ms": "tepung beras"
+}
+},
+{
+"code": "PUPUKP",
+"niche": "Limbah Cuan",
+"nama": "Pupuk Pestisida Pro",
+"judul": "Pupuk Pestisida Pro: Produksi pupuk & pestisida dari limbah tembakau Dengan Teknik Brew-Filter & Bottle Untuk Tani, Pehobi & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "pupuk & pestisida dari limbah tembakau",
+"fx": {
+"th": "ปุ๋ยและยาฆ่าแมลงจากเศษยาสูบ",
+"vi": "phân bón và thuốc trừ sâu từ chất thải thuốc lá",
+"ms": "baja & racun perosak daripada sisa tembakau"
+}
+},
+{
+"code": "AROMAT",
+"niche": "Kerajinan",
+"nama": "Aromaterapi Roll Co",
+"judul": "Aromaterapi Roll Co: Produksi aromaterapi roll-on & inhaler Dengan Teknik Blend-Roll & Fill Untuk Sehat, Kado & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "aromaterapi roll-on & inhaler",
+"fx": {
+"th": "โรลออนและเครื่องสูดดมอโรมาเธอราพี",
+"vi": "ống lăn và ống hít hương liệu pháp",
+"ms": "roll-on & penyedut aromaterapi"
+}
+},
+{
+"code": "SAMBAL",
+"niche": "Resep",
+"nama": "Sambal Matah Craft",
+"judul": "Sambal Matah Craft: Produksi sambal kemasan aneka (matah/ijo/bawang) Dengan Teknik Cook-Fry & Jar Untuk Lauk, Oleh-oleh & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "sambal kemasan aneka",
+"fx": {
+"th": "ซอสพริกบรรจุต่างๆ",
+"vi": "nước sốt ớt đóng gói khác nhau",
+"ms": "pelbagai sos cili bungkus"
+}
+},
+{
+"code": "CATREP",
+"niche": "Jasa",
+"nama": "Cat Repaint Berkah",
+"judul": "Cat Repaint Berkah: Jasa jasa cat ulang & repaint furniture Dengan Teknik Sand-Spray & Finish Untuk Rumah, Cafe & Online.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa cat ulang & repaint furniture",
+"fx": {
+"th": "บริการทาสีและทาสีเฟอร์นิเจอร์ใหม่",
+"vi": "dịch vụ sơn lại nội thất",
+"ms": "perkhidmatan mengecat & mengecat semula perabot"
+}
+},
+{
+"code": "IKANCU",
+"niche": "Budidaya",
+"nama": "Ikan Cupang Makmur",
+"judul": "Ikan Cupang Makmur: Budidaya ternak ikan cupang giant & plakat Dengan Teknik Jar-Breed & Color Untuk Pehobi, Kontes & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya ternak ikan cupang giant &",
+"fx": {
+"th": "การเลี้ยงปลากัดยักษ์ &",
+"vi": "nuôi cá betta khổng lồ &",
+"ms": "penternakan ikan betta gergasi &"
+}
+},
+{
+"code": "KOPIBU",
+"niche": "Produksi",
+"nama": "Kopi Bubuk Nusantara",
+"judul": "Kopi Bubuk Nusantara: Produksi kopi bubuk & robusta sangrai kemasan Dengan Teknik Roast-Grind & Pack Untuk Warung, Oleh-oleh & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "kopi bubuk & robusta sangrai kemasan",
+"fx": {
+"th": "กาแฟบดบรรจุกล่องและโรบัสต้าคั่ว",
+"vi": "cà phê xay đóng gói và cà phê rang xay",
+"ms": "kopi kisar bungkus & robusta panggang"
+}
+},
+{
+"code": "SEPED2",
+"niche": "Rental",
+"nama": "Sepeda Sepeda Jaya",
+"judul": "Sepeda Sepeda Jaya: Bisnis Rental rental sepeda, sepeda listrik & skuter Dengan Teknik Tune-Charge & Track Untuk Wisata, Kampus & Komunitas.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental sepeda",
+"fx": {
+"th": "เช่าจักรยาน",
+"vi": "thuê xe đạp",
+"ms": "sewa basikal"
+}
+},
+{
+"code": "KERAJ4",
+"niche": "Limbah Cuan",
+"nama": "Kerajinan Jam Mandiri",
+"judul": "Kerajinan Jam Mandiri: Produksi kerajinan & jam dari piringan/kaset bekas Dengan Teknik Cut-Assemble & Frame Untuk Dekor, Retro & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "kerajinan & jam dari piringan/kaset bekas",
+"fx": {
+"th": "งานฝีมือและนาฬิกาจากแผ่นดิสก์/เทปใช้แล้ว",
+"vi": "đồ thủ công và đồng hồ từ đĩa/băng cassette đã qua sử dụng",
+"ms": "kraf & jam dari cakera/kaset terpakai"
+}
+},
+{
+"code": "BAKSOC",
+"niche": "Resep",
+"nama": "Bakso Cilok Karya",
+"judul": "Bakso Cilok Karya: Produksi bakso & cilok frozen kuah Dengan Teknik Mince-Shape & Freeze Untuk Reseller, Booth & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "bakso & cilok frozen kuah",
+"auth": 1,
+"fx": {
+"ms": "bebola daging & kuah cilok beku"
+}
+},
+{
+"code": "TONERC",
+"niche": "Jasa",
+"nama": "Toner Cartridge Sentosa",
+"judul": "Toner Cartridge Sentosa: Jasa servis & isi ulang toner/cartridge Dengan Teknik Refill-Reset & Test Untuk Kantor, Sekolah & Rumah.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "servis & isi ulang toner/cartridge",
+"fx": {
+"th": "บริการและเติมหมึก/ตลับหมึก",
+"vi": "dịch vụ & nạp mực/hộp mực",
+"ms": "servis & refill toner/cartridge"
+}
+},
+{
+"code": "IKANKO",
+"niche": "Budidaya",
+"nama": "Ikan Koki Prima",
+"judul": "Ikan Koki Prima: Budidaya ternak ikan koki & komet hias Dengan Teknik Tank-Breed & Grade Untuk Pehobi, Akuarium & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya ternak ikan koki & komet",
+"fx": {
+"th": "การเลี้ยงปลาทองและปลาดาวหาง",
+"vi": "nuôi cá vàng và cá sao chổi",
+"ms": "penanaman ikan emas & ikan komet"
+}
+},
+{
+"code": "TEHSED",
+"niche": "Produksi",
+"nama": "Teh Seduh Kreasi",
+"judul": "Teh Seduh Kreasi: Produksi teh seduh & teh tubruk kemasan Dengan Teknik Blend-Sort & Pack Untuk Warung, Oleh-oleh & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "teh seduh & teh tubruk kemasan",
+"fx": {
+"th": "ชาชงและชาชงบรรจุกล่อง",
+"vi": "trà pha & trà pha đóng gói",
+"ms": "teh dibancuh & teh dibancuh dibungkus"
+}
+},
+{
+"code": "SABUNL",
+"niche": "Limbah Cuan",
+"nama": "Sabun Lilin Hub",
+"judul": "Sabun Lilin Hub: Produksi sabun & lilin dari minyak jelantah resto Dengan Teknik Purify-Saponify & Mold Untuk Eco, Rumah & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "sabun & lilin dari minyak jelantah",
+"fx": {
+"th": "สบู่และเทียนจากน้ำมันปรุงอาหารใช้แล้ว",
+"vi": "xà phòng và nến từ dầu ăn đã qua sử dụng",
+"ms": "sabun & lilin daripada minyak masak terpakai"
+}
+},
+{
+"code": "MAINAN",
+"niche": "Kerajinan",
+"nama": "Mainan Puzzle Indo",
+"judul": "Mainan Puzzle Indo: Produksi mainan & puzzle kayu edukasi nama Dengan Teknik Cut-Sand & Paint Untuk Anak, Sekolah & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "mainan & puzzle kayu edukasi nama",
+"fx": {
+"th": "ชื่อของเล่นไม้และปริศนาเพื่อการศึกษา",
+"vi": "Tên đồ chơi & câu đố bằng gỗ mang tính giáo dục",
+"ms": "nama mainan & teka-teki kayu pendidikan"
+}
+},
+{
+"code": "MIEAYA",
+"niche": "Resep",
+"nama": "Mie Ayam Raya",
+"judul": "Mie Ayam Raya: Produksi mie ayam & pangsit frozen komplit Dengan Teknik Portion-Pack & Freeze Untuk Reseller, Booth & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "mie ayam & pangsit frozen komplit",
+"auth": 1,
+"fx": {
+"ms": "mee ayam & ladu sejuk beku lengkap"
+}
+},
+{
+"code": "TREATM",
+"niche": "Jasa",
+"nama": "Treatment Helm Asri",
+"judul": "Treatment Helm Asri: Jasa cuci & treatment helm + jaket motor Dengan Teknik Foam-Deodor & Dry Untuk Bikers, Ojol & Komunitas.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "cuci & treatment helm + jaket",
+"fx": {
+"th": "Wash & Treat หมวกกันน็อค+เสื้อแจ็คเก็ต",
+"vi": "giặt & xử lý mũ bảo hiểm + áo khoác",
+"ms": "cuci & rawat helmet + jaket"
+}
+},
+{
+"code": "UDANGG",
+"niche": "Budidaya",
+"nama": "Udang Galah Cuan",
+"judul": "Udang Galah Cuan: Budidaya ternak udang galah & vaname kolam Dengan Teknik Bio-Aerate & Feed Untuk Konsumsi, Pasar & Reseller.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya ternak udang galah & vaname",
+"fx": {
+"th": "การเลี้ยงกุ้งกุลาดำและวานาเมะ",
+"vi": "nuôi tôm càng xanh và tôm càng xanh",
+"ms": "penanaman udang gergasi & vaname"
+}
+},
+{
+"code": "MADUMA",
+"niche": "Produksi",
+"nama": "Madu Madu Studio",
+"judul": "Madu Madu Studio: Produksi madu ternak & madu hutan botolan Dengan Teknik Filter-Bottle & Label Untuk Sehat, Oleh-oleh & Online.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "madu ternak & madu hutan botolan",
+"fx": {
+"th": "น้ำผึ้งปศุสัตว์และน้ำผึ้งป่าบรรจุขวด",
+"vi": "mật ong chăn nuôi & mật ong rừng đóng chai",
+"ms": "madu ternakan & madu hutan botol"
+}
+},
+{
+"code": "STANDI",
+"niche": "Rental",
+"nama": "Standing Kipas Lab",
+"judul": "Standing Kipas Lab: Bisnis Rental rental AC standing & kipas cooling Dengan Teknik Deliver-Set & Maintain Untuk Event, Kantor & Hajatan.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental AC standing & kipas",
+"fx": {
+"th": "ให้เช่าเครื่องปรับอากาศและพัดลมแบบตั้งพื้น",
+"vi": "cho thuê máy lạnh quạt đứng",
+"ms": "sewa AC & kipas berdiri"
+}
+},
+{
+"code": "PLANNE",
+"niche": "Kerajinan",
+"nama": "Planner Sticker House",
+"judul": "Planner Sticker House: Produksi planner, sticker & journal custom Dengan Teknik Design-Print & Cut Untuk Pelajar, Hobi & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "kerajinan",
+"fx": {
+"th": "งานฝีมือ",
+"vi": "thủ công",
+"ms": "kerajinan"
+}
+},
+{
+"code": "CINCAU",
+"niche": "Resep",
+"nama": "Cincau Doger Pro",
+"judul": "Cincau Doger Pro: Produksi es cincau & es doger booth Dengan Teknik Mix-Serve & Topping Untuk Booth, Anak & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "es cincau & es doger booth",
+"fx": {
+"th": "น้ำแข็งเฉาก๊วยและน้ำแข็งบูธ doger",
+"vi": "đá thạch cỏ & đá gian hàng doger",
+"ms": "ais jeli rumput & ais bilik doger"
+}
+},
+{
+"code": "GORDEN",
+"niche": "Jasa",
+"nama": "Gorden Vitrase Co",
+"judul": "Gorden Vitrase Co: Jasa jasa pasang gorden, vitrase & roman Dengan Teknik Measure-Sew & Install Untuk Rumah, Hotel & Kantor.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa pasang gorden",
+"fx": {
+"th": "บริการติดตั้งผ้าม่าน",
+"vi": "dịch vụ lắp đặt rèm",
+"ms": "perkhidmatan pemasangan langsir"
+}
+},
+{
+"code": "KEPITI",
+"niche": "Budidaya",
+"nama": "Kepiting Rajungan Craft",
+"judul": "Kepiting Rajungan Craft: Budidaya ternak kepiting & rajungan keramba Dengan Teknik Box-Molt & Feed Untuk Resto, Ekspor & Reseller.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya ternak kepiting & rajungan keramba",
+"fx": {
+"th": "การเลี้ยงปูและเลี้ยงปูในกระชัง",
+"vi": "nuôi cua và nuôi cua trong lồng",
+"ms": "penanaman ketam & penternakan ketam dalam sangkar"
+}
+},
+{
+"code": "VCOMIN",
+"niche": "Produksi",
+"nama": "Vco Minyak Berkah",
+"judul": "Vco Minyak Berkah: Produksi VCO, minyak zaitun & carrier oil repack Dengan Teknik Filter-Bottle & Label Untuk Skincare, Sehat & Online.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "produksi",
+"fx": {
+"ms": "pengeluaran"
+}
+},
+{
+"code": "POTDEK",
+"niche": "Limbah Cuan",
+"nama": "Pot Dekor Makmur",
+"judul": "Pot Dekor Makmur: Produksi pot & dekor dari semen + kain bekas Dengan Teknik Dip-Mold & Cure Untuk Pehobi, Dekor & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "pot & dekor dari semen +",
+"fx": {
+"th": "กระถางปูน&ของแต่งบ้าน+",
+"vi": "chậu xi măng & đồ trang trí +",
+"ms": "periuk simen & hiasan +"
+}
+},
+{
+"code": "WASHIT",
+"niche": "Kerajinan",
+"nama": "Washi Tape Nusantara",
+"judul": "Washi Tape Nusantara: Produksi washi tape & stiker label custom Dengan Teknik Print-Diecut & Roll Untuk UMKM, Hobi & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "washi tape & stiker label custom",
+"fx": {
+"th": "เทปวาชิ และสติ๊กเกอร์ฉลากแบบกำหนดเอง",
+"vi": "băng washi & nhãn dán tùy chỉnh",
+"ms": "pita washi & pelekat label tersuai"
+}
+},
+{
+"code": "KOPISU",
+"niche": "Resep",
+"nama": "Kopi Susu Jaya",
+"judul": "Kopi Susu Jaya: Produksi kopi susu literan & ready-to-drink Dengan Teknik Brew-Bottle & Chill Untuk Kantor, Online & Reseller.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "kopi susu literan & ready-to-drink",
+"fx": {
+"th": "นมกาแฟพร้อมดื่มลิตร",
+"vi": "lít cà phê sữa pha sẵn",
+"ms": "kopi liter susu & sedia untuk diminum"
+}
+},
+{
+"code": "RAWATS",
+"niche": "Jasa",
+"nama": "Rawat Sepeda Mandiri",
+"judul": "Rawat Sepeda Mandiri: Jasa servis & rawat sepeda listrik/skuter Dengan Teknik Diagnose-Tune & Battery Untuk Komunitas, Rumah & Toko.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "servis & rawat sepeda listrik/skuter",
+"fx": {
+"th": "บริการและบำรุงรักษารถจักรยาน/สกู๊ตเตอร์ไฟฟ้า",
+"vi": "bảo trì, bảo dưỡng xe đạp điện/xe tay ga",
+"ms": "servis & selenggara basikal elektrik/skuter"
+}
+},
+{
+"code": "BELUTS",
+"niche": "Budidaya",
+"nama": "Belut Sidat Karya",
+"judul": "Belut Sidat Karya: Budidaya ternak belut & sidat tanpa lumpur Dengan Teknik Clean-Water & Feed Untuk Konsumsi, Ekspor & Reseller.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya ternak belut & sidat tanpa",
+"fx": {
+"th": "การเลี้ยงปลาไหลและปลาไหลโดยไม่ต้อง",
+"vi": "nuôi lươn & lươn không cần",
+"ms": "penanaman belut & belut tanpa"
+}
+},
+{
+"code": "GARAM2",
+"niche": "Produksi",
+"nama": "Garam Spa Sentosa",
+"judul": "Garam Spa Sentosa: Produksi garam spa, epsom & bath salt kemasan Dengan Teknik Blend-Scent & Pack Untuk Spa, Skincare & Online.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "garam spa",
+"fx": {
+"th": "เกลือสปา",
+"vi": "muối spa",
+"ms": "garam spa"
+}
+},
+{
+"code": "KERAJ5",
+"niche": "Limbah Cuan",
+"nama": "Kerajinan Rotan Prima",
+"judul": "Kerajinan Rotan Prima: Produksi kerajinan rotan & lidi sapu bekas Dengan Teknik Weave-Bind & Finish Untuk Dekor, Souvenir & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "kerajinan rotan & lidi sapu bekas",
+"fx": {
+"th": "งานหัตถกรรมหวายและไม้กวาดใช้แล้ว",
+"vi": "hàng thủ công mây & chổi đã qua sử dụng",
+"ms": "kraf rotan & batang penyapu terpakai"
+}
+},
+{
+"code": "DREAMC",
+"niche": "Kerajinan",
+"nama": "Dreamcatcher Hiasan Kreasi",
+"judul": "Dreamcatcher Hiasan Kreasi: Produksi dreamcatcher & hiasan woven Dengan Teknik Hoop-Weave & Bead Untuk Dekor, Kado & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "dreamcatcher & hiasan woven",
+"fx": {
+"th": "ตาข่ายดักฝันและผ้าทอตกแต่ง",
+"vi": "dreamcatcher & trang trí dệt",
+"ms": "dreamcatcher & hiasan anyaman"
+}
+},
+{
+"code": "TEHTAR",
+"niche": "Resep",
+"nama": "Teh Tarik Hub",
+"judul": "Teh Tarik Hub: Produksi teh tarik & matcha latte literan Dengan Teknik Blend-Bottle & Chill Untuk Kantor, Online & Reseller.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "teh tarik & matcha latte literan",
+"fx": {
+"th": "Teh Tarik & Matcha Latte โดยลิตร",
+"vi": "Teh Tarik & Matcha Latte theo lít",
+"ms": "Teh Tarik & Matcha Latte mengikut liter"
+}
+},
+{
+"code": "DESAIN",
+"niche": "Jasa",
+"nama": "Desain Cetak Indo",
+"judul": "Desain Cetak Indo: Jasa jasa desain & cetak undangan digital Dengan Teknik Design-Render & Export Untuk Nikah, Event & Online.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa desain & cetak undangan digital",
+"fx": {
+"th": "บริการออกแบบและพิมพ์บัตรเชิญดิจิทัล",
+"vi": "dịch vụ thiết kế và in thiệp mời kỹ thuật số",
+"ms": "perkhidmatan reka bentuk & percetakan jemputan digital"
+}
+},
+{
+"code": "LULURS",
+"niche": "Produksi",
+"nama": "Lulur Scrub Raya",
+"judul": "Lulur Scrub Raya: Produksi lulur, scrub & masker spa bubuk Dengan Teknik Mill-Blend & Pack Untuk Spa, Skincare & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "produksi",
+"fx": {
+"ms": "pengeluaran"
+}
+},
+{
+"code": "KOMPO2",
+"niche": "Limbah Cuan",
+"nama": "Kompos Cacing Asri",
+"judul": "Kompos Cacing Asri: Produksi kompos cacing (kascing) dari sampah organik Dengan Teknik Vermi-Bed & Harvest Untuk Tani, Pehobi & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "kompos cacing",
+"fx": {
+"th": "ปุ๋ยหมักหนอน",
+"vi": "phân trùn quế",
+"ms": "kompos cacing"
+}
+},
+{
+"code": "VASPOT",
+"niche": "Kerajinan",
+"nama": "Vas Pot Cuan",
+"judul": "Vas Pot Cuan: Produksi vas & pot keramik lukis tangan Dengan Teknik Throw-Paint & Glaze Untuk Dekor, Pehobi & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "vas & pot keramik lukis tangan",
+"fx": {
+"th": "แจกันและกระถางเซรามิกเพ้นท์มือ",
+"vi": "bình và chậu gốm vẽ tay",
+"ms": "pasu & periuk seramik lukisan tangan"
+}
+},
+{
+"code": "COOKI2",
+"niche": "Resep",
+"nama": "Cookies Soft Studio",
+"judul": "Cookies Soft Studio: Produksi cookies soft-baked & lava cookies Dengan Teknik Scoop-Underbake & Pack Untuk Kado, PO & Reseller.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "cookies soft-baked & lava cookies",
+"fx": {
+"th": "คุกกี้อบนุ่มและคุกกี้ลาวา",
+"vi": "bánh quy nướng mềm và bánh quy dung nham",
+"ms": "kuih bakar lembut & kuih lava"
+}
+},
+{
+"code": "BERSIH",
+"niche": "Jasa",
+"nama": "Bersih Mesin Lab",
+"judul": "Bersih Mesin Lab: Jasa servis & bersih mesin kopi/espresso Dengan Teknik Descale-Backflush & Tune Untuk Cafe, Kantor & Rumah.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "servis & bersih mesin kopi/espresso",
+"fx": {
+"th": "บริการและทำความสะอาดเครื่องชงกาแฟ/เอสเปรสโซ",
+"vi": "dịch vụ và vệ sinh máy pha cà phê/espresso",
+"ms": "servis & mesin kopi/espresso bersih"
+}
+},
+{
+"code": "JAMURL",
+"niche": "Budidaya",
+"nama": "Jamur Lingzhi House",
+"judul": "Jamur Lingzhi House: Budidaya budidaya jamur lingzhi & shiitake Dengan Teknik Baglog-Control & Dry Untuk Herbal, Resto & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya budidaya jamur lingzhi & shiitake",
+"fx": {
+"th": "การปลูกเห็ดหลินจือและเห็ดหอม",
+"vi": "trồng nấm linh chi, nấm hương",
+"ms": "penanaman cendawan lingzhi & shiitake"
+}
+},
+{
+"code": "BALSEM",
+"niche": "Produksi",
+"nama": "Balsem Minyak Pro",
+"judul": "Balsem Minyak Pro: Produksi balsem, minyak urut & param kocok Dengan Teknik Infuse-Blend & Bottle Untuk Apotek, Spa & Online.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "produksi",
+"fx": {
+"ms": "pengeluaran"
+}
+},
+{
+"code": "KERAJ6",
+"niche": "Limbah Cuan",
+"nama": "Kerajinan Bunga Co",
+"judul": "Kerajinan Bunga Co: Produksi kerajinan & bunga dari kulit telur Dengan Teknik Crush-Mosaic & Frame Untuk Dekor, Seni & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "kerajinan & bunga dari kulit telur",
+"fx": {
+"th": "งานฝีมือและดอกไม้จากเปลือกไข่",
+"vi": "đồ thủ công và hoa từ vỏ trứng",
+"ms": "kraf & bunga dari kulit telur"
+}
+},
+{
+"code": "COOKI3",
+"niche": "Kerajinan",
+"nama": "Cookie Cutter Craft",
+"judul": "Cookie Cutter Craft: Produksi cookie cutter & cetakan custom Dengan Teknik 3D-Print & Finish Untuk Baker, UMKM & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "cookie cutter & cetakan custom",
+"fx": {
+"th": "เครื่องตัดคุกกี้และแม่พิมพ์แบบกำหนดเอง",
+"vi": "khuôn và khuôn cắt bánh quy tùy chỉnh",
+"ms": "pemotong & acuan kuih tersuai"
+}
+},
+{
+"code": "DESSER",
+"niche": "Resep",
+"nama": "Dessert Box Berkah",
+"judul": "Dessert Box Berkah: Produksi dessert box red velvet & oreo Dengan Teknik Layer-Chill & Box Untuk Kado, Arisan & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "dessert box red velvet & oreo",
+"fx": {
+"th": "กล่องขนมกำมะหยี่สีแดงและโอรีโอ",
+"vi": "hộp tráng miệng nhung đỏ & oreo",
+"ms": "kotak pencuci mulut baldu merah & oreo"
+}
+},
+{
+"code": "DUPALI",
+"niche": "Produksi",
+"nama": "Dupa Lilin Makmur",
+"judul": "Dupa Lilin Makmur: Produksi dupa, lilin & garam aromaterapi ibadah Dengan Teknik Roll-Scent & Pack Untuk Religi, Spa & Online.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "produksi",
+"fx": {
+"ms": "pengeluaran"
+}
+},
+{
+"code": "ECOENZ",
+"niche": "Limbah Cuan",
+"nama": "Ecoenzyme Cleaner Nusantara",
+"judul": "Ecoenzyme Cleaner Nusantara: Produksi ecoenzyme & cleaner dari kulit buah Dengan Teknik Ferment-Filter & Bottle Untuk Rumah, Eco & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "ecoenzyme & cleaner dari kulit buah",
+"fx": {
+"th": "อีโคเอ็นไซม์และน้ำยาทำความสะอาดผิวผลไม้",
+"vi": "sinh thái & chất tẩy rửa từ vỏ trái cây",
+"ms": "ekoenzim & pembersih dari kulit buah"
+}
+},
+{
+"code": "TOPPER",
+"niche": "Kerajinan",
+"nama": "Topper Kue Jaya",
+"judul": "Topper Kue Jaya: Produksi topper kue akrilik & fondant stamp Dengan Teknik Cut-Engrave & Pack Untuk Baker, Event & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "topper kue akrilik & fondant stamp",
+"fx": {
+"th": "ท็อปเปอร์เค้กอะคริลิก และแสตมป์ฟองดอง",
+"vi": "bánh topper & tem kẹo mềm acrylic",
+"ms": "topper kek akrilik & cop fondant"
+}
+},
+{
+"code": "PUDIN2",
+"niche": "Resep",
+"nama": "Puding Sutra Mandiri",
+"judul": "Puding Sutra Mandiri: Produksi puding sutra & silky pudding cup Dengan Teknik Cook-Set & Cup Untuk Diet, Kado & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "puding sutra & silky pudding cup",
+"fx": {
+"th": "พุดดิ้งผ้าไหมและถ้วยพุดดิ้งเนื้อเนียน",
+"vi": "bánh pudding lụa & cốc bánh pudding mượt",
+"ms": "puding sutera & cawan puding sutera"
+}
+},
+{
+"code": "PACKIN",
+"niche": "Jasa",
+"nama": "Packing Bubble Karya",
+"judul": "Packing Bubble Karya: Jasa jasa packing & bubble wrap kirim Dengan Teknik Wrap-Box & Label Untuk UMKM, Online & Rumah.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa packing & bubble wrap kirim",
+"fx": {
+"th": "บริการจัดส่งแบบแพ็คกิ้งและห่อบับเบิ้ล",
+"vi": "dịch vụ giao hàng đóng gói & bọc bong bóng",
+"ms": "perkhidmatan penghantaran pembungkusan & bubble wrap"
+}
+},
+{
+"code": "CATTEM",
+"niche": "Produksi",
+"nama": "Cat Tembok Sentosa",
+"judul": "Cat Tembok Sentosa: Produksi cat tembok & cat kayu eceran repack Dengan Teknik Tint-Repack & Seal Untuk Toko, Tukang & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "cat tembok & cat kayu eceran",
+"fx": {
+"th": "สีทาผนังขายปลีกและสีทาไม้",
+"vi": "bán lẻ sơn tường và sơn gỗ",
+"ms": "cat dinding runcit & cat kayu"
+}
+},
+{
+"code": "KARAO2",
+"niche": "Rental",
+"nama": "Karaoke Set Prima",
+"judul": "Karaoke Set Prima: Bisnis Rental rental karaoke set & sound mini Dengan Teknik Setup-Sanitize & Deliver Untuk Event, Kos & Rumah.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental karaoke set & sound",
+"fx": {
+"th": "ให้เช่าชุดคาราโอเกะ&เครื่องเสียง",
+"vi": "cho thuê dàn karaoke và âm thanh",
+"ms": "sewa set karaoke & sewa bunyi"
+}
+},
+{
+"code": "KERAJ7",
+"niche": "Limbah Cuan",
+"nama": "Kerajinan Tas Kreasi",
+"judul": "Kerajinan Tas Kreasi: Produksi kerajinan & tas dari ban dalam bekas Dengan Teknik Cut-Stitch & Finish Untuk Eco-Fashion, Bazaar & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "kerajinan & tas dari ban dalam",
+"fx": {
+"th": "งานฝีมือและกระเป๋าจากยางใน",
+"vi": "hàng thủ công & túi xách từ ống bên trong",
+"ms": "kraf & beg dari tiub dalam"
+}
+},
+{
+"code": "BACKDR",
+"niche": "Kerajinan",
+"nama": "Backdrop Angka Hub",
+"judul": "Backdrop Angka Hub: Produksi backdrop angka & flower board mini Dengan Teknik Frame-Decor & Assemble Untuk Ultah, Event & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "backdrop angka & flower board mini",
+"fx": {
+"th": "ตัวเลขฉากหลังและกระดานดอกไม้ขนาดเล็ก",
+"vi": "số phông nền & bảng hoa mini",
+"ms": "nombor latar & papan bunga mini"
+}
+},
+{
+"code": "KUELAP",
+"niche": "Resep",
+"nama": "Kue Lapis Indo",
+"judul": "Kue Lapis Indo: Produksi kue lapis & spiku premium Dengan Teknik Layer-Bake & Slice Untuk Oleh-oleh, PO & Reseller.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "kue lapis & spiku premium",
+"fx": {
+"th": "เค้กชั้นพรีเมี่ยม & สปิกุ",
+"vi": "bánh tầng cao cấp & spiku",
+"ms": "kek lapis premium & spiku"
+}
+},
+{
+"code": "GANTIB",
+"niche": "Jasa",
+"nama": "Ganti Baterai Raya",
+"judul": "Ganti Baterai Raya: Jasa servis & ganti baterai HP/laptop Dengan Teknik Diagnose-Swap & Test Untuk Rumah, Pelajar & Toko.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "servis & ganti baterai hp/laptop",
+"fx": {
+"th": "บริการและเปลี่ยนแบตเตอรี่มือถือ/แล็ปท็อป",
+"vi": "Dịch vụ & thay pin điện thoại/laptop",
+"ms": "servis & tukar bateri handphone/laptop"
+}
+},
+{
+"code": "LEMPER",
+"niche": "Produksi",
+"nama": "Lem Perekat Asri",
+"judul": "Lem Perekat Asri: Produksi lem, perekat & sealant kemasan kecil Dengan Teknik Fill-Tube & Label Untuk Toko, UMKM & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "produksi",
+"fx": {
+"ms": "pengeluaran"
+}
+},
+{
+"code": "HAMPER",
+"niche": "Kerajinan",
+"nama": "Hampers Buah Cuan",
+"judul": "Hampers Buah Cuan: Produksi hampers buah & parcel sembako rakit Dengan Teknik Arrange-Wrap & Style Untuk Lebaran, Kado & Corporate.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "hampers buah & parcel sembako rakit",
+"fx": {
+"th": "กระเช้าผลไม้และห่ออาหารพื้นฐานแบบประกอบ",
+"vi": "giỏ đựng trái cây và gói thực phẩm cơ bản được lắp ráp",
+"ms": "hamper buah & bungkusan makanan asas yang dipasang"
+}
+},
+{
+"code": "SPASEP",
+"niche": "Jasa",
+"nama": "Spa Sepatu Studio",
+"judul": "Spa Sepatu Studio: Jasa cuci & spa sepatu + tas branded Dengan Teknik Deep-Clean & Recolor Untuk Branded, Mahasiswa & Online.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "cuci & spa sepatu + tas",
+"fx": {
+"th": "วอชแอนด์สปา รองเท้า+กระเป๋า",
+"vi": "giày + túi xách wash & spa",
+"ms": "basuh & spa kasut + beg"
+}
+},
+{
+"code": "PELITU",
+"niche": "Produksi",
+"nama": "Pelitur Vernis Lab",
+"judul": "Pelitur Vernis Lab: Produksi pelitur, vernis & wood-stain kemasan Dengan Teknik Blend-Bottle & Label Untuk Tukang, Mebel & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "produksi",
+"fx": {
+"ms": "pengeluaran"
+}
+},
+{
+"code": "KERAJ8",
+"niche": "Limbah Cuan",
+"nama": "Kerajinan Koran House",
+"judul": "Kerajinan Koran House: Produksi kerajinan koran & majalah bekas (anyam) Dengan Teknik Roll-Weave & Coat Untuk Dekor, Souvenir & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "kerajinan koran & majalah bekas",
+"fx": {
+"th": "หนังสือพิมพ์และนิตยสารมือสอง",
+"vi": "hàng thủ công báo và tạp chí đã qua sử dụng",
+"ms": "kraf surat khabar & majalah terpakai"
+}
+},
+{
+"code": "BUNGAB",
+"niche": "Kerajinan",
+"nama": "Bunga Buket Pro",
+"judul": "Bunga Buket Pro: Produksi bunga & buket kertas crepe Dengan Teknik Cut-Shape & Arrange Untuk Wisuda, Dekor & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "bunga & buket kertas crepe",
+"fx": {
+"th": "ดอกไม้กระดาษย่นและช่อดอกไม้",
+"vi": "hoa và bó hoa giấy crepe",
+"ms": "bunga kertas krep & jambangan"
+}
+},
+{
+"code": "ABONCA",
+"niche": "Resep",
+"nama": "Abon Cabe Co",
+"judul": "Abon Cabe Co: Produksi abon cabe & sambal kering teri kemasan Dengan Teknik Slow-Fry & Jar Untuk Lauk Awet, Oleh-oleh & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "abon cabe & sambal kering teri",
+"fx": {
+"th": "พริกหยวกและซอสพริกแอนโชวี่แห้ง",
+"vi": "ớt băm & cá cơm khô sốt ớt",
+"ms": "cili parut & sambal ikan bilis kering"
+}
+},
+{
+"code": "BERSI2",
+"niche": "Jasa",
+"nama": "Bersih Poles Craft",
+"judul": "Bersih Poles Craft: Jasa jasa bersih & poles batu nisan Dengan Teknik Clean-Polish & Seal Untuk Keluarga, TPU & Rumah.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa bersih & poles batu nisan",
+"fx": {
+"th": "บริการทำความสะอาดและขัดหลุมฝังศพ",
+"vi": "Dịch vụ làm sạch và đánh bóng bia mộ",
+"ms": "perkhidmatan pembersihan & penggilapan batu nisan"
+}
+},
+{
+"code": "ANGGRE",
+"niche": "Budidaya",
+"nama": "Anggrek Bulan Berkah",
+"judul": "Anggrek Bulan Berkah: Budidaya budidaya anggrek bulan & dendrobium Dengan Teknik Flask-Mount & Care Untuk Pehobi, Bibit & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya budidaya anggrek bulan & dendrobium",
+"fx": {
+"th": "การปลูกกล้วยไม้พระจันทร์และกล้วยไม้สกุลหวาย",
+"vi": "trồng lan mặt trăng và lan dendrobium",
+"ms": "penanaman orkid bulan & dendrobium"
+}
+},
+{
+"code": "PASIRK",
+"niche": "Produksi",
+"nama": "Pasir Kucing Makmur",
+"judul": "Pasir Kucing Makmur: Produksi pasir kucing & alas hewan kemasan Dengan Teknik Bentonite-Mix & Pack Untuk Pet, Toko & Online.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "pasir kucing & alas hewan kemasan",
+"fx": {
+"th": "ทรายแมวและเสื่อบรรจุสัตว์",
+"vi": "mèo và thảm động vật đóng gói",
+"ms": "sampah kucing & tikar haiwan berbungkus"
+}
+},
+{
+"code": "GAMELA",
+"niche": "Rental",
+"nama": "Gamelan Band Nusantara",
+"judul": "Gamelan Band Nusantara: Bisnis Rental rental gamelan, band & alat musik Dengan Teknik Tune-Deliver & Operate Untuk Event, Sekolah & Budaya.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental gamelan",
+"auth": 1,
+"fx": {
+"ms": "sewa gamelan sewa"
+}
+},
+{
+"code": "PUPUKD",
+"niche": "Limbah Cuan",
+"nama": "Pupuk Dari Jaya",
+"judul": "Pupuk Dari Jaya: Produksi pupuk dari ampas tahu & limbah kedelai Dengan Teknik Ferment-Dry & Pack Untuk Tani, Peternak & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "pupuk dari ampas tahu & limbah",
+"auth": 1,
+"fx": {
+"ms": "baja dari hampas & sisa tauhu"
+}
+},
+{
+"code": "KOTAKM",
+"niche": "Kerajinan",
+"nama": "Kotak Musik Mandiri",
+"judul": "Kotak Musik Mandiri: Produksi kotak musik & pajangan resin Dengan Teknik Embed-Pour & Assemble Untuk Kado, Kolektor & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "kotak musik & pajangan resin",
+"fx": {
+"th": "กล่องดนตรีและการแสดงเรซิน",
+"vi": "hộp nhạc và màn hình nhựa",
+"ms": "kotak muzik & paparan damar"
+}
+},
+{
+"code": "KERIP3",
+"niche": "Resep",
+"nama": "Keripik Bayam Karya",
+"judul": "Keripik Bayam Karya: Produksi keripik bayam & kaca (basreng) pedas Dengan Teknik Coat-Fry & Season Untuk Camilan, Toples & Reseller.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "keripik bayam & kaca",
+"auth": 1,
+"fx": {
+"ms": "kerepek bayam & kaca"
+}
+},
+{
+"code": "BIBITK",
+"niche": "Budidaya",
+"nama": "Bibit Kopi Sentosa",
+"judul": "Bibit Kopi Sentosa: Budidaya budidaya bibit kopi, kakao & lada Dengan Teknik Seedling-Graft & Hardening Untuk Petani, Bibit & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya budidaya bibit kopi",
+"fx": {
+"th": "การปลูกต้นกล้ากาแฟ",
+"vi": "trồng cây cà phê",
+"ms": "penanaman anak benih kopi"
+}
+},
+{
+"code": "PAKANI",
+"niche": "Produksi",
+"nama": "Pakan Ikan Prima",
+"judul": "Pakan Ikan Prima: Produksi pakan ikan & udang pelet apung Dengan Teknik Extrude-Float & Pack Untuk Pembudidaya, Toko & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "pakan ikan & udang pelet apung",
+"fx": {
+"th": "ปลาเม็ดลอยน้ำและอาหารกุ้ง",
+"vi": "thức ăn viên tôm cá nổi",
+"ms": "ikan pelet terapung & makanan udang"
+}
+},
+{
+"code": "KERAJ9",
+"niche": "Limbah Cuan",
+"nama": "Kerajinan Dekor Kreasi",
+"judul": "Kerajinan Dekor Kreasi: Produksi kerajinan & dekor dari pelepah pinang Dengan Teknik Press-Cut & Mold Untuk Souvenir, Ekspor & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "kerajinan & dekor dari pelepah pinang",
+"fx": {
+"th": "งานฝีมือและของประดับตกแต่งจากใบตาล",
+"vi": "đồ thủ công và đồ trang trí từ lá cau",
+"ms": "kraf & hiasan dari pelepah pinang"
+}
+},
+{
+"code": "GANTU2",
+"niche": "Kerajinan",
+"nama": "Gantungan Hiasan Hub",
+"judul": "Gantungan Hiasan Hub: Produksi gantungan & hiasan flanel makanan Dengan Teknik Cut-Sew & Stuff Untuk Souvenir, Anak & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "gantungan & hiasan flanel makanan",
+"fx": {
+"th": "ไม้แขวนผ้าสักหลาดอาหารและของประดับตกแต่ง",
+"vi": "móc treo đồ ăn & đồ trang trí",
+"ms": "penyangkut kain flanel & hiasan"
+}
+},
+{
+"code": "ROTISO",
+"niche": "Resep",
+"nama": "Roti Sobek Indo",
+"judul": "Roti Sobek Indo: Produksi roti sobek & roti pisang kemasan Dengan Teknik Proof-Bake & Pack Untuk Toko, Sarapan & Reseller.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "roti sobek & roti pisang kemasan",
+"fx": {
+"th": "ขนมปังฉีกขาดและขนมปังกล้วยบรรจุห่อ",
+"vi": "bánh mì rách & bánh chuối đóng gói",
+"ms": "roti koyak & roti pisang bungkus"
+}
+},
+{
+"code": "RAPIKA",
+"niche": "Jasa",
+"nama": "Rapikan Gudang Raya",
+"judul": "Rapikan Gudang Raya: Jasa jasa cuci & rapikan gudang/garasi Dengan Teknik Sort-Clean & Organize Untuk Rumah, UMKM & Kantor.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa cuci & rapikan gudang/garasi",
+"fx": {
+"th": "บริการทำความสะอาดและจัดเก็บคลังสินค้า/โรงรถ",
+"vi": "Dịch vụ dọn dẹp và dọn dẹp kho bãi/gara",
+"ms": "Perkhidmatan pembersihan & pengemasan gudang/garaj"
+}
+},
+{
+"code": "BIBITD",
+"niche": "Budidaya",
+"nama": "Bibit Durian Asri",
+"judul": "Bibit Durian Asri: Budidaya budidaya bibit durian, alpukat & mangga Dengan Teknik Graft-Hardening & Pot Untuk Petani, Bibit & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya budidaya bibit durian",
+"fx": {
+"th": "การปลูกเมล็ดทุเรียน",
+"vi": "trồng hạt giống sầu riêng",
+"ms": "mengusahakan penanaman benih durian"
+}
+},
+{
+"code": "MEDIAP",
+"niche": "Limbah Cuan",
+"nama": "Media Pot Cuan",
+"judul": "Media Pot Cuan: Produksi media & pot dari arang sekam + cocopeat Dengan Teknik Blend-Pack & Label Untuk Pehobi, Nursery & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "media & pot dari arang sekam",
+"fx": {
+"th": "สื่อและกระถางจากถ่านแกลบ",
+"vi": "phương tiện & chậu từ than trấu",
+"ms": "media & periuk dari arang sekam"
+}
+},
+{
+"code": "RAWATM",
+"niche": "Jasa",
+"nama": "Rawat Mobil Studio",
+"judul": "Rawat Mobil Studio: Jasa servis & rawat AC mobil panggilan Dengan Teknik Vacuum-Charge & Filter Untuk Mobil, Ojol & Rumah.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "servis & rawat AC mobil panggilan",
+"fx": {
+"th": "บริการเครื่องปรับอากาศรถยนต์และการบำรุงรักษาโทร",
+"vi": "Dịch vụ bảo dưỡng điều hòa ô tô theo yêu cầu",
+"ms": "servis & penyelenggaraan AC kereta atas panggilan"
+}
+},
+{
+"code": "SAYURO",
+"niche": "Budidaya",
+"nama": "Sayur Organik Lab",
+"judul": "Sayur Organik Lab: Budidaya budidaya sayur organik & microgreen Dengan Teknik Organic-Bed & Harvest Untuk Resto, Sehat & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya budidaya sayur organik & microgreen",
+"fx": {
+"th": "การปลูกผักออร์แกนิกและไมโครกรีน",
+"vi": "trồng rau hữu cơ và rau xanh",
+"ms": "penanaman sayur-sayuran organik & mikrohijau"
+}
+},
+{
+"code": "TASDO2",
+"niche": "Kerajinan",
+"nama": "Tas Dompet House",
+"judul": "Tas Dompet House: Produksi tas & dompet kanvas blok print etnik Dengan Teknik Block-Print & Sew Untuk Etnik, Fashion & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "tas & dompet kanvas blok print",
+"fx": {
+"th": "กระเป๋าและกระเป๋าสตางค์ผ้าแคนวาสพิมพ์ลายบล็อค",
+"vi": "túi xách và ví canvas in hình khối",
+"ms": "beg kanvas cetakan blok & dompet"
+}
+},
+{
+"code": "PEMPEK",
+"niche": "Resep",
+"nama": "Pempek Dos Pro",
+"judul": "Pempek Dos Pro: Produksi pempek dos & pempek lenjer frozen Dengan Teknik Mince-Shape & Freeze Untuk Reseller, Perantau & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "pempek dos & pempek lenjer frozen",
+"auth": 1,
+"fx": {
+"ms": "pempek dos & pempek lenjer beku"
+}
+},
+{
+"code": "MOLENV",
+"niche": "Rental",
+"nama": "Molen Vibrator Co",
+"judul": "Molen Vibrator Co: Bisnis Rental rental molen, vibrator & alat cor Dengan Teknik Service-Fuel & Deliver Untuk Proyek, Tukang & Komunitas.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental molen",
+"fx": {
+"th": "เช่าโมเลน เช่า",
+"vi": "Cho thuê Molen",
+"ms": "Sewa Molen"
+}
+},
+{
+"code": "KERAJ0",
+"niche": "Limbah Cuan",
+"nama": "Kerajinan Kaleng Craft",
+"judul": "Kerajinan Kaleng Craft: Produksi kerajinan kaleng & tutup botol jadi mainan Dengan Teknik Cut-Solder & Paint Untuk Souvenir, Retro & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "kerajinan kaleng & tutup botol jadi",
+"fx": {
+"th": "งานฝีมือกระป๋องและฝาขวดสำเร็จรูป",
+"vi": "đồ thủ công đóng hộp và nắp chai đã hoàn thành",
+"ms": "kraf tin dan penutup botol siap"
+}
+},
+{
+"code": "LAMPIO",
+"niche": "Kerajinan",
+"nama": "Lampion Hiasan Berkah",
+"judul": "Lampion Hiasan Berkah: Produksi lampion & hiasan benang (thread lamp) Dengan Teknik Glue-Wind & Light Untuk Dekor, Event & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "lampion & hiasan benang",
+"fx": {
+"th": "โคมไฟและการตกแต่งด้าย",
+"vi": "đèn lồng & dây trang trí",
+"ms": "tanglung & hiasan benang"
+}
+},
+{
+"code": "SIOMA2",
+"niche": "Resep",
+"nama": "Siomay Dimsum Makmur",
+"judul": "Siomay Dimsum Makmur: Produksi siomay & dimsum mentai frozen Dengan Teknik Steam-Top & Freeze Untuk Reseller, Booth & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "siomay & dimsum mentai frozen",
+"auth": 1,
+"fx": {
+"ms": "ladu & mentai dimsum beku"
+}
+},
+{
+"code": "DESAI2",
+"niche": "Jasa",
+"nama": "Desain Interior Nusantara",
+"judul": "Desain Interior Nusantara: Jasa jasa desain interior & 3D rumah Dengan Teknik Design-Render & Consult Untuk Rumah, Ruko & Cafe.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa desain interior & 3D rumah",
+"fx": {
+"th": "บริการออกแบบตกแต่งภายในและบ้าน 3 มิติ",
+"vi": "dịch vụ thiết kế nội thất & nhà 3D",
+"ms": "perkhidmatan reka bentuk dalaman & rumah 3D"
+}
+},
+{
+"code": "HIDROP",
+"niche": "Budidaya",
+"nama": "Hidroponik Selada Jaya",
+"judul": "Hidroponik Selada Jaya: Budidaya budidaya hidroponik selada & pakcoy Dengan Teknik NFT-Nutrient & Harvest Untuk Resto, Sehat & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya budidaya hidroponik selada & pakcoy",
+"fx": {
+"th": "การปลูกผักกาดหอมและผักกวางตุ้งแบบไฮโดรโปนิกส์",
+"vi": "trồng rau diếp và cải chíp thủy canh",
+"ms": "penanaman daun salad & bok choy secara hidroponik"
+}
+},
+{
+"code": "ATVGOK",
+"niche": "Rental",
+"nama": "Atv Gokart Mandiri",
+"judul": "Atv Gokart Mandiri: Bisnis Rental rental ATV, gokart & motor trail wisata Dengan Teknik Fuel-Maintain & Guide Untuk Wisata, Outbound & Event.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental atv",
+"fx": {
+"th": "ให้เช่ารถเอทีวี",
+"vi": "Cho thuê xe ATV",
+"ms": "sewa ATV"
+}
+},
+{
+"code": "KERAJB",
+"niche": "Limbah Cuan",
+"nama": "Kerajinan Aksesori Karya",
+"judul": "Kerajinan Aksesori Karya: Produksi kerajinan & aksesori dari bulu ayam Dengan Teknik Clean-Dye & Assemble Untuk Dekor, Kostum & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "kerajinan & aksesori dari bulu ayam",
+"fx": {
+"th": "งานฝีมือและอุปกรณ์เสริมจากขนไก่",
+"vi": "đồ thủ công & phụ kiện từ lông gà",
+"ms": "kraf & aksesori daripada bulu ayam"
+}
+},
+{
+"code": "KOTAKT",
+"niche": "Kerajinan",
+"nama": "Kotak Tisu Sentosa",
+"judul": "Kotak Tisu Sentosa: Produksi kotak tisu & organizer kardus lapis Dengan Teknik Cover-Assemble & Finish Untuk Rumah, Kado & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "kotak tisu & organizer kardus lapis",
+"fx": {
+"th": "กล่องทิชชู่และกล่องกระดาษแข็งหลายชั้น",
+"vi": "hộp đựng khăn giấy & hộp đựng bìa cứng nhiều lớp",
+"ms": "kotak tisu & penyusun kadbod berlapis"
+}
+},
+{
+"code": "RISOLE",
+"niche": "Resep",
+"nama": "Risoles Ragout Prima",
+"judul": "Risoles Ragout Prima: Produksi risoles ragout & risol mayo frozen Dengan Teknik Fill-Crumb & Freeze Untuk Reseller, Catering & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "risoles ragout & risol mayo frozen",
+"fx": {
+"th": "risoles ragout & risoles มายองเนสแช่แข็ง",
+"vi": "risoles ragout & risoles mayo đông lạnh",
+"ms": "risoles ragout & risoles mayo beku"
+}
+},
+{
+"code": "BERSI3",
+"niche": "Jasa",
+"nama": "Bersih Karburator Kreasi",
+"judul": "Bersih Karburator Kreasi: Jasa servis & bersih karburator/injektor motor Dengan Teknik Clean-Tune & Test Untuk Bikers, Bengkel & Rumah.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "servis & bersih karburator/injektor motor",
+"fx": {
+"th": "บริการและทำความสะอาดคาร์บูเรเตอร์/หัวฉีดของรถจักรยานยนต์",
+"vi": "bảo dưỡng và vệ sinh bộ chế hòa khí/kim phun xe máy",
+"ms": "menservis & membersih karburetor/injektor motosikal"
+}
+},
+{
+"code": "MELONS",
+"niche": "Budidaya",
+"nama": "Melon Semangka Hub",
+"judul": "Melon Semangka Hub: Budidaya budidaya melon & semangka golden Dengan Teknik Trellis-Pollinate & Prune Untuk Agro-Wisata, Pasar & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya budidaya melon & semangka golden",
+"fx": {
+"th": "การปลูกแตงทองและแตงโม",
+"vi": "trồng dưa vàng và dưa hấu",
+"ms": "penanaman tembikai emas & tembikai"
+}
+},
+{
+"code": "SANTAN",
+"niche": "Produksi",
+"nama": "Santan Instan Indo",
+"judul": "Santan Instan Indo: Produksi santan instan & bumbu dasar masak Dengan Teknik Extract-Pasteurize & Pack Untuk Resto, Catering & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "santan instan & bumbu dasar masak",
+"fx": {
+"th": "กะทิสำเร็จรูปและเครื่องเทศปรุงอาหารขั้นพื้นฐาน",
+"vi": "nước cốt dừa hòa tan & gia vị nấu ăn cơ bản",
+"ms": "santan segera & rempah masakan asas"
+}
+},
+{
+"code": "POTDE2",
+"niche": "Limbah Cuan",
+"nama": "Pot Dekor Raya",
+"judul": "Pot Dekor Raya: Produksi pot & dekor dari styrofoam bekas (semen-coat) Dengan Teknik Carve-Coat & Paint Untuk Pehobi, Dekor & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "pot & dekor dari styrofoam bekas",
+"fx": {
+"th": "กระถางและของประดับตกแต่งจากโฟมใช้แล้ว",
+"vi": "chậu & đồ trang trí từ xốp đã qua sử dụng",
+"ms": "periuk & hiasan daripada styrofoam terpakai"
+}
+},
+{
+"code": "PATUNG",
+"niche": "Kerajinan",
+"nama": "Patung Figur Asri",
+"judul": "Patung Figur Asri: Produksi patung & figur clay tanah liat Dengan Teknik Sculpt-Dry & Paint Untuk Dekor, Souvenir & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "patung & figur clay tanah liat",
+"fx": {
+"th": "รูปปั้นดินเผาและตัวเลข",
+"vi": "tượng và nhân vật bằng đất sét",
+"ms": "patung & patung tanah liat"
+}
+},
+{
+"code": "KEBABB",
+"niche": "Resep",
+"nama": "Kebab Burger Cuan",
+"judul": "Kebab Burger Cuan: Produksi kebab & burger patty frozen Dengan Teknik Grill-Assemble & Freeze Untuk Booth, Reseller & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "kebab & burger patty frozen",
+"fx": {
+"th": "เคบับแช่แข็งและเบอร์เกอร์แพตตี้",
+"vi": "bánh kebab và burger đông lạnh",
+"ms": "kebab sejuk beku & patty burger"
+}
+},
+{
+"code": "RIASMA",
+"niche": "Jasa",
+"nama": "Rias Makeup Studio",
+"judul": "Rias Makeup Studio: Jasa jasa rias & makeup wisuda panggilan Dengan Teknik Makeup-Style & Touch Untuk Wisuda, Event & Rumah.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa rias & makeup wisuda panggilan",
+"fx": {
+"th": "บริการแต่งหน้าและรับปริญญาตามสาย",
+"vi": "dịch vụ trang điểm & trang điểm tốt nghiệp theo yêu cầu",
+"ms": "perkhidmatan solekan & solekan graduasi atas panggilan"
+}
+},
+{
+"code": "STROBE",
+"niche": "Budidaya",
+"nama": "Stroberi Anggur Lab",
+"judul": "Stroberi Anggur Lab: Budidaya budidaya stroberi & anggur dataran rendah Dengan Teknik Pot-Hydro & Pollinate Untuk Pehobi, Agro & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya budidaya stroberi & anggur dataran",
+"fx": {
+"th": "การปลูกสตรอเบอร์รี่และองุ่นธรรมดา",
+"vi": "trồng dâu tây và trồng nho đồng bằng",
+"ms": "penanaman penanaman strawberi & anggur biasa"
+}
+},
+{
+"code": "SIRUPS",
+"niche": "Produksi",
+"nama": "Sirup Squash House",
+"judul": "Sirup Squash House: Produksi sirup, squash & marjan buah botolan Dengan Teknik Cook-Bottle & Label Untuk Cafe, Oleh-oleh & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "produksi",
+"fx": {
+"ms": "pengeluaran"
+}
+},
+{
+"code": "JASHUJ",
+"niche": "Rental",
+"nama": "Jas Hujan Pro",
+"judul": "Jas Hujan Pro: Bisnis Rental rental jas hujan, terpal & alat outdoor Dengan Teknik Clean-Check & Pack Untuk Event, Proyek & Wisata.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental jas hujan",
+"fx": {
+"th": "เช่าเสื้อกันฝน เช่า",
+"vi": "thuê áo mưa",
+"ms": "sewa baju hujan"
+}
+},
+{
+"code": "HIASA2",
+"niche": "Limbah Cuan",
+"nama": "Hiasan Furnitur Co",
+"judul": "Hiasan Furnitur Co: Produksi hiasan & furnitur dari kayu drift/ranting Dengan Teknik Sand-Assemble & Finish Untuk Cafe, Dekor & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "hiasan & furnitur dari kayu drift/ranting",
+"fx": {
+"th": "ของตกแต่งและเฟอร์นิเจอร์จากไม้ดริฟ/กิ่งไม้",
+"vi": "đồ trang trí và đồ nội thất từ gỗ trôi/cành cây",
+"ms": "hiasan & perabot dari kayu hanyut/ranting"
+}
+},
+{
+"code": "KIPASP",
+"niche": "Kerajinan",
+"nama": "Kipas Payung Craft",
+"judul": "Kipas Payung Craft: Produksi kipas & payung lukis tangan Dengan Teknik Hand-Paint & Coat Untuk Souvenir, Etnik & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "kipas & payung lukis tangan",
+"fx": {
+"th": "พัดลมและร่มที่วาดด้วยมือ",
+"vi": "quạt và ô vẽ tay",
+"ms": "kipas & payung lukisan tangan"
+}
+},
+{
+"code": "KECAPS",
+"niche": "Produksi",
+"nama": "Kecap Saus Berkah",
+"judul": "Kecap Saus Berkah: Produksi kecap, saus tiram & saus tomat repack Dengan Teknik Cook-Bottle & Seal Untuk Resto, Warung & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "produksi",
+"fx": {
+"ms": "pengeluaran"
+}
+},
+{
+"code": "KOSTU2",
+"niche": "Rental",
+"nama": "Kostum Properti Makmur",
+"judul": "Kostum Properti Makmur: Bisnis Rental rental kostum & properti drama/teater Dengan Teknik Sanitize-Set & Deliver Untuk Sekolah, Sanggar & Event.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental kostum & properti drama/teater",
+"fx": {
+"th": "ให้เช่าเครื่องแต่งกายและอุปกรณ์ประกอบละคร/ละคร",
+"vi": "cho thuê trang phục và đạo cụ diễn kịch/sân khấu",
+"ms": "penyewaan pakaian & alat peraga drama/teater"
+}
+},
+{
+"code": "KERAJC",
+"niche": "Limbah Cuan",
+"nama": "Kerajinan Dari Nusantara",
+"judul": "Kerajinan Dari Nusantara: Produksi kerajinan dari biji-bijian & batok (kolase) Dengan Teknik Sort-Glue & Frame Untuk Souvenir, Seni & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "kerajinan dari biji-bijian & batok",
+"fx": {
+"th": "งานฝีมือจากธัญพืชและเปลือกหอย",
+"vi": "hàng thủ công từ ngũ cốc và vỏ sò",
+"ms": "kraf daripada bijirin & kerang"
+}
+},
+{
+"code": "MAGNET",
+"niche": "Kerajinan",
+"nama": "Magnet Pin Jaya",
+"judul": "Magnet Pin Jaya: Produksi magnet & pin foto custom Dengan Teknik Press-Mount & Pack Untuk Souvenir, Event & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "magnet & pin foto custom",
+"fx": {
+"th": "แม่เหล็กและหมุดรูปถ่ายแบบกำหนดเอง",
+"vi": "nam châm & ghim ảnh tùy chỉnh",
+"ms": "magnet & pin foto tersuai"
+}
+},
+{
+"code": "TAHUCR",
+"niche": "Resep",
+"nama": "Tahu Crispy Mandiri",
+"judul": "Tahu Crispy Mandiri: Produksi tahu crispy & tahu walik isi Dengan Teknik Coat-Fry & Pack Untuk Booth, Reseller & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "tahu crispy & tahu walik isi",
+"auth": 1,
+"fx": {
+"ms": "tauhu rangup & tauhu walik isi"
+}
+},
+{
+"code": "PEMBUA",
+"niche": "Jasa",
+"nama": "Pembuatan Taman Karya",
+"judul": "Pembuatan Taman Karya: Jasa jasa pembuatan taman ikan/kolam koi Dengan Teknik Build-Filter & Stock Untuk Rumah, Villa & Cafe.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa pembuatan taman ikan/kolam koi",
+"fx": {
+"th": "บริการสร้างสวนปลา/บ่อปลาคราฟ",
+"vi": "Dịch vụ làm vườn cá/hồ cá koi",
+"ms": "perkhidmatan membuat taman ikan/kolam koi"
+}
+},
+{
+"code": "DISPEN",
+"niche": "Rental",
+"nama": "Dispenser Termos Sentosa",
+"judul": "Dispenser Termos Sentosa: Bisnis Rental rental dispenser, termos & alat acara Dengan Teknik Clean-Deliver & Set Untuk Hajatan, Kantor & Event.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental dispenser",
+"fx": {
+"th": "ตู้เช่าเช่า",
+"vi": "cho thuê máy phân phối cho thuê",
+"ms": "penyewaan penyewaan dispenser"
+}
+},
+{
+"code": "BRIKE2",
+"niche": "Limbah Cuan",
+"nama": "Briket Dari Prima",
+"judul": "Briket Dari Prima: Produksi briket dari batok sawit & tempurung Dengan Teknik Carbonize-Press & Dry Untuk BBQ, Industri & Reseller.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "briket dari batok sawit & tempurung",
+"fx": {
+"th": "อิฐจากกะลาปาล์มและเปลือกหอย",
+"vi": "Than bánh từ vỏ và vỏ cọ",
+"ms": "Briket daripada kulit kelapa sawit & cengkerang"
+}
+},
+{
+"code": "TASSER",
+"niche": "Kerajinan",
+"nama": "Tas Serut Kreasi",
+"judul": "Tas Serut Kreasi: Produksi tas serut & pouch drawstring sablon Dengan Teknik Sew-Print & String Untuk UMKM, Event & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "tas serut & pouch drawstring sablon",
+"fx": {
+"th": "ถุงหูรูดและถุงหูรูดพิมพ์ลายสกรีน",
+"vi": "túi dây rút & túi dây rút in lụa",
+"ms": "beg bertali & beg bertali bercetak skrin"
+}
+},
+{
+"code": "MENDOA",
+"niche": "Resep",
+"nama": "Mendoan Tempe Hub",
+"judul": "Mendoan Tempe Hub: Produksi mendoan & tempe kemul instan Dengan Teknik Batter-Coat & Frozen Untuk Reseller, Booth & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "mendoan & tempe kemul instan",
+"auth": 1,
+"fx": {
+"ms": "instant mendoan & tempe kemul"
+}
+},
+{
+"code": "RAWAT2",
+"niche": "Jasa",
+"nama": "Rawat Mesin Indo",
+"judul": "Rawat Mesin Indo: Jasa servis & rawat mesin jahit Dengan Teknik Oil-Tune & Part Untuk Penjahit, Konveksi & Rumah.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "servis & rawat mesin jahit",
+"fx": {
+"th": "บริการและบำรุงรักษาจักรเย็บผ้า",
+"vi": "bảo trì, bảo dưỡng máy may",
+"ms": "servis & menyelenggara mesin jahit"
+}
+},
+{
+"code": "KAMERA",
+"niche": "Rental",
+"nama": "Kamera Cctv Raya",
+"judul": "Kamera Cctv Raya: Bisnis Rental rental kamera CCTV portable & monitor event Dengan Teknik Setup-Monitor & Maintain Untuk Event, Toko & Proyek.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental kamera CCTV portable &",
+"fx": {
+"th": "เช่าและเช่ากล้องวงจรปิดแบบพกพา",
+"vi": "cho thuê camera quan sát di động",
+"ms": "penyewaan & penyewaan kamera CCTV mudah alih"
+}
+},
+{
+"code": "POTSEM",
+"niche": "Limbah Cuan",
+"nama": "Pot Semen Asri",
+"judul": "Pot Semen Asri: Produksi pot semen kain (draped concrete) Dengan Teknik Dip-Mold & Cure Untuk Pehobi, Dekor & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "pot semen kain",
+"fx": {
+"th": "หม้อปูนผ้า",
+"vi": "chậu xi măng vải",
+"ms": "periuk simen kain"
+}
+},
+{
+"code": "GELANG",
+"niche": "Kerajinan",
+"nama": "Gelang Cincin Cuan",
+"judul": "Gelang Cincin Cuan: Produksi gelang & cincin tali simpul (knot) Dengan Teknik Macrame-Knot & Bead Untuk Aksesoris, Kado & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "gelang & cincin tali simpul",
+"fx": {
+"th": "กำไลและแหวนที่ผูกปม",
+"vi": "vòng tay và nhẫn thắt nút",
+"ms": "gelang & cincin bersimpul"
+}
+},
+{
+"code": "BAKPAO",
+"niche": "Resep",
+"nama": "Bakpao Mantou Studio",
+"judul": "Bakpao Mantou Studio: Produksi bakpao & mantou frozen isi Dengan Teknik Knead-Steam & Freeze Untuk Reseller, Sarapan & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "bakpao & mantou frozen isi",
+"fx": {
+"th": "เกี๊ยวแช่แข็งและไส้หมั่นโถว",
+"vi": "Bánh bao đông lạnh & nhân mantou",
+"ms": "Ladu sejuk beku & isi mantou"
+}
+},
+{
+"code": "TREAT2",
+"niche": "Jasa",
+"nama": "Treatment Topi Lab",
+"judul": "Treatment Topi Lab: Jasa jasa cuci & treatment topi/sneakers putih Dengan Teknik Foam-Whiten & Dry Untuk Anak Muda, Online & Rumah.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa cuci & treatment topi/sneakers putih",
+"fx": {
+"th": "บริการซักและดูแลรักษาหมวกขาว/รองเท้าผ้าใบ",
+"vi": "Dịch vụ giặt và xử lý mũ trắng/giày thể thao",
+"ms": "perkhidmatan mencuci & rawatan topi putih/sneakers"
+}
+},
+{
+"code": "JANGKR",
+"niche": "Budidaya",
+"nama": "Jangkrik Ulat House",
+"judul": "Jangkrik Ulat House: Budidaya ternak jangkrik & ulat hongkong pakan Dengan Teknik Box-Rear & Sift Untuk Peternak, Pet & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya ternak jangkrik & ulat hongkong",
+"fx": {
+"th": "การปลูกจิ้งหรีดและหนอนผีเสื้อฮ่องกง",
+"vi": "Nuôi dế và sâu bướm Hồng Kông",
+"ms": "Penanaman cengkerik & ulat Hong Kong"
+}
+},
+{
+"code": "HIASA3",
+"niche": "Kerajinan",
+"nama": "Hiasan Bunga Pro",
+"judul": "Hiasan Bunga Pro: Produksi hiasan & bunga clay tanah jepang Dengan Teknik Sculpt-Shape & Color Untuk Dekor, Kado & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "hiasan & bunga clay tanah jepang",
+"fx": {
+"th": "ดินเผาญี่ปุ่นและดอกไม้",
+"vi": "Hoa và đồ trang trí bằng đất sét Nhật Bản",
+"ms": "Hiasan tanah liat Jepun & bunga"
+}
+},
+{
+"code": "KUECUC",
+"niche": "Resep",
+"nama": "Kue Cucur Co",
+"judul": "Kue Cucur Co: Produksi kue cucur & kue pancong jadul Dengan Teknik Batter-Cook & Pack Untuk Pasar, Oleh-oleh & Booth.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "kue cucur & kue pancong jadul",
+"fx": {
+"th": "เค้กคูเคอร์โรงเรียนเก่าและเค้กแพนเค้ก",
+"vi": "bánh cucur và bánh pancong kiểu cũ",
+"ms": "kuih cucur sekolah lama & kuih pancong"
+}
+},
+{
+"code": "KOMPO3",
+"niche": "Limbah Cuan",
+"nama": "Kompos Pakan Craft",
+"judul": "Kompos Pakan Craft: Produksi kompos & pakan dari limbah rumput laut Dengan Teknik Dry-Mill & Pack Untuk Tani, Peternak & Reseller.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "kompos & pakan dari limbah rumput",
+"fx": {
+"th": "ปุ๋ยหมักและอาหารจากเศษหญ้า",
+"vi": "phân trộn và thức ăn từ chất thải cỏ",
+"ms": "kompos & makanan dari sisa rumput"
+}
+},
+{
+"code": "KARTU2",
+"niche": "Kerajinan",
+"nama": "Kartu Ucapan Berkah",
+"judul": "Kartu Ucapan Berkah: Produksi kartu ucapan handlettering custom Dengan Teknik Letter-Ink & Frame Untuk Kado, Event & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "kartu ucapan handlettering custom",
+"fx": {
+"th": "การ์ดอวยพรลายมือแบบกำหนดเอง",
+"vi": "thiệp chúc mừng xử lý tùy chỉnh",
+"ms": "kad ucapan pengendalian tersuai"
+}
+},
+{
+"code": "SELAIS",
+"niche": "Resep",
+"nama": "Selai Srikaya Makmur",
+"judul": "Selai Srikaya Makmur: Produksi selai srikaya & kaya jam kemasan Dengan Teknik Cook-Custard & Jar Untuk Roti, Sarapan & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "selai srikaya & kaya jam kemasan",
+"fx": {
+"th": "บรรจุภัณฑ์แยมศรีคายาและแยมคายา",
+"vi": "Mứt Srikaya & bao bì mứt kaya",
+"ms": "Pembungkusan jem Srikaya & jem kaya"
+}
+},
+{
+"code": "ANGKUT",
+"niche": "Jasa",
+"nama": "Angkut Sampah Nusantara",
+"judul": "Angkut Sampah Nusantara: Jasa jasa angkut sampah & limbah UMKM Dengan Teknik Collect-Sort & Dispose Untuk UMKM, Komplek & Pasar.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa angkut sampah & limbah UMKM",
+"fx": {
+"th": "บริการขนส่งขยะและขยะ MSME",
+"vi": "Dịch vụ vận chuyển rác thải MSME",
+"ms": "Perkhidmatan pengangkutan sampah & sisa MSME"
+}
+},
+{
+"code": "YOGURT",
+"niche": "Produksi",
+"nama": "Yogurt Kefir Jaya",
+"judul": "Yogurt Kefir Jaya: Produksi yogurt, kefir & susu fermentasi botol Dengan Teknik Culture-Ferment & Bottle Untuk Sehat, Anak & Online.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "produksi",
+"fx": {
+"ms": "pengeluaran"
+}
+},
+{
+"code": "ALATPE",
+"niche": "Rental",
+"nama": "Alat Pesta Mandiri",
+"judul": "Alat Pesta Mandiri: Bisnis Rental rental alat pesta anak & dekor balon Dengan Teknik Theme-Install & Cleanup Untuk Ortu, Anak & Event.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental alat pesta anak &",
+"fx": {
+"th": "เช่าและเช่าอุปกรณ์งานเลี้ยงสำหรับเด็ก",
+"vi": "cho thuê thiết bị tổ chức tiệc trẻ em",
+"ms": "sewa & sewa peralatan parti kanak-kanak"
+}
+},
+{
+"code": "KERAJD",
+"niche": "Limbah Cuan",
+"nama": "Kerajinan Tas Karya",
+"judul": "Kerajinan Tas Karya: Produksi kerajinan & tas dari karung goni bekas Dengan Teknik Clean-Cut & Sew Untuk Eco, Etnik & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "kerajinan & tas dari karung goni",
+"fx": {
+"th": "งานฝีมือและกระเป๋าจากกระสอบปอกระเจา",
+"vi": "hàng thủ công & túi từ bao đay",
+"ms": "kraf & beg daripada guni jut"
+}
+},
+{
+"code": "TEMPA2",
+"niche": "Kerajinan",
+"nama": "Tempat Perhiasan Sentosa",
+"judul": "Tempat Perhiasan Sentosa: Produksi tempat perhiasan & tray beludru Dengan Teknik Cut-Line & Glue Untuk Dekor, Kado & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "tempat perhiasan & tray beludru",
+"fx": {
+"th": "ที่ใส่เครื่องประดับและถาดกำมะหยี่",
+"vi": "khay đựng trang sức & khay nhung",
+"ms": "pemegang barang kemas & dulang baldu"
+}
+},
+{
+"code": "GRANOL",
+"niche": "Resep",
+"nama": "Granola Bar Prima",
+"judul": "Granola Bar Prima: Produksi granola bar & energy bar madu Dengan Teknik Bind-Press & Cut Untuk Diet, Sehat & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "granola bar & energy bar madu",
+"fx": {
+"th": "กราโนล่าบาร์และบาร์พลังงานน้ำผึ้ง",
+"vi": "thanh granola & thanh năng lượng mật ong",
+"ms": "bar granola & bar tenaga madu"
+}
+},
+{
+"code": "KALIB2",
+"niche": "Jasa",
+"nama": "Kalibrasi Alat Kreasi",
+"judul": "Kalibrasi Alat Kreasi: Jasa servis & kalibrasi alat ukur bengkel Dengan Teknik Calibrate-Repair & Cert Untuk Bengkel, Industri & UMKM.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "servis & kalibrasi alat ukur bengkel",
+"fx": {
+"th": "บริการและสอบเทียบเครื่องมือวัดในโรงงาน",
+"vi": "Dịch vụ & hiệu chuẩn dụng cụ đo tại xưởng",
+"ms": "servis & penentukuran alat pengukur bengkel"
+}
+},
+{
+"code": "FROZEN",
+"niche": "Produksi",
+"nama": "Frozen Dough Hub",
+"judul": "Frozen Dough Hub: Produksi frozen dough croissant & pastry Dengan Teknik Laminate-Freeze & Pack Untuk Cafe, Bakery & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "frozen dough croissant & pastry",
+"fx": {
+"th": "ครัวซองต์แป้งแช่แข็งและขนมอบ",
+"vi": "bánh sừng bò và bánh ngọt đông lạnh",
+"ms": "croissant & pastri doh sejuk beku"
+}
+},
+{
+"code": "PERAHU",
+"niche": "Rental",
+"nama": "Perahu Kano Indo",
+"judul": "Perahu Kano Indo: Bisnis Rental rental perahu, kano & banana boat wisata Dengan Teknik Maintain-Safety & Operate Untuk Wisata, Pantai & Komunitas.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental perahu",
+"fx": {
+"th": "เช่าเรือเช่า",
+"vi": "cho thuê thuyền",
+"ms": "sewa bot"
+}
+},
+{
+"code": "BONEKA",
+"niche": "Kerajinan",
+"nama": "Boneka Rajut Raya",
+"judul": "Boneka Rajut Raya: Produksi boneka rajut karakter (amigurumi) hewan Dengan Teknik Crochet-Stuff & Assemble Untuk Anak, Kado & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "boneka rajut karakter",
+"fx": {
+"th": "ตุ๊กตาถักตัวละคร",
+"vi": "búp bê đan nhân vật",
+"ms": "anak patung mengait watak"
+}
+},
+{
+"code": "NUGGE2",
+"niche": "Produksi",
+"nama": "Nugget Sosis Asri",
+"judul": "Nugget Sosis Asri: Produksi nugget, sosis & bakso skala UMKM Dengan Teknik Mince-Form & Freeze Untuk Reseller, Catering & Online.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "produksi",
+"auth": 1,
+"fx": {
+"ms": "pengeluaran"
+}
+},
+{
+"code": "KAMER2",
+"niche": "Rental",
+"nama": "Kamera Analog Cuan",
+"judul": "Kamera Analog Cuan: Bisnis Rental rental kamera analog & instax + film Dengan Teknik Service-Film & Deliver Untuk Anak Muda, Event & Online.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental kamera analog & instax",
+"fx": {
+"th": "เช่ากล้องแอนะล็อกและอินสแต็ก",
+"vi": "cho thuê máy ảnh analog và instax",
+"ms": "sewa kamera analog & instax"
+}
+},
+{
+"code": "HIASA4",
+"niche": "Limbah Cuan",
+"nama": "Hiasan Lampu Studio",
+"judul": "Hiasan Lampu Studio: Produksi hiasan & lampu dari sumpit/stik es krim bekas Dengan Teknik Glue-Assemble & Finish Untuk Dekor, Sekolah & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "hiasan & lampu dari sumpit/stik es",
+"fx": {
+"th": "ของตกแต่งและไฟจากตะเกียบ/แท่งน้ำแข็ง",
+"vi": "đồ trang trí & đèn từ đũa/que đá",
+"ms": "hiasan & lampu dari penyepit/batang ais"
+}
+},
+{
+"code": "GANTU3",
+"niche": "Kerajinan",
+"nama": "Gantungan Nama Lab",
+"judul": "Gantungan Nama Lab: Produksi gantungan nama kayu ukir laser Dengan Teknik Laser-Engrave & Finish Untuk Souvenir, Anak & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "gantungan nama kayu ukir laser",
+"fx": {
+"th": "ไม้แขวนชื่อไม้แกะสลักด้วยเลเซอร์",
+"vi": "Móc treo tên bằng gỗ khắc laser",
+"ms": "penyangkut nama kayu ukiran laser"
+}
+},
+{
+"code": "FROZE2",
+"niche": "Resep",
+"nama": "Frozen Smoothie House",
+"judul": "Frozen Smoothie House: Produksi frozen smoothie & sup buah cup Dengan Teknik Blend-Pack & Freeze Untuk Diet, Anak & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "frozen smoothie & sup buah cup",
+"fx": {
+"th": "สมูทตี้แช่แข็งและถ้วยซุปผลไม้",
+"vi": "ly sinh tố đông lạnh & súp trái cây",
+"ms": "smoothie sejuk beku & cawan sup buah"
+}
+},
+{
+"code": "GANTIS",
+"niche": "Jasa",
+"nama": "Ganti Seal Pro",
+"judul": "Ganti Seal Pro: Jasa servis & ganti seal/oli gardan mobil Dengan Teknik Drain-Reseal & Fill Untuk Mobil, Bengkel & Panggilan.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "servis & ganti seal/oli gardan mobil",
+"fx": {
+"th": "บริการและเปลี่ยนซีลเพลารถ/น้ำมัน",
+"vi": "bảo dưỡng & thay phớt/dầu trục xe ô tô",
+"ms": "servis & tukar seal/minyak gandar kereta"
+}
+},
+{
+"code": "KERUP2",
+"niche": "Produksi",
+"nama": "Kerupuk Bawang Co",
+"judul": "Kerupuk Bawang Co: Produksi kerupuk bawang, rambak & kulit kemasan Dengan Teknik Press-Fry & Pack Untuk Toko, Grosir & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "kerupuk bawang",
+"auth": 1,
+"fx": {
+"ms": "keropok bawang"
+}
+},
+{
+"code": "ALATP2",
+"niche": "Rental",
+"nama": "Alat Panggang Craft",
+"judul": "Alat Panggang Craft: Bisnis Rental rental alat panggang BBQ & grill set Dengan Teknik Clean-Set & Deliver Untuk Event, Komunitas & Rumah.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental alat panggang bbq &",
+"fx": {
+"th": "ให้เช่าเตาย่างบาร์บีคิวและอุปกรณ์",
+"vi": "cho thuê bếp nướng và thiết bị bbq",
+"ms": "sewa bbq grill & peralatan"
+}
+},
+{
+"code": "KERAJF",
+"niche": "Limbah Cuan",
+"nama": "Kerajinan Dompet Berkah",
+"judul": "Kerajinan Dompet Berkah: Produksi kerajinan & dompet dari karton/kardus lapis Dengan Teknik Cut-Laminate & Assemble Untuk Souvenir, Sekolah & Online.",
+"tagline": "cara olah limbah jadi produk aman, SOP produksi & kemas, variasi produk turunan, label & branding, kalkulator HPP & untung, dan skrip jualan online & komunitas.",
+"status": "",
+"fxkw": "kerajinan & dompet dari karton/kardus lapis",
+"fx": {
+"th": "งานฝีมือและกระเป๋าสตางค์จากกระดาษแข็ง/กระดาษแข็งหลายชั้น",
+"vi": "đồ thủ công & ví từ bìa cứng/bìa cứng nhiều lớp",
+"ms": "kraf & dompet dari kadbod/kadbod berlapis"
+}
+},
+{
+"code": "KOTAKH",
+"niche": "Kerajinan",
+"nama": "Kotak Hadiah Makmur",
+"judul": "Kotak Hadiah Makmur: Produksi kotak hadiah & gift box custom lipat Dengan Teknik Score-Fold & Print Untuk Kado, UMKM & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "kotak hadiah & gift box custom",
+"fx": {
+"th": "กล่องของขวัญและกล่องของขวัญแบบกำหนดเอง",
+"vi": "hộp quà tặng & hộp quà tặng tùy chỉnh",
+"ms": "kotak hadiah & kotak hadiah tersuai"
+}
+},
+{
+"code": "RENDA3",
+"niche": "Resep",
+"nama": "Rendang Dendeng Nusantara",
+"judul": "Rendang Dendeng Nusantara: Produksi rendang & dendeng kering perantau Dengan Teknik Slow-Cook & Vacuum Untuk Perantau, Oleh-oleh & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "rendang & dendeng kering perantau",
+"auth": 1,
+"fx": {
+"ms": "rendang & dendeng kering dari perantau"
+}
+},
+{
+"code": "DISINF",
+"niche": "Jasa",
+"nama": "Disinfeksi Mobil Jaya",
+"judul": "Disinfeksi Mobil Jaya: Jasa jasa cuci & disinfeksi mobil ambulans/medis Dengan Teknik Sanitize-Fog & Dry Untuk Klinik, RS & Fleet.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa cuci & disinfeksi mobil ambulans/medis",
+"fx": {
+"th": "บริการล้างและฆ่าเชื้อรถพยาบาล/รถพยาบาล",
+"vi": "dịch vụ rửa và khử trùng xe cứu thương/xe y tế",
+"ms": "perkhidmatan mencuci & nyah kuman ambulans/kereta perubatan"
+}
+},
+{
+"code": "TANAMA",
+"niche": "Budidaya",
+"nama": "Tanaman Herbal Mandiri",
+"judul": "Tanaman Herbal Mandiri: Budidaya budidaya tanaman herbal & TOGA pekarangan Dengan Teknik Bed-Plant & Dry Untuk Herbal, Sehat & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya budidaya tanaman herbal & toga",
+"fx": {
+"th": "การเพาะปลูกพืชสมุนไพรและเสื้อคลุม",
+"vi": "trồng cây thảo dược & toga",
+"ms": "penanaman tumbuhan herba & toga"
+}
+},
+{
+"code": "PERMEN",
+"niche": "Produksi",
+"nama": "Permen Jahe Karya",
+"judul": "Permen Jahe Karya: Produksi permen jahe, asam & kembang gula Dengan Teknik Cook-Mold & Wrap Untuk Oleh-oleh, Toko & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "permen jahe",
+"fx": {
+"th": "ลูกอมขิง",
+"vi": "kẹo gừng",
+"ms": "gula-gula halia"
+}
+},
+{
+"code": "TENDAG",
+"niche": "Rental",
+"nama": "Tenda Glamping Sentosa",
+"judul": "Tenda Glamping Sentosa: Bisnis Rental rental tenda glamping & dome kaca Dengan Teknik Erect-Decor & Maintain Untuk Wisata, Honeymoon & Event.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental tenda glamping & dome",
+"fx": {
+"th": "เช่าเต็นท์แกลมปิ้งและโดมให้เช่า",
+"vi": "cho thuê lều & mái vòm",
+"ms": "sewa khemah glamping & sewa kubah"
+}
+},
+{
+"code": "KERUP3",
+"niche": "Resep",
+"nama": "Kerupuk Kemplang Prima",
+"judul": "Kerupuk Kemplang Prima: Produksi kerupuk kemplang & amplang ikan Dengan Teknik Mince-Shape & Fry Untuk Oleh-oleh, Grosir & Reseller.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "kerupuk kemplang & amplang ikan",
+"auth": 1,
+"fx": {
+"ms": "keropok kemplang & amplang ikan"
+}
+},
+{
+"code": "COKELA",
+"niche": "Produksi",
+"nama": "Cokelat Batang Kreasi",
+"judul": "Cokelat Batang Kreasi: Produksi cokelat batang, koin & cokelat hias Dengan Teknik Temper-Mold & Pack Untuk Kado, Baker & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "cokelat batang",
+"fx": {
+"th": "ช็อคโกแลตบาร์",
+"vi": "thanh sô cô la",
+"ms": "bar coklat"
+}
+},
+{
+"code": "MESINP",
+"niche": "Rental",
+"nama": "Mesin Popcorn Hub",
+"judul": "Mesin Popcorn Hub: Bisnis Rental rental mesin popcorn, gulali & cotton candy Dengan Teknik Operate-Refill & Deliver Untuk Ultah, Bazaar & Event.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental mesin popcorn",
+"fx": {
+"th": "ให้เช่าเครื่องทำป๊อปคอร์น",
+"vi": "cho thuê máy làm bỏng ngô",
+"ms": "sewa mesin popcorn"
+}
+},
+{
+"code": "TATAKA",
+"niche": "Kerajinan",
+"nama": "Tatakan Coaster Indo",
+"judul": "Tatakan Coaster Indo: Produksi tatakan & coaster kayu epoxy Dengan Teknik Resin-Inlay & Sand Untuk Dekor, Cafe & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "tatakan & coaster kayu epoxy",
+"fx": {
+"th": "จานรองแก้วไม้อีพ็อกซี่และจานรองแก้ว",
+"vi": "Đế lót ly & đế lót ly bằng gỗ Epoxy",
+"ms": "Coaster & coaster kayu epoksi"
+}
+},
+{
+"code": "KETANS",
+"niche": "Resep",
+"nama": "Ketan Susu Raya",
+"judul": "Ketan Susu Raya: Produksi ketan susu & jagung manis cup Dengan Teknik Steam-Top & Cup Untuk Booth, Anak & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "ketan susu & jagung manis cup",
+"fx": {
+"th": "น้ำนมข้าวเหนียวและข้าวโพดหวานถ้วย",
+"vi": "ly xôi sữa ngô ngọt",
+"ms": "susu kental & cawan jagung manis"
+}
+},
+{
+"code": "SETTIN",
+"niche": "Jasa",
+"nama": "Setting Optimasi Asri",
+"judul": "Setting Optimasi Asri: Jasa jasa setting & optimasi warnet/PC gaming Dengan Teknik Build-Config & Tune Untuk Warnet, Gamer & Kafe.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa setting & optimasi warnet/PC gaming",
+"fx": {
+"th": "อินเทอร์เน็ตคาเฟ่/บริการตั้งค่าและเพิ่มประสิทธิภาพเกมพีซี",
+"vi": "Dịch vụ tối ưu hóa và cài đặt trò chơi trên PC/cafe internet/PC",
+"ms": "perkhidmatan persediaan & pengoptimuman kafe internet/permainan PC"
+}
+},
+{
+"code": "TANAM2",
+"niche": "Budidaya",
+"nama": "Tanaman Pangan Cuan",
+"judul": "Tanaman Pangan Cuan: Budidaya budidaya tanaman pangan microgreen wheatgrass Dengan Teknik Tray-Sow & Juice Untuk Sehat, Resto & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya budidaya tanaman pangan microgreen wheatgrass",
+"fx": {
+"th": "การปลูกพืชอาหารไมโครกรีนวีทกราส",
+"vi": "trồng cây lương thực vi sinh cỏ lúa mì",
+"ms": "penanaman tanaman makanan microgreen wheatgrass"
+}
+},
+{
+"code": "TEHHER",
+"niche": "Produksi",
+"nama": "Teh Herbal Studio",
+"judul": "Teh Herbal Studio: Produksi teh herbal, jahe & wedang instan sachet Dengan Teknik Dry-Blend & Sachet Untuk Sehat, Oleh-oleh & Online.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "teh herbal",
+"auth": 1,
+"fx": {
+"ms": "teh herba"
+}
+},
+{
+"code": "WAHANA",
+"niche": "Rental",
+"nama": "Wahana Kereta Lab",
+"judul": "Wahana Kereta Lab: Bisnis Rental rental wahana mini (kereta & odong) anak Dengan Teknik Operate-Safety & Transport Untuk Mall, Wisata & Event.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental wahana mini",
+"fx": {
+"th": "เช่ารถมินิ เช่า",
+"vi": "cho thuê xe mini",
+"ms": "sewa mini ride"
+}
+},
+{
+"code": "TOPITO",
+"niche": "Kerajinan",
+"nama": "Topi Totebag House",
+"judul": "Topi Totebag House: Produksi topi & totebag bordir nama custom Dengan Teknik Embroider-Hoop & Finish Untuk Komunitas, Merch & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "topi & totebag bordir nama custom",
+"fx": {
+"th": "หมวกปักชื่อและกระเป๋าผ้าตามสั่ง",
+"vi": "Mũ và túi tote thêu tên theo yêu cầu",
+"ms": "topi bersulam nama tersuai & beg tote"
+}
+},
+{
+"code": "KUEBAL",
+"niche": "Resep",
+"nama": "Kue Balok Pro",
+"judul": "Kue Balok Pro: Produksi kue balok & pancake durian lumer Dengan Teknik Cook-Fill & Pack Untuk Booth, PO & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "kue balok & pancake durian lumer",
+"fx": {
+"th": "บล็อกเค้กและแพนเค้กทุเรียนละลาย",
+"vi": "bánh khối & bánh sầu riêng tan chảy",
+"ms": "kek blok & lempeng durian cair"
+}
+},
+{
+"code": "RAWATA",
+"niche": "Jasa",
+"nama": "Rawat Alat Co",
+"judul": "Rawat Alat Co: Jasa servis & rawat alat fitness/treadmill Dengan Teknik Lube-Calibrate & Part Untuk Gym, Rumah & Hotel.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "servis & rawat alat fitness/treadmill",
+"fx": {
+"th": "บริการและบำรุงรักษาอุปกรณ์ออกกำลังกาย/ลู่วิ่งไฟฟ้า",
+"vi": "bảo trì và bảo trì thiết bị tập thể dục/máy chạy bộ",
+"ms": "servis & menyelenggara peralatan kecergasan/treadmill"
+}
+},
+{
+"code": "AYAMSE",
+"niche": "Budidaya",
+"nama": "Ayam Serama Craft",
+"judul": "Ayam Serama Craft: Budidaya ternak ayam serama & ayam batik hias Dengan Teknik Cage-Breed & Show Untuk Pehobi, Kontes & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya ternak ayam serama & ayam",
+"auth": 1,
+"fx": {
+"ms": "penanaman ayam serama & ayam"
+}
+},
+{
+"code": "KOSTU3",
+"niche": "Rental",
+"nama": "Kostum Profesi Berkah",
+"judul": "Kostum Profesi Berkah: Bisnis Rental rental kostum profesi & seragam anak Dengan Teknik Sanitize-Size & Deliver Untuk Sekolah, Foto & Event.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental kostum profesi & seragam",
+"fx": {
+"th": "ให้เช่าเครื่องแต่งกายและเครื่องแบบมืออาชีพ",
+"vi": "cho thuê trang phục, đồng phục chuyên nghiệp",
+"ms": "penyewaan pakaian & pakaian seragam profesional"
+}
+},
+{
+"code": "SANDAL",
+"niche": "Kerajinan",
+"nama": "Sandal Sajadah Makmur",
+"judul": "Sandal Sajadah Makmur: Produksi sandal & sajadah travel custom Dengan Teknik Cut-Sew & Print Untuk Religi, Kado & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "sandal & sajadah travel custom",
+"fx": {
+"th": "รองเท้าแตะสำหรับเดินทางแบบกำหนดเองและเสื่อสวดมนต์",
+"vi": "dép du lịch & thảm cầu nguyện tùy chỉnh",
+"ms": "sandal kembara tersuai & sejadah"
+}
+},
+{
+"code": "SAMBA2",
+"niche": "Resep",
+"nama": "Sambal Pecel Nusantara",
+"judul": "Sambal Pecel Nusantara: Produksi sambal pecel & bumbu rujak kemasan Dengan Teknik Grind-Cook & Pack Untuk Lauk, Oleh-oleh & Reseller.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "sambal pecel & bumbu rujak kemasan",
+"auth": 1,
+"fx": {
+"ms": "sos cili pecel & perencah rujak bungkus"
+}
+},
+{
+"code": "JAMTAN",
+"niche": "Jasa",
+"nama": "Jam Tangan Jaya",
+"judul": "Jam Tangan Jaya: Jasa jasa servis jam tangan & ganti baterai Dengan Teknik Open-Clean & Battery Untuk Toko, Online & Rumah.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa servis jam tangan & ganti",
+"fx": {
+"th": "บริการนาฬิกาและการเปลี่ยน",
+"vi": "dịch vụ thay thế đồng hồ",
+"ms": "servis & penggantian jam"
+}
+},
+{
+"code": "TAHUSU",
+"niche": "Produksi",
+"nama": "Tahu Sutra Mandiri",
+"judul": "Tahu Sutra Mandiri: Produksi tahu sutra & tahu pong produksi Dengan Teknik Coagulate-Press & Pack Untuk Pasar, Resto & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "tahu sutra & tahu pong produksi",
+"auth": 1,
+"fx": {
+"ms": "pengeluaran tauhu sutera & tauhu pong"
+}
+},
+{
+"code": "PROPER",
+"niche": "Rental",
+"nama": "Properti Tumpeng Karya",
+"judul": "Properti Tumpeng Karya: Bisnis Rental rental properti tumpeng & gebyok lamaran Dengan Teknik Style-Set & Transport Untuk Lamaran, Nikah & Event.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental properti tumpeng & gebyok",
+"fx": {
+"th": "ตุมเปิง & เกบยอก เช่าอสังหาริมทรัพย์ให้เช่า",
+"vi": "Cho thuê bất động sản Tumpeng & Gebyok",
+"ms": "Sewa hartanah sewa Tumpeng & Gebyok"
+}
+},
+{
+"code": "PAJANG",
+"niche": "Kerajinan",
+"nama": "Pajangan Jam Sentosa",
+"judul": "Pajangan Jam Sentosa: Produksi pajangan & jam pasir mini dekoratif Dengan Teknik Assemble-Fill & Seal Untuk Dekor, Kado & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "pajangan & jam pasir mini dekoratif",
+"fx": {
+"th": "จัดแสดงและนาฬิกาทรายขนาดเล็กสำหรับตกแต่ง",
+"vi": "trưng bày & đồng hồ cát mini trang trí",
+"ms": "paparan & cermin mata jam mini hiasan"
+}
+},
+{
+"code": "MANIS2",
+"niche": "Resep",
+"nama": "Manisan Keripik Prima",
+"judul": "Manisan Keripik Prima: Produksi manisan & keripik nangka/salak Dengan Teknik Dry-Coat & Pack Untuk Camilan, Toples & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "manisan & keripik nangka/salak",
+"fx": {
+"th": "ขนุน/สละขนมและมันฝรั่งทอด",
+"vi": "kẹo mít/salak & khoai tây chiên",
+"ms": "manisan & kerepek nangka/salak"
+}
+},
+{
+"code": "KETIKJ",
+"niche": "Jasa",
+"nama": "Ketik Jilid Kreasi",
+"judul": "Ketik Jilid Kreasi: Jasa jasa ketik, jilid & cetak skripsi Dengan Teknik Type-Layout & Bind Untuk Mahasiswa, Kampus & Online.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa ketik",
+"fx": {
+"th": "บริการพิมพ์ดีด",
+"vi": "dịch vụ đánh máy",
+"ms": "perkhidmatan menaip"
+}
+},
+{
+"code": "IKANOS",
+"niche": "Budidaya",
+"nama": "Ikan Oscar Hub",
+"judul": "Ikan Oscar Hub: Budidaya ternak ikan oscar & predator hias Dengan Teknik Tank-Rear & Color Untuk Pehobi, Akuarium & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya ternak ikan oscar & predator",
+"fx": {
+"th": "การเลี้ยงปลาออสการ์และนักล่า",
+"vi": "Nuôi cá Oscar và cá săn mồi",
+"ms": "Penternakan ikan Oscar & pemangsa"
+}
+},
+{
+"code": "TEMPEK",
+"niche": "Produksi",
+"nama": "Tempe Kedelai Indo",
+"judul": "Tempe Kedelai Indo: Produksi tempe kedelai & tempe gembus produksi Dengan Teknik Inoculate-Ferment & Pack Untuk Pasar, Resto & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "tempe kedelai & tempe gembus produksi",
+"auth": 1,
+"fx": {
+"ms": "tempe soya & tempe gembus pengeluaran"
+}
+},
+{
+"code": "PAPANC",
+"niche": "Rental",
+"nama": "Papan Catur Raya",
+"judul": "Papan Catur Raya: Bisnis Rental rental papan catur raksasa & games outbound Dengan Teknik Setup-Maintain & Operate Untuk Outbound, Event & Sekolah.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental papan catur raksasa &",
+"fx": {
+"th": "กระดานหมากรุกยักษ์ให้เช่า &",
+"vi": "cho thuê bàn cờ khổng lồ &",
+"ms": "sewa papan catur gergasi &"
+}
+},
+{
+"code": "SYALTO",
+"niche": "Kerajinan",
+"nama": "Syal Topi Asri",
+"judul": "Syal Topi Asri: Produksi syal, topi & sarung tangan rajut dewasa Dengan Teknik Knit-Pattern & Finish Untuk Fashion, Kado & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "kerajinan",
+"fx": {
+"th": "งานฝีมือ",
+"vi": "thủ công",
+"ms": "kerajinan"
+}
+},
+{
+"code": "RENGGI",
+"niche": "Resep",
+"nama": "Rengginang Intip Cuan",
+"judul": "Rengginang Intip Cuan: Produksi rengginang & intip goreng kemasan Dengan Teknik Press-Sun-Dry & Fry Untuk Oleh-oleh, Toples & Reseller.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "rengginang & intip goreng kemasan",
+"auth": 1,
+"fx": {
+"ms": "rengginang & jenguk bungkusan goreng"
+}
+},
+{
+"code": "DESAI3",
+"niche": "Jasa",
+"nama": "Desain Logo Studio",
+"judul": "Desain Logo Studio: Jasa jasa desain logo & branding UMKM Dengan Teknik Brief-Design & Deliver Untuk UMKM, Startup & Online.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa desain logo & branding UMKM",
+"fx": {
+"th": "บริการออกแบบโลโก้และแบรนด์ MSME",
+"vi": "Dịch vụ thiết kế logo & thương hiệu MSME",
+"ms": "Perkhidmatan reka bentuk logo & penjenamaan MSME"
+}
+},
+{
+"code": "PISANG",
+"niche": "Budidaya",
+"nama": "Pisang Cavendish Lab",
+"judul": "Pisang Cavendish Lab: Budidaya budidaya pisang cavendish & raja kultur jaringan Dengan Teknik Tissue-Plant & Harvest Untuk Petani, Pasar & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya budidaya pisang cavendish & raja",
+"fx": {
+"th": "การปลูกกล้วยคาเวนดิชและกล้วยคิง",
+"vi": "trồng chuối Cavendish và trồng chuối vua",
+"ms": "penanaman pisang cavendish & raja"
+}
+},
+{
+"code": "GULAME",
+"niche": "Produksi",
+"nama": "Gula Merah House",
+"judul": "Gula Merah House: Produksi gula merah & gula aren cetak produksi Dengan Teknik Boil-Mold & Pack Untuk Pasar, Oleh-oleh & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "gula merah & gula aren cetak",
+"auth": 1,
+"fx": {
+"ms": "gula merah & gula aren dibentuk"
+}
+},
+{
+"code": "TANGGA",
+"niche": "Rental",
+"nama": "Tangga Andang Pro",
+"judul": "Tangga Andang Pro: Bisnis Rental rental tangga, andang & alat tukang Dengan Teknik Inspect-Service & Deliver Untuk Tukang, Rumah & Proyek.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental tangga",
+"fx": {
+"th": "เช่า เช่า บันได",
+"vi": "cho thuê cầu thang cho thuê",
+"ms": "sewa tangga"
+}
+},
+{
+"code": "BUCKET",
+"niche": "Kerajinan",
+"nama": "Bucket Hat Co",
+"judul": "Bucket Hat Co: Produksi bucket hat & topi kanvas custom Dengan Teknik Sew-Print & Eyelet Untuk Anak Muda, Distro & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "bucket hat & topi kanvas custom",
+"fx": {
+"th": "หมวกถังและหมวกผ้าใบสั่งทำพิเศษ",
+"vi": "mũ xô & mũ vải tùy chỉnh",
+"ms": "topi baldi & topi kanvas tersuai"
+}
+},
+{
+"code": "MARNIN",
+"niche": "Resep",
+"nama": "Marning Emping Craft",
+"judul": "Marning Emping Craft: Produksi marning & emping jagung pedas Dengan Teknik Boil-Fry & Season Untuk Camilan, Toples & Reseller.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "marning & emping jagung pedas",
+"fx": {
+"th": "ข้าวโพดคั่วและข้าวโพดคั่วรสเผ็ด",
+"vi": "maring & ngô chiên cay",
+"ms": "marning & kerepek jagung pedas"
+}
+},
+{
+"code": "EDITVI",
+"niche": "Jasa",
+"nama": "Edit Video Berkah",
+"judul": "Edit Video Berkah: Jasa jasa edit video & reels konten Dengan Teknik Cut-Color & Render Untuk UMKM, Kreator & Online.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa edit video & reels konten",
+"fx": {
+"th": "บริการตัดต่อวิดีโอและม้วนเนื้อหา",
+"vi": "dịch vụ chỉnh sửa video và cuộn nội dung",
+"ms": "perkhidmatan penyuntingan video & gulungan kandungan"
+}
+},
+{
+"code": "JAMURE",
+"niche": "Budidaya",
+"nama": "Jamur Enoki Makmur",
+"judul": "Jamur Enoki Makmur: Budidaya budidaya jamur enoki & shimeji indoor Dengan Teknik Climate-Grow & Pack Untuk Resto, Sehat & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya budidaya jamur enoki & shimeji",
+"fx": {
+"th": "การเพาะเห็ดเอโนกิและชิเมจิ",
+"vi": "trồng nấm kim châm và nấm shimeji",
+"ms": "penanaman cendawan enoki & shimeji"
+}
+},
+{
+"code": "TERASI",
+"niche": "Produksi",
+"nama": "Terasi Udang Nusantara",
+"judul": "Terasi Udang Nusantara: Produksi terasi udang & petis kemasan Dengan Teknik Ferment-Grind & Pack Untuk Bumbu, Oleh-oleh & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "terasi udang & petis kemasan",
+"auth": 1,
+"fx": {
+"ms": "tempe udang & petis bungkus"
+}
+},
+{
+"code": "KURSIM",
+"niche": "Rental",
+"nama": "Kursi Meja Jaya",
+"judul": "Kursi Meja Jaya: Bisnis Rental rental kursi & meja lipat cafe/bazaar Dengan Teknik Clean-Stack & Transport Untuk Bazaar, UMKM & Event.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental kursi & meja lipat",
+"fx": {
+"th": "เช่าเก้าอี้พับและโต๊ะ",
+"vi": "cho thuê bàn ghế gấp",
+"ms": "sewa kerusi & meja lipat"
+}
+},
+{
+"code": "MUKENA",
+"niche": "Kerajinan",
+"nama": "Mukena Sajadah Mandiri",
+"judul": "Mukena Sajadah Mandiri: Produksi mukena & sajadah anak bordir nama Dengan Teknik Embroider-Sew & Pack Untuk Religi, Kado & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "mukena & sajadah anak bordir nama",
+"fx": {
+"th": "มูเคนาและเสื่อสวดมนต์สำหรับเด็กปักชื่อ",
+"vi": "Mukena & thảm cầu nguyện thêu tên cho trẻ em",
+"ms": "Mukena & sejadah kanak-kanak bersulam nama"
+}
+},
+{
+"code": "MAKARO",
+"niche": "Resep",
+"nama": "Makaroni Basreng Karya",
+"judul": "Makaroni Basreng Karya: Produksi makaroni & basreng pedas daun jeruk Dengan Teknik Fry-Coat & Pack Untuk Camilan, Toples & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "makaroni & basreng pedas daun jeruk",
+"auth": 1,
+"fx": {
+"ms": "makaroni & basreng pedas dengan daun limau purut"
+}
+},
+{
+"code": "AYAMKE",
+"niche": "Budidaya",
+"nama": "Ayam Ketawa Sentosa",
+"judul": "Ayam Ketawa Sentosa: Budidaya ternak ayam ketawa & ayam pelung suara Dengan Teknik Cage-Train & Breed Untuk Pehobi, Kontes & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya ternak ayam ketawa & ayam",
+"fx": {
+"th": "การเลี้ยงไก่หัวเราะและไก่",
+"vi": "nuôi gà cười và gà",
+"ms": "penanaman ayam ketawa & ayam"
+}
+},
+{
+"code": "KERUP4",
+"niche": "Produksi",
+"nama": "Kerupuk Rambak Prima",
+"judul": "Kerupuk Rambak Prima: Produksi kerupuk rambak & kulit produksi Dengan Teknik Boil-Dry & Fry Untuk Toko, Grosir & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "kerupuk rambak & kulit produksi",
+"auth": 1,
+"fx": {
+"ms": "keropok rambak & penghasilan kulit"
+}
+},
+{
+"code": "LAYARA",
+"niche": "Rental",
+"nama": "Layar Alat Kreasi",
+"judul": "Layar Alat Kreasi: Bisnis Rental rental layar & alat nobar (nonton bareng) Dengan Teknik Setup-Calibrate & Operate Untuk Komunitas, Cafe & Event.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental layar & alat nobar",
+"fx": {
+"th": "ให้เช่าจอและเช่าอุปกรณ์",
+"vi": "cho thuê màn hình và cho thuê thiết bị",
+"ms": "sewa skrin & sewa peralatan"
+}
+},
+{
+"code": "PECIKO",
+"niche": "Kerajinan",
+"nama": "Peci Kopiah Hub",
+"judul": "Peci Kopiah Hub: Produksi peci, kopiah & ikat kepala custom Dengan Teknik Mold-Stitch & Label Untuk Religi, Souvenir & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "kerajinan",
+"fx": {
+"th": "งานฝีมือ",
+"vi": "thủ công",
+"ms": "kerajinan"
+}
+},
+{
+"code": "WAJIKJ",
+"niche": "Resep",
+"nama": "Wajik Jenang Indo",
+"judul": "Wajik Jenang Indo: Produksi wajik, jenang & dodol kemasan Dengan Teknik Slow-Cook & Wrap Untuk Oleh-oleh, Lebaran & Reseller.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "resep",
+"fx": {
+"th": "สูตร",
+"vi": "công thức",
+"ms": "resepi"
+}
+},
+{
+"code": "SEWATE",
+"niche": "Jasa",
+"nama": "Sewa Tenda Raya",
+"judul": "Sewa Tenda Raya: Jasa jasa sewa-pasang tenda sarnafil & dekor Dengan Teknik Erect-Decor & Transport Untuk Hajatan, Instansi & Event.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa sewa-pasang tenda sarnafil & dekor",
+"fx": {
+"th": "บริการให้เช่าและติดตั้งเต็นท์สารนาฟิล",
+"vi": "Dịch vụ cho thuê và lắp đặt lều sarnafil",
+"ms": "perkhidmatan sewa dan pemasangan khemah sarnafil"
+}
+},
+{
+"code": "PAPRIK",
+"niche": "Budidaya",
+"nama": "Paprika Cabai Asri",
+"judul": "Paprika Cabai Asri: Budidaya budidaya paprika & cabai hias hidroponik Dengan Teknik Hydro-Trellis & Prune Untuk Resto, Sehat & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya budidaya paprika & cabai hias",
+"fx": {
+"th": "การปลูกพริกขี้หนูและพริกประดับ",
+"vi": "trồng ớt bột và ớt cảnh",
+"ms": "penanaman paprika & cili hiasan"
+}
+},
+{
+"code": "SARIKU",
+"niche": "Produksi",
+"nama": "Sari Kurma Cuan",
+"judul": "Sari Kurma Cuan: Produksi sari kurma & madu herbal botol Dengan Teknik Extract-Blend & Bottle Untuk Sehat, Herbal & Online.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "sari kurma & madu herbal botol",
+"fx": {
+"th": "น้ำอินทผลัมและน้ำผึ้งสมุนไพรบรรจุขวด",
+"vi": "nước ép chà là & mật ong thảo dược đóng chai",
+"ms": "jus kurma & madu herba dalam botol"
+}
+},
+{
+"code": "ALATSN",
+"niche": "Rental",
+"nama": "Alat Snorkeling Studio",
+"judul": "Alat Snorkeling Studio: Bisnis Rental rental alat snorkeling & life jacket wisata Dengan Teknik Inspect-Clean & Deliver Untuk Wisata, Pantai & Komunitas.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental alat snorkeling & life",
+"fx": {
+"th": "เช่าอุปกรณ์ดำน้ำตื้นและช่วยชีวิต",
+"vi": "cho thuê thiết bị lặn và cuộc sống",
+"ms": "penyewaan peralatan snorkeling & kehidupan"
+}
+},
+{
+"code": "DOILYT",
+"niche": "Kerajinan",
+"nama": "Doily Taplak Lab",
+"judul": "Doily Taplak Lab: Produksi doily, taplak & runner renda rajut Dengan Teknik Lace-Crochet & Block Untuk Dekor, Kado & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "kerajinan",
+"fx": {
+"th": "งานฝีมือ",
+"vi": "thủ công",
+"ms": "kerajinan"
+}
+},
+{
+"code": "SUSUKE",
+"niche": "Resep",
+"nama": "Susu Kedelai House",
+"judul": "Susu Kedelai House: Produksi susu kedelai & sari kacang hijau botol Dengan Teknik Boil-Filter & Bottle Untuk Sehat, Sarapan & Reseller.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "susu kedelai & sari kacang hijau",
+"fx": {
+"th": "นมถั่วเหลืองและน้ำถั่วเขียว",
+"vi": "sữa đậu nành và nước đậu xanh",
+"ms": "susu soya & jus kacang hijau"
+}
+},
+{
+"code": "RIASPE",
+"niche": "Jasa",
+"nama": "Rias Pengantin Pro",
+"judul": "Rias Pengantin Pro: Jasa jasa rias pengantin & paes panggilan Dengan Teknik Makeup-Hairdo & Touch Untuk Nikah, Lamaran & Event.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa rias pengantin & paes panggilan",
+"fx": {
+"th": "บริการแต่งหน้าเจ้าสาวและโทรเรียก",
+"vi": "dịch vụ trang điểm cô dâu và theo yêu cầu",
+"ms": "perkhidmatan solekan pengantin & on-call"
+}
+},
+{
+"code": "IKANSE",
+"niche": "Budidaya",
+"nama": "Ikan Sepat Co",
+"judul": "Ikan Sepat Co: Budidaya ternak ikan sepat & gurame hias Dengan Teknik Tank-Breed & Grade Untuk Pehobi, Akuarium & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya ternak ikan sepat & gurame",
+"fx": {
+"th": "การเลี้ยงปลาแยกและปลาสลิด",
+"vi": "nuôi cá bảy màu và cá sặc",
+"ms": "penanaman ikan sepat & gurami"
+}
+},
+{
+"code": "MINYA2",
+"niche": "Produksi",
+"nama": "Minyak Kemiri Craft",
+"judul": "Minyak Kemiri Craft: Produksi minyak kemiri & minyak rambut herbal Dengan Teknik Press-Infuse & Bottle Untuk Skincare, Herbal & Online.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "minyak kemiri & minyak rambut herbal",
+"fx": {
+"th": "น้ำมันแคนเดิลนัทและน้ำมันผมสมุนไพร",
+"vi": "dầu nến và dầu dưỡng tóc thảo dược",
+"ms": "minyak kemiri & minyak rambut herba"
+}
+},
+{
+"code": "PIANOK",
+"niche": "Rental",
+"nama": "Piano Keyboard Berkah",
+"judul": "Piano Keyboard Berkah: Bisnis Rental rental piano, keyboard & alat band Dengan Teknik Tune-Deliver & Operate Untuk Event, Sekolah & Gereja.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental rental piano",
+"fx": {
+"th": "เช่าเปียโน",
+"vi": "cho thuê đàn piano",
+"ms": "sewa piano"
+}
+},
+{
+"code": "GANTU4",
+"niche": "Kerajinan",
+"nama": "Gantungan Tas Makmur",
+"judul": "Gantungan Tas Makmur: Produksi gantungan tas pom-pom & tassel Dengan Teknik Wind-Tie & Trim Untuk Aksesoris, Kado & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "gantungan tas pom-pom & tassel",
+"fx": {
+"th": "ที่แขวนกระเป๋าปอมปอมและพู่",
+"vi": "móc treo túi quả pom-pom & tua rua",
+"ms": "penyangkut beg bawal & tassel"
+}
+},
+{
+"code": "JAMUKU",
+"niche": "Resep",
+"nama": "Jamu Kunyit Nusantara",
+"judul": "Jamu Kunyit Nusantara: Produksi jamu kunyit asam & beras kencur botol Dengan Teknik Boil-Extract & Bottle Untuk Sehat, Herbal & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "jamu kunyit asam & beras kencur",
+"auth": 1,
+"fx": {
+"ms": "jamu asam jawa & beras kencur"
+}
+},
+{
+"code": "TOMATB",
+"niche": "Budidaya",
+"nama": "Tomat Beef Jaya",
+"judul": "Tomat Beef Jaya: Budidaya budidaya tomat beef & cherry greenhouse Dengan Teknik Greenhouse-Prune & Pollinate Untuk Resto, Sehat & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya budidaya tomat beef & cherry",
+"fx": {
+"th": "การปลูกมะเขือเทศเนื้อและเชอร์รี่",
+"vi": "trồng thịt bò và cà chua bi",
+"ms": "penanaman daging lembu & tomato ceri"
+}
+},
+{
+"code": "SABUNB",
+"niche": "Produksi",
+"nama": "Sabun Beras Mandiri",
+"judul": "Sabun Beras Mandiri: Produksi sabun beras & sabun kopi batang Dengan Teknik Saponify-Cut & Pack Untuk Skincare, Souvenir & Online.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "sabun beras & sabun kopi batang",
+"fx": {
+"th": "สบู่ข้าวและสบู่กาแฟบาร์",
+"vi": "xà phòng gạo & xà phòng cà phê",
+"ms": "sabun beras & sabun kopi bar"
+}
+},
+{
+"code": "MASKE2",
+"niche": "Kerajinan",
+"nama": "Masker Mata Karya",
+"judul": "Masker Mata Karya: Produksi masker mata & bantal leher lavender Dengan Teknik Sew-Fill & Scent Untuk Travel, Kado & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "masker mata & bantal leher lavender",
+"fx": {
+"th": "ผ้าปิดตาและหมอนรองคอลาเวนเดอร์",
+"vi": "bịt mắt & gối cổ hoa oải hương",
+"ms": "penutup mata & bantal leher lavender"
+}
+},
+{
+"code": "TELURA",
+"niche": "Resep",
+"nama": "Telur Asin Sentosa",
+"judul": "Telur Asin Sentosa: Produksi telur asin asap & telur gabus snack Dengan Teknik Brine-Smoke/Bake & Pack Untuk Oleh-oleh, Lauk & Reseller.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "telur asin asap & telur gabus",
+"fx": {
+"th": "ไข่เค็มรมควันและไข่คอร์ก",
+"vi": "trứng muối hun khói & trứng đóng hộp",
+"ms": "telur masin salai & telur gabus"
+}
+},
+{
+"code": "RAWATB",
+"niche": "Jasa",
+"nama": "Rawat Boneka Prima",
+"judul": "Rawat Boneka Prima: Jasa jasa cuci & rawat boneka + bedcover besar Dengan Teknik Foam-Tumble & Dry Untuk Rumah, Anak & Online.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa cuci & rawat boneka +",
+"fx": {
+"th": "บริการซักและดูแลตุ๊กตา +",
+"vi": "dịch vụ giặt và chăm sóc búp bê +",
+"ms": "perkhidmatan mencuci & penjagaan anak patung +"
+}
+},
+{
+"code": "BURUN2",
+"niche": "Budidaya",
+"nama": "Burung Kenari Kreasi",
+"judul": "Burung Kenari Kreasi: Budidaya ternak burung kenari & finch warna Dengan Teknik Aviary-Breed & Color Untuk Pehobi, Lomba & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya ternak burung kenari & finch",
+"fx": {
+"th": "การเพาะเลี้ยงนกคีรีบูนและนกฟินช์",
+"vi": "nuôi chim hoàng yến và chim sẻ",
+"ms": "penanaman kenari & burung kutilang"
+}
+},
+{
+"code": "JILBAB",
+"niche": "Kerajinan",
+"nama": "Jilbab Pashmina Hub",
+"judul": "Jilbab Pashmina Hub: Produksi jilbab & pashmina lukis/airbrush Dengan Teknik Airbrush-Set & Finish Untuk Fashion Muslim, Kado & Online.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "jilbab & pashmina lukis/airbrush",
+"fx": {
+"th": "ฮิญาบและพัชมีน่าทาสี/พู่กัน",
+"vi": "khăn trùm đầu & pashmina sơn/airbrushed",
+"ms": "tudung & pashmina dicat/airbrushed"
+}
+},
+{
+"code": "MANIS3",
+"niche": "Resep",
+"nama": "Manisan Kolang Indo",
+"judul": "Manisan Kolang Indo: Produksi manisan kolang-kaling & cincau cup Dengan Teknik Boil-Sweeten & Cup Untuk Booth, Takjil & Online.",
+"tagline": "resep anti gagal takaran pas, SOP produksi, kemas & simpan, variasi rasa & ukuran, daftar bahan & vendor murah, kalkulator HPP per porsi, dan skrip jualan, PO & reseller.",
+"status": "",
+"fxkw": "manisan kolang-kaling & cincau cup",
+"fx": {
+"th": "ผลตาลหวานและแก้วเฉาก๊วย",
+"vi": "cốc thạch trái cây và cỏ cọ",
+"ms": "candied palm fruit & grass jelly cup"
+}
+},
+{
+"code": "BEHELD",
+"niche": "Jasa",
+"nama": "Behel Display Raya",
+"judul": "Behel Display Raya: Jasa jasa pasang behel display & rak toko Dengan Teknik Build-Mount & Arrange Untuk Toko, UMKM & Ruko.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa pasang behel display & rak",
+"fx": {
+"th": "บริการติดตั้งจอแสดงผลและชั้นวาง",
+"vi": "Dịch vụ lắp đặt kệ trưng bày",
+"ms": "perkhidmatan pemasangan paparan & rak"
+}
+},
+{
+"code": "TANAM3",
+"niche": "Budidaya",
+"nama": "Tanaman Caisim Asri",
+"judul": "Tanaman Caisim Asri: Budidaya budidaya tanaman caisim & kailan hidroponik Dengan Teknik NFT-Nutrient & Harvest Untuk Resto, Pasar & Online.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya budidaya tanaman caisim & kailan",
+"fx": {
+"th": "การปลูกพืชไคซิมและไคลาน",
+"vi": "trồng cây caisim và kailan",
+"ms": "penanaman tanaman caisim & kailan"
+}
+},
+{
+"code": "PELETK",
+"niche": "Produksi",
+"nama": "Pelet Kelinci Cuan",
+"judul": "Pelet Kelinci Cuan: Produksi pelet kelinci & pakan burung produksi Dengan Teknik Mill-Pellet & Pack Untuk Peternak, Toko & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "pelet kelinci & pakan burung produksi",
+"fx": {
+"th": "การผลิตเม็ดกระต่ายและอาหารนก",
+"vi": "sản xuất thức ăn viên cho thỏ & thức ăn cho chim",
+"ms": "pelet arnab & pengeluaran makanan burung"
 }
 }
 ]
