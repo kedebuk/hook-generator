@@ -806,7 +806,8 @@ function bisnisPhrase(t){
   const nama=((t&&t.nama)||'').trim(), judul=((t&&t.judul)||''), niche=((t&&t.niche)||'').toLowerCase().trim();
   const cl=s=>(s||'').replace(/[“”"‘’()]/g,'').replace(/\s+/g,' ').trim().toLowerCase().split(' ').slice(0,6).join(' ').replace(/\b(3d|ac|ai|umkm|b2b|pc|tv|cctv|hpp|sop|qc|usb|led|apar)\b/gi,m=>m.toUpperCase());
   const JUNK=/\b(stop|gagal|capek|kabur|dikadalin|nyesel|takut|bingung|rugi|boncos|jangan|kenapa|mentok|tumbal|numpuk|tipis|markup|biar|sengaja)\b/i; // hook pain, bukan nama bisnis
-  const ok=c=>c&&c.split(' ').length>=2&&!JUNK.test(c);
+  const SPECIES_OK=/\b(entok|ternak mentok|mentok pedaging)\b/i;
+  const ok=c=>c&&c.split(' ').length>=2&&(!JUNK.test(c)||SPECIES_OK.test(c));
   const m=nama.match(/^(bisnis|jasa|usaha|produksi)\s+(.+)/i); if(m) return cl(m[2]);
   if(/[—–]/.test(judul)){ // gaya "Brand — hook ... jadi X : ..." → ambil bagian bisnis
     let seg=(judul.split(/[—–]/)[1]||'').split(':')[0];

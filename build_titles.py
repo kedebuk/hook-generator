@@ -24,12 +24,13 @@ for r in csv.reader(f,delimiter='\t'):
 # port bisnisPhrase JS ilmuwanlama (ambil produk/jasa dari gaya —/:/- )
 _UP2=re.compile(r'\b(3d|ac|ai|umkm|b2b|pc|tv|cctv|hpp|sop|qc|usb|led|apar)\b',re.I)
 _JUNK=re.compile(r'\b(stop|gagal|capek|kabur|dikadalin|nyesel|takut|bingung|rugi|boncos|jangan|kenapa|mentok|tumbal|numpuk|tipis|markup|biar|sengaja)\b',re.I)
+_SPECIES_OK=re.compile(r'\b(entok|ternak mentok|mentok pedaging)\b',re.I)
 def _cl(s):
     s=re.sub(r'[“”"‘’()]','',(s or ''))
     s=re.sub(r'\s+',' ',s).strip().lower()
     s=' '.join(s.split(' ')[:6])
     return _UP2.sub(lambda m:m.group(0).upper(), s)
-def _ok(c): return bool(c) and len(c.split(' '))>=2 and not _JUNK.search(c)
+def _ok(c): return bool(c) and len(c.split(' '))>=2 and (not _JUNK.search(c) or _SPECIES_OK.search(c))
 def bisnis_phrase(judul, nama='', niche=''):
     nama=(nama or '').strip(); judul=(judul or ''); niche=(niche or '').lower().strip()
     m=re.match(r'^(bisnis|jasa|usaha|produksi)\s+(.+)',nama,re.I)
