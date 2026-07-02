@@ -1092,7 +1092,8 @@ function selectTitle(t){
   $('results').classList.remove('show');
   const p=$('picked'); p.classList.add('show');
   p.innerHTML=`<span class="nq">${esc(t.code||'')} · ${esc(t.niche||'')}</span><br><b>${esc(t.judul||'')}</b>${t.tagline?'<br><span style="color:var(--muted)">'+esc(t.tagline.slice(0,140))+'</span>':''}`
-   +(t.lp?`<div class="lpnote">📖 Ini link landing page-nya — <b>baca dulu</b> biar paham produknya, baru bikin hook:</div><a class="lplink" href="${esc(t.lp)}" target="_blank" rel="noopener">🔗 Buka Landing Page</a>`:`<br><span class="lpnone">— LP belum ada —</span>`);
+   +(t.lp?`<div class="lpnote">📖 Ini link landing page-nya — <b>baca dulu</b> biar paham produknya, baru bikin hook:</div><a class="lplink" href="${esc(t.lp)}" target="_blank" rel="noopener">🔗 Buka Landing Page</a>`:`<br><span class="lpnone">— LP belum ada —</span>`)
+   +(t.code?`<div class="logobox" id="logobox" style="display:none;margin-top:10px;padding:10px;background:#0d1024;border:1px dashed #2a2f55;border-radius:10px"><div style="font-size:10px;font-weight:800;color:#8b93c9;text-transform:uppercase;margin-bottom:6px">🏷️ Logo brand — tempel di KANAN ATAS video/ads (~25% lebar)</div><img src="logos/${esc(t.code)}-pill.png" style="max-width:78%;height:auto;display:block" onload="document.getElementById('logobox').style.display='block'" onerror="this.parentNode.remove()"><div style="margin-top:8px;font-size:12px"><a href="logos/${esc(t.code)}-pill.png" download style="color:#7fd0ff;font-weight:700">⬇️ Download (pill — aman semua footage)</a> &nbsp;·&nbsp; <a href="logos/${esc(t.code)}.png" download style="color:#7fd0ff">⬇️ transparan polos</a></div></div>`:'');
   resetRot(); generate();
 }
 
