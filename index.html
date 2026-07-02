@@ -173,7 +173,8 @@
         </div>
       </div>
       <div class="controls">
-        <button data-style="arif" id="arifTab" style="width:100%;background:linear-gradient(90deg,#7c3aed,#5b21b6);color:#fff;border:none;border-radius:9px;padding:11px 10px;font-size:13px;font-weight:800;cursor:pointer">🎯 ARIF METHOD — script otomatis nyebut ISI produk (alat/teknik/hasil dari judul+tagline)</button>
+        <button data-style="arif" id="arifTab" title="Script padet & punchy — nyebut 3 poin konkret dari judul+tagline" style="flex:1;background:linear-gradient(90deg,#7c3aed,#5b21b6);color:#fff;border:none;border-radius:9px;padding:11px 8px;font-size:12.5px;font-weight:800;cursor:pointer">🎯 ARIF Ringkas</button>
+        <button data-style="arif2" id="arifTab2" title="Narasiin SEMUA poin + gaya proses (siapin→teknik→jual) — lebih lengkap ala video winning" style="flex:1;background:linear-gradient(90deg,#6d28d9,#4338ca);color:#fff;border:none;border-radius:9px;padding:11px 8px;font-size:12.5px;font-weight:800;cursor:pointer">📋 ARIF Lengkap</button>
       </div>
       <div class="controls">
         <select id="count" style="flex:0 0 auto;width:auto"><option>3</option><option>5</option><option>8</option><option>10</option><option selected>15</option><option>20</option><option>30</option></select>
@@ -355,6 +356,25 @@ const ARIF_SCRIPTS=[
  {s:'soft',t:"Bukan teori kosong. {JUDUL} kasih {POIN1} sama {POIN2} yang bisa langsung dipraktekin, plus {POIN3}. Pelan tapi jelas."},
  {s:'soft',t:"Sering gagal itu karena detail kecil kelewat. {JUDUL} rapiin {POIN1}, {POIN2}, {POIN3} biar {BISNIS} kamu gak berantakan dan pelanggan balik lagi."},
  {s:'hard',t:"Stop coba-coba {BISNIS}. Yang lo butuh: {POIN1}, {POIN2}, {POIN3} — semua ada di {JUDUL}. Praktek, jual, cuan."}
+];
+/* ===== ARIF LENGKAP: narasi proses, sebut SEMUA poin (mendekati video winning) ===== */
+const ARIF_HOOKS_LENGKAP=[
+ {a:'Proses Lengkap',s:'hard',t:"{BISNIS} dari A sampai Z: {POIN1}, {POIN2}, sampai {POIN4}."},
+ {a:'Semua Dibongkar',s:'hard',t:"Di {JUDUL} semua dibedah: {POIN_ALL}."},
+ {a:'Step by Step',s:'hard',t:"Urut dari nol: {POIN1} → {POIN2} → {POIN3}."},
+ {a:'Detail Penuh',s:'soft',t:"Yang kamu kuasai di {JUDUL}: {POIN_ALL}."},
+ {a:'Tuntas',s:'soft',t:"{BISNIS_CAP} dibahas tuntas — {POIN1}, {POIN2}, {POIN3}, {POIN4}."},
+ {a:'Komplit',s:'soft',t:"Gak setengah-setengah. {JUDUL} komplit: {POIN_ALL}."}
+];
+const ARIF_SCRIPTS_LENGKAP=[
+ {s:'hard',t:"Gue jelasin kenapa {BISNIS} ini nendang. Modal cukup {MODAL_USAHA}, dikerjain dari rumah. Yang kamu kuasai lengkap: {POIN_ALL}. Di {JUDUL} semua diurutin dari nol — nyiapin alat, praktek teknik, patok harga, sampai jual ke {SEGMEN}. Sekali paham, {JT} juta/bulan realistis. Bukan teori, tapi step yang langsung bisa dipraktekin."},
+ {s:'hard',t:"Kebanyakan orang mulai {BISNIS} asal jalan, makanya gagal. Yang bener urut: mulai {POIN1}, lanjut {POIN2}, terus {POIN3}, sampai {POIN4}. Semua ({POIN_ALL}) dibedah tuntas di {JUDUL}. Modal {MODAL_USAHA}, hasil laku diborong {SEGMEN}. Realistis {JT} juta/bulan."},
+ {s:'hard',t:"{BISNIS} kelihatan simpel, padahal detailnya banyak: {POIN_ALL}. Itu semua yang bikin hasil rapi dan laku. {JUDUL} ngajarin satu per satu dari nol — siapin alat, praktek teknik, patok harga, sampai dapet orderan pertama. Modal cukup {MODAL_USAHA}."},
+ {s:'soft',t:"{JUDUL} ngebahas {BISNIS} selengkap-lengkapnya. Kamu bakal ngerti {POIN1}, {POIN2}, {POIN3}, plus {POIN4} — bahkan lebih ({POIN_ALL}). Diurutin pelan dari nol: apa yang disiapin, teknik biar hasilnya bagus, cara nentuin harga, sampai jualan ke {SEGMEN}."},
+ {s:'soft',t:"Mulai {BISNIS} gak harus nebak-nebak. Di {JUDUL} lengkap: {POIN_ALL}. Semua step-by-step — dari nyiapin bahan, praktek teknik, sampai jaga pelanggan biar balik lagi. Pelan tapi pasti, modal {MODAL_USAHA} udah cukup buat mulai."},
+ {s:'soft',t:"Yang bikin {BISNIS} rapi itu detailnya: {POIN_ALL}. {JUDUL} bahas semuanya satu-satu, dari persiapan alat sampai closing pertama. Cocok buat pemula yang mau paham tuntas sebelum keluar modal banyak."},
+ {s:'hard',t:"Ini bukan {BISNIS} biasa. Ada {POIN1}, {POIN2}, {POIN3}, {POIN4} — dan lebih ({POIN_ALL}). {JUDUL} bongkar semuanya berurutan biar kamu tinggal ikutin: siapin, praktek, jual. Modal {MODAL_USAHA}, target {JT} juta/bulan."},
+ {s:'soft',t:"Kalau mau serius di {BISNIS}, pahami dulu semua bagiannya: {POIN_ALL}. {JUDUL} nuntun dari nol — teknik, harga, sampai strategi dapet pelanggan tetap. Telaten, sampai jadi pemasukan tetap."}
 ];
 
 const WIN_HOOKS_EXTRA={
@@ -755,13 +775,14 @@ function cardId(c){return hashText([(c&&c.mode)||'',(c&&c.style)||'',(c&&c.angle
 function isUsed(c){return usedCards.has(cardId(c));}
 function saveUsed(){try{localStorage.setItem('hookgen_used',JSON.stringify(Array.from(usedCards).slice(-2500)));}catch(e){}}
 function toggleUsed(i){const c=current[i];if(!c)return;const id=cardId(c);if(usedCards.has(id))usedCards.delete(id);else usedCards.add(id);saveUsed();render();}
-function modeLabel(c){return (c&&c.mode)==='winning'?'🏆 Winning April':(c&&c.mode)==='arif'?'🎯 Arif Method':'Reguler';}
+function modeLabel(c){return (c&&c.mode)==='winning'?'🏆 Winning April':(c&&c.mode)==='arif'?'🎯 Arif Ringkas':(c&&c.mode)==='arif2'?'📋 Arif Lengkap':'Reguler';}
 function styleLabel(c){return (c&&c.style)==='hard'?'🔥 Hardhook':'🌿 Softhook';}
 function buildCardRaw(st,V,cat,HB,SB){
-  let hook,altH,scr,cta,cardStyle=st,mode=st==='winning'?'winning':st==='arif'?'arif':'regular';
-  if(st==='arif'){
-    hook=pickUnused(ARIF_HOOKS,uH); altH=pick(ARIF_HOOKS.filter(h=>h.t!==hook.t));
-    scr=pickUnused(ARIF_SCRIPTS,uS); cardStyle=scr.s||hook.s||'hard';
+  let hook,altH,scr,cta,cardStyle=st,mode=st==='winning'?'winning':(st==='arif'||st==='arif2')?st:'regular';
+  if(st==='arif'||st==='arif2'){
+    var _AH=st==='arif2'?ARIF_HOOKS_LENGKAP:ARIF_HOOKS, _AS=st==='arif2'?ARIF_SCRIPTS_LENGKAP:ARIF_SCRIPTS;
+    hook=pickUnused(_AH,uH); altH=pick(_AH.filter(h=>h.t!==hook.t));
+    scr=pickUnused(_AS,uS); cardStyle=scr.s||hook.s||'hard';
     cta=pickUnused(CTAS.filter(x=>x.s===cardStyle),uC);
   } else if(st==='winning'){
     const WB=winningPools(pickedTitle||{});
@@ -798,9 +819,9 @@ function rotateCard(i){if(!current[i])return;const ctx=cardContext(),st=current[
 function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 function render(){
   const out=$('out'); out.innerHTML="";
-  $('status').textContent=current.length+" angle · "+(styleMode==='arif'?'🎯 Arif Method (nyebut isi produk)':styleMode==='winning'?'🏆 Winning April':styleMode==='mix'?'🔀 Mix Hard/Soft':styleMode==='hard'?'🔥 Hardhook':'🌿 Softhook')+" · tombol rotasi + centang sudah dipakai aktif";
+  $('status').textContent=current.length+" angle · "+(styleMode==='arif'?'🎯 Arif Ringkas (3 poin, punchy)':styleMode==='arif2'?'📋 Arif Lengkap (semua poin + proses)':styleMode==='winning'?'🏆 Winning April':styleMode==='mix'?'🔀 Mix Hard/Soft':styleMode==='hard'?'🔥 Hardhook':'🌿 Softhook')+" · tombol rotasi + centang sudah dipakai aktif";
   current.forEach((c,i)=>{const d=document.createElement('div');const used=isUsed(c);d.className='ang'+(used?' used':'');
-    const winTag=c.mode==='winning'?'<span class="tag win">🏆 Winning</span>':c.mode==='arif'?'<span class="tag" style="background:#7c3aed;color:#fff">🎯 Arif</span>':'<span class="tag mode">Reguler</span>';
+    const winTag=c.mode==='winning'?'<span class="tag win">🏆 Winning</span>':(c.mode==='arif'||c.mode==='arif2')?'<span class="tag" style="background:#7c3aed;color:#fff">'+(c.mode==='arif2'?'📋 Lengkap':'🎯 Ringkas')+'</span>':'<span class="tag mode">Reguler</span>';
     d.innerHTML=`<div class="actions"><button class="mini rot" data-i="${i}">🔄 Rotasi</button><button class="mini usedBtn ${used?'on':''}" data-i="${i}">${used?'Sudah dipakai':'☐ Tandai dipakai'}</button><button class="mini copy" data-i="${i}">📋 Salin</button></div>
       <div class="tags">${winTag}<span class="tag angle">${c.angle}</span><span class="tag ${c.style}">${c.style==='hard'?'🔥 Hardhook':'🌿 Softhook'}</span></div>
       <div class="modebar">Mode: <b>${modeLabel(c)}</b> · Tipe hook/script: <b>${styleLabel(c)}</b></div>
@@ -899,9 +920,10 @@ function arifPoints(t){
 function arifVars(V,t){
   var pts=t?arifPoints(t):[];
   var pad=['teknik yang bener','cara nentuin harga yang pas','cara dapet pelanggan pertama','SOP kerja yang rapi'];
-  var full=pts.concat(pad);
-  V.POIN1=full[0]; V.POIN2=full[1]; V.POIN3=full[2];
-  V.POIN_LIST=(pts.length?pts:pad).slice(0,4).join(', ');
+  var full=pts.concat(pad), src=(pts.length?pts:pad);
+  V.POIN1=full[0]; V.POIN2=full[1]; V.POIN3=full[2]; V.POIN4=full[3];
+  V.POIN_LIST=src.slice(0,4).join(', ');
+  V.POIN_ALL=src.slice(0,6).join(', ');   // buat ARIF Lengkap
   return V;
 }
 /* ===== NICHE-AWARE: framing beda buat KARIR (kerja LN) & HOBI ===== */
@@ -1113,7 +1135,7 @@ $('search').addEventListener('keydown',e=>{
   }
 });
 document.addEventListener('click',e=>{if(!e.target.closest('.searchbox'))$('results').classList.remove('show');});
-document.querySelectorAll('[data-style]').forEach(b=>b.addEventListener('click',()=>{styleMode=b.dataset.style;document.querySelectorAll('[data-style]').forEach(x=>x.classList.remove('on'));b.classList.add('on');if(styleMode==='winning'||styleMode==='arif'){tempelMode=styleMode;try{localStorage.setItem('tempelmode',tempelMode);}catch(_){}if(pickedTitle)renderTempel(pickedTitle);}saveInputs();if(current.length)generate();}));
+document.querySelectorAll('[data-style]').forEach(b=>b.addEventListener('click',()=>{styleMode=b.dataset.style;document.querySelectorAll('[data-style]').forEach(x=>x.classList.remove('on'));b.classList.add('on');if(styleMode==='winning'||styleMode==='arif'||styleMode==='arif2'){tempelMode=(styleMode==='winning'?'winning':'arif');try{localStorage.setItem('tempelmode',tempelMode);}catch(_){}if(pickedTitle)renderTempel(pickedTitle);}saveInputs();if(current.length)generate();}));
 
 loadInputs(); updateCombo(); omsetInfo(); loadTitles();
 </script>
