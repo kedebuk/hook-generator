@@ -1,6 +1,6 @@
 {
-"updated": "2026-07-02 17:23",
-"count": 596,
+"updated": "2026-07-02 17:38",
+"count": 608,
 "items": [
 {
 "code": "RSNA",
@@ -8436,6 +8436,174 @@
 "th": "การผลิตเม็ดกระต่ายและอาหารนก",
 "vi": "sản xuất thức ăn viên cho thỏ & thức ăn cho chim",
 "ms": "pelet arnab & pengeluaran makanan burung"
+}
+},
+{
+"code": "MADUKE",
+"niche": "Budidaya",
+"nama": "Madukelulut Asli",
+"judul": "Madukelulut Asli: Budidaya budidaya lebah kelulut madu premium Dengan Teknik Topping-Hive & Moist-Control Untuk Kesehatan & Oleh-oleh.",
+"tagline": "SOP budidaya dari nol, pakan/nutrisi & perawatan, panen & pasca-panen, hitung modal & estimasi untung, cara jual ke pasar/tengkulak/online, dan skrip pemasaran & mitra.",
+"status": "",
+"fxkw": "budidaya budidaya lebah kelulut madu premium",
+"fx": {
+"th": "บูทิดายา บูทิดายา เลบาห์ เกลูลุต มาดู พรีเมียม",
+"vi": "budidaya budidaya lebah kelulut madu cao cấp",
+"ms": "penanaman lebah kelulut madu premium"
+}
+},
+{
+"code": "SOFARE",
+"niche": "Jasa",
+"nama": "Sofaresik Home",
+"judul": "Sofaresik Home: Jasa jasa cuci sofa & springbed panggilan Dengan Teknik Deep-Extract & Fast-Dry Untuk Rumah, Kos & Kantor.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa cuci sofa & springbed panggilan",
+"fx": {
+"th": "บริการทำความสะอาดโซฟาและที่นอนสปริงเมื่อโทรติดต่อ",
+"vi": "Dịch vụ giặt ghế sofa, giường lò xo theo yêu cầu",
+"ms": "Sofa & spring bed cleaning services on call"
+}
+},
+{
+"code": "KAYURE",
+"niche": "Kerajinan",
+"nama": "Kayuresin Meja",
+"judul": "Kayuresin Meja: Kerajinan produksi kerajinan kayu-resin (talenan, meja mini) Dengan Teknik River-Pour & Sand-Gloss Untuk Dekor & Kado Premium.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "kerajinan produksi kerajinan kayu-resin",
+"fx": {
+"th": "kerajinan produksi kerajinan kayu-resin",
+"vi": "sản xuất thủ công mỹ nghệ bằng gỗ-resin",
+"ms": "craft production of wood-resin crafts"
+}
+},
+{
+"code": "KILAPK",
+"niche": "Jasa",
+"nama": "Kilapkaca Pro",
+"judul": "Kilapkaca Pro: Jasa jasa poles & anti-jamur kaca mobil Dengan Teknik Polish-Cerium & Rain-Coat Untuk Mobil Pribadi & Panggilan.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa poles & anti-jamur kaca mobil",
+"fx": {
+"th": "บริการขัดกระจกรถยนต์และป้องกันเชื้อรา",
+"vi": "car glass polishing & anti-fungal services",
+"ms": "car glass polishing & anti-fungal services"
+}
+},
+{
+"code": "SERBU",
+"niche": "Produksi",
+"nama": "Serbukjahe Hangat",
+"judul": "Serbukjahe Hangat: Produksi produksi minuman serbuk jahe rempah instan Dengan Teknik Crystal-Dry & Blend-Spice Untuk Warung, Apotek & Online.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "produksi minuman serbuk jahe rempah instan",
+"fx": {
+"th": "การผลิตเครื่องดื่มขิงผงสำเร็จรูป",
+"vi": "production of instant spiced ginger powder drink",
+"ms": "production of instant spiced ginger powder drink"
+}
+},
+{
+"code": "PAGARL",
+"niche": "Jasa",
+"nama": "Pagarlas Karya",
+"judul": "Pagarlas Karya: Jasa jasa las pagar & kanopi minimalis Dengan Teknik Cut-Weld & Powder-Finish Untuk Rumah & Ruko.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa las pagar & kanopi minimalis",
+"fx": {
+"th": "บริการเชื่อมรั้วและหลังคาแบบเรียบง่าย",
+"vi": "minimalist fence & canopy welding services",
+"ms": "perkhidmatan kimpalan pagar & kanopi minimalis"
+}
+},
+{
+"code": "GIPSDE",
+"niche": "Kerajinan",
+"nama": "Gipsdecor Studio",
+"judul": "Gipsdecor Studio: Kerajinan produksi hiasan dinding gipsum ukir Dengan Teknik Mold-Cast & Paint-Antique Untuk Dekor Rumah & Cafe.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "kerajinan produksi hiasan dinding gipsum ukir",
+"fx": {
+"th": "การผลิตงานฝีมือจากการตกแต่งผนังยิปซั่มแกะสลัก",
+"vi": "craft production of carved gypsum wall decorations",
+"ms": "penghasilan kraf hiasan dinding gipsum berukir"
+}
+},
+{
+"code": "LILINU",
+"niche": "Kerajinan",
+"nama": "Lilinukir Aroma",
+"judul": "Lilinukir Aroma: Kerajinan produksi lilin ukir & lilin bunga aromaterapi Dengan Teknik Carve-Layer & Scent-Blend Untuk Kado, Dekor & Hampers.",
+"tagline": "panduan desain & pola, SOP bikin & finishing rapi, variasi model & warna, daftar bahan & alat + supplier, kalkulator HPP per pcs, dan skrip jualan online, PO & reseller.",
+"status": "",
+"fxkw": "kerajinan produksi lilin ukir & lilin",
+"fx": {
+"th": "kerajinan ผลิตภัณฑ์ลิลิน ukir & lilin",
+"vi": "sản phẩm kerajinan lilin ukir & lilin",
+"ms": "ukiran & kraf pengeluaran lilin lilin"
+}
+},
+{
+"code": "TENDAC",
+"niche": "Rental",
+"nama": "Tendacamp Rental",
+"judul": "Tendacamp Rental: Rental bisnis rental alat camping lengkap Dengan Teknik Set-Bundle & Quick-Check Untuk Pendaki & Keluarga.",
+"tagline": "daftar alat & modal bertahap, SOP perawatan & penyimpanan, paket & harga sewa, form sewa, DP & jaminan, cara dapat klien, dan skrip promosi & repeat order.",
+"status": "",
+"fxkw": "rental bisnis rental alat camping lengkap",
+"fx": {
+"th": "เช่าบิสนิส เช่าแคมป์ปิ้งเล้งคัป",
+"vi": "kinh doanh cho thuê thiết bị cắm trại hoàn chỉnh",
+"ms": "perniagaan penyewaan peralatan perkhemahan yang lengkap"
+}
+},
+{
+"code": "KRIPCA",
+"niche": "Produksi",
+"nama": "Kripcau Crunch",
+"judul": "Kripcau Crunch: Produksi produksi keripik daun bayam & kelor krispi Dengan Teknik Thin-Batter & Low-Oil Untuk Camilan Sehat & Reseller.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "produksi keripik daun bayam & kelor",
+"fx": {
+"th": "การผลิตผักโขมและใบมะรุมทอดกรอบ",
+"vi": "production of spinach & moringa leaf chips",
+"ms": "penghasilan kerepek daun bayam & moringa"
+}
+},
+{
+"code": "ABONLE",
+"niche": "Produksi",
+"nama": "Abonlele Gurih",
+"judul": "Abonlele Gurih: Produksi produksi abon lele & ikan gurih Dengan Teknik Shred-Dry & Season-Lock Untuk Oleh-oleh, Bekal & Online.",
+"tagline": "formula & komposisi pas, SOP produksi & QC, variasi & ukuran kemasan, daftar bahan & supplier, kalkulator HPP & margin, dan skrip jualan, reseller & agen.",
+"status": "",
+"fxkw": "produksi abon lele & ikan gurih",
+"fx": {
+"th": "การผลิตปลาดุกฝอยและปลาคาว",
+"vi": "sản xuất cá tra và cá mặn",
+"ms": "production of shredded catfish & savory fish"
+}
+},
+{
+"code": "TANDON",
+"niche": "Jasa",
+"nama": "Tandonklin Fresh",
+"judul": "Tandonklin Fresh: Jasa jasa kuras & sterilisasi tandon air Dengan Teknik Vacuum-Sludge & UV-Rinse Untuk Rumah & Kos.",
+"tagline": "SOP layanan step-by-step, checklist alat & bahan, paket & tarif per layanan, form intake, nota & garansi, cara dapat pelanggan + promosi, dan skrip closing WA.",
+"status": "",
+"fxkw": "jasa kuras & sterilisasi tandon air",
+"fx": {
+"th": "บริการระบายน้ำและฆ่าเชื้อถังเก็บน้ำ",
+"vi": "Dịch vụ thông tắc & khử trùng bể nước",
+"ms": "water tank draining & sterilization services"
 }
 }
 ]
