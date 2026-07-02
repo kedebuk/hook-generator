@@ -368,12 +368,12 @@ const ARIF_HOOKS_LENGKAP=[
 ];
 const ARIF_SCRIPTS_LENGKAP=[
  {s:'hard',t:"Gue jelasin kenapa {BISNIS} ini nendang. Modal cukup {MODAL_USAHA}, dikerjain dari rumah. Yang kamu kuasai lengkap: {POIN_ALL}. Di {JUDUL} semua diurutin dari nol — nyiapin alat, praktek teknik, patok harga, sampai jual ke {SEGMEN}. Sekali paham, {JT} juta/bulan realistis. Bukan teori, tapi step yang langsung bisa dipraktekin."},
- {s:'hard',t:"Kebanyakan orang mulai {BISNIS} asal jalan, makanya gagal. Yang bener urut: mulai {POIN1}, lanjut {POIN2}, terus {POIN3}, sampai {POIN4}. Semua ({POIN_ALL}) dibedah tuntas di {JUDUL}. Modal {MODAL_USAHA}, hasil laku diborong {SEGMEN}. Realistis {JT} juta/bulan."},
+ {s:'hard',t:"Kebanyakan orang mulai {BISNIS} asal jalan, makanya gagal. Yang bener urut dari nol sampai jadi: {POIN_ALL} — semua dibedah tuntas di {JUDUL}. Modal {MODAL_USAHA}, hasil laku diborong {SEGMEN}. Realistis {JT} juta/bulan."},
  {s:'hard',t:"{BISNIS} kelihatan simpel, padahal detailnya banyak: {POIN_ALL}. Itu semua yang bikin hasil rapi dan laku. {JUDUL} ngajarin satu per satu dari nol — siapin alat, praktek teknik, patok harga, sampai dapet orderan pertama. Modal cukup {MODAL_USAHA}."},
- {s:'soft',t:"{JUDUL} ngebahas {BISNIS} selengkap-lengkapnya. Kamu bakal ngerti {POIN1}, {POIN2}, {POIN3}, plus {POIN4} — bahkan lebih ({POIN_ALL}). Diurutin pelan dari nol: apa yang disiapin, teknik biar hasilnya bagus, cara nentuin harga, sampai jualan ke {SEGMEN}."},
+ {s:'soft',t:"{JUDUL} ngebahas {BISNIS} selengkap-lengkapnya: {POIN_ALL}. Diurutin pelan dari nol — apa yang disiapin, teknik biar hasilnya bagus, cara nentuin harga, sampai jualan ke {SEGMEN}."},
  {s:'soft',t:"Mulai {BISNIS} gak harus nebak-nebak. Di {JUDUL} lengkap: {POIN_ALL}. Semua step-by-step — dari nyiapin bahan, praktek teknik, sampai jaga pelanggan biar balik lagi. Pelan tapi pasti, modal {MODAL_USAHA} udah cukup buat mulai."},
  {s:'soft',t:"Yang bikin {BISNIS} rapi itu detailnya: {POIN_ALL}. {JUDUL} bahas semuanya satu-satu, dari persiapan alat sampai closing pertama. Cocok buat pemula yang mau paham tuntas sebelum keluar modal banyak."},
- {s:'hard',t:"Ini bukan {BISNIS} biasa. Ada {POIN1}, {POIN2}, {POIN3}, {POIN4} — dan lebih ({POIN_ALL}). {JUDUL} bongkar semuanya berurutan biar kamu tinggal ikutin: siapin, praktek, jual. Modal {MODAL_USAHA}, target {JT} juta/bulan."},
+ {s:'hard',t:"Ini bukan {BISNIS} biasa. {JUDUL} bongkar semuanya berurutan — {POIN_ALL} — biar kamu tinggal ikutin: siapin, praktek, jual. Modal {MODAL_USAHA}, target {JT} juta/bulan."},
  {s:'soft',t:"Kalau mau serius di {BISNIS}, pahami dulu semua bagiannya: {POIN_ALL}. {JUDUL} nuntun dari nol — teknik, harga, sampai strategi dapet pelanggan tetap. Telaten, sampai jadi pemasukan tetap."}
 ];
 
@@ -923,7 +923,7 @@ function arifVars(V,t){
   var full=pts.concat(pad), src=(pts.length?pts:pad);
   V.POIN1=full[0]; V.POIN2=full[1]; V.POIN3=full[2]; V.POIN4=full[3];
   V.POIN_LIST=src.slice(0,4).join(', ');
-  V.POIN_ALL=src.slice(0,6).join(', ');   // buat ARIF Lengkap
+  V.POIN_ALL=src.slice(0,5).join(', ');   // buat ARIF Lengkap (cap 5 biar ga kepanjangan/ngulang)
   return V;
 }
 /* ===== NICHE-AWARE: framing beda buat KARIR (kerja LN) & HOBI ===== */
