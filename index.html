@@ -876,16 +876,22 @@ function arifClean(s){
   s=s.replace(/\b([A-Z][a-z]{2,})\b/g,function(w){return w.toLowerCase();}); // Title-Case -> lower biar ngalir; akronim (PAUD/HPP/IG) tetap
   return s;
 }
+var ARIF_GENERIK=/^(untung|modal|cuan|hemat|praktis|mudah|gampang|murah|laris|laku|cepat|aman|awet|rapi|bersih|fresh|garing|enak|wangi|viral|tahan|kuat|ringan|simpel|gratis|stabil|telaten|lezat|renyah)$/i;
 function arifPoints(t){
   var tag=(t&&t.tagline)||'', jud=(t&&t.judul)||'', jd='';
   if(jud.indexOf(':')>=0) jd=jud.split(':').slice(1).join(':');
   else if(/[—–]/.test(jud)) jd=jud.split(/[—–]/).slice(1).join(' ');
   jd=jd.replace(/,?\s*potensi\s+Rp[\d.,]+.*/i,'').replace(/,?\s*Rp[\d.,]+\s*(juta|jt|rb|ribu)\b.*/i,'');
-  var raw=(jd+' , '+tag).split(/\s*[,;•]\s*|\s+&\s+|\s+\+\s+|\s+dan\s+|\s+dengan\s+|\s+untuk\s+/i), seen={}, pts=[];
+  var raw=(jd+' , '+tag).split(/\s*[,;•]\s*|\s+&\s+|\s+\+\s+|\s+dan\s+|\s+dengan\s+|\s+untuk\s+|→|➜/i), seen={}, pts=[];
   raw.forEach(function(p){ p=arifClean(p);
     if(p.length<4||p.length>58) return;
-    if(/^(potensi|omzet|omset|rp\d|modal\s+rp)/i.test(p)) return;
-    if(/^\d+\s*(juta|jt|rb)/i.test(p)) return;
+    if(/\b\d+\s*(rb|jt|juta|ribu|persen|%|pcs)\b/i.test(p)) return;         // buang klaim angka
+    if(/^(potensi|omzet|omset|profit|laba|target|belanja|modal|untung|cuan|hemat|hasilkan|raup)\b.*\d/i.test(p)) return;
+    if(/^(potensi|omzet|omset|rp\d|modal\s+rp|modal\s+\d)/i.test(p)) return;
+    if(/^\d/.test(p)) return;                                              // mulai angka
+    var w=p.split(' ');
+    if(w.length<2 && p.length<7) return;                                   // 1 kata pendek (tani/seal/clay)
+    if(ARIF_GENERIK.test(p)) return;                                       // generik (untung/aman/viral)
     var k=p.toLowerCase(); if(seen[k]) return; seen[k]=1; pts.push(p);
   });
   return pts;
