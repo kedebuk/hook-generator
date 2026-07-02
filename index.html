@@ -616,7 +616,17 @@ const TEMPEL_HOBI_WINNING=[
  {t:"Jangan cuma upload karya {BISNIS}, bikin offer-nya"},
  {t:"Mulai monetize {BISNIS} dari 1 jasa/produk kecil"}
 ];
-const TEMPEL_BANKS={agresif:{karir:TEMPEL_KARIR,hobi:TEMPEL_HOBI,usaha:TEMPEL},halus:{karir:TEMPEL_KARIR_HALUS,hobi:TEMPEL_HOBI_HALUS,usaha:TEMPEL_HALUS},winning:{karir:TEMPEL_KARIR_WINNING,hobi:TEMPEL_HOBI_WINNING,usaha:TEMPEL_WINNING}};
+const TEMPEL_ARIF=[
+ {t:"{BISNIS_CAP} cuan {JT}jt/bln — kuncinya {POIN1}"},
+ {t:"Rahasia {BISNIS}: {POIN1}, omzet {JT}jt/bln"},
+ {t:"{BISNIS_CAP} pakai {POIN1}, tembus {JT}jt/bln"},
+ {t:"Cukup paham {POIN1}, {BISNIS} cuan {JT}jt/bln"},
+ {t:"{BISNIS_CAP} dari rumah — {POIN1}, {JT}jt/bln"},
+ {t:"Yang bikin {BISNIS} laku: {POIN1} — {JT}jt/bln"},
+ {t:"Modal kecil + {POIN1} = {BISNIS} {JT}jt/bln"},
+ {t:"{POIN1} — rahasia {BISNIS} tembus {JT_HI}jt/bln"}
+];
+const TEMPEL_BANKS={agresif:{karir:TEMPEL_KARIR,hobi:TEMPEL_HOBI,usaha:TEMPEL},halus:{karir:TEMPEL_KARIR_HALUS,hobi:TEMPEL_HOBI_HALUS,usaha:TEMPEL_HALUS},winning:{karir:TEMPEL_KARIR_WINNING,hobi:TEMPEL_HOBI_WINNING,usaha:TEMPEL_WINNING},arif:{karir:TEMPEL_ARIF,hobi:TEMPEL_ARIF,usaha:TEMPEL_ARIF}};
 function tempelBankFor(t){var cat=nicheCat(t&&t.niche); if(tempelMode==='winning'){ if(cat==='karir')return TEMPEL_KARIR_WINNING; if(cat==='hobi')return TEMPEL_HOBI_WINNING; return winningTempelBank(t); } return (TEMPEL_BANKS[tempelMode]||TEMPEL_BANKS.agresif)[cat];}
 /* ANGLE (hook+script) khusus KARIR & HOBI — biar gak ke-framing "usaha/omset" yg ngaco */
 const HOOKS_KARIR=[
@@ -1002,7 +1012,8 @@ let tempelList=[], currentTempel="", tempelBisnisDefault="bisnis ini", tempelBad
 function tempelPickCount(){return tempelMode==='winning'?15:4;}
 function pickTempel(arr){const n=tempelPickCount(),u=new Set(),r=[];let g=0;while(r.length<n&&u.size<arr.length&&g++<300){const x=pick(arr);if(!u.has(x.t)){u.add(x.t);r.push(x);}}return r;}
 function tempelVars(){const V=getVals(),omset=V.OMSET_NUM||0;const b=($('bisnisInp')?$('bisnisInp').value.trim():'')||tempelBisnisDefault||"bisnis ini";
-  return Object.assign({},V,{BISNIS:b,BISNIS_CAP:cap(b),JT:Math.max(1,Math.round(omset/1e6)),JT_HI:Math.max(2,Math.round(omset*1.25/1e6))});}
+  var TV=Object.assign({},V,{BISNIS:b,BISNIS_CAP:cap(b),JT:Math.max(1,Math.round(omset/1e6)),JT_HI:Math.max(2,Math.round(omset*1.25/1e6))});
+  arifVars(TV,pickedTitle); return TV;}
 function fillTempel(){const TV=tempelVars(),list=$('tempelList');if(!list)return;
   list.innerHTML=tempelList.map((tp,i)=>'<div class="tmp-item"><div class="tmp-prev">'+esc(fill(tp.t,TV))+'</div><button class="tmp-copy" data-i="'+i+'">📋 Salin teks ini</button></div>').join('');
   currentTempel=tempelList.length?fill(tempelList[0].t,TV):"";
@@ -1018,7 +1029,7 @@ function renderTempel(t){
   const box=$('tempel');box.style.display='block';
   box.innerHTML='<h2 style="margin-bottom:4px">📌 Hook Tempel</h2>'
    +'<div class="combo" style="margin-bottom:8px">Teks gede yg <b>NEMPEL di atas video</b> sepanjang durasi. Pilih 1 → Salin → tempel di editor.</div>'
-   +'<div class="seg" style="margin-bottom:10px"><button data-tm="agresif" class="'+(tempelMode==='agresif'?'on':'')+'">🔥 Agresif</button><button data-tm="halus" class="'+(tempelMode==='halus'?'on':'')+'">🌿 Halus</button><button data-tm="winning" class="'+(tempelMode==='winning'?'on':'')+'">🏆 Winning April</button></div>'
+   +'<div class="seg" style="margin-bottom:10px"><button data-tm="agresif" class="'+(tempelMode==='agresif'?'on':'')+'">🔥 Agresif</button><button data-tm="halus" class="'+(tempelMode==='halus'?'on':'')+'">🌿 Halus</button><button data-tm="winning" class="'+(tempelMode==='winning'?'on':'')+'">🏆 Winning April</button><button data-tm="arif" class="'+(tempelMode==='arif'?'on':'')+'">🎯 Arif</button></div>'
    +'<label style="margin:0 0 4px">'+lab+' (buat ngisi hook — edit kalau kurang pas)</label>'
    +'<input id="bisnisInp" value="'+esc(tempelBisnisDefault)+'">'
    +'<div id="tempelList" style="margin-top:11px"></div>'
@@ -1096,7 +1107,7 @@ $('search').addEventListener('keydown',e=>{
   }
 });
 document.addEventListener('click',e=>{if(!e.target.closest('.searchbox'))$('results').classList.remove('show');});
-document.querySelectorAll('[data-style]').forEach(b=>b.addEventListener('click',()=>{styleMode=b.dataset.style;document.querySelectorAll('[data-style]').forEach(x=>x.classList.remove('on'));b.classList.add('on');if(styleMode==='winning'){tempelMode='winning';try{localStorage.setItem('tempelmode',tempelMode);}catch(_){}if(pickedTitle)renderTempel(pickedTitle);}saveInputs();if(current.length)generate();}));
+document.querySelectorAll('[data-style]').forEach(b=>b.addEventListener('click',()=>{styleMode=b.dataset.style;document.querySelectorAll('[data-style]').forEach(x=>x.classList.remove('on'));b.classList.add('on');if(styleMode==='winning'||styleMode==='arif'){tempelMode=styleMode;try{localStorage.setItem('tempelmode',tempelMode);}catch(_){}if(pickedTitle)renderTempel(pickedTitle);}saveInputs();if(current.length)generate();}));
 
 loadInputs(); updateCombo(); omsetInfo(); loadTitles();
 </script>
