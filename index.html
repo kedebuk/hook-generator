@@ -173,6 +173,9 @@
         </div>
       </div>
       <div class="controls">
+        <button data-style="arif" id="arifTab" style="width:100%;background:linear-gradient(90deg,#7c3aed,#5b21b6);color:#fff;border:none;border-radius:9px;padding:11px 10px;font-size:13px;font-weight:800;cursor:pointer">🎯 ARIF METHOD — script otomatis nyebut ISI produk (alat/teknik/hasil dari judul+tagline)</button>
+      </div>
+      <div class="controls">
         <select id="count" style="flex:0 0 auto;width:auto"><option>3</option><option>5</option><option>8</option><option>10</option><option selected>15</option><option>20</option><option>30</option></select>
         <button class="btn sec" id="diceNum" title="acak ulang angka & omset">🎲 Angka</button>
         <button class="btn" id="gen">🎲 Acak Angle</button>
@@ -328,6 +331,30 @@ const WIN_SCRIPTS=[
  {s:'soft',t:"Kalau produk atau jasa kamu belum dilirik, jangan cuma ganti caption. Cek offer-nya: manfaat, harga, bukti, dan alasan beli. {JUDUL} bantu membongkar bagian itu."},
  {s:'soft',t:"{JUDUL} bukan janji cepat kaya. Ini panduan untuk bikin {BISNIS} lebih masuk akal: mulai dari riset, biaya, offer, konten, sampai cara menjaga pembeli agar balik lagi."},
  {s:'soft',t:"Dengan langkah yang lebih rapi, {BISNIS} jadi tidak terasa acak. Kamu tahu apa yang disiapkan, ke siapa dijual, berapa harga aman, dan bagaimana memperbaiki penawaran setelah tes pasar."}
+];
+
+/* ===== ARIF METHOD: hook/script yg WAJIB nyebut ISI konkret produk (dari judul+tagline) ===== */
+const ARIF_HOOKS=[
+ {a:'Isi Konkret',s:'hard',t:"Ini yang bikin {BISNIS} beda: {POIN1}. Bukan asal jalan."},
+ {a:'Detail Jual',s:'hard',t:"Kebanyakan gagal di {BISNIS} karena gak paham {POIN1} & {POIN2}."},
+ {a:'Bongkar Isi',s:'hard',t:"{JUDUL} bongkar {POIN1} sampai {POIN2} — komplit."},
+ {a:'Rahasia Teknik',s:'hard',t:"Rahasia {BISNIS} bukan modal gede, tapi {POIN1}."},
+ {a:'Checklist',s:'soft',t:"Mau mulai {BISNIS}? Pahami dulu {POIN1}, {POIN2}, {POIN3}."},
+ {a:'Yang Didapat',s:'soft',t:"Yang kamu dapet di {JUDUL}: {POIN_LIST}."},
+ {a:'Anti Gagal',s:'soft',t:"Biar {BISNIS} gak berantakan, kuncinya di {POIN1} & {POIN2}."},
+ {a:'Konkret',s:'soft',t:"{BISNIS_CAP} jadi gampang kalau paham {POIN1} dan {POIN2}."}
+];
+const ARIF_SCRIPTS=[
+ {s:'hard',t:"Bisnis {BISNIS} lagi dicari, tapi yang cuan cuma yang paham tekniknya. Yang bikin beda: {POIN1}, {POIN2}, sampai {POIN3}. Semua dibongkar tuntas di {JUDUL} — dari alat sampai closing. Realistis {JT} juta/bulan."},
+ {s:'hard',t:"Gue kira {BISNIS} ribet. Ternyata kuncinya di detail: {POIN1} dan {POIN2}. Di {JUDUL} ada semua — {POIN_LIST} — modal cukup {MODAL_USAHA}. Tinggal praktek."},
+ {s:'hard',t:"Banyak yang nyoba {BISNIS} terus gagal karena asal jalan. Yang bener: {POIN1}, {POIN2}, {POIN3}. {JUDUL} kasih step-nya persis biar lo gak buang-buang modal."},
+ {s:'hard',t:"Yang bikin {BISNIS} laku bukan sekadar produksi — tapi {POIN1} plus {POIN2}. {JUDUL} bedah {POIN_LIST} sampai jadi cuan {JT} juta/bulan."},
+ {s:'hard',t:"Modal {MODAL_USAHA} doang, tapi hasil beda karena teknik. Di {JUDUL} lo belajar {POIN1}, {POIN2}, {POIN3} — bagian yang jarang orang kasih tau."},
+ {s:'soft',t:"{JUDUL} dibikin biar kamu gak nebak-nebak pas mulai {BISNIS}. Isinya konkret: {POIN1}, {POIN2}, sampai {POIN3} — dijelasin pelan dari nol, cocok buat pemula."},
+ {s:'soft',t:"Buat yang baru mau {BISNIS}: yang penting paham detailnya dulu. {JUDUL} bahas {POIN_LIST} — semua yang bikin hasilnya rapi dan laku."},
+ {s:'soft',t:"Bukan teori kosong. {JUDUL} kasih {POIN1} sama {POIN2} yang bisa langsung dipraktekin, plus {POIN3}. Pelan tapi jelas."},
+ {s:'soft',t:"Sering gagal itu karena detail kecil kelewat. {JUDUL} rapiin {POIN1}, {POIN2}, {POIN3} biar {BISNIS} kamu gak berantakan dan pelanggan balik lagi."},
+ {s:'hard',t:"Stop coba-coba {BISNIS}. Yang lo butuh: {POIN1}, {POIN2}, {POIN3} — semua ada di {JUDUL}. Praktek, jual, cuan."}
 ];
 
 const WIN_HOOKS_EXTRA={
@@ -718,11 +745,15 @@ function cardId(c){return hashText([(c&&c.mode)||'',(c&&c.style)||'',(c&&c.angle
 function isUsed(c){return usedCards.has(cardId(c));}
 function saveUsed(){try{localStorage.setItem('hookgen_used',JSON.stringify(Array.from(usedCards).slice(-2500)));}catch(e){}}
 function toggleUsed(i){const c=current[i];if(!c)return;const id=cardId(c);if(usedCards.has(id))usedCards.delete(id);else usedCards.add(id);saveUsed();render();}
-function modeLabel(c){return (c&&c.mode)==='winning'?'🏆 Winning April':'Reguler';}
+function modeLabel(c){return (c&&c.mode)==='winning'?'🏆 Winning April':(c&&c.mode)==='arif'?'🎯 Arif Method':'Reguler';}
 function styleLabel(c){return (c&&c.style)==='hard'?'🔥 Hardhook':'🌿 Softhook';}
 function buildCardRaw(st,V,cat,HB,SB){
-  let hook,altH,scr,cta,cardStyle=st,mode=st==='winning'?'winning':'regular';
-  if(st==='winning'){
+  let hook,altH,scr,cta,cardStyle=st,mode=st==='winning'?'winning':st==='arif'?'arif':'regular';
+  if(st==='arif'){
+    hook=pickUnused(ARIF_HOOKS,uH); altH=pick(ARIF_HOOKS.filter(h=>h.t!==hook.t));
+    scr=pickUnused(ARIF_SCRIPTS,uS); cardStyle=scr.s||hook.s||'hard';
+    cta=pickUnused(CTAS.filter(x=>x.s===cardStyle),uC);
+  } else if(st==='winning'){
     const WB=winningPools(pickedTitle||{});
     hook=pickUnused(WB.hooks,uH); altH=pick(WB.hooks.filter(h=>h.t!==hook.t));
     scr=pickUnused(WB.scripts,uS); cardStyle=scr.s||hook.s||'hard';
@@ -742,6 +773,7 @@ function cardContext(){
   const cat=pickedTitle?nicheCat(pickedTitle.niche):'usaha';
   V.BISNIS=(pickedTitle?topikOf(pickedTitle):tempelBisnisDefault)||'bisnis ini';
   V.BISNIS_CAP=cap(V.BISNIS);
+  arifVars(V,pickedTitle); // {POIN1..3}, {POIN_LIST} dari judul+tagline
   return {V,cat,HB:cat==='karir'?HOOKS_KARIR:cat==='hobi'?HOOKS_HOBI:null,SB:cat==='karir'?SCRIPTS_KARIR:cat==='hobi'?SCRIPTS_HOBI:null};
 }
 function generate(){
@@ -756,9 +788,9 @@ function rotateCard(i){if(!current[i])return;const ctx=cardContext(),st=current[
 function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 function render(){
   const out=$('out'); out.innerHTML="";
-  $('status').textContent=current.length+" angle · "+(styleMode==='winning'?'🏆 Winning April':styleMode==='mix'?'🔀 Mix Hard/Soft':styleMode==='hard'?'🔥 Hardhook':'🌿 Softhook')+" · tombol rotasi + centang sudah dipakai aktif";
+  $('status').textContent=current.length+" angle · "+(styleMode==='arif'?'🎯 Arif Method (nyebut isi produk)':styleMode==='winning'?'🏆 Winning April':styleMode==='mix'?'🔀 Mix Hard/Soft':styleMode==='hard'?'🔥 Hardhook':'🌿 Softhook')+" · tombol rotasi + centang sudah dipakai aktif";
   current.forEach((c,i)=>{const d=document.createElement('div');const used=isUsed(c);d.className='ang'+(used?' used':'');
-    const winTag=c.mode==='winning'?'<span class="tag win">🏆 Winning</span>':'<span class="tag mode">Reguler</span>';
+    const winTag=c.mode==='winning'?'<span class="tag win">🏆 Winning</span>':c.mode==='arif'?'<span class="tag" style="background:#7c3aed;color:#fff">🎯 Arif</span>':'<span class="tag mode">Reguler</span>';
     d.innerHTML=`<div class="actions"><button class="mini rot" data-i="${i}">🔄 Rotasi</button><button class="mini usedBtn ${used?'on':''}" data-i="${i}">${used?'Sudah dipakai':'☐ Tandai dipakai'}</button><button class="mini copy" data-i="${i}">📋 Salin</button></div>
       <div class="tags">${winTag}<span class="tag angle">${c.angle}</span><span class="tag ${c.style}">${c.style==='hard'?'🔥 Hardhook':'🌿 Softhook'}</span></div>
       <div class="modebar">Mode: <b>${modeLabel(c)}</b> · Tipe hook/script: <b>${styleLabel(c)}</b></div>
@@ -806,8 +838,7 @@ function bisnisPhrase(t){
   const nama=((t&&t.nama)||'').trim(), judul=((t&&t.judul)||''), niche=((t&&t.niche)||'').toLowerCase().trim();
   const cl=s=>(s||'').replace(/[“”"‘’()]/g,'').replace(/\s+/g,' ').trim().toLowerCase().split(' ').slice(0,6).join(' ').replace(/\b(3d|ac|ai|umkm|b2b|pc|tv|cctv|hpp|sop|qc|usb|led|apar)\b/gi,m=>m.toUpperCase());
   const JUNK=/\b(stop|gagal|capek|kabur|dikadalin|nyesel|takut|bingung|rugi|boncos|jangan|kenapa|mentok|tumbal|numpuk|tipis|markup|biar|sengaja)\b/i; // hook pain, bukan nama bisnis
-  const SPECIES_OK=/\b(entok|ternak mentok|mentok pedaging)\b/i;
-  const ok=c=>c&&c.split(' ').length>=2&&(!JUNK.test(c)||SPECIES_OK.test(c));
+  const ok=c=>c&&c.split(' ').length>=2&&!JUNK.test(c);
   const m=nama.match(/^(bisnis|jasa|usaha|produksi)\s+(.+)/i); if(m) return cl(m[2]);
   if(/[—–]/.test(judul)){ // gaya "Brand — hook ... jadi X : ..." → ambil bagian bisnis
     let seg=(judul.split(/[—–]/)[1]||'').split(':')[0];
@@ -826,6 +857,36 @@ function bisnisPhrase(t){
   }
   if(niche) return nicheToBisnis(niche);
   return cl(shortName(judul))||"bisnis ini";
+}
+/* ===== ARIF METHOD: ekstrak POIN KONKRET dari judul+tagline (alat/teknik/hasil) ===== */
+function arifClean(s){
+  s=(s||'').replace(/[“”"‘’()]/g,'').replace(/\s+/g,' ').trim();
+  s=s.replace(/^(dengan|memakai|pakai|untuk|yang|biar|serta|juga|plus|dan|dari|bahkan|lengkap)\s+/i,'');
+  s=s.replace(/[.,;:\s]+$/,'');
+  s=s.replace(/\b([A-Z][a-z]{2,})\b/g,function(w){return w.toLowerCase();}); // Title-Case -> lower biar ngalir; akronim (PAUD/HPP/IG) tetap
+  return s;
+}
+function arifPoints(t){
+  var tag=(t&&t.tagline)||'', jud=(t&&t.judul)||'', jd='';
+  if(jud.indexOf(':')>=0) jd=jud.split(':').slice(1).join(':');
+  else if(/[—–]/.test(jud)) jd=jud.split(/[—–]/).slice(1).join(' ');
+  jd=jd.replace(/,?\s*potensi\s+Rp[\d.,]+.*/i,'').replace(/,?\s*Rp[\d.,]+\s*(juta|jt|rb|ribu)\b.*/i,'');
+  var raw=(jd+' , '+tag).split(/\s*[,;•]\s*|\s+&\s+|\s+\+\s+|\s+dan\s+|\s+dengan\s+|\s+untuk\s+/i), seen={}, pts=[];
+  raw.forEach(function(p){ p=arifClean(p);
+    if(p.length<4||p.length>58) return;
+    if(/^(potensi|omzet|omset|rp\d|modal\s+rp)/i.test(p)) return;
+    if(/^\d+\s*(juta|jt|rb)/i.test(p)) return;
+    var k=p.toLowerCase(); if(seen[k]) return; seen[k]=1; pts.push(p);
+  });
+  return pts;
+}
+function arifVars(V,t){
+  var pts=t?arifPoints(t):[];
+  var pad=['teknik yang bener','cara nentuin harga yang pas','cara dapet pelanggan pertama','SOP kerja yang rapi'];
+  var full=pts.concat(pad);
+  V.POIN1=full[0]; V.POIN2=full[1]; V.POIN3=full[2];
+  V.POIN_LIST=(pts.length?pts:pad).slice(0,4).join(', ');
+  return V;
 }
 /* ===== NICHE-AWARE: framing beda buat KARIR (kerja LN) & HOBI ===== */
 function nicheCat(n){n=(n||'').toLowerCase().trim(); if(n==='peluang karir'||n==='kerja luar negeri')return 'karir'; if(n==='hobi cuan')return 'hobi'; return 'usaha';}
@@ -1001,7 +1062,7 @@ function saveInputs(){const o={};FIELDS.forEach(k=>o[k]=$(k).value);o.style=styl
 function loadInputs(){let o={};try{o=JSON.parse(localStorage.getItem('hookgen')||'{}');}catch(e){}
   FIELDS.forEach(k=>{$(k).value=(o[k]!==undefined&&o[k]!=="")?o[k]:DEF[k];});
   if(o.count)$('count').value=o.count;
-  if(o.style){styleMode=o.style;document.querySelectorAll('.seg button').forEach(b=>b.classList.toggle('on',b.dataset.style===styleMode));}}
+  if(o.style){styleMode=o.style;document.querySelectorAll('[data-style]').forEach(b=>b.classList.toggle('on',b.dataset.style===styleMode));}}
 
 /* ===== EVENTS ===== */
 $('gen').addEventListener('click',generate);
@@ -1035,7 +1096,7 @@ $('search').addEventListener('keydown',e=>{
   }
 });
 document.addEventListener('click',e=>{if(!e.target.closest('.searchbox'))$('results').classList.remove('show');});
-document.querySelectorAll('.seg button[data-style]').forEach(b=>b.addEventListener('click',()=>{styleMode=b.dataset.style;document.querySelectorAll('.seg button[data-style]').forEach(x=>x.classList.remove('on'));b.classList.add('on');if(styleMode==='winning'){tempelMode='winning';try{localStorage.setItem('tempelmode',tempelMode);}catch(_){}if(pickedTitle)renderTempel(pickedTitle);}saveInputs();if(current.length)generate();}));
+document.querySelectorAll('[data-style]').forEach(b=>b.addEventListener('click',()=>{styleMode=b.dataset.style;document.querySelectorAll('[data-style]').forEach(x=>x.classList.remove('on'));b.classList.add('on');if(styleMode==='winning'){tempelMode='winning';try{localStorage.setItem('tempelmode',tempelMode);}catch(_){}if(pickedTitle)renderTempel(pickedTitle);}saveInputs();if(current.length)generate();}));
 
 loadInputs(); updateCombo(); omsetInfo(); loadTitles();
 </script>
