@@ -205,15 +205,6 @@
 </div>
 
 <script>
-/* ===== PIN GATE: di luar jam 07:00-16:00 perlu PIN (1111) ===== */
-(function(){var h=new Date().getHours();if((h>=7&&h<16)||sessionStorage.getItem('hg_pin')==='1')return;
-var o=document.createElement('div');o.style.cssText='position:fixed;inset:0;z-index:99999;background:#0f1220;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:14px;font-family:Segoe UI,system-ui,sans-serif;color:#e8ebf5;padding:20px;text-align:center';
-o.innerHTML='<div style="font-size:36px">🔒</div><div style="font-size:17px;font-weight:800">Akses di luar jam kerja</div><div style="font-size:13px;color:#9aa3c4;max-width:300px;line-height:1.5">Tool dibuka di luar jam <b>07:00–16:00</b>. Masukin PIN buat lanjut.</div><input id="hgpin" type="password" inputmode="numeric" maxlength="8" placeholder="PIN" style="font-size:22px;text-align:center;letter-spacing:8px;width:170px;padding:11px;border-radius:10px;border:1px solid #2a2f48;background:#0c0f1c;color:#e8ebf5"><button id="hgbtn" style="background:#ffd23f;color:#1a1400;font-weight:800;border:none;border-radius:10px;padding:11px 28px;font-size:15px;cursor:pointer">Masuk</button><div id="hgerr" style="color:#ff5d5d;font-size:12px;min-height:15px"></div>';
-document.body.appendChild(o);
-var i=o.querySelector('#hgpin'),b=o.querySelector('#hgbtn'),e=o.querySelector('#hgerr');
-function go(){if(i.value==='1111'){sessionStorage.setItem('hg_pin','1');o.remove();}else{e.textContent='PIN salah';i.value='';i.focus();}}
-b.onclick=go;i.addEventListener('keydown',function(ev){if(ev.key==='Enter')go();});setTimeout(function(){i.focus();},60);
-})();
 /* ===== BANK TEMPLATE ===== */
 const HOOKS=[
  {a:'Pain Point',s:'hard',t:"{JENIS_CAP} doang bisa cuan {OMSET}/bulan? Ini yang nggak orang sadar."},
